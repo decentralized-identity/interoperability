@@ -1,3 +1,6 @@
+// https://github.com/WebOfTrustInfo/btcr-did-tools-js
+// MIT
+
 const bitcoin = require("bitcoinjs-lib");
 const request = require("txref-conversion-js").promisifiedRequest;
 
