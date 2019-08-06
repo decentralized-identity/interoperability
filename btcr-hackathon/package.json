@@ -1,0 +1,16 @@
+{
+  "name": "btcr-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "env:create": "node ./scripts/env_create.js > env.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^5.1.2",
+    "secure-random": "^1.1.2",
+    "txref-conversion-js": "git+https://github.com/WebOfTrustInfo/txref-conversion-js.git"
+  }
+}
