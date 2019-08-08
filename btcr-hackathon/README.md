@@ -28,7 +28,7 @@ Look out for the transaction id:
 
 https://live.blockcypher.com/btc-testnet/tx/69147c0e5691b44c885dc1532e976bb6f6299a874cfc0fe85da2d454556447c1/
 
-Use the universal resolver to resolve your DID: https://uniresolver.io/1.0/identifiers/did%3Abtcr%3Axxcl-lzpq-q83a-0d5
+Use the Universal Resolver to resolve your DID: https://uniresolver.io/#did:btcr:xxcl-lzpq-q83a-0d5 (web UI) or https://uniresolver.io/1.0/identifiers/did%3Abtcr%3Axxcl-lzpq-q83a-0d5 (API call)
 
 It appears from this point on you an simply just update your ddo.jsonld, so no further bitcoin transactions are required to register keys.
 
