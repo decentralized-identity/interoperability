@@ -105,3 +105,7 @@ The Verifier website will be an http web server.
 - [Papers](https://github.com/decentralized-identity/papers)
 - [DID Auth JOSE](https://github.com/decentralized-identity/did-auth-jose)
 - [Universal Resolver](https://github.com/decentralized-identity/universal-resolver)
+
+## Mailing List
+
+Please join the mailing list by sending an email to: InteropProject+subscribe@dif.groups.io
