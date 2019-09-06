@@ -13,6 +13,9 @@ const ES256K = require("@transmute/es256k-jws-ts");
 
 const defaultExpiresInHours = 99999;
 
+const registerElemCommands = require("./methods/elem");
+const registerBtcrCommands = require("./methods/btcr");
+
 const { version } = packageJson;
 vorpal.packageJson = packageJson;
 vorpal.logger = logger;
@@ -106,7 +109,7 @@ vorpal.command("verify <pathToVC> ", "Verify a JWS VC").action(async args => {
   const ddo = await resolver.resolve(vcDecoded.payload.iss);
 
   const publicKeyFromResolver = ddo.publicKey.find(k => {
-    return k.id === vcDecoded.payload.iss + "#key-" + vcDecoded.header.kid;
+    return k.id === vcDecoded.header.kid;
   });
 
   const verified = await ES256K.JWS.verify(
@@ -161,6 +164,9 @@ vorpal
       )
     );
   });
+
+registerElemCommands(vorpal);
+registerBtcrCommands(vorpal);
 
 vorpal.parse(process.argv);
 if (process.argv.length === 0) {

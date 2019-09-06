@@ -4,19 +4,18 @@
 npm i
 ```
 
-## Resolve a DID with the Universal Resolver
+# Usage
+
+- [BTCR DID](./src/methods/btcr)
+- [Element DID](./src/methods/elem)
+
+## Resolve
 
 ```
 npm run interop resolve did:btcr:xxcl-lzpq-q83a-0d5
 ```
 
-## Create a VC JWT
-
-```
-npm run interop issue did:btcr:xxcl-lzpq-q83a-0d5 ./privateKeyJwk.json did:example:123 ./claim.json ./vc.txt
-```
-
-## Verify a VC
+## Verify
 
 ```
 npm run interop verify ./vc.txt
