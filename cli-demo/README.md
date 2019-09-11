@@ -6,6 +6,10 @@ npm i
 
 # Usage
 
+For creating credentials, you will need to look at the method specific commands.
+
+If you are wanting to contribute, the BTCR one is the simplest to understand.
+
 - [BTCR DID](./src/methods/btcr)
 - [Element DID](./src/methods/elem)
 
