@@ -1,6 +1,6 @@
 
 const express = require("express")
-//const resolver = require("./resolver")
+const resolver = require("../cli-demo/src/resolver")
 const fs = require('fs')
 const path = require('path')
 const ES256K = require("@transmute/es256k-jws-ts")
@@ -12,11 +12,13 @@ const defaultExpiresInHours = 99999;
 const pathToPrivateKeyJwk = '../cli-demo/privateKeyJwk.json'
 
 const app = express()
-app.use(express.json())
+app.use(express.text())
 
 app.post('/getclaim', async function (req, res) {
 
-  const subjectDid = req.body['did']
+  const subjectDid = req.body
+  console.log(req.body)
+
   const claim = {'claimType' : 'Diploma', 'degree' : 'masters'}
   
   const privateKeyJwk = JSON.parse(
@@ -38,9 +40,34 @@ app.post('/getclaim', async function (req, res) {
     kid: issuerDid + '#key-' + privateKeyJwk.kid
   })
 
-  res.send(JSON.stringify(vc))
+  res.send(vc)
 })
 
+app.post('/verifyclaim', async function (req, res) {
+
+  const vcJws = req.body
+
+  console.log(req.body)
+  
+  const vcDecoded = await ES256K.JWS.decode(vcJws, { complete: true });
+
+  const ddo = await resolver.resolve(vcDecoded.payload.iss);
+  
+  const publicKeyFromResolver = ddo.publicKey.find(k => {
+    return k.id === vcDecoded.header.kid;
+  });
+
+  console.log(publicKeyFromResolver)
+  
+  const verified = await ES256K.JWS.verify(
+    vcJws,
+    publicKeyFromResolver.publicKeyJwk
+  );
+
+  res.send(JSON.stringify(verified))
+})
+
+
 app.listen(4000, function () {
-  console.log('Testing')
+  console.log('Server running on port 4000')
 })
