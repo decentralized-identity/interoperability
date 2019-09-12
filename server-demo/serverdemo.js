@@ -14,7 +14,7 @@ const pathToPrivateKeyJwk = '../cli-demo/privateKeyJwk.json'
 const app = express()
 app.use(express.text())
 
-app.post('/getclaim', async function (req, res) {
+app.post('/getcredential', async function (req, res) {
 
   const subjectDid = req.body
   console.log(req.body)
@@ -43,12 +43,10 @@ app.post('/getclaim', async function (req, res) {
   res.send(vc)
 })
 
-app.post('/verifyclaim', async function (req, res) {
+app.post('/verifycredential', async function (req, res) {
 
   const vcJws = req.body
 
-  console.log(req.body)
-  
   const vcDecoded = await ES256K.JWS.decode(vcJws, { complete: true });
 
   const ddo = await resolver.resolve(vcDecoded.payload.iss);
@@ -57,15 +55,51 @@ app.post('/verifyclaim', async function (req, res) {
     return k.id === vcDecoded.header.kid;
   });
 
-  console.log(publicKeyFromResolver)
-  
   const verified = await ES256K.JWS.verify(
     vcJws,
     publicKeyFromResolver.publicKeyJwk
   );
 
-  res.send(JSON.stringify(verified))
+  res.send(JSON.stringify({"verified" : verified}))
 })
+
+
+app.post('/verifypresentation', async function (req, res) {
+
+  const presJws = req.body
+  
+  const presDecoded = await ES256K.JWS.decode(presJws, { complete: true });
+
+  const ddoOfPresIssuer = await resolver.resolve(presDecoded.payload.iss);
+  
+  const publicKeyOfPresIssuer = ddoOfPresIssuer.publicKey.find(k => {
+    return k.id === presDecoded.header.kid;
+  });
+  
+  const verifiedPres = await ES256K.JWS.verify(
+    presJws,
+    publicKeyOfPresIssuer.publicKeyJwk
+  );
+
+  const vcJws = verifiedPres["vp"]["verifiableCredential"][0]
+
+  const vcDecoded = await ES256K.JWS.decode(vcJws, { complete: true });
+
+  const ddoOfCredIssuer = await resolver.resolve(vcDecoded.payload.iss);
+  
+  const publicKeyOfCredIssuer = ddoOfCredIssuer.publicKey.find(k => {
+    return k.id === vcDecoded.header.kid;
+  });
+
+  const verifiedCred = await ES256K.JWS.verify(
+    vcJws,
+    publicKeyOfCredIssuer.publicKeyJwk
+  );
+  
+  
+  res.send(JSON.stringify({"verifiedPresentation" : verifiedPres, "verifiedCredential" : verifiedCred}))
+})
+
 
 
 app.listen(4000, function () {
