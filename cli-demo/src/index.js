@@ -11,8 +11,6 @@ const resolver = require("./resolver");
 
 const ES256K = require("@transmute/es256k-jws-ts");
 
-const defaultExpiresInHours = 99999;
-
 const registerElemCommands = require("./methods/elem");
 const registerBtcrCommands = require("./methods/btcr");
 
@@ -57,47 +55,6 @@ vorpal.command("resolve <did>", "resolve a did").action(async args => {
   );
   return vorpal.wait(1);
 });
-
-vorpal
-  .command(
-    "issue <issuerDid> <pathToPrivateKeyJwk> <subjectDid> <pathToClaim> <outputPath>",
-    "Create a JWS VC"
-  )
-  .action(async args => {
-    const claim = JSON.parse(
-      fs.readFileSync(path.resolve(process.cwd(), args.pathToClaim)).toString()
-    );
-
-    const privateKeyJwk = JSON.parse(
-      fs
-        .readFileSync(path.resolve(process.cwd(), args.pathToPrivateKeyJwk))
-        .toString()
-    );
-
-    const innerPayload = {
-      iss: args.issuerDid,
-      sub: args.subjectDid,
-      ...claim,
-      exp: Math.floor(Date.now() / 1000) + 60 * 60 * defaultExpiresInHours
-    };
-    const vc = await ES256K.JWS.sign(innerPayload, privateKeyJwk, {
-      alg: "ES256K",
-      kid: privateKeyJwk.kid
-    });
-
-    fs.writeFileSync(args.outputPath, vc);
-
-    // eslint-disable-next-line
-    console.log(
-      JSON.stringify(
-        {
-          vc
-        },
-        null,
-        2
-      )
-    );
-  });
 
 vorpal.command("verify <pathToVC> ", "Verify a JWS VC").action(async args => {
   const vcJws = fs
