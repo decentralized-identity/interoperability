@@ -20,7 +20,7 @@ Run these commands from a separate terminal window.
 Issue a credential to a given DID:
 
 ```
-curl -H "Content-Type: text/plain" -d 'did:elem:eURSFEEv6J7s3TJ-jhT_ZS4uGRyCDbwc347EWlqpNgw' -X POST http://localhost:4000/getclaim > ./data/credential.txt 
+curl -H "Content-Type: text/plain" -d 'did:elem:eURSFEEv6J7s3TJ-jhT_ZS4uGRyCDbwc347EWlqpNgw' -X POST http://localhost:4000/getcredential > ./data/credential.txt 
 ```
 
 The service will return the issued credential in the form of a JWT.
