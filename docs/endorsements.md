@@ -32,8 +32,24 @@ Pending contribution / demonstration:
 - [did-jwt-vc](https://github.com/decentralized-identity/did-jwt-vc)
 - [did-auth-jose](https://github.com/decentralized-identity/did-auth-jose)
 
+Discussions:
+
+- [#5](https://github.com/decentralized-identity/interop-project/issues/5)
+
 ### [OIDC SIOP](https://github.com/decentralized-identity/papers/blob/master/did-authn/siop/did-authn-siop-profile.md)
 
 Pending contribution / demonstration:
 
 TODO: Add demonstration.
+
+Discussions:
+
+[#11](https://github.com/decentralized-identity/interop-project/issues/11)
+
+### [Well Known DID Configuration](https://github.com/decentralized-identity/.well-known)
+
+- [Well Known DID Configuration Spec](https://identity.foundation/.well-known/resources/did-configuration/)
+
+Demonstration:
+
+- [PWA Demo](https://identity.foundation/.well-known/resources/did-configuration/demo/build/index.html)
