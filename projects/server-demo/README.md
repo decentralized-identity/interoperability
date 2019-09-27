@@ -5,8 +5,8 @@ This demonstrates a simple web service that can issue a verifiable credential, v
 ## Starting service
 
 ```
-git clone git@github.com:decentralized-identity/interop-project.git
-cd interop-project/server-demo
+git clone git@github.com:decentralized-identity/interoperability.git
+cd interoperability/projects/server-demo
 npm install
 node serverdemo.js
 ```

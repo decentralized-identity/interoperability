@@ -151,7 +151,7 @@ module.exports = registerCommands = vorpal => {
                 id: "#dif.interop",
                 type: "DIF.InteropDemo",
                 serviceEndpoint:
-                  "https://github.com/decentralized-identity/interop-project"
+                  "https://github.com/decentralized-identity/interoperability"
               }
             ]
           }
