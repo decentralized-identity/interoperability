@@ -34,7 +34,7 @@ Pending contribution / demonstration:
 
 Discussions:
 
-- [#5](https://github.com/decentralized-identity/interop-project/issues/5)
+- [#5](https://github.com/decentralized-identity/interoperability/issues/5)
 
 ### [OIDC SIOP](https://github.com/decentralized-identity/papers/blob/master/did-authn/siop/did-authn-siop-profile.md)
 
@@ -44,7 +44,7 @@ TODO: Add demonstration.
 
 Discussions:
 
-[#11](https://github.com/decentralized-identity/interop-project/issues/11)
+[#11](https://github.com/decentralized-identity/interoperability/issues/11)
 
 ### [Well Known DID Configuration](https://github.com/decentralized-identity/.well-known)
 
