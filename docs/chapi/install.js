@@ -4,7 +4,7 @@
 /* global navigator, window, document */
 'use strict';
 
-const workerUrl = 'https://transmute-industries.github.io/credential-handler-polyfill/demo/worker.html'
+const workerUrl = 'https://identity.foundation/interoperability/chapi/worker.html'
 
 async function installHandler() {
   console.log('Loading polyfill...');
