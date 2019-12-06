@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Minimal Dev Wallet - Wallet Store UI</title>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified Materialize JS/CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <script src="https://unpkg.com/credential-handler-polyfill@2.1.1/dist/credential-handler-polyfill.min.js"></script>
+  <script src="https://unpkg.com/web-credential-handler@1.0.1/dist/web-credential-handler.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col s7">
+      <h5>store() event</h5>
+    </div>
+    <div class="col s5">
+      Reply:<br/>
+      <button class="btn" id="successBtn">Success</button>
+      <button class="btn red" id="errorBtn">Error</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s7">
+      <strong>from:</strong> <code id="requestOrigin"></code>
+    </div>
+    <div class="col s5">
+      <strong>hint key:</strong> <code id="hintKey"></code>
+    </div>
+  </div>
+  <div class="row">
+    <pre id="credentialContents"></pre>
+  </div>
+</div>
+
+<script>
+  async function handleStoreEvent() {
+    const event = await WebCredentialHandler.receiveCredentialEvent();
+    // event.type is: 'credentialstore'
+
+    console.log('Store Credential Event:', event);
+
+    const credential = event.credential || {};
+
+    document.getElementById('requestOrigin').innerHTML = event.credentialRequestOrigin;
+    document.getElementById('hintKey').innerHTML = credential.hintKey || '';
+    document.getElementById('credentialContents').innerHTML = credential.data;
+
+    // Return Success button
+    document.getElementById('successBtn').addEventListener('click', () => {
+      event.respondWith(new Promise(resolve => {
+        return resolve({dataType: 'Response', data: 'success'});
+      }))
+    });
+
+    // Return Error button
+    document.getElementById('errorBtn').addEventListener('click', () => {
+      event.respondWith(new Promise(resolve => {
+        return resolve({dataType: 'Response', data: 'error'});
+      }))
+    });
+  }
+
+  credentialHandlerPolyfill.loadOnce().then(handleStoreEvent);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
