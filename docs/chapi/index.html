@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Minimal Dev Wallet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified Materialize JS/CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!--Credential Handler API Polyfill-->
+  <script src="https://unpkg.com/credential-handler-polyfill@2.1.1/dist/credential-handler-polyfill.min.js"></script>
+  <script src="https://unpkg.com/web-credential-handler@1.0.1/dist/web-credential-handler.min.js"></script>
+
+  <script src="https://identity.foundation/interoperability/chapi/install.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="card-panel">
+    <h5>Credential Handler API Demo (Issuer)</h5>
+    <p><a href="https://github.com/decentralized-identity/interoperability/blob/master/docs/chapi/README.md">Back to Github/README.md</a></p>
+    <p>
+      By clicking 'Accept' on page load, you have registered this page with your
+      browser, and now it can act as a test wallet.
+    </p>
+    <p>
+      You can now test the Credential Handler API by requesting to be issued a
+      credential, below.
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card-panel">
+    <form id="storeForm">
+      <div class="row">
+        <div class="col s12">
+          <h5>Test Issuance</h5>
+
+          <p>This is a minimal credential Issuer application that demonstrates
+            how a user would ask for a credential to be issued
+            (using CHAPI's <code>store()</code> under the hood).
+          </p>
+
+          <p>When you click the Receive button, a Verifiable Credential will
+            be issued and sent to your digital wallet for storage.
+          </p>
+
+          <a class="waves-effect waves-light btn" id="receiveButton">Receive a Credential</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s5">
+          <div class="input-field">
+            <p>
+              This is the Credential that gets issued (wrapped in a
+              VerifiablePresentation by the issuer),
+              and will be sent to the wallet:
+            </p>
+            <textarea id="credStoreText" style="height: 8em;">
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/2018/credentials/examples/v1"
+  ],
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.w3.org/2018/credentials/examples/v1"
+    ],
+    "id": "http://example.edu/credentials/1872",
+    "type": ["VerifiableCredential", "AlumniCredential"],
+    "issuer": "https://example.edu/issuers/565049",
+    "issuanceDate": "2010-01-01T19:73:24Z",
+    "credentialSubject": {
+      "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+      "alumniOf": {
+        "id": "did:example:c276e12ec21ebfeb1f712ebc6f1",
+        "name": {
+          "value": "Example University",
+          "lang": "en"
+        }
+      }
+    },
+    "proof": {
+      "type": "RsaSignature2018",
+      "created": "2017-06-18T21:19:10Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "https://example.edu/issuers/keys/1",
+      "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5XsITJX1CxPCT8yAV-TVkIEq_PbChOMqsLfRoPsnsgw5WEuts01mq-pQy7UJiN5mgRxD-WUcX16dUEMGlv50aqzpqh4Qktb3rk-BuQy72IFLOqV0G_zS245-kronKb78cPN25DGlcTwLtjPAYuNzVBAh4vGHSrQyHUdBBPM"
+    }
+  }],
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2018-09-14T21:19:10Z",
+    "proofPurpose": "authentication",
+    "verificationMethod": "did:example:ebfeb1f712ebc6f1c276e12ec21#keys-1",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kTCYt5XsITJX1CxPCT8yAV-TVIw5WEuts01mq-pQy7UJiN5mgREEMGlv50aqzpqh4Qq_PbChOMqsLfRoPsnsgxD-WUcX16dUOqV0G_zS245-kronKb78cPktb3rk-BuQy72IFLN25DYuNzVBAh4vGHSrQyHUGlcTwLtjPAnKb78"
+  }
+}
+              </textarea>
+          </div>
+        </div>
+        <div class="col s1"></div>
+
+        <div class="col s5">
+          Results of Receiving Credential via store():
+
+          <pre id="storeResults"></pre>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  console.log('Installing...')
+  installHandler()
+    .catch(e => console.error('Error in installHandler:', e));
+
+  // async function onClickGet() {
+  //   document.getElementById('getResults').innerHTML = ''; // clear results
+  //   const credentialQuery = JSON.parse(document.getElementById('credGetText').value);
+  //
+  //   const result = await navigator.credentials.get(credentialQuery);
+  //
+  //   console.log('Result of get() request:', result);
+  //
+  //   if(!result) {
+  //     document.getElementById('getResults').innerHTML = 'null result';
+  //     return;
+  //   }
+  //
+  //   document.getElementById('getResults').innerHTML = JSON.stringify(result.data, null, 2);
+  // }
+
+  async function onClickReceive() {
+    document.getElementById('storeResults').innerHTML = ''; // clear results
+    const credentialToStore = document.getElementById('credStoreText').value;
+    // const credentialType = document.getElementById('credType').value;
+    const credentialType = 'AlumniCredential';
+
+    // Construct the WebCredential wrapper around the credential to be stored
+    const webCredentialWrapper = new WebCredential(credentialType, credentialToStore);
+
+    // Use Credential Handler API to store
+    result = await navigator.credentials.store(webCredentialWrapper);
+
+    console.log('Result of receiving via store() request:', result);
+
+    if(!result) {
+      document.getElementById('storeResults').innerHTML = 'null result';
+      return;
+    }
+
+    document.getElementById('storeResults').innerHTML = JSON.stringify(result.data, null, 2);
+  }
+
+  ready(() => {
+    // document.getElementById('getButton').addEventListener('click', onClickGet);
+    document.getElementById('receiveButton').addEventListener('click', onClickReceive);
+  })
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Minimal Dev Wallet - Wallet Store UI</title>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified Materialize JS/CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <script src="https://unpkg.com/credential-handler-polyfill@2.1.1/dist/credential-handler-polyfill.min.js"></script>
+  <script src="https://unpkg.com/web-credential-handler@1.0.1/dist/web-credential-handler.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col s12">
+      <h5>Wallet UI (demo)</h5>
+
+      <p>As an Issuer, you have no control over what this UI looks like.</p>
+
+      <h6>Would you like to store this Credential?</h6>
+      <p>
+        When the user is issued a credential, the wallet confirms this operation
+        with the user.
+      </p>
+
+      <p>
+        When you click Store, this Credential will be stored in your
+        digital wallet.
+      </p>
+    </div>
+    <!--<div class="col s7">-->
+      <!--<strong>from:</strong> <code id="requestOrigin"></code>-->
+    <!--</div>-->
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <textarea id="responseText" style="height: 8em; width: 100%;">
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/2018/credentials/examples/v1"
+  ],
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://www.w3.org/2018/credentials/examples/v1"
+    ],
+    "id": "http://example.edu/credentials/1872",
+    "type": ["VerifiableCredential", "AlumniCredential"],
+    "issuer": "https://example.edu/issuers/565049",
+    "issuanceDate": "2010-01-01T19:73:24Z",
+    "credentialSubject": {
+      "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+      "alumniOf": {
+        "id": "did:example:c276e12ec21ebfeb1f712ebc6f1",
+        "name": {
+          "value": "Example University",
+          "lang": "en"
+        }
+      }
+    },
+    "proof": {
+      "type": "RsaSignature2018",
+      "created": "2017-06-18T21:19:10Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "https://example.edu/issuers/keys/1",
+      "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5XsITJX1CxPCT8yAV-TVkIEq_PbChOMqsLfRoPsnsgw5WEuts01mq-pQy7UJiN5mgRxD-WUcX16dUEMGlv50aqzpqh4Qktb3rk-BuQy72IFLOqV0G_zS245-kronKb78cPN25DGlcTwLtjPAYuNzVBAh4vGHSrQyHUdBBPM"
+    }
+  }],
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2018-09-14T21:19:10Z",
+    "proofPurpose": "authentication",
+    "verificationMethod": "did:example:ebfeb1f712ebc6f1c276e12ec21#keys-1",
+    "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kTCYt5XsITJX1CxPCT8yAV-TVIw5WEuts01mq-pQy7UJiN5mgREEMGlv50aqzpqh4Qq_PbChOMqsLfRoPsnsgxD-WUcX16dUOqV0G_zS245-kronKb78cPktb3rk-BuQy72IFLN25DYuNzVBAh4vGHSrQyHUGlcTwLtjPAnKb78"
+  }
+}
+         </textarea>
+
+      <a class="waves-effect waves-light btn" id="respondBtn">Store Credential</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  async function handleWalletReceiveEvent() {
+    const event = await WebCredentialHandler.receiveCredentialEvent();
+
+    console.log('Received event:', event);
+
+    const requestOptions = event.credentialRequestOptions || {web:{}};
+
+    // document.getElementById('requestOrigin').innerHTML = event.credentialRequestOrigin;
+    // document.getElementById('queryContents').innerHTML = JSON.stringify(requestOptions.web, null, 2);
+
+    // Respond button
+    document.getElementById('respondBtn').addEventListener('click', () => {
+      const data = JSON.parse(document.getElementById('responseText').value);
+
+      event.respondWith(Promise.resolve({dataType: 'VerifiableCredential', data}));
+    });
+
+    // Cancel button
+    document.getElementById('cancelBtn').addEventListener('click', () => {
+      event.respondWith(Promise.resolve({dataType: 'Response', data: 'error'}))
+    });
+  }
+
+  credentialHandlerPolyfill.loadOnce().then(handleWalletReceiveEvent);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
