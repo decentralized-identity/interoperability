@@ -1,1 +1,0 @@
-# OSSIP SSI Interoperability Demo
