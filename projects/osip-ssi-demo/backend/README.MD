@@ -1,44 +1,17 @@
-# RabbitMQ setup for Linux
-## Install Erlang
+# OSIP Interop project - Backend
 
-* Import Erlang GPG Key:
+## Requirements
 
-wget -O- https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
+- **NodeJS (v12+)**
 
-* Add Erlang to repository:
+- **MongoDB**: Credential requests are stored in MongoDB.
+  - Please install as described on the [official download page](https://www.mongodb.com/download-center/community)
+  - If another port is used than the standard `27017` please update `.env`
+- **RabbitMQ**: After a Credential is verified in the backend, a Websocket message with the result is sent to the client.
+  - The installation of this service **can be skipped** for only issuing Credentials or when you do not need to notify the Frontend aftr credential verification.
+  - Please install as described [here](./docs/rabbitmq-setup.md) or on the [official download page](https://www.rabbitmq.com/download.html)
+  - If another port is used than the standard `15675` please update `.env`
 
-echo "deb https://packages.erlang-solutions.com/ubuntu bionic contrib" | sudo tee /etc/apt/sources.list.d/rabbitmq.list
+## API
 
-* Install Erlang
-
-sudo apt update
-sudo apt -y install erlang
-
-## Install RabbitMQ
-
-* Add RabbitMQ repository to Linux
-
-wget -O- https://dl.bintray.com/rabbitmq/Keys/rabbitmq-release-signing-key.asc | sudo apt-key add -
-wget -O- https://www.rabbitmq.com/rabbitmq-release-signing-key.asc | sudo apt-key add -
-
-* Add repository to Linux
-
-echo "deb https://dl.bintray.com/rabbitmq/debian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/rabbitmq.list
-
-
-* Install RabbitMQ
-
-sudo apt update
-sudo apt -y install rabbitmq-server
-
-* Start with systemctl
-
-systemctl enable rabbitmq-server.service
-
-## Add Stomp capability to RabbitMQ
-
-sudo rabbitmq-plugins enable rabbitmq_web_stomp
-
-This installs webs stomp and stomp(TCP). Change port if necessary with rabbitmq config located under /etc/rabbitmq/.
-
-RabbitMQ frontend: http://127.0.0.1:15672
+Please see the attached Postman collection

@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "2a703319-5fb5-4e72-bc6a-3550ddc91d6d",
+		"name": "Interop Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "osip",
+			"item": [
+				{
+					"name": "postForm",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"firstname\": \"Alice\",\n    \"lastname\": \"Example\",\n    \"id\": \"12345\",\n    \"email\": \"example@example.com\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/osip/postForm",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"osip",
+								"postForm"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "issueClaim",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"credentialtype\": \"osip-credential\",\n  \"id\": \"12345\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/osip/issueClaim",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"osip",
+								"issueClaim"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "ssi",
+			"item": [
+				{
+					"name": "sendCredential",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2cCI6eyJpc3N1YW5jZURhdGUiOiIxOTcwLTAxLTE5VDAyOjQ5OjE1LjQyNVoiLCJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVQcmVzZW50YXRpb24iXSwidmVyaWZpYWJsZUNyZWRlbnRpYWwiOlt7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sImlkIjoiZGlkOnNwaGVyaXR5OjB4YTIzYmY2Mzk0ZTYzMjgyODE0YjIzYTVhNjViYWRmYjc1MjhiYmI5MCIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiLCJFaWRDcmVkZW50aWFsIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoiZGlkOnNwaGVyaXR5OjB4MTllOGYyZWJhNDFiMGNhMTkyMmNiMGM2NmRlY2IzOGMyZGVmNDE0NSIsImRvY3VtZW50TnVtYmVyIjoiMTIzNDUifSwiaXNzdWVyIjoiZGlkOnNwaGVyaXR5OjB4MTllOGYyZWJhNDFiMGNhMTkyMmNiMGM2NmRlY2IzOGMyZGVmNDE0NSIsImlzc3VhbmNlRGF0ZSI6IjIwMTktMDgtMjhUMTA6MDM6MDYuODIyWiIsInByb29mIjp7InR5cGUiOiJFY2RzYUtvYmxpdHpTaWduYXR1cmUyMDE2IiwiY3JlYXRvciI6ImRpZDpzcGhlcml0eToweDE5ZThmMmViYTQxYjBjYTE5MjJjYjBjNjZkZWNiMzhjMmRlZjQxNDUiLCJjcmVhdGVkIjoiMjAxOS0wOC0yOFQxMDowMzowNi44MzlaIiwibm9uY2UiOiI3YTUzN2M3MS00NzljLTRmNmQtYmZmYi1jYmZhY2ViODgyMTkiLCJkb21haW4iOiJodHRwczovL3NwaGVyaXR5cHJvamVjdC5jb20iLCJzaWduYXR1cmVWYWx1ZSI6IlVtQzMwR3ZFbkhZVlhveXZfYU5rOFQzbnlzcERRUmRXb1JRSlRsVUpaajNaaURGUmlNdWFfbElQOVpTX0EyYnkzZEJvRlB6cDlISmNNN1JTbmdZQ0F3QSJ9fV0sImlzc3VlciI6ImRpZDpzcGhlcml0eToweDE5ZThmMmViYTQxYjBjYTE5MjJjYjBjNjZkZWNiMzhjMmRlZjQxNDUifX0.FojLToc3pwBGBBed4yFsblzgjQGXzAmAGXpPlWBYRx4\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/ssi/sendCredential",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ssi",
+								"sendCredential"
+							]
+						},
+						"description": "JWT contains:\n\n{\n  \"vp\": {\n    \"issuanceDate\": \"1970-01-19T02:49:15.425Z\",\n    \"@context\": [\n      \"https://www.w3.org/2018/credentials/v1\"\n    ],\n    \"type\": [\n      \"VerifiablePresentation\"\n    ],\n    \"verifiableCredential\": [\n      {\n        \"@context\": [\n          \"https://www.w3.org/2018/credentials/v1\"\n        ],\n        \"id\": \"did:spherity:0xa23bf6394e63282814b23a5a65badfb7528bbb90\",\n        \"type\": [\n          \"VerifiableCredential\",\n          \"EidCredential\"\n        ],\n        \"credentialSubject\": {\n          \"id\": \"did:spherity:0x19e8f2eba41b0ca1922cb0c66decb38c2def4145\",\n          \"documentNumber\": \"12345\"\n        },\n        \"issuer\": \"did:spherity:0x19e8f2eba41b0ca1922cb0c66decb38c2def4145\",\n        \"issuanceDate\": \"2019-08-28T10:03:06.822Z\",\n        \"proof\": {\n          \"type\": \"EcdsaKoblitzSignature2016\",\n          \"creator\": \"did:spherity:0x19e8f2eba41b0ca1922cb0c66decb38c2def4145\",\n          \"created\": \"2019-08-28T10:03:06.839Z\",\n          \"nonce\": \"7a537c71-479c-4f6d-bffb-cbfaceb88219\",\n          \"domain\": \"https://spherityproject.com\",\n          \"signatureValue\": \"UmC30GvEnHYVXoyv_aNk8T3nyspDQRdWoRQJTlUJZj3ZiDFRiMua_lIP9ZS_A2by3dBoFPzp9HJcM7RSngYCAwA\"\n        }\n      }\n    ],\n    \"issuer\": \"did:spherity:0x19e8f2eba41b0ca1922cb0c66decb38c2def4145\"\n  }\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "verifyCredential",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n   \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6IjY1ZGExNzEwLWNhNjUtMTFlOS04ZGIxLTE1MWViNmYyYjM5NCIsInZwIjp7IkBjb250ZXh0IjpbImh0dHBzOi8vd3d3LnczLm9yZy8yMDE4L2NyZWRlbnRpYWxzL3YxIl0sInR5cGUiOlsiVmVyaWZpYWJsZVByZXNlbnRhdGlvbiJdLCJ2ZXJpZmlhYmxlQ3JlZGVudGlhbCI6W3siQGNvbnRleHQiOlsiaHR0cHM6Ly93d3cudzMub3JnLzIwMTgvY3JlZGVudGlhbHMvdjEiXSwiaWQiOiJodHRwOi8vb3NpcC52Yy9jcmVkZW50aWFscy81MGZkYjU0Zi03YTMxLTQ5MGMtOTAyMi05ZTUzYWZiODFlZDUiLCJpc3N1ZXIiOiJkaWQ6N2hpcnRlbjoweDc2NGE4Y2MzMzc4N2QzZTdiYjVhNzFhNGFlZTBjYmE5ODc2ZGNlNWQiLCJpc3N1YW5jZURhdGUiOiIyMDIwLTA4LTI4VDE3OjUwOjU1LjI4OFoiLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiT3NpcENyZWRlbnRpYWwiXSwiZXhwaXJhdGlvbkRhdGUiOiIyMDIwLTA4LTI4VDE3OjUwOjU1LjI4OFoiLCJwcm9vZiI6eyJjcmVhdGVkIjoiMjAyMC0wOC0yOFQxNzo1MDo1NS4yODhaIiwidHlwZSI6IkVjZHNhS29ibGl0elNpZ25hdHVyZTIwMTYiLCJub25jZSI6ImIyNzkzYWVmLTAwZjctNGRmYS04ZTk0LTI1OGE5NzM4MmZjOSIsImNyZWF0b3IiOiJkaWQ6N2hpcnRlbjoweDc2NGE4Y2MzMzc4N2QzZTdiYjVhNzFhNGFlZTBjYmE5ODc2ZGNlNWQiLCJzaWduYXR1cmVWYWx1ZSI6ImEzNDNlNjlhMWJiZmQyNDZjZWY1MWUwNzY3MzhiZTVkODg2ODFhM2Q3MDYxMDYyNWZjNDczZThiYTdkMTJhNWMxNTc2NTNlZjg4YzY2ZGViNzRjZTgyYWU2ZmVmZjFmOWQ0YmRmOGIxNTM0MjU3ODU3NzUwODQ4ODkxODllMTVkMDAifSwiY3JlZGVudGlhbFN1YmplY3QiOnsiaWQiOiIxMjM0NSIsImV4cGlyeURhdGUiOjE2MDEyMjkwNTUyODgsImlzc3VlciI6ImNvc2luZXggIEdtYkggKGQtTlJXKSIsImlzc3VlciBjaXR5IjoiQm9jaHVtIiwiaXNzdWVyIHppcCBjb2RlIjoiNDQ4MDEiLCJpc3N1ZXIgYWRkcmVzcyI6IktvbnJhZC1adXNlLVN0ci4gMTAiLCJpc3N1ZXIgY291bnRyeSI6Ikdlcm1hbnkiLCJjZXJ0aWZpZXIgc3VybmFtZSI6Ik1heCIsImNlcnRpZmllciBmb3JlbmFtZSI6IlNpY2hlcmhlaXRzbWFubiIsImNlcnRpZmllciBlbWFpbCI6Im1heC5zaWNoZXJoZWl0c21hbm5AYnJkLm5ydy5kZSJ9fV19LCJpc3MiOiJkaWQ6N2hpcnRlbjoweDc2NGE4Y2MzMzc4N2QzZTdiYjVhNzFhNGFlZTBjYmE5ODc2ZGNlNWQiLCJyZCI6eyJmYWN0b3IiOiI0MiIsIndpdG5lc3MiOiIzIn0sImlhdCI6MTU2NzAxNDY1NX0.qASdw3awQlzBPmq1znlHJYnHeVsJO1jXVpq-9x2ncmU\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/ssi/verifyCredential",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ssi",
+								"verifyCredential"
+							]
+						},
+						"description": "JWT contains:\n\n{\n  \"clientId\": \"65da1710-ca65-11e9-8db1-151eb6f2b394\",\n  \"vp\": {\n    \"@context\": [\n      \"https://www.w3.org/2018/credentials/v1\"\n    ],\n    \"type\": [\n      \"VerifiablePresentation\"\n    ],\n    \"verifiableCredential\": [\n      {\n        \"@context\": [\n          \"https://www.w3.org/2018/credentials/v1\"\n        ],\n        \"id\": \"http://osip.vc/credentials/50fdb54f-7a31-490c-9022-9e53afb81ed5\",\n        \"issuer\": \"did:7hirten:0x764a8cc33787d3e7bb5a71a4aee0cba9876dce5d\",\n        \"issuanceDate\": \"2020-08-28T17:50:55.288Z\",\n        \"type\": [\n          \"VerifiableCredential\",\n          \"OsipCredential\"\n        ],\n        \"expirationDate\": \"2020-08-28T17:50:55.288Z\",\n        \"proof\": {\n          \"created\": \"2020-08-28T17:50:55.288Z\",\n          \"type\": \"EcdsaKoblitzSignature2016\",\n          \"nonce\": \"b2793aef-00f7-4dfa-8e94-258a97382fc9\",\n          \"creator\": \"did:7hirten:0x764a8cc33787d3e7bb5a71a4aee0cba9876dce5d\",\n          \"signatureValue\": \"a343e69a1bbfd246cef51e076738be5d88681a3d70610625fc473e8ba7d12a5c157653ef88c66deb74ce82ae6feff1f9d4bdf8b153425785775084889189e15d00\"\n        },\n        \"credentialSubject\": {\n          \"id\": \"12345\",\n          \"expiryDate\": 1601229055288,\n          \"issuer\": \"cosinex  GmbH (d-NRW)\",\n          \"issuer city\": \"Bochum\",\n          \"issuer zip code\": \"44801\",\n          \"issuer address\": \"Konrad-Zuse-Str. 10\",\n          \"issuer country\": \"Germany\",\n          \"certifier surname\": \"Max\",\n          \"certifier forename\": \"Sicherheitsmann\",\n          \"certifier email\": \"max.sicherheitsmann@brd.nrw.de\"\n        }\n      }\n    ]\n  },\n  \"iss\": \"did:7hirten:0x764a8cc33787d3e7bb5a71a4aee0cba9876dce5d\",\n  \"rd\": {\n    \"factor\": \"42\",\n    \"witness\": \"3\"\n  },\n  \"iat\": 1567014655\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "requestCredential",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbnRlcmFjdGlvblRva2VuIjp7ImNhbGxiYWNrVVJMIjoiaHR0cHM6Ly85MDZmOTI3ZC5uZ3Jvay5pby9yZWNlaXZlLyIsInNlbGVjdGVkQ3JlZGVudGlhbHMiOlt7InR5cGUiOlsiQ3JlZGVudGlhbCIsIk9zaXBDcmVkZW50aWFsIl19XX0sInR5cCI6ImNyZWRlbnRpYWxPZmZlclJlc3BvbnNlIiwiaWF0IjoxNTY0NDg3NDg2NzY3LCJleHAiOjE1NjQ0OTEwODY3NjcsImlzcyI6ImRpZDpzcGhlcml0eToweDE5ZThmMmViYTQxYjBjYTE5MjJjYjBjNjZkZWNiMzhjMmRlZjQxNDUiLCJhdWQiOiJkaWQ6am9sbzpiMmQ1ZDhkNmNjMTQwMDMzNDE5YjU0YTIzN2E1ZGI1MTcxMDQzOWY5ZjQ2MmQxZmM5OGY2OThlY2E3Y2U5Nzc3IiwianRpIjoiMGM0ZmEyNTk0NGE2OCJ9.yRXYtJru53sbkDMPDAW27hbtDw1VWMdGsRn42pKgy9Y\"\n}"
+						},
+						"url": {
+							"raw": "localhost:3000/ssi/requestCredential",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"ssi",
+								"requestCredential"
+							]
+						},
+						"description": "JWT contains:\n\n{\n  \"interactionToken\": {\n    \"callbackURL\": \"https://906f927d.ngrok.io/receive/\",\n    \"selectedCredentials\": [\n      {\n        \"type\": [\n          \"Credential\",\n          \"OsipCredential\"\n        ]\n      }\n    ]\n  },\n  \"typ\": \"credentialOfferResponse\",\n  \"iat\": 1564487486767,\n  \"exp\": 1564491086767,\n  \"iss\": \"did:spherity:0x19e8f2eba41b0ca1922cb0c66decb38c2def4145\",\n  \"aud\": \"did:jolo:b2d5d8d6cc140033419b54a237a5db51710439f9f462d1fc98f698eca7ce9777\",\n  \"jti\": \"0c4fa25944a68\"\n}"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
