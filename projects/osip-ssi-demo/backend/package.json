@@ -5,7 +5,7 @@
   "scripts": {
     "start-production": "node ./bin/www",
     "start": "nodemon --experimental-modules app.js",
-    "debug": "nodemon inspect app.js"
+    "debug": "nodemon --inspect --experimental-modules app.js"
   },
   "dependencies": {
     "base64url": "^3.0.1",

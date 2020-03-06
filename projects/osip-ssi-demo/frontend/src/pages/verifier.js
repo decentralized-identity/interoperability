@@ -23,8 +23,8 @@ function App() {
       if (!window['TextDecoder']) {
         window['TextDecoder'] = TextDecoder;
       }
-      var url = "wss://verify.vc/ws";
-      var client = Stomp.Stomp.client(url);
+
+      var client = Stomp.Stomp.client(process.env.STOMP_URL);
 
       client.connect("osip", "osip", function() {
           // called back after the client is connected and authenticated to the STOMP server

@@ -2,7 +2,7 @@ import Stomp from 'stompjs'
 
 
 export default async function(clientId, verified) {
-    var client = Stomp.overTCP('127.0.0.1', 15675);
+    var client = Stomp.overTCP(process.env.STOMP_HOST, process.env.STOMP_PORT);
     console.log("Connecting to broker");
     client.connect('osip', 'osip', function (frame) {
         console.log('connected to Stomp');
