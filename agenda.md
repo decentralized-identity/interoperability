@@ -15,11 +15,12 @@ This document is live-edited DURING each call, and stable/authoritative copies l
 
 ## Agenda - 19 Aug 2020 - morning time (0600 PST)
 
-1. Introductions and Re-Introductions
-2. Documentation.md tour
-3. Agenda.md / hackmd tour
-5. Orie - tour of explainer.md and other work to date/ongoing inheritance (confirmed)
-4. Pre-Mapping [notion.so for the group](https://www.notion.so/dif/Interoperability-WG-a42995c37e2a4511a10aea96cdbccc38)
+1. Introductions and Re-Introductions (5min)
+3. Agenda.md / hackmd tour (10min)
+2. Documentation.md tour (5min)
+5. Orie - tour of explainer.md and other work to date/ongoing inheritance (10min - confirmed)
+6. Quick archive/issue-closing session (10min max)
+7. Pre-Mapping (20min) - live screenshare from the [notion.so for the group](https://www.notion.so/dif/Interoperability-WG-a42995c37e2a4511a10aea96cdbccc38)
 
 #### Attendees:
 * Juan Caballero (Co-chair)
