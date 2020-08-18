@@ -1,19 +1,31 @@
-# Interoperability WG Documentation Guidelines
+# Interoperability WG Rolling Agenda & Minutes 
 
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
-[**Homepage of WG**](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [**Meeting Recordings/Transcripts**](https://dif.groups.io/g/interop-wg)
 
-## Agendas and minutes
+[**Current Spec**](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg)
 
-Agendas for future meetings and minutes of past meetings are assembled in a running [document](agenda.md) in the root of the group's github repository.  It is "live-edited" during workinggroup meetings (turning that meeting's agenda into minutes) in a collaboration tool that supports markdown and simultaneous editing (at time of press, that's hackmd.io). 
+_For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
 
-Although the group is not IPR protected and is entirely open to the public, we still strive to create an environment of respect and attribution, so if you feel the chairs are not crediting speakers or putting enough detail into the minutes, attendees are encouraged to contribute, embellish the minutes with links, fix typos, etc etc.
+_This document is live-edited DURING each call, and stable/authoritative copies live on our github repo under /agenda.md ._
 
-## Archival multi-media completeness
+## Agenda - 2 Sep 2020 - morning time (0600 PST)
 
-When in-meeting discussion involves screensharing videos, images, slideshows, task boards, diagrams, etc, we will do our best to get a copy of these files and upload them to the archival record of the group by copying these input documents to the /assets/ folder where appropriate and linking to them from the minutes. As above, feel free to email the chairs if you notice an oversight or a lapse in this policy!
+## Agenda - 26 Aug 2020 - afternoon time (1?00 PST)
 
-## Recordings of meetings
+## Agenda - 19 Aug 2020 - morning time (0600 PST)
 
-As per DIF general policy, all meetings should be recorded and hosting on DIF web space to allow members and non-members alike to watch them at their leisure.  The link above should lead you to the recordings to date.
+1. Introductions and Re-Introductions (5min)
+3. Agenda.md / hackmd tour (10min)
+2. Documentation.md tour (5min)
+5. Orie - tour of explainer.md and other work to date/ongoing inheritance (10min - confirmed)
+6. Quick archive/issue-closing session (10min max)
+7. Ratify new time-slot for alternating weeks starting 26Aug. (Forgot to vote? you still [can](https://forms.gle/367khx8UvmZsjvyo9)!)
+8. Pre-Mapping (20min) - live screenshare from the [notion.so for the group](https://www.notion.so/dif/Interoperability-WG-a42995c37e2a4511a10aea96cdbccc38)
+
+#### Attendees:
+* Juan Caballero (Co-chair)
+* Pamela Dingle (Co-chair)
+* Kaliya Young (Co-chair)
+* please add yourself if you're reading this live in the meeting!
+* 
