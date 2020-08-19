@@ -11,9 +11,12 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ## Agenda - 2 Sep 2020 - morning time (0600 PST)
 
+1. Tour of cleanedup/archived repo of WG prehistory (10min MAX)
+
 ## Agenda - 26 Aug 2020 - afternoon time (1?00 PST)
 
 * TIME TO BE SET FRIDAY 21 -- if you haven't voted yet, please vote!
+* Juan sends his regrets, he'll be on vacation!
 
 ## Agenda - 19 Aug 2020 - morning time (0600 PST)
 
