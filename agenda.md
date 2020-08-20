@@ -3,7 +3,7 @@
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
 
-[**Current Spec**](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg)
+[**Current Spec**](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76)
 
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
 
@@ -20,13 +20,18 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ## Agenda - 19 Aug 2020 - morning time (0600 PST)
 
-1. Self-Introductions and Announcements (5min)
 
+#### Self-Introductions and Announcements (5min)  
 * Stephen Curran - BCGov is looking for help with headless mobile testing! Anyone with experience and tool recommendations/suggestions please reach out!
 
-3. Agenda.md / hackmd tour (10min)s
-4. Documentation.md tour (5min)
-5. Orie - tour of explainer.md and other work to date/ongoing inheritance (10min - confirmed)
+
+#### Agenda.md / hackmd tour (10min)s
+#### Documentation.md tour (5min)
+
+<details> 
+<summary> Orie - tour of explainer.md and other work to date/ongoing inheritance (10min - confirmed)
+</summary>
+
 * Sam Curren: tests can be gamed and used as a hammer if they're imposed unilaterally
 * Orie: gathering consensus and designing goals in a way that insures wide contribution
 * Adrian: Registry as design tool for tests and projects: align workflow with the level of effort and format of the WG-- signup, link to other work, etc (//DID:Method [registry](https://w3c.github.io/did-spec-registries/#did-methods)?)
@@ -39,15 +44,18 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Orie: but both are integration tests looking at inputs/outputs of each piece of software as a black box (agents under test) against RFCs that outline testable conditions and normative behaviors.  This is great!
 * Orie: Harness approach // smoketest in CI/CD terms; 
 * Stephen: Headless mobile testing expertise warmly requested for ongoing work in the Aries test harness! 
+</details>
 
-7. Quick archive/issue-closing session (10min max)
+#### Quick archive/issue-closing session (10min max)
 
 * Deferred to next week pending first stab at repo-cleanup for deprecated/unsupported documentation (and updating documentation.md accordingly)
 
-9. Ratify new time-slot for alternating weeks starting 26Aug. (Forgot to vote? you still [can](https://forms.gle/367khx8UvmZsjvyo9)!)
-10. Pre-Mapping (20min) - live screenshare from the [notion.so for the group](https://www.notion.so/dif/Interoperability-WG-a42995c37e2a4511a10aea96cdbccc38)
+#### Ratify new time-slot for alternating weeks starting 26Aug. (Forgot to vote? you still [can](https://forms.gle/367khx8UvmZsjvyo9)!)
 
-Generative exercise: Categories to spitball and axes of comparison/divergence:
+#### Pre-Mapping (15min) - live screenshare from the [notion.so for the group](https://www.notion.so/dif/Interoperability-WG-a42995c37e2a4511a10aea96cdbccc38)
+
+<details>
+<summary>Generative exercise: Categories to spitball and axes of comparison/divergence:</summary>
 * DID & DID Formats
 * DID Resolution & Negotiation
 * Configuration/.Well-known
@@ -57,6 +65,7 @@ Generative exercise: Categories to spitball and axes of comparison/divergence:
 * Storage mechanisms (Indy storage-driver mechanism)
 * Cryptographic Suites/Agility
 * Wallet and/or graph portability spec?
+</details>
 
 #### Attendees:
 * Juan Caballero (Co-chair)
