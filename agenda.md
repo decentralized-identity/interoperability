@@ -3,7 +3,7 @@
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
 
-[**Current Spec**](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76)
+[**Current Documentation Repo** (still deprecated/out of date) ](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76)
 
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
 
@@ -29,7 +29,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 #### Documentation.md tour (5min)
 
 <details> 
-<summary> Orie - tour of explainer.md and other work to date/ongoing inheritance (10min - confirmed)
+<summary> Orie - tour of explainer.md and other work to date/ongoing inheritance (30min - got lively)
 </summary>
 
 * Sam Curren: tests can be gamed and used as a hammer if they're imposed unilaterally
