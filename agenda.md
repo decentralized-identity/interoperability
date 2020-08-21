@@ -13,7 +13,13 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 1. Tour of cleanedup/archived repo of WG prehistory (10min MAX)
 
-## Agenda - 26 Aug 2020 - afternoon time (1?00 PST)
+## Agenda - 26 Aug 2020 - afternoon time (1400 PST)
+
+- Announcements
+    - MyData panels relevant to interop? [Form](https://online2020.mydata.org/cfp-form/)
+    - Time set - 1400, revisit in 10 weeks?
+- Stack-Mapping Exercise (XX mins)
+    -  
 
 * TIME TO BE SET FRIDAY 21 -- if you haven't voted yet, please vote!
 * Juan sends his regrets, he'll be on vacation!
