@@ -15,14 +15,16 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ## Agenda - 26 Aug 2020 - afternoon time (1400 PST)
 
-- Announcements
-    - MyData panels relevant to interop? [Form](https://online2020.mydata.org/cfp-form/)
-    - Time set - 1400, revisit in 10 weeks?
-- Stack-Mapping Exercise (XX mins)
-    -  
+* Announcements
+    * Juan sends his regrets, he'll be on vacation!
+    * MyData panels relevant to interop? [Form](https://online2020.mydata.org/cfp-form/)
+    * Time set - 1400, revisit in 10 weeks?
+* Sovrin Interop-a-thon next week - Any messages or requests to send via liaisons? (5-10min) 
+    * Full, live schedule [here](https://wiki.hyperledger.org/display/II/Agenda)
+    * Anyone on the fence about signing up to lead a session that would like a less-Indy-native partner for it?
+    * Does this group have any interop-furthering requests for the session, "**Other things we need in Indy**"?
+* Stack-Mapping Exercise (rest of time?)
 
-* TIME TO BE SET FRIDAY 21 -- if you haven't voted yet, please vote!
-* Juan sends his regrets, he'll be on vacation!
 
 ## Agenda - 19 Aug 2020 - morning time (0600 PST)
 
