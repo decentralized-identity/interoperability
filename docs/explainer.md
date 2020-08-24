@@ -10,7 +10,7 @@ The InterOp project does manage standards or specifications and relies on workin
 
 ## Credential Exchange CLI Demo
 
-We provide a command line tool for demonstrating the creation, resolution and use of decentralized identifiers and verifiable credentials. [Learn More](https://github.com/decentralized-identity/interoperability/tree/master/cli-demo).
+We provide a command line tool for demonstrating the creation, resolution and use of decentralized identifiers and verifiable credentials. [Learn More](https://github.com/decentralized-identity/interoperability/tree/master/projects/cli-demo).
 
 ## Credential Exchange Web Demo
 
