@@ -15,6 +15,8 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ## Agenda - 26 Aug 2020 - afternoon time (1400 PST)
 
+
+
 * Announcements
     * Juan sends his regrets, he'll be on vacation!
     * MyData panels relevant to interop? [Form](https://online2020.mydata.org/cfp-form/)
@@ -24,6 +26,59 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Anyone on the fence about signing up to lead a session that would like a less-Indy-native partner for it?
     * Does this group have any interop-furthering requests for the session, "**Other things we need in Indy**"?
 * Stack-Mapping Exercise (rest of time?)
+
+* Attending
+    * Pam Dingle
+    * Kaliya Identity Women
+    * Markus Sabadello
+    * Adrian Gropper
+    * Bart Cant
+    * Brent Zundel
+    * Jonathan holt ( TranSendX )
+    * Carlos Rodrigues (Bloom)
+    * H AC
+    * John Walker
+    * Marty Reed
+    * Orie Steele
+    * Sam Curren
+    * Stephen Curran
+    * Tim Cappalli
+    * Yang Lu
+    * 
+* Notes
+    * No strong arguers for MyData panel representation
+        * Adrian: in process of putting together a proposal for an interop "badge" 
+        * Sustainable Self-Sovereign Agents program [proposal](https://docs.google.com/document/d/1kZ7_Skcn4zb3zOfEu7XZDrYAmLR1T_pbBoSk8AEfrSg/edit)
+    * Alternation of meeting time:
+        * Strong attendance, but nobody admitted to being from AsiaPac
+    * Welcome to 
+        * Marty from Randa solutions!
+        * Jonathan Holt
+        * John Walker
+    * Indy Interop-a-thon
+        * Everyone is welcome - but focus is on Indy topics
+        * Actions: Find somebody to add this to the DIF calendar!
+        * https://wiki.hyperledger.org/pages/viewpage.action?pageId=36734079
+            * Recommended: 
+            * Session on the test harness
+            * KERI session will require homework - this is not an intro!
+        * Good primer vid:  
+    * New work at Center for Democracy - goal to create self-asserted privacy-related statements
+        * Contact Adrian if interested https://www.ehidc.org/resources/draft-consumer-privacy-framework-health-data 
+
+    *    Decentralized Mapping Exercise
+            * Using a kanban format to make it easy to collect like concepts
+            *  Comments welcome, board is here:  https://whimsical.com/VVRMbTi9bPsCqagmRVNGvm
+        
+Interesting links shared
+* https://datatracker.ietf.org/doc/charter-ietf-gnap/
+* https://youbroketheinternet.org/map 
+* https://www.imsglobal.org/activity/comprehensive-learner-record
+* https://openbadges.org/ 
+* https://www.uschamberfoundation.org/t3-innovation-network/ilr-pilot-program 
+
+* https://standards.ieee.org/project/1484_2.html
+* https://wiki.trezor.io/Cryptocurrency_standards#BIP39_-_Mnemonic_code_for_generating_deterministic_keys 
 
 
 ## Agenda - 19 Aug 2020 - morning time (0600 PST)
