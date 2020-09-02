@@ -70,7 +70,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 4. anyone want to give a 5min overview of the Decentralization Rubric (early version [here](https://github.com/WebOfTrustInfo/rwot9-prague/blob/master/draft-documents/decentralized-did-rubric.md#15governance-openness), most recent version [here](https://docs.google.com/document/d/1rYdWiwawWmLOWtHRvT0GzYcdewW_OS9M2mAkENLFdtY/
 ))?
 
-## Agenda - 2 Sep 2020 - US/EU time (0600 PST)
+## Minutes - 2 Sep 2020 - US/EU time (0600 PST)
 
 <details>
 <summary>Attendees:</summary>
@@ -142,7 +142,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         *  Adrian: I'm bored, can we spend the same amount of time on a human-centric mapping? [**proposed work item**]
     </details>
 
-## Agenda - 26 Aug 2020 - afternoon time (1400 PST)
+## Minutes - 26 Aug 2020 - afternoon time (1400 PST)
 
 
 
@@ -158,11 +158,10 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Full, live schedule [here](https://wiki.hyperledger.org/display/II/Agenda)
     * Anyone on the fence about signing up to lead a session that would like a less-Indy-native partner for it?
     * Does this group have any interop-furthering requests for the session, "**Other things we need in Indy**"?
-* Stack-Mapping Exercise (rest of time?)
     </details>
 
 <details>
-<summary>* Attending</summary>
+<summary> Attending</summary>
 
     * Pam Dingle
     * Kaliya Identity Women
@@ -180,9 +179,13 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Stephen Curran
     * Tim Cappalli
     * Yang Lu
-    </details>
-    
-* Notes
+
+</details>
+
+<details><summary>
+Stack-Mapping Exercise (rest of time?)
+</summary>
+
     * No strong arguers for MyData panel representation
         * Adrian: in process of putting together a proposal for an interop "badge" 
         * Sustainable Self-Sovereign Agents program [proposal](https://docs.google.com/document/d/1kZ7_Skcn4zb3zOfEu7XZDrYAmLR1T_pbBoSk8AEfrSg/edit)
@@ -216,11 +219,12 @@ Interesting links shared
 - https://standards.ieee.org/project/1484_2.html
 -https://wiki.trezor.io/Cryptocurrency_standards#BIP39_-_Mnemonic_code_for_generating_deterministic_keys 
 
+</details>
 
-## Agenda - 19 Aug 2020 - morning time (0600 PST)
+## Minutes - 19 Aug 2020 - morning time (0600 PST)
 
 
-#### Self-Introductions and Announcements (5min)  
+Self-Introductions and Announcements (5min)  
 * Stephen Curran - BCGov is looking for help with headless mobile testing! Anyone with experience and tool recommendations/suggestions please reach out!
 
 
@@ -264,6 +268,7 @@ Interesting links shared
 * Storage mechanisms (Indy storage-driver mechanism)
 * Cryptographic Suites/Agility
 * Wallet and/or graph portability spec?
+
 </details>
 
 #### Attendees:
