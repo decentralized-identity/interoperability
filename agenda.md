@@ -3,15 +3,25 @@
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
 
-[**Current Documentation Repo** (still deprecated/out of date) ](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76)
+[**Current Documentation Repo**](https://identity.foundation/inteorperability/) | [**Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76)
 
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
 
-_This document is live-edited DURING each call, and stable/authoritative copies live on our github repo under /agenda.md ._
+_This document is live-edited DURING each call, and stable/authoritative copies live on our github repo under /agenda.md . Please note that we might not notice a pullrequest in time, but you are free to propose agenda items for future meetings via hackmd ._
+#### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
-## Agenda - 2 Sep 2020 - morning time (0600 PST)
+#### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
 
-1. Tour of cleanedup/archived repo of WG prehistory (10min MAX)
+#### Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
+
+## Agenda - 2 Sep 2020 - US/EU time (0600 PST)
+
+1. Updates and Announcements
+
+   * Indy Interop-a-thon rages on, and many video recordings are already live on the HL Aries Confluence [page](https://wiki.hyperledger.org/display/II/Agenda). Thanks to Linux Foundation for the storage and the infrastructure! Notes from each session are in the qiqochat site for now, but will be moved to Aries Confluence soon.
+
+2. Continue Mapping review and discussion
+3. Begin Mapping questionnaire discussion or ideation? Work item for chairs?
 
 ## Agenda - 26 Aug 2020 - afternoon time (1400 PST)
 
