@@ -60,13 +60,19 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     <details>
     <summary>Notes</summary>
 
-    * ahem
-       </details>
+    * IIW31 earlybird tickets end today!
+       
+</details>
 
-1. Continue mapping exercise
+1. Refactor mapping exercise into layers
     
     * optional homework: leave comments on the [whimsical](https://whimsical.com/VVRMbTi9bPsCqagmRVNGvm), or fork it and make your own variants to compare/contrast next week or OOB? Whimsical instructions [here](https://www.notion.so/dif/Procedural-Notes-github-etc-d31f543e8a94441ebeb1550e671ff195)
-3. Draft questionnaire based on map (proposed- pending group interest)?
+    * [Martin and Nader might present variants?]
+
+
+
+3. [IF time allows] Draft questionnaire based on map (proposed- pending group interest)?
+
 4. anyone want to give a 5min overview of the Decentralization Rubric (early version [here](https://github.com/WebOfTrustInfo/rwot9-prague/blob/master/draft-documents/decentralized-did-rubric.md#15governance-openness), most recent version [here](https://docs.google.com/document/d/1rYdWiwawWmLOWtHRvT0GzYcdewW_OS9M2mAkENLFdtY/
 ))?
 
