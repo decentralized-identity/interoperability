@@ -9,10 +9,18 @@ _For this call, you are encouraged to turn your video on. This is a good way to 
 
 _This document is live-edited DURING each call, and stable/authoritative copies live on our github repo under /agenda.md . Please note that we might not notice a pullrequest in time, but you are free to propose agenda items for future meetings via hackmd ._
 
-#### Agenda items to address at some point in coming month or two
+#### "Parking lot" for future/recurring agenda items
 
-* 
+<details>
+<summary>Topics List</summary>
 
+* Human-centric interop as roadmap and business strategy (+ UX?)
+* Further afield usecases (VC-free, DID-free, human-free, LEI, etc) - venn diagram of interop goals?
+* Notary models and adoption hacks?
+* VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
+* Periodic checkins on the multi-ledger (and possible multi-method!?) Indyverse
+
+</details>
 
 #### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
@@ -29,7 +37,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     <details>
     <summary>Notes</summary>
 
-    * ahem
+    * Take notes here (tabs for indent hierarchy)
        </details>
        
 2. Lightning-fast tours of existing test suites? 
@@ -52,8 +60,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     <details>
     <summary>Notes</summary>
 
-    * ahem
-       </details>
+    * Take notes here (tabs for indent hierarchy)
+   
+    </details>
 
 2. Begin Roadmapping (30min+, queued)
 3. [If time allows] Questionnaire and/or refine the map
@@ -77,6 +86,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * IIW31 earlybird tickets end today!
     * Shout-out to Adrian's thread on the [mailinglist](https://dif.groups.io/g/interop-wg/topics) about human-centric interop and the UX work-- we promise we'll get back to this!  It's deferred, but definitely not tabled. 
         * In the meantime, interested parties are welcome to join the DIF Product Managers' **non-IPR-protected** [community of practice](https://dif.groups.io/g/id-productmanagers), which is currently in a multi-week discussion of human-centric UX thinking around SSI onboarding processes.
+    * Thread on DECO project out of Cornell on [CCG}(https://lists.w3.org/Archives/Public/public-credentials/2020Sep/0005.html) - may be worth addressing or socializing in this group if there is interest/demand
     * Deputize queue-masters from the back seat: see something, say something!
        
 </details>
