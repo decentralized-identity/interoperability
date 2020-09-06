@@ -3,11 +3,17 @@
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
 
-[DIF Website ](https://identity.foundation/inteorperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76)
+[DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Meeting Recordings/Transcripts](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76)
 
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
 
 _This document is live-edited DURING each call, and stable/authoritative copies live on our github repo under /agenda.md . Please note that we might not notice a pullrequest in time, but you are free to propose agenda items for future meetings via hackmd ._
+
+#### Agenda items to address at some point in coming month or two
+
+* 
+
+
 #### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
 <details>
@@ -25,6 +31,11 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
     * ahem
        </details>
+       
+2. Lightning-fast tours of existing test suites? 
+
+    * SVIP
+    * Aries and/or BCGov test suites
        
 #### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
 
@@ -44,6 +55,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * ahem
        </details>
 
+2. Begin Roadmapping (30min+, queued)
+3. [If time allows] Questionnaire and/or refine the map
+
 #### Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
 
 
@@ -61,6 +75,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     <summary>Notes</summary>
 
     * IIW31 earlybird tickets end today!
+    * Shout-out to Adrian's thread on the [mailinglist](https://dif.groups.io/g/interop-wg/topics) about human-centric interop and the UX work-- we promise we'll get back to this!  It's deferred, but definitely not tabled. 
+        * In the meantime, interested parties are welcome to join the DIF Product Managers' **non-IPR-protected** [community of practice](https://dif.groups.io/g/id-productmanagers), which is currently in a multi-week discussion of human-centric UX thinking around SSI onboarding processes.
+    * Deputize queue-masters from the back seat: see something, say something!
        
 </details>
 
@@ -68,8 +85,12 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
     * optional homework: leave comments on the [whimsical](https://whimsical.com/VVRMbTi9bPsCqagmRVNGvm), or fork it and make your own variants to compare/contrast next week or OOB? Whimsical instructions [here](https://www.notion.so/dif/Procedural-Notes-github-etc-d31f543e8a94441ebeb1550e671ff195)
     * [Martin and Nader might present variants?]
+    * Unqueued discussion to follow
 
-
+    * Parking lot for assumptions different in other use cases?
+        * Holder-not-subject
+        * nonhuman subjects
+        * etc etc
 
 3. [IF time allows] Draft questionnaire based on map (proposed- pending group interest)?
 
