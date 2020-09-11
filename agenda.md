@@ -22,7 +22,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 </details>
 
-#### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
+#### Agenda - 7 Oct 2020 - US/APAC time (1400 PST)
 
 <details>
 <summary>Attendees:</summary>
@@ -45,7 +45,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * SVIP
     * Aries and/or BCGov test suites
        
-#### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
+#### Agenda - 30 Sep 2020 - US/EU time (0600 PST)
 
 <details>
 <summary>Attendees:</summary>
@@ -67,8 +67,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 2. Begin Roadmapping (30min+, queued)
 3. [If time allows] Questionnaire and/or refine the map
 
-#### Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
-
+#### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
 <details>
 <summary>Attendees:</summary>
@@ -83,10 +82,84 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     <details>
     <summary>Notes</summary>
 
+    * Take notes here (tabs for indent hierarchy)
+       </details>
+       
+2. 
+       
+#### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
+
+<details>
+<summary>Attendees:</summary>
+
+* Juan Caballero (Co-chair)
+* Pamela Dingle (Co-chair)
+* Kaliya Young (Co-chair)
+</details>
+
+1. Updates and Announcements
+
+    <details>
+    <summary>Notes</summary>
+
+    * Take notes here (tabs for indent hierarchy)
+   
+    </details>
+
+2. Confirm Liaison list
+
+    * Who knows the relevant test suites?
+
+4. Finish Whimsical (20min max, queued)
+5. Questionnaire based on whimsical?
+6. Roadmapping part 1; proposed *multiweek/long-term* work items (bring your own! add your own to the table following our precedent!)
+  
+ | Title | Explanation | Target Deliverable(s)|
+ |--|--|--|
+ | Test Suite Jamboree | Apples-to-apples comparison of available test suites and how we could leverage them here | If possible: matrix showing equivalent suite results across stacks |
+ | Pres-Exch/Aries alignment| The DIF Presentation Exchange spec has flows and assumptions that are hard to reconcile with Aries flows and assumptions. | 1. minor pull requests against both specs 2. implementation guidance that would make Aries wallets easier to comply with Pres Exch and vice versa. 3. a great blog post for the DIF Medium :D | 
+ | Wallet Method Support |Wallet can resolve a DID *and* know how to verify the VCs it can sign? | * Matrix of methods per Wallet for generated and resolved DIDs * DID Resolution implementation guidelines for wallet designers/implementers? I.e., how do you get from a method spec to supporting those methods |
+ | Wallet Credential Format Support | Which formats of credentials can wallets parse and validate? | Matrix of supported credential formats |
+|<your idea here>| | |
+
+#### Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
+
+
+<details>
+<summary>Attendees:</summary>
+
+* Juan Caballero (Co-chair)
+* Pamela Dingle (Co-chair)
+* Kaliya Young (Co-chair)
+* Sam Curren (DIDComm/Aries)
+* Adrian Gropper
+* Orie Steele
+* Hakan Yildiz
+* Brett McDowell (Hedera Hashgraph)
+* Taylor Kendal 
+* Carlos Rodrigues (Bloom Protocol)
+* Marty Reed
+* Delia AC
+* John Walker
+* Martin Riedel
+* Wayne Chang
+* Yang Lu
+* Tom Danner
+
+</details>
+
+0. Introductions and Hellos
+   * Brett McDowell - Hedera Hashgraph
+   * Taylor Kendal - Learning Economy Fndn
+2. Updates and Announcements
+
+    <details>
+    <summary>Notes</summary>
+
     * IIW31 earlybird tickets end today!
-    * Shout-out to Adrian's thread on the [mailinglist](https://dif.groups.io/g/interop-wg/topics) about human-centric interop and the UX work-- we promise we'll get back to this!  It's deferred, but definitely not tabled. 
+    * Shout-out to Adrian's thread on the [mailinglist](https://dif.groups.io/g/interop-wg/topics) about human-centric interop and the UX work-- we promise we'll get back to this!  It's deferred, but definitely not tabled. See also https://github.com/w3c/did-use-cases/issues/101
         * In the meantime, interested parties are welcome to join the DIF Product Managers' **non-IPR-protected** [community of practice](https://dif.groups.io/g/id-productmanagers), which is currently in a multi-week discussion of human-centric UX thinking around SSI onboarding processes.
-    * Thread on DECO project out of Cornell on [CCG}(https://lists.w3.org/Archives/Public/public-credentials/2020Sep/0005.html) - may be worth addressing or socializing in this group if there is interest/demand
+    * Thread on DECO project out of Cornell on [CCG](https://lists.w3.org/Archives/Public/public-credentials/2020Sep/0005.html) - may be worth addressing or socializing in this group if there is interest/demand
     * Deputize queue-masters from the back seat: see something, say something!
        
 </details>
@@ -101,6 +174,30 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * Holder-not-subject
         * nonhuman subjects
         * etc etc
+
+Notes:
+
+* Pam Dingle talking about the slices of the stack and naming 
+* there are exchange of verifiable credentials as one main use case and decentralized Applications "DApps" as another one and asking people to think about how this set of use-cases
+* From chat:
+    * Brent would like Hedera's [method listed too](https://www.hedera.com/blog/hedera-hashgraph-joins-world-wide-web-consortium-w3c-new-did-method-published-by-w3c-credentials-community-group#:~:text=The%20Hedera%20DID%20Method%20leverages,to%20the%20Decentralized%20Identity%20model).
+    * Orie suggested that the The algorithm bucket is lacking… better to link to
+        * https://www.iana.org/assignments/jose/jose.xhtml#web-signature-encryption-algorithms
+        * https://w3c-ccg.github.io/ld-cryptosuite-registry/ 
+    * DIDComm = SOAP 2.0: I like soap, its a message format, that is transport agnostic, and supports routing, and other sub specs :) … sorta like did comm… but sadly soap is xml  focused…. didcomm is currently JSON + DID focused… did comm does a not of stuff, but its mostly about a message format that works with dids.
+    * that's a pretty good summary.
+    * Im sorry I know being compared to soap is triggering… but FWIW, I loved Visual Basic and SOAP and WSDL… some of the first coding I ever did. 
+    
+    * AuthN is very different from AuthZ.  But then again, I'm not sure what the goal of this inventory is.  Do we need to differentiate them?  What's the end game here?
+    * Tom: D So if you look at this from the perspective of a resource server serving up health data about a patient, you can use did auth to prove the identity of an entity seeking patient data.  You use SIOP to communicate the fact that there’s a valid credential that AUTHORIZES that entity to access  the particular patient data, as example. 
+    * Orie: Authorizations mostly go in the http header… mostly… 
+    * Brett: After you are authenticated (AuthN), then you get authorized to access certain resources (AuthZ)
+    *  Sam: not necessarily with OCAP ZCAP. you can have AuthZ with those, but no authentication. 
+    *  Orie: Yep, capabilities sole existence is to avoid authN… https://en.wikipedia.org/wiki/Confused_deputy_problem 
+    * Taylor: Curated Edu pilots list - https://lerhub.org/s/curators/specs-0/ZT3McEDpgKayCXyqc-0
+
+
+
 
 3. [IF time allows] Draft questionnaire based on map (proposed- pending group interest)?
 
