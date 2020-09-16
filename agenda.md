@@ -26,7 +26,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 1. Updates and Announcements
 
-2.  --- **TEST SUITEAPALOOZA 2020** ---
+2.  --- **TEST SUITEAPALOOZA 2020** --- [**proposed**]
     * Status update on SVIP's past and future suite maintenance
     * Aries and/or BCGov test suites
     * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
@@ -38,6 +38,7 @@ Attendees:
 * Juan Caballero (Co-chair)
 * Pamela Dingle (Co-chair)
 * Kaliya Young (Co-chair)
+
 
 * Introductions and Hellos
 * Updates and Announcements
@@ -58,35 +59,17 @@ Attendees:
 
 1. Introductions and Hellos
 1. Updates and Announcements
-1.
+
 
 </details>
 
 ### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
 1. Updates and Announcements
+1. Final round of edits on map (check back friday for the link) (10min)
+1. Present draft questionnaire (10min plus **FIRST HOMEWORK ASSIGNMENT** over email)
+1. Roadmapping - Lobby for your favorite and we will vote on the mailing list?
 
-<details><summary>Minutes:</summary>
-
-Attendees:
-* Juan Caballero (Co-chair)
-* Pamela Dingle (Co-chair)
-* Kaliya Young (Co-chair)
-
-1. Introductions and Hellos
-1. Updates and Announcements
-1.
-
-</details>
-       
-### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
-
-1. Updates and Announcements
-2. Confirm Liaison list
-    * Who knows the relevant test suites?
-4. Finish Whimsical (20min max, queued)
-5. Questionnaire based on whimsical?
-6. Roadmapping part 1; proposed *multiweek/long-term* work items (bring your own! add your own to the table following our precedent!)
   
  | Title | Explanation | Target Deliverable(s)|
  |--|--|--|
@@ -94,7 +77,11 @@ Attendees:
  | Pres-Exch/Aries alignment| The DIF Presentation Exchange spec has flows and assumptions that are hard to reconcile with Aries flows and assumptions. | 1. minor pull requests against both specs 2. implementation guidance that would make Aries wallets easier to comply with Pres Exch and vice versa. 3. a great blog post for the DIF Medium :D | 
  | Wallet Method Support |Wallet can resolve a DID *and* know how to verify the VCs it can sign? | * Matrix of methods per Wallet for generated and resolved DIDs * DID Resolution implementation guidelines for wallet designers/implementers? I.e., how do you get from a method spec to supporting those methods |
  | Wallet Credential Format Support | Which formats of credentials can wallets parse and validate? | Matrix of supported credential formats |
+|Human-centric interoperability|See Adrian's MyData event on [Gold Button](https://docs.google.com/document/d/1kZ7_Skcn4zb3zOfEu7XZDrYAmLR1T_pbBoSk8AEfrSg/edit) and [https://github.com/w3c/did-use-cases/issues/101](https://)|Profile? A map similar to the whimsical|
+|Revocation comparison overview| Status Method Registry at W3C is a little under-updated | Guidance on updating <-- and tentative or pre-spec draft of cross-community revocation-check spec [*Note: ZKP revocation versus "herd privacy" solutions are not equivalent and such a spec might need to differentiate schools of privacy engineering or allow implementers to be opinionated about this distinction per use case!*] |
+|| | |
 |< your idea here >| | |
+
 
 <details><summary>Minutes:</summary>
 
@@ -105,7 +92,84 @@ Attendees:
 
 1. Introductions and Hellos
 1. Updates and Announcements
-1.
+1. 
+
+</details>
+       
+### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
+
+1. Updates and Announcements
+2. Confirm Liaison list
+4. Finish Whimsical (20min max, queued)
+
+    * Martin's new version - intra-layer protocols
+    * Rouven was right-- "20 min max" and "finish" should not both have been on this item!
+    * Reconciling and bringing back next week
+        * authn/z and recovery/portability issue
+
+6. Questionnaire based on whimsical?
+    * moved to next week
+
+8. Roadmapping part 1; proposed *multiweek/long-term* work items (bring your own! add your own to the table following our precedent!)
+    * Who knows the relevant test suites?
+    * Chart of options moved to next week
+
+Question was raised about meaning of the word wallet and the prior work by the [DIF Glossary group](https://medium.com/decentralized-identity/finding-the-bell-curve-of-meaning-61a1d22b7bdd) was linked to. 
+
+<details><summary>Minutes:</summary>
+
+Attendees:
+* Juan Caballero (Co-chair)
+* Pamela Dingle (Co-chair)
+* Kaliya Young (Co-chair)
+* Chris Lee (MyData Korea)
+* Martin Riedel (ConsenSys)
+* Hakan Yildiz (TU Berlin)
+* Rouven Heck (ConsenSys)
+* sankarshan (Dhiway)
+* Matthew Hailstone (BYU)
+* Scott Malley (Sphereon)
+* Simone Ravaioli (Digitary)
+* Adrian Gropper (HIE of One)
+* Stephen Curran (Cloud Compass Computing Inc.)
+* Sam Rookard (Accenture)
+* Catherine Nabbala
+* Denis Popov
+* Kristina Yasuda
+* Marnix
+* Ralf Knobloch
+* Sankarshan
+* Scott Malley
+* Simone Ravaioli
+* Stas Demchuck
+* Stephen Curran
+
+
+1. Introductions and Hellos
+1. Updates and Announcements
+1. Liaison list {from collective memory!}
+
+    * **Solid Community - Dmitri?**
+    * MyData - Chris Lee (MyData Korea)
+    * **A New Governance - ??**
+    * NIST Big Data Public WG -  
+    * Specific IEEE Standards groups
+        * CNCF Security SIG 
+        * ILR project - Simone Ravaioli
+    * Trust-over-IP Foundation - Ajay Jadhav (with support from Sankarshan Mukhopadhyay)
+    * IETF - OAuth WG in partic
+    * OIDF - Kristina Yasuda
+    * INATBA - Joachim Lohkamp
+    * T3 Innovation Network
+        * *Note: (ongoing thread to sign a liaison agreement)*
+    * Europass - (acting Liaison Simone Ravaioli, until further notice)
+    * GLEIF - Juan will reach out this week
+    * W3C - acting liaison Orie until further notice (?)
+    * PKI/eIDAS orgs - Juan is reaching out this week :D
+        * **EBSI/ESSIF - ?**
+    * ISO - ?
+        * *Note: ToIP has a relationship with the Blockchain group, might be worth asking if a direct or indirect contact would be of interest or at least an email address?*
+    * Aries - Sam Curren
 
 </details>
 
