@@ -79,6 +79,7 @@ Attendees:
  | Wallet Credential Format Support | Which formats of credentials can wallets parse and validate? | Matrix of supported credential formats |
 |Human-centric interoperability|See Adrian's MyData event on [Gold Button](https://docs.google.com/document/d/1kZ7_Skcn4zb3zOfEu7XZDrYAmLR1T_pbBoSk8AEfrSg/edit) and [https://github.com/w3c/did-use-cases/issues/101](https://)|Profile? A map similar to the whimsical|
 |Revocation comparison overview| Status Method Registry at W3C is a little under-updated | Guidance on updating <-- and tentative or pre-spec draft of cross-community revocation-check spec [*Note: ZKP revocation versus "herd privacy" solutions are not equivalent and such a spec might need to differentiate schools of privacy engineering or allow implementers to be opinionated about this distinction per use case!*] |
+|DID Method / KeyType Matrix  (Dmitri's idea)| Make a survey of implemented DID Methods and list cryptographic key types that they support | A table in github or a spreadsheet/CSV file|
 || | |
 |< your idea here >| | |
 
