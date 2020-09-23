@@ -66,9 +66,12 @@ Attendees:
 ### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
 1. Updates and Announcements
-1. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (check back friday for the link) (**10min**)
-1. Present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**10-15min** to draft or do? followup over email list for non-attendees and recording listeners)
-1. Roadmapping - The chairs have suggestions but open to lobbying and dissent if the group has other ideas
+    
+    * New publication: [major spec and adjacent org quick reference](https://whimsical.com/Ve4WzSSDpvPawqCZCBhRrb)
+
+3. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (check back friday for the link) (**10min**)
+4. Present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**10-15min** to draft or do? followup over email list for non-attendees and recording listeners)
+5. Roadmapping - The chairs have suggestions but open to lobbying and dissent if the group has other ideas
 
   
  | Title | Explanation | Target Deliverable(s)|
