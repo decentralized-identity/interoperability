@@ -47,11 +47,6 @@ Attendees:
      
 ### Agenda - 30 Sep 2020 - US/EU time (0600 PST)
 
-
-1. Updates and Announcements
-
-<details><summary>Minutes:</summary>
-
 1. Introductions and Hellos
 1. Updates and Announcements
 1. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (**5min**)
@@ -59,6 +54,9 @@ Attendees:
 1. Roadmapping - following on last week's discussion (see below), we'll hone in on wallet projects for the short term.  how to define wallet interop with issuers and verifiers? what's the low-hanging fruit that's helpful to the wallet alignment process (and "wars") on the horizon?
 
 
+<details><summary>Minutes:</summary>
+
+* 
 </details>
 
 ### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
