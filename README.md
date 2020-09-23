@@ -16,7 +16,7 @@ Our [agenda](agenda.md) is stored here in github-- please edit it in hackmd to p
 
 ## [Projects](./projects)
 
-- Ongoing mapping project on [whimsical](https://whimsical.com/VVRMbTi9bPsCqagmRVNGvm)
+- Ongoing mapping project on [whimsical](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD)
 
 ## Related DIF Work
 
