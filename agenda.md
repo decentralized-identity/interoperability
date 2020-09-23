@@ -66,9 +66,9 @@ Attendees:
 ### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
 1. Updates and Announcements
-1. Final round of edits on map (check back friday for the link) (10min)
-1. Present draft questionnaire (10min plus **FIRST HOMEWORK ASSIGNMENT** over email)
-1. Roadmapping - Lobby for your favorite and we will vote on the mailing list?
+1. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (check back friday for the link) (**10min**)
+1. Present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**10-15min** to draft or do? followup over email list for non-attendees and recording listeners)
+1. Roadmapping - The chairs have suggestions but open to lobbying and dissent if the group has other ideas
 
   
  | Title | Explanation | Target Deliverable(s)|
@@ -77,7 +77,7 @@ Attendees:
  | Pres-Exch/Aries alignment| The DIF Presentation Exchange spec has flows and assumptions that are hard to reconcile with Aries flows and assumptions. | 1. minor pull requests against both specs 2. implementation guidance that would make Aries wallets easier to comply with Pres Exch and vice versa. 3. a great blog post for the DIF Medium :D | 
  | Wallet Method Support |Wallet can resolve a DID *and* know how to verify the VCs it can sign? | * Matrix of methods per Wallet for generated and resolved DIDs * DID Resolution implementation guidelines for wallet designers/implementers? I.e., how do you get from a method spec to supporting those methods |
  | Wallet Credential Format Support | Which formats of credentials can wallets parse and validate? | Matrix of supported credential formats |
-|Human-centric interoperability|See Adrian's MyData event on [Gold Button](https://docs.google.com/document/d/1kZ7_Skcn4zb3zOfEu7XZDrYAmLR1T_pbBoSk8AEfrSg/edit) and [https://github.com/w3c/did-use-cases/issues/101](https://)|Profile? A map similar to the whimsical|
+|Human-centric interoperability|See Adrian's MyData event on [Gold Button](https://docs.google.com/document/d/1kZ7_Skcn4zb3zOfEu7XZDrYAmLR1T_pbBoSk8AEfrSg/edit) and [https://github.com/w3c/did-use-cases/issues/101](https://github.com/w3c/did-use-cases/issues/101)|Profile? A map similar to the whimsical|
 |Revocation comparison overview| Status Method Registry at W3C is a little under-updated | Guidance on updating <-- and tentative or pre-spec draft of cross-community revocation-check spec [*Note: ZKP revocation versus "herd privacy" solutions are not equivalent and such a spec might need to differentiate schools of privacy engineering or allow implementers to be opinionated about this distinction per use case!*] |
 |DID Method / KeyType Matrix  (Dmitri's idea)| Make a survey of implemented DID Methods and list cryptographic key types that they support | A table in github or a spreadsheet/CSV file|
 || | |
