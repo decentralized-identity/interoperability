@@ -19,18 +19,18 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Notary models and adoption hacks?
 * VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
 * Periodic checkins on the multi-ledger (and possible multi-method!?) Indyverse
-
+* --- **TEST SUITEAPALOOZA 2020** --- [**proposed**]
+    * Status update on SVIP's past and future suite maintenance
+    * Aries and/or BCGov test suites
+    * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
+    * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
+    
 </details>
 
 ### Agenda - 7 Oct 2020 - US/APAC time (1400 PST) 
 
 1. Updates and Announcements
 
-2.  --- **TEST SUITEAPALOOZA 2020** --- [**proposed**]
-    * Status update on SVIP's past and future suite maintenance
-    * Aries and/or BCGov test suites
-    * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
-    * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
      
 <details><summary>Minutes:</summary>
 
@@ -52,13 +52,11 @@ Attendees:
 
 <details><summary>Minutes:</summary>
 
-Attendees:
-* Juan Caballero (Co-chair)
-* Pamela Dingle (Co-chair)
-* Kaliya Young (Co-chair)
-
 1. Introductions and Hellos
 1. Updates and Announcements
+1. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (**5min**)
+1. Present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**20-25min** to annotate, discuss, and fill out on the call; followup over email list for non-attendees and recording listeners)
+1. Roadmapping - following on last week's discussion (see below), we'll hone in on wallet projects for the short term.  how to define wallet interop with issuers and verifiers? what's the low-hanging fruit that's helpful to the wallet alignment process (and "wars") on the horizon?
 
 
 </details>
@@ -67,9 +65,9 @@ Attendees:
 
 1. Updates and Announcements
     
-    * New publication: [major spec and adjacent org quick reference](https://whimsical.com/Ve4WzSSDpvPawqCZCBhRrb)
+    * New publication: [major spec and adjacent org quick reference](https://github.com/decentralized-identity/decentralized-identity.github.io/raw/master/assets/map-of-adjacent-orgs-and-specs--sept-2020--one-sided.pdf) guide ("light" version of our mapping!)
 
-3. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (check back friday for the link) (**10min**)
+3. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (**10min**) - punted to next week
 4. Present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**10-15min** to draft or do? followup over email list for non-attendees and recording listeners)
 5. Roadmapping - The chairs have suggestions but open to lobbying and dissent if the group has other ideas
 
@@ -77,7 +75,7 @@ Attendees:
  | Title | Explanation | Target Deliverable(s)|
  |--|--|--|
  | Test Suite Jamboree | Apples-to-apples comparison of available test suites and how we could leverage them here | If possible: matrix showing equivalent suite results across stacks |
- | Pres-Exch/Aries alignment| The DIF Presentation Exchange spec has flows and assumptions that are hard to reconcile with Aries flows and assumptions. | 1. minor pull requests against both specs 2. implementation guidance that would make Aries wallets easier to comply with Pres Exch and vice versa. 3. a great blog post for the DIF Medium :D | 
+ | Pres-Exch/Aries alignment| The DIF Presentation Exchange spec has flows and assumptions that are hard to reconcile with Aries flows and assumptions. | 1. minor pull requests against both specs 2. implementation guidance that would make Aries wallets easier to comply with Pres Exch and vice versa. 3. a great deep-dive blog post for the DIF Medium :D | 
  | Wallet Method Support |Wallet can resolve a DID *and* know how to verify the VCs it can sign? | * Matrix of methods per Wallet for generated and resolved DIDs * DID Resolution implementation guidelines for wallet designers/implementers? I.e., how do you get from a method spec to supporting those methods |
  | Wallet Credential Format Support | Which formats of credentials can wallets parse and validate? | Matrix of supported credential formats |
 |Human-centric interoperability|See Adrian's MyData event on [Gold Button](https://docs.google.com/document/d/1kZ7_Skcn4zb3zOfEu7XZDrYAmLR1T_pbBoSk8AEfrSg/edit) and [https://github.com/w3c/did-use-cases/issues/101](https://github.com/w3c/did-use-cases/issues/101)|Profile? A map similar to the whimsical|
@@ -93,6 +91,9 @@ Attendees:
 * Juan Caballero (Co-chair)
 * Pamela Dingle (Co-chair)
 * Kaliya Young (Co-chair)
+* Adrian Gropper (HIE of One)
+* Hakan Yildiz (TU Berlin)
+* Marty Reed (RANDA)
 
 1. Introductions and Hellos
 1. Updates and Announcements
