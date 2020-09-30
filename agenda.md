@@ -27,6 +27,18 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
+### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
+
+* Notes for IIW31
+    * Link to madlib/questionnaire #2 posted in ADVANCE and announced IN OPENING CIRCLE 
+    * Possible other presentations or sessions:
+        * DIF Education WG analysis of questionnaire #1?
+        * Wallet Matrix?
+
+### Agenda - 14 Oct 2020 - US/APAC time (1400 PST) 
+
+* Crowd-edit First draft of thing we're presenting
+
 ### Agenda - 7 Oct 2020 - US/APAC time (1400 PST) 
 
 1. Updates and Announcements
@@ -49,9 +61,12 @@ Attendees:
 
 1. Introductions and Hellos
 1. Updates and Announcements
-1. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (**5min**)
-1. Present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**20-25min** to annotate, discuss, and fill out on the call; followup over email list for non-attendees and recording listeners)
-1. Roadmapping - following on last week's discussion (see below), we'll hone in on wallet projects for the short term.  how to define wallet interop with issuers and verifiers? what's the low-hanging fruit that's helpful to the wallet alignment process (and "wars") on the horizon?
+
+* Meeting on DHS SVIP UX contest during the DIF Product Manager's (also non-IPR, open) [meeting](https://lists.w3.org/Archives/Public/public-credentials/2020Sep/0088.html)
+
+3. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (**5min**)
+4. Chairs will present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**20-25min** to annotate, discuss, and fill out on the call; followup over email list for non-attendees and recording listeners)
+5. Roadmapping - following on last week's discussion (see below), we'll hone in on wallet projects for the short term.  how to define wallet interop with issuers and verifiers? what's the low-hanging fruit that's helpful to the wallet alignment process (and "wars") on the horizon?
 
 
 <details><summary>Minutes:</summary>
@@ -65,7 +80,7 @@ Attendees:
     
     * New publication: [major spec and adjacent org quick reference](https://github.com/decentralized-identity/decentralized-identity.github.io/raw/master/assets/map-of-adjacent-orgs-and-specs--sept-2020--one-sided.pdf) guide ("light" version of our mapping!)
 
-3. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (**10min**) - punted to next week
+3. Final round of edits on [map](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD) (**10min**) - punted to next week due to Zoom room chaos
 4. Present draft [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) (**10-15min** to draft or do? followup over email list for non-attendees and recording listeners)
 5. Roadmapping - The chairs have suggestions but open to lobbying and dissent if the group has other ideas
 
@@ -92,6 +107,8 @@ Attendees:
 * Adrian Gropper (HIE of One)
 * Hakan Yildiz (TU Berlin)
 * Marty Reed (RANDA)
+* Matt McKinney (ArcBlock)
+
 
 1. Introductions and Hellos
 1. Updates and Announcements
@@ -146,6 +163,7 @@ Attendees:
 * Simone Ravaioli
 * Stas Demchuck
 * Stephen Curran
+* Matt McKinney
 
 
 1. Introductions and Hellos
