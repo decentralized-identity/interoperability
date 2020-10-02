@@ -46,7 +46,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Please sign up for the [mailing list](mailto:interop-wg+subscribe@lists.identity.foundation) if you haven't already!
 
 1. Rough-draft of Wallet Credential Format [Matrix](https://hackmd.io/@SBZlkBsMSQqomxsAiSgoNg/rkBnu3ELP/edit) - feel free to fill in YOUR OWN rows before the meeting!
-3. Results of questionnaire - Skillshare/technical matchmaking proposal
+3. Results of [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) - Skillshare/technical matchmaking proposal
 
 <details><summary>Minutes:</summary>
 
