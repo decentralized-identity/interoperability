@@ -43,7 +43,11 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 1. Updates and Announcements
 
-     
+* Please sign up for the [mailing list](mailto:interop-wg+subscribe@lists.identity.foundation) if you haven't already!
+
+1. Rough-draft of Wallet Credential Format [Matrix](https://hackmd.io/@SBZlkBsMSQqomxsAiSgoNg/rkBnu3ELP/edit) - feel free to fill in YOUR OWN rows before the meeting!
+3. Results of questionnaire - Skillshare/technical matchmaking proposal
+
 <details><summary>Minutes:</summary>
 
 Attendees:
@@ -71,7 +75,10 @@ Attendees:
 
 <details><summary>Minutes:</summary>
 
-* 
+* intros and updates
+* final tweaks on map (mostly renaming layers and splitting recovery/portability bucket into two buckets; also some tweaks around )
+* filling out awareness survey & fine-tuning it for the rest of the hour
+
 </details>
 
 ### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
