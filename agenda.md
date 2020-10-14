@@ -27,17 +27,70 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
+### 
+
+### Agenda - 28 Oct 2020 - US/APAC time (600 PST) 
+
+
+
 ### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
 
 * Notes for IIW31
     * Link to madlib/questionnaire #2 posted in ADVANCE and announced IN OPENING CIRCLE 
     * Possible other presentations or sessions:
         * DIF Education WG analysis of questionnaire #1?
-        * Wallet Matrix?
+        * [Wallet Matrix](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA)?
 
-### Agenda - 14 Oct 2020 - US/APAC time (1400 PST) 
+### Agenda - 14 Oct 2020 - US/APAC time (600 PST) 
 
-* Crowd-edit First draft of thing we're presenting
+
+* Crowd-edit First draft of the wallet grid? (10min)
+* Interoperability **targets**: what would you like to be working towards? what would you work towards if enough other people are working towards as well? 
+    * *Can we formulate a google form questionnaire for distribution at IIW?*
+* Quick discussion: DID Controllers? 
+
+<details><summary>Minutes:</summary>
+
+Attendees:
+* Juan Caballero (Co-chair)
+* Pamela Dingle (Co-chair)
+* Kaliya Young (Co-chair)
+* Sam Curren
+* Adrian Gropper
+* Balazs Nemethi
+* John Walker
+* Adrian Field
+* Kenroy
+* Martin Riedel
+* Philip Kaiser
+* Sam Rookard
+* Simone Ravaioli
+* Tim Cappalli
+* Harm Jam Arendshorst
+
+
+
+
+* Introductions and Hellos
+* Updates and Announcements
+    * IIW - session is planned for the interoperability group, will let group know when time/breakout is assigned
+    
+* Interoperability targets
+    * Education/target chicken and egg
+    * Break down big targets like "BBS+" into smaller pieces, like "how to handle/verify LD VCs", "how to use the linter and the document-loader", "what else needs to be done before BBS+"
+    * Adrian: "authorization" is big here
+    * Adrian: wallet-centric assumption in VC centrality
+    * BBS+ - informal poll showed support for learning more
+    * For BBS+: What are the one-meeting topics? 
+        1. Issuance and **data model** of a BBS+ VC (WHO LEADS THIS? Tobias? --note time zones--] ) Oct 28?
+        2. How to initiate exchange (and how it relates to pres exch?) - 
+        3. LD Pres Req - how is it diff, relying on LD **framing**?
+        4. BBS+ Revocation - issuance and mgmt of revocation
+    * Presentation Exchange (known as proof requests in Aries)   
+    * GNAP and Scoped Authz 
+ * Update on [Wallet Matrix](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA)
+
+</details>
 
 ### Agenda - 7 Oct 2020 - US/APAC time (1400 PST) 
 
@@ -47,6 +100,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 1. Rough-draft of Wallet Credential Format [Matrix](https://hackmd.io/@SBZlkBsMSQqomxsAiSgoNg/rkBnu3ELP/edit) - feel free to fill in YOUR OWN rows before the meeting!
 3. Results of [questionnaire](https://forms.gle/suZpoM4TH11wNneD8) - Skillshare/technical matchmaking proposal
+4. IIW planning?
 
 <details><summary>Minutes:</summary>
 
@@ -54,7 +108,13 @@ Attendees:
 * Juan Caballero (Co-chair)
 * Pamela Dingle (Co-chair)
 * Kaliya Young (Co-chair)
-
+* Hakan Yildiz (TU Berlin)
+* Adrian Gropper (HIE of One)
+* Tim Capalli
+* Carlos Rodrigues
+* Sam Curren
+* Stephen Curran
+* Matt McKinney
 
 * Introductions and Hellos
 * Updates and Announcements
@@ -115,6 +175,7 @@ Attendees:
 * Hakan Yildiz (TU Berlin)
 * Marty Reed (RANDA)
 * Matt McKinney (ArcBlock)
+* John Walker (SemanticClarity)
 
 
 1. Introductions and Hellos
