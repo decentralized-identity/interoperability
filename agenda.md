@@ -36,10 +36,22 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 ### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
 
 * Notes for IIW31
-    * Link to madlib/questionnaire #2 posted in ADVANCE and announced IN OPENING CIRCLE 
+    * Link to madlib/questionnaire #2 posted in ADVANCE and announced IN OPENING CIRCLE (drop hackmd link!)
     * Possible other presentations or sessions:
-        * DIF Education WG analysis of questionnaire #1?
-        * [Wallet Matrix](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA)?
+    * DIF Interoperability WG read-out and requirements gathering??
+        * Agenda:
+            * readout, deliverable show-and-tell
+            * educational demands and gaps
+            * Interop targets discussion
+
+
+* Link tree
+    * [Wallet Matrix](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA)?
+    * [familiarity survey results](https://github.com/decentralized-identity/decentralized-identity.github.io/raw/master/assets/crosscommunity-architecture-familiarity-survey-result-oct-2020.pdf)
+    * [familiar survey](https://docs.google.com/forms/d/1ohv_40BFVXc9uVfESJawu9O0UrXxfI60j_QkBYjukUg/edit?usp=drive_web)
+    * [map](https://github.com/decentralized-identity/decentralized-identity.github.io/raw/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
+    * ["three stacks" diagram](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/ssi-architectural-stack--and--community-efforts-overview.pdf)
+
 
 ### Agenda - 14 Oct 2020 - US/APAC time (600 PST) 
 
