@@ -36,16 +36,6 @@ Open to pull requests and issues if you spot factual errors or significant omiss
 |Architectural Stack & Community Efforts overview (aka "the three stacks diagram")| Rouven Heck's interpretation of the spec landscape mapped onto layers 1-3 of the ToIP mental model, across the W3C-centric, Hyperledger, and DIF communities. |v1| [github (PDF)](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/ssi-architectural-stack--and--community-efforts-overview.pdf)|Sept 2020|
 
 
-    * [familiarity survey results](https://github.com/decentralized-identity/decentralized-identity.github.io/raw/master/assets/crosscommunity-architecture-familiarity-survey-result-oct-2020.pdf)
-    * [familiar survey](https://docs.google.com/forms/d/1ohv_40BFVXc9uVfESJawu9O0UrXxfI60j_QkBYjukUg/edit?usp=drive_web)
-    * [map](https://github.com/decentralized-identity/decentralized-identity.github.io/raw/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
-    * ["three stacks" diagram](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/ssi-architectural-stack--and--community-efforts-overview.pdf)
-
-
-
-
-
-
 ## Related DIF Work
 
 - [Papers](https://github.com/decentralized-identity/papers)
