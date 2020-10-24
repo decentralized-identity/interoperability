@@ -24,13 +24,13 @@ Open to pull requests and issues if you spot factual errors or significant omiss
 
 | Name | Description | status/version | most recent link | date | 
 |---|---|---|---|---|
-||STRAWMEN/ONGOING
+|---|STRAWMEN/ONGOING|---|
 |Wallet Cred Format Matrix| A high-level survey of "wallets" and wallet-link things, showing their current and roadmapped credential-type support as a simple markdown matrix | ongoing / crowdsource (hackmd still open)| [hackmd](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA) | oct 24 2020 |
-||VERSIONED
+|---|VERSIONED|---|
 |Map (pdf)| A drilled-down map of all the varieties of components used in a core set of decentralized identity applications known to the group|v0.0.9|[github pdf](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)| oct 24 2020|
 |Map (whimsical)|Same as above, except in editable and commentable (DIF-controlled) Whimsical diagram|v0.0.9|[whimsical](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD)|sept 2020|
-|Map Familiarity Survey| A self-assesment for members to express their general familiarity or conceptual understanding of all the items on v0.0.9 of the map above|[hoolie survey]((https://docs.google.com/forms/d/1ohv_40BFVXc9uVfESJawu9O0UrXxfI60j_QkBYjukUg/edit?usp=drive_web))|Oct 2020|
-|Map Familiarity Survey results analysis| Infographic showing relative high and low points for familiarity of the core group (24 responses)|[github PDF](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-familiarity-survey-result-oct-2020.pdf)|Oct 2020|  
+|Map Familiarity Survey| A self-assesment for members to express their general familiarity or conceptual understanding of all the items on v0.0.9 of the map above|v0.0.9|[hoolie survey]((https://docs.google.com/forms/d/1ohv_40BFVXc9uVfESJawu9O0UrXxfI60j_QkBYjukUg/edit?usp=drive_web))|Oct 2020|
+|Map Familiarity Survey results analysis| Infographic showing relative high and low points for familiarity of the core group (24 responses)|v0.0.9|[github PDF](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-familiarity-survey-result-oct-2020.pdf)|Oct 2020|  
 |SSI 101 #iiw31 Slides (PDF)| Karyl Fowler's and Juan Caballero's pitch deck from SSI101 session at #IIW31| v1 (exhibited at conference)| [github PDF](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/knowledge-base--october-2020.pdf)| oct 24 2020 |
 |SSI 101 #iiw31 Recording (Youtube)| Video of Karyl Fowler's and Juan Caballero's full session, including Q&A, from SSI101 session at #IIW31| v1 (exhibited at conference)| [youtube](https://youtu.be/DaM0UtQTLCs)| oct 24 2020 |
 |Architectural Stack & Community Efforts overview (aka "the three stacks diagram")| Rouven Heck's interpretation of the spec landscape mapped onto layers 1-3 of the ToIP mental model, across the W3C-centric, Hyperledger, and DIF communities. |v1| [github (PDF)](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/ssi-architectural-stack--and--community-efforts-overview.pdf)|Sept 2020|
