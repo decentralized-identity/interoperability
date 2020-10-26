@@ -39,13 +39,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 Agenda
 * Last call for nits on Transcommunity map before it goes to the graphic design pros
-* Crowd-sourcing an #IIW31 *Interop-relevant* Reading List (feel free to propose before or after the meeting via hackmd or github)
+* Crowd-sourcing an #IIW31 *Interop-relevant* Reading List (feel free to propose before or after the meeting via hackmd or github) - working draft [here](https://github.com/decentralized-identity/interoperability/blob/master/assets/iiw31guide.md) - feel free to propose additional rows async or on Wednesday's call
 
 
-|Session Title|Convener|Recording Info|Notes quality|Topics Covered|Recommended for|
-|---|---|---|---|---|---|---|
-|Interop WG readout|Kaliya & Juan|?|not great|Deliverables, Q&A with participants about interop interests and projects|hardcore interop researchers|
-|Condatis Interop Story (?)|Chris Eckl (Condatis)|?|good|Microsoft Authenticator/Evernym Connect.me interop work undertaken by Condatis for NHS; authentication; MIME types and openid:// versus http[s]:// prefix|People working on QR systems for passing URLs|
 
 
 ### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
