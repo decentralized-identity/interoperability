@@ -1,4 +1,7 @@
 # Wallet Credential Format Grid - October 2020
+
+[![hackmd-github-sync-badge](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA/badge)](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA)
+
 ### DIF Interoperability [WG](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
 
 For entertainment purposes only, all claims self-attested and non-binding!
@@ -46,20 +49,21 @@ X = Planning NOT to support this format
 |[uPort Serto](https://ecosystems.uport.me/)          |? |? |? |? |
 |[Minerva](https://twitter.com/MinervaWallet)              |R |Y |X |N |
 |MSFT Authenticator   |PR|Y |X?|N?|
-|evan.network         |Y |? |? |? | 
+|[evan.network](https://evan.network/)/[Trust&Trace](https://trust-trace.com/en/home/)        |Y |N |Y |R | 
 |Jolocom              |Y |? |? |? | 
 |Gataca               |Y |Y |N |R |
 |JLinc/MyData Commons |? |? |? |? |
 |ArcBlock             |Y |Y |X |P |
 |[RANDA](https://randasolutions.com/the-wallet-by-randa/) |Y |Y |N |R |
 |<your wallet here>   |? |? |? |? |
+|[IdentityWallet](https://ceramic.network)       |N |Y |N |N |
 |[tykn.tech](https://tykn.tech/ana/)            |? |? |? |? |
 |Credible             |S |? |? |S |
 |Swisscom Blockchain  |? |? |? |R?|
 |GlobalID             |? |? |Y |R |
 |Mattr                |Y |? |? |Y |
 |Trinsic              |R |? |Y |R |
-|Kiva                 |? |? |? |? |
+|[Kiva](https://github.com/kiva/protocol-demo/)[^footnotekiva]             |R |R |Y |R |
 |Connect.me           |N?|N?|Y |R |
 |Lissi                |N |N |Y |R |
 |SeLF (esatus)        |? |? |Y |R |
@@ -80,4 +84,5 @@ Ideas for future columns or future charts
 ### Footnotes
 [^footnote1]: This is how footnotes work in hackMD. Each footnote has to have a unique name, but you can link to them in multiple places!
 [^footnotespherity]: Somewhere between Y and PR! Our homegrown LD implementation is a little undertested but seems to work fine. Aligning with Mattr's linter and Transmute's Document-Loader is roadmapped!
+[^footnotekiva]: We currently only support anonymous credentials, but are accepting PRs!
 [^footnoteworkday]: We do not use JSON-LD but use LD-style proofs. We use a plain JSON solution without JWTs.
