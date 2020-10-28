@@ -41,7 +41,11 @@ Agenda
 * Last call for nits on Transcommunity map before it goes to the graphic design pros
 * Crowd-sourcing an #IIW31 *Interop-relevant* Reading List (feel free to propose before or after the meeting via hackmd or github) - working draft [here](https://github.com/decentralized-identity/interoperability/blob/master/assets/iiw31guide.md) - feel free to propose additional rows async or on Wednesday's call
 
-
+Minutes
+* Announcements
+    * SDS meeting this week will feature Justin Richer talking about GNAP (formerly OAuth.XYZ) for people researching cutting-edge authorization/authentication 
+    * [infosphere.net](https://identosphere.net/#projects) (planet identity reboot) - digest of blogs and feeds relevant to this work
+* Took notes at the bottom of this open hackmd [doc]([here](https://github.com/decentralized-identity/interoperability/blob/master/assets/iiw31guide.md))
 
 
 ### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
