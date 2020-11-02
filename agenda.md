@@ -19,11 +19,17 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Notary models and adoption hacks?
 * VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
 * Periodic checkins on the multi-ledger (and possible multi-method!?) Indyverse
+* --- **BBS+ FIESTA 2020** --- [**proposed**]
+    * December 2nd or 9th?
+    * Aries and non-Aries people making a pact to work together
+    * C &and; C Work item?
 * --- **TEST SUITEAPALOOZA 2020** --- [**proposed**]
+    * Later in December?
     * Status update on SVIP's past and future suite maintenance
     * Aries and/or BCGov test suites
     * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
+    
     
 </details>
 
@@ -34,6 +40,8 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 #### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
 - Tentative Guest #1: Kim H Duffy - LD Creds Intro (Overview of CCG LD tooling)
 - Tentative Guest #2: Orie Steele- Document-Loader (DIF ID WG work item)
+
+
 
 ### Agenda - 28 Oct 2020 - US/APAC time (600 PST) 
 
