@@ -29,19 +29,76 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Aries and/or BCGov test suites
     * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
-    
+* Educational presentations
+    * Tim Cappalli - MSFT's DID-SIOP (VC-focused edition?)
     
 </details>
 
-### 
+### Agenda - 18 Nov 2020 - 
+
+#### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
+
+Tobias - Intro to BBS+ (versus LD-VCs)
+- Tobias will be overviewing and answering questions about his IIW [presentation](https://www.youtube.com/watch?v=AVnCVzW0rkI)
+
+### Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
+
+#### Side-bar: Human-Centric 
+
+Discussion
+- Presentation: Domains of Identity and human-centric design/UX as corrective for market-driven interop
+- Other ongoing/current events
+    - Adrian: Update on Gold-Button Interop
+    - Kaliya: Take-aways from DID-Core TPAC
+    - "Now what?": Open discussion from last week's sessions (available on youtube for those who missed it)
 
 ### Agenda - 4 Nov 2020 - US/APAC time (1400 PST) 
 
 #### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
-- Tentative Guest #1: Kim H Duffy - LD Creds Intro (Overview of CCG LD tooling)
-- Tentative Guest #2: Orie Steele- Document-Loader (DIF ID WG work item)
+- Tentative Guest #1: Orie Steele- Document-Loader (DIF ID WG work item)
+- Tentative Guest #2: Kim H Duffy - LD Creds Intro (Overview of CCG LD tooling)
 
-
+Minutes 
+* Opening discussion
+* Document-Loader introduction by Orie (Transmute)
+    * Intro: What do DIDs and VCs do, ideally?
+        * Definitions: "resolution" (in DID-core) and "representations" (LD versus vanilla-JSON versus...)
+        * DID Doc versus OIDC federation of centralized IDs
+        * Resolution mechanics vary significantly by representation; most methods have one "native" rep that skews its resolution mental model
+        * In LD-land, document-loader is the norm (essential to all LD-centric methods' resolution mechanisms)
+    * Document-Loader as recursive/general-purpose derefencer
+        * JSON-LD core spec models/specs this
+    * Sidebar q: novice-friendlier explanation of representations-- does it matter to privacy people? to security people?
+        * Orie: Each representation is governed by a spec (JSON RFCs, for ex); it has limitations, allowances, features, assumptions, more or less built-in data types; 
+        * DID-Core takes LD dereferencing and extends it to a whole identifier system; extending it to vanilla JSON, XML, CBOR, etc gets complicated and implies "LD problems," i.e. how to do resolution and resolving
+        * [Mental note: return to Adrian's question about security and privacy issues inherent in resolution/dereferencing]
+    * Document-loading - a particular way of resolving data; DID-core has its origins in this kind of resolution
+        * many interoperability problems at the PKI layer and at the assertion-format layer arise from "gaps" between representations or between specs written with different assumptions in mind
+        * codifying did-core dereferencing logic (going from string --> did doc) got written by uPort team and has been foundational for many non-LD systems; JWT proof formats similarly had to be built by equivalence;
+        * more general d-l logic:
+            * did resolution: string --> doc
+            * schema.org
+            * Azure IoT and other contexts that identify entities with strings --> also D-L 
+* Kim: Overview of [VC-Edu group](w3c-ccg.github.io/vc-ed) at CCG
+    * Major work items:
+        * Modeling Ed Creds - usecase driven (ins and outs, design principles, lessons learned)
+        * Credential Finder - LD-powered discovery engine
+    * Not an SDO, but wide participation and experience: PESC IMS-Global and other international bodies (mostly EU)
+        * "unblock and accelerate our pilots"
+        * legal signature requirements (CAs, x509, regional/national specifics about eSigs)
+        * XML and PDFs = 
+    * DCC Credential [Playground](digitalcredentials.github.io/playground) - sandbox for LD VCs and 
+        * /sign-and-verify/ tools = 
+        * /credgen/ = template tool (generates LD VC templates using {{moustached pattern-matching}})
+    * Other useful links
+        * Mattr's BBS+ LD proofs [spec](https://github.com/w3c-ccg/ldp-bbs2020)
+        * LD VCs standardized on LD-centric CCG [exch protocol](https://github.com/w3c-ccg/vc-http-api)
+    * Q&A
+        * Keith (Workday) - We're working on a pilot - is anyone else using the LER wrapper?
+            * Kim: Interop test suites (orig. SVIP, now CCG) - conformance test suites 
+        * Pam: What would you like this group to do?
+            * Kim: context: ACE blockchain challenge and wallets; DIF would be a good location for practical ongoing discussion of logistics for those kinds of venues
+* Future agenda topic - Power in the standards process - separation of concerns as a mantra for protecting against coupling of ontology and platform mechanics?
 
 ### Agenda - 28 Oct 2020 - US/APAC time (600 PST) 
 
