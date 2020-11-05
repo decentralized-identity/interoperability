@@ -40,6 +40,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 Tobias - Intro to BBS+ (versus LD-VCs)
 - Tobias will be overviewing and answering questions about his IIW [presentation](https://www.youtube.com/watch?v=AVnCVzW0rkI)
+- Additional recommended reading by Tobias' colleague [Nader Helmy](https://medium.com/mattr-global/jwt-vs-linked-data-proofs-comparing-vc-assertion-formats-a2a4e6671d57): is BBS+ really a "credential format" or is it a combination of credential handling and presenting methods? Is it a security model? Does the "credential format" mental model underestimate or misframe the kinds of changes needed to fully "go BBS+"?
 
 ### Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
 
