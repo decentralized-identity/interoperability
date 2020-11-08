@@ -30,7 +30,14 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
 * Educational presentations
-    * Tim Cappalli - MSFT's DID-SIOP (VC-focused edition?)
+    * Tim Cappalli - MSFT's DID-SIOP (VC-focused edition)
+    * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
+    * x509 worldwide - Finema, Spherity, Discipl, ...?
+    * Cloud Wars and Gaia-X, ...?
+    * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
+    * Tim Cappalli - MSFT's DID-SIOP (DIDAuth-focused edition)
+    
+    
     
 </details>
 
@@ -44,7 +51,7 @@ Tobias - Intro to BBS+ (versus LD-VCs)
 
 ### Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
 
-#### Side-bar: Human-Centric 
+#### Side-bar: Human-Centric Approaches & Updates
 
 Discussion
 - Presentation: Domains of Identity and human-centric design/UX as corrective for market-driven interop
@@ -52,12 +59,14 @@ Discussion
     - Adrian: Update on Gold-Button Interop
     - Kaliya: Take-aways from DID-Core TPAC
     - "Now what?": Open discussion from last week's sessions (available on youtube for those who missed it)
+    - Recap from last week: videos of Orie's presentation and Kim's are up!
+    - Sneak preview of next week: homework! a [video](https://www.youtube.com/watch?v=AVnCVzW0rkI) and an [article](https://medium.com/mattr-global/jwt-vs-linked-data-proofs-comparing-vc-assertion-formats-a2a4e6671d57)
 
 ### Agenda - 4 Nov 2020 - US/APAC time (1400 PST) 
 
-#### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
-- Tentative Guest #1: Orie Steele- Document-Loader (DIF ID WG work item)
-- Tentative Guest #2: Kim H Duffy - LD Creds Intro (Overview of CCG LD tooling)
+#### LD/BBS+ Education Pt. 1: Walkthroughs and Mental Models/Reports from the Field
+- Guest Presenter #1: Orie Steele- [The What and Why of the DIF general-purpose Document-Loader](https://youtu.be/-yUbMDft5O0)
+- Guest Presenter #2: Kim H Duffy - [W3C-CCG Edu Creds Task Force & Tooling/Sandbox Intro](https://youtu.be/AEb02JGCArM) (Overview of CCG LD tooling)
 
 Minutes 
 * Opening discussion
