@@ -51,11 +51,11 @@ Tobias - "BBS+ 201"
     - Tobias' colleague [Nader Helmy](https://medium.com/mattr-global/jwt-vs-linked-data-proofs-comparing-vc-assertion-formats-a2a4e6671d57): is BBS+ really a "credential format" or is it a combination of credential handling and presenting methods? Is it a security model? Does the "credential format" mental model underestimate or misframe the kinds of changes needed to fully "go BBS+"?
     - The [paper](https://github.com/WebOfTrustInfo/rwot9-prague/blob/master/final-documents/alice-attempts-abuse-verifiable-credential.md) on Sybil-proofing VC exchange referenced at minute 18.30 of Tobias' video from RWoT9, by WG co-chair Pam Dingle, Daniel Hardman, researcher Sven Hammon, et al.
 - Discussion questions
-    * To what degree is this a VC "format", and to what degree is it a VP upgrade?
-    * How are domains and linked secrets related, in the Aries universe? Are systems outside of the Aries world using domain-based indirection?
-    * What standards need to change/upgrade for these additional values ("proofValue", "subjectAuthenticationMethod", etc.) to be widespread? Consequences for core VC spec, LD-Proof spec, etc?
-    * How big is the "lift" (or level of effort) for Aries systems post-[RFC 47](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0047-json-ld-compatibility/README.md)?  How big for non-Aries systems already using LD-VCs today?  How big for JWT-native systems? 
-    * [If time allows] Could we talk more about "Just-in-time Issuance" and "Trusted Witness" solutions?
+    1. To what degree is this a VC "format", and to what degree is it a VP upgrade?
+    1. What standards need to change/upgrade for these additional values ("proofValue", "subjectAuthenticationMethod", etc.) to be widespread? Consequences for core VC spec, LD-Proof spec, etc?
+    1. How are domains and linked secrets related, in the Aries universe? Are systems outside of the Aries world using domain-based indirection?
+    1. How big is the "lift" (or level of effort) for Aries systems post-[RFC 47](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0047-json-ld-compatibility/README.md)?  How big for non-Aries systems already using LD-VCs today?  How big for JWT-native systems? 
+    1. [If time allows] Could we talk more about "Just-in-time Issuance" and "Trusted Witness" solutions?
 
 ### Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
 
