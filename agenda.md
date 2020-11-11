@@ -72,6 +72,13 @@ Discussion
     - Recap from last week: videos of Orie's presentation and Kim's are up!
     - Sneak preview of next week: homework! a [video](https://www.youtube.com/watch?v=AVnCVzW0rkI) and an [article](https://medium.com/mattr-global/jwt-vs-linked-data-proofs-comparing-vc-assertion-formats-a2a4e6671d57)
 
+Links from the discussion today
+- MyData Gold-Button demo/mockup [video](https://www.youtube.com/watch?v=DrFM9-fFiE0) by Chris Lee
+- GNAP protocol mentioned by Adrian:
+    - 119 page draft spec at [IETF](https://www.ietf.org/archive/id/draft-ietf-gnap-core-protocol-01.html)
+    - Justin Richter's GNAP presentation from the [highly technical] SDS [working group regular meeting](https://lists.identity.foundation/g/sds-wg/wiki/24092)
+    - His GNAP presentation at yesterday's meeting of [W3C-CCG](https://github.com/w3c-ccg/meetings) (transcript/rec not yet live on github i believe)
+
 ### Agenda - 4 Nov 2020 - US/APAC time (1400 PST) 
 
 #### LD/BBS+ Education Pt. 1: Walkthroughs and Mental Models/Reports from the Field
