@@ -41,7 +41,9 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
-### Agenda - 18 Nov 2020 - 
+### Agenda - 25 Nov 2020 - US/APAC time (1400 PST)
+
+### Agenda - 18 Nov 2020 - US/EU time (0600 PST)
 
 #### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
 
