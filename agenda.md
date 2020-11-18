@@ -23,27 +23,40 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * December 2nd or 9th?
     * Aries and non-Aries people making a pact to work together
     * C &and; C Work item?
-* --- **TEST SUITEAPALOOZA 2020** --- [**proposed**]
+* --- **TEST SUITEAPALOOZA 2020** --- [**F2F? align with SVIP and/or ESSIF?**]
     * Later in December?
     * Status update on SVIP's past and future suite maintenance
     * Aries and/or BCGov test suites
     * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
 * Educational presentations
-    * Tim Cappalli - MSFT's DID-SIOP (VC-focused edition)
-    * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
+    * Tim Cappalli - MSFT's DID-SIOP implementation (VC-focused edition)
+    * Oliver - [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda) ? (VC-focused edition)
+    * Stephen Curran - Aries BBS+ Recruitment Party
+    
     * x509 worldwide - Finema, Spherity, Discipl, ...?
-    * Cloud Wars and Gaia-X, ...?
+    * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
+    * KERI and Certificate Transparency - Dmitry? Sam Smith? Sam Huseby?
+    
+    * EDV Use Cases v2 - Manu?
+    * Cloud Wars and Gaia-X - ...?
+    
     * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
-    * Tim Cappalli - MSFT's DID-SIOP (DIDAuth-focused edition)
+    * The Best way to do JWTs - Gabe Cohen?
+    
+    * MSFT's DID-SIOP (DIDAuth-focused edition) - Tim Cappali? Pam? Daniel Buchner?
     
     
     
 </details>
 
-### Agenda - 25 Nov 2020 - US/APAC time (1400 PST)
+### Agenda - 9 Dec 2020 - US/EU time (0600 PT)
 
-### Agenda - 18 Nov 2020 - US/EU time (0600 PST)
+### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - BBS+ & Aries
+
+### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop - ESSIF-LAB
+
+### Agenda - 18 Nov 2020 - US/APAC time (1400 PT) 
 
 #### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
 
