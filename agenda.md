@@ -50,11 +50,39 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
-### Agenda - 9 Dec 2020 - US/EU time (0600 PT)
+### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
 
-### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - BBS+ & Aries
+### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - Essif-Lab technical deep dive - Riek Joosten and Oskar van Deventer
 
-### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop - ESSIF-LAB
+* more detailed tour of functional architecture.
+* Oskar: how we think about linking it up to ToIP (as an ecosystem, regarding governance, and terminology) - Is Dutch SSI ecosystem or eSSIF-Lab an “ecosystem”? Could eSSIF-Lab hand off their work as input documents to the Ecosystem Foundry?
+* Rieks: Terminology work
+    * In particular, the "Local assurance communities" idea from CCI
+    * Broader category of decentralized governance (the 'local assurance community'-concept as initiated with CCI → whitepaper with Drummond?)
+* Interop specifications discussion-- how to align with existing API standards?
+* Open Q&A
+
+
+### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
+
+* [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/)
+* BBS+ in Aries overview
+
+### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
+
+Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/))
+* SSI track and other tracks (like Conscious Cities)
+* [SSI Infrastructure Gateway](https://github.com/OdysseyMomentum/ssi-service-backend) by [TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/) (includes IRMA, Jolocom, eSatus) 
+    * Source is open; live APIs running on essif-lab GRNet & at Odyssey Github & DigiCampus 
+    * API where issuers can send their credential-payloads to, and where verifiers can request to obtain credentials containing such payloads
+    * Currently supports: IRMA, Jolocom, eSatus
+    * Soon to support: IDA (Rabobank ULA)
+    * the 'SSI-gateway' as an SSI infrastructure adopter (story was developed at the Odyssey!)
+* Rabobank - [Universal Ledger Agent](https://github.com/rabobank-blockchain/universal-ledger-agent) (outlined at [RWOT8](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md))
+ESSIF-LAB: 
+    * high-level overview of TNO/eSSIF-Lab overall SSI vision (30min)
+    * ideas about non-tech interop topics (specifically what we have come to call 'documentation interop')
+    * Quick tour of published conceptual materials 
 
 ### Agenda - 18 Nov 2020 - US/APAC time (1400 PT) 
 
