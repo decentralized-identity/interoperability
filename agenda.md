@@ -30,7 +30,6 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
 * Educational presentations
-    * Tim Cappalli - MSFT's DID-SIOP implementation (VC-focused edition)
     * Oliver - [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda) ? (VC-focused edition)
     * Stephen Curran - Aries BBS+ Recruitment Party
     
@@ -50,15 +49,14 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
+### Agenda - 23 Dec 2020 - US/EU time (0600 PT) - DAF Update?
+
 ### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
 
 ### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - Essif-Lab technical deep dive - Riek Joosten and Oskar van Deventer
 
 * more detailed tour of functional architecture.
 * Oskar: how we think about linking it up to ToIP (as an ecosystem, regarding governance, and terminology) - Is Dutch SSI ecosystem or eSSIF-Lab an “ecosystem”? Could eSSIF-Lab hand off their work as input documents to the Ecosystem Foundry?
-* Rieks: Terminology work
-    * In particular, the "Local assurance communities" idea from CCI
-    * Broader category of decentralized governance (the 'local assurance community'-concept as initiated with CCI → whitepaper with Drummond?)
 * Interop specifications discussion-- how to align with existing API standards?
 * Open Q&A
 
@@ -79,8 +77,11 @@ Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.
     * Soon to support: IDA (Rabobank ULA)
     * the 'SSI-gateway' as an SSI infrastructure adopter (story was developed at the Odyssey!)
 * Rabobank - [Universal Ledger Agent](https://github.com/rabobank-blockchain/universal-ledger-agent) (outlined at [RWOT8](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md))
-ESSIF-LAB: 
-    * high-level overview of TNO/eSSIF-Lab overall SSI vision (30min)
+ESSIF-LAB (30min): 
+    * high-level overview of TNO/eSSIF-Lab overall SSI vision
+    * Rieks: Terminology work
+    * In particular, the "Local assurance communities" idea from CCI
+    * Broader category of decentralized governance (the 'local assurance community'-concept as initiated with CCI → whitepaper with Drummond?)
     * ideas about non-tech interop topics (specifically what we have come to call 'documentation interop')
     * Quick tour of published conceptual materials 
 
