@@ -70,6 +70,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/))
 * SSI track and other tracks (like Conscious Cities)
+    * DIF members [Gimly](https://www.gimly.io/blog) won the KLM supply chain track with a [VC solution](https://www.linkedin.com/feed/update/urn:li:activity:6734757528330088448/) based on Tangem NFC cards !
 * [SSI Infrastructure Gateway](https://github.com/OdysseyMomentum/ssi-service-backend) by [TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/) (includes IRMA, Jolocom, eSatus) 
     * Source is open; live APIs running on essif-lab GRNet & at Odyssey Github & DigiCampus 
     * API where issuers can send their credential-payloads to, and where verifiers can request to obtain credentials containing such payloads
@@ -77,8 +78,10 @@ Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.
     * Soon to support: IDA (Rabobank ULA)
     * the 'SSI-gateway' as an SSI infrastructure adopter (story was developed at the Odyssey!)
 * Rabobank - [Universal Ledger Agent](https://github.com/rabobank-blockchain/universal-ledger-agent) (outlined at [RWOT8](https://github.com/WebOfTrustInfo/rwot8-barcelona/blob/master/topics-and-advance-readings/universal-ledger-agent.md))
+
 ESSIF-LAB (30min): 
-    * high-level overview of TNO/eSSIF-Lab overall SSI vision
+
+* high-level overview of TNO/eSSIF-Lab overall SSI vision
     * Rieks: Terminology work
     * In particular, the "Local assurance communities" idea from CCI
     * Broader category of decentralized governance (the 'local assurance community'-concept as initiated with CCI → whitepaper with Drummond?)
