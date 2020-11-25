@@ -63,8 +63,8 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
 
-* [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/)
-* BBS+ in Aries overview
+* Introduction to [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/) with researcher Michael Ruminer, talking about how to maintain it going forward
+* BBS+ in Aries overview with Stephen Curran
 
 ### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
 
