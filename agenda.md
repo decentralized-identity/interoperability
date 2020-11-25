@@ -88,6 +88,16 @@ ESSIF-LAB (30min):
     * ideas about non-tech interop topics (specifically what we have come to call 'documentation interop')
     * Quick tour of published conceptual materials 
 
+<details>
+<summary>Notes</summary>
+* contact information for the speakers here!
+    * rieks.joosten at   tno.nl
+    * chris.lee at  mydata.org
+    * Jacob.boersma   at dutchblockchaincoalition.org
+    * caspar  at  gimly.io
+
+</details>
+
 ### Agenda - 18 Nov 2020 - US/APAC time (1400 PT) 
 
 #### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
