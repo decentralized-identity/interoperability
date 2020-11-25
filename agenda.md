@@ -82,7 +82,7 @@ Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.
 ESSIF-LAB (30min): 
 
 * high-level overview of TNO/eSSIF-Lab overall SSI vision
-    * Rieks: Terminology work
+    * Rieks: Work on Terminology and ["documentation interop"](https://essif-lab.pages.grnet.gr/framework/docs/terms/pattern-party-actor-action)
     * In particular, the "Local assurance communities" idea from CCI
     * Broader category of decentralized governance (the 'local assurance community'-concept as initiated with CCI → whitepaper with Drummond?)
     * ideas about non-tech interop topics (specifically what we have come to call 'documentation interop')
