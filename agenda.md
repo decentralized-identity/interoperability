@@ -70,7 +70,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/))
 * SSI track and other tracks (like Conscious Cities)
-    * DIF members [Gimly](https://www.gimly.io/blog) won the KLM supply chain track with a [VC solution](https://www.linkedin.com/feed/update/urn:li:activity:6734757528330088448/) based on Tangem NFC cards !
+    * DIF members [Gimly](https://www.gimly.io/blog) won the KLM supply chain track with a [VC solution](https://www.linkedin.com/feed/update/urn:li:activity:6734757528330088448/) based on [Tangem NFC](https://gimly.io/tangem-by-gimly) cards !
 * [SSI Infrastructure Gateway](https://github.com/OdysseyMomentum/ssi-service-backend) by [TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/) (includes IRMA, Jolocom, eSatus) 
     * Source is open; live APIs running on essif-lab GRNet & at Odyssey Github & DigiCampus 
     * API where issuers can send their credential-payloads to, and where verifiers can request to obtain credentials containing such payloads
