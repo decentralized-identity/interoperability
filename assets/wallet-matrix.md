@@ -83,6 +83,9 @@ Ideas for future columns or future charts
 
 ### Footnotes
 [^footnote1]: This is how footnotes work in hackMD. Each footnote has to have a unique name, but you can link to them in multiple places!
+
 [^footnotespherity]: Somewhere between Y and PR! Our homegrown LD implementation is a little undertested but seems to work fine. Aligning with Mattr's linter and Transmute's Document-Loader is roadmapped!
+
 [^footnotekiva]: We currently only support anonymous credentials, but are accepting PRs!
+
 [^footnoteworkday]: We do not use JSON-LD but use LD-style proofs. We use a plain JSON solution without JWTs.
