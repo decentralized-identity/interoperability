@@ -40,7 +40,7 @@ X = Planning NOT to support this format
 ### THE MAIN EVENT
 
 |VC Creds: | LD-Proofs (i.e. VCs in conformant LD) | VC-JWTs | AnonCreds | BBS+ | 
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | fine print: | VCs stored in conformant LD | VCs in Vanilla JSON | tooling for Indy-based Linked Secrets | LD-based ZKP presentation-enabled (independent of Indy support) | 
 |Transmute            |Y |? |? |? |
 |Veres Wallet         |Y |X |X |N |
