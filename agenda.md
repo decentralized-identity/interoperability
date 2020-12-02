@@ -18,6 +18,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Further afield usecases (VC-free, DID-free, human-free, LEI, etc) - venn diagram of interop goals?
 * Notary models and adoption hacks?
 * VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
+    * Adrian's question: do too many VC mental models and specs *assume* VCs going straight from issuer to holder, never issuer to verifier on direct behalf of holder?
 * Periodic checkins on the multi-ledger (and possible multi-method!?) Indyverse
 * --- **BBS+ FIESTA 2020** --- [**proposed**]
     * December 2nd or 9th?
@@ -65,6 +66,56 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 * Introduction to [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/) with researcher Michael Ruminer, talking about how to maintain it going forward
 * BBS+ in Aries overview with Stephen Curran
+
+<details>
+<summary>Notes</summary>
+* Michael Ruminer
+    * Self-education motivation - testing the hypothesis that with the right overview, the VC universe can be grokkable
+    * Release page on github repo (already in DIF repo!)
+        * plug for .drawio - open-source diagramming tool
+    * quick tour of the diagram
+        * white boxes - external to decentralized identity community
+        * CCG-centric by formation, but looking forward to add more DIF and Hyperledger RFCs
+            * Left out SIOP to make it to v1, hehe 
+    * Q & A 
+        * Adrian: DIDs out of scope? 
+            * I didn't 
+        * Pamela: What did you miss the most going through this? What would've made your life easier?
+            * W3C specs all had pretty good normative and informative sections - the ones that didn't took longer and I deferred some of those
+        * Juan: What's next?
+            * I drew it from bottom to top, so there's more gaps (intentional and accidental) near the top
+        * Adrian: VCs presumed to go to holder in too many of these maps; 
+        * Stephan: Kumu? Kaliya and I recommend it, it turns CSVs and excel spreadsheets into navigable graphs
+            * it's XML underneath, so I'll have to play with Kumu and see how to best port it in!
+        * Pamela: How useful were [our] intro videos? Michael: I just read spec by spec; I'll look at videos more when I add DIF specs!
+* Stephen's presentation - Aries Great Transformation
+    * Moving Indy's role to "DIDs only"; moving VC to BBS+ to keep all the ZKP features but also comply fully with VC spec
+    * First-Step - full support for w3c LD-VCs (but no ZKP or revocation)
+        * SICPA's --> LD-proof/sig support in Acapy (manual sign/verify, not using Aries libraries) - W3C compliant but no ZKP
+        * AriesGo supports RFC 36/37 (or 453/454) - rebuilding for other agent framework in Py and .NET
+        * Credential storage in Aries "Askar"? Searchable/discoverable proof request?
+            * Indy has "wallet query language" which search against proof request; how to replace?
+    * Second-Step - finish BBS+ enough to spec out and roadmap Aries work in multiple languages
+    * Third Step - Presentation Exhange 
+        * DIF's Pres Exch versus SVIP version (not yet thoroughly reviewed against featureset of Indy wallet req and/or BBS+)
+            * DIF Pres Exch (allows multiple credentials into one VP, which helps BBS+ proof/verify style)
+    * Other topics
+        * Storage searching for credentials 
+        * Support in wallets and other mobile apps
+        * Can anoncreds and BBS+ be supported at same time? backwards compatibility and cross-verification?
+    * Q&A
+        * Pam: Discovery in the wallet not currently in-scope for PE-- would you put it in scope if you could?
+            * Stephen: I don't mind it being out of scope, because that gets into wallet/storage design 
+            * Stephen: Early days of Indy, searching was important in OrgBook's 7million VCs-- 
+    * DID-Only Indy
+        * Draft DID:Indy [spec](https://hackmd.io/@icZC4epNSnqBbYE0hJYseA/S1eUS2BQw) puts non-DID objects(schema, revocation registries, etc) into did docs and refers to them as URIs ; (BBS+ don't need the schema and credDef anyways); RevReg will stay on-ledger 
+    * Q&A
+        * Adrian: having trouble reconciling DIDs, BBS+, and confidential storage - it seems to me that adding stuff to the DID-core might be a bad idea? I like DIDs as control structures only :D; why not lean on some of the stuff being pushed in the confidential storage group ? Might the three (DID control structure, storage, and selective disclosure) be orthogonal by design?
+            * Stephen: Using DID as indirection layer makes cross-ledger interactions much simpler and 
+
+</details>
+
+
 
 ### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
 
