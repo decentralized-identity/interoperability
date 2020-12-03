@@ -45,7 +45,7 @@ X = Planning NOT to support this format
 |Transmute            |Y |? |? |? |
 |Veres Wallet         |Y |X |X |N |
 |Affinity             |Y |? |? |? |
-|Consensys D.A.F.     |? |Y |? |? |
+|Consensys D.A.F.     |PR |Y |N |R |
 |[uPort Serto](https://ecosystems.uport.me/)          |? |? |? |? |
 |[Minerva](https://twitter.com/MinervaWallet)              |R |Y |X |N |
 |MSFT Authenticator   |PR|Y |X?|N?|
@@ -67,7 +67,8 @@ X = Planning NOT to support this format
 |Connect.me           |N?|N?|Y |R |
 |Lissi                |N |N |Y |R |
 |SeLF (esatus)        |? |? |Y |R |
-|Aries Cloud Agent    |PR|N |Y |R |
+|[Aries Cloud Agent](https://github.com/hyperledger/aries-cloudagent-python)    |PR|N |Y |R |
+|[Business Partner Agent](https://github.com/hyperledger-labs/business-partner-agent)   |P |? |Y |? |
 |Spherity|Y[^footnotespherity] |Y|P|R|
 |VIDchain             |Y|PR|R|R|
 |[WayTo by Workday](http://mywayto.com/)|Y[^footnoteworkday]|N|N|N|
