@@ -5,6 +5,7 @@ A project to demonstrate continious technical demonstration of interoperability 
 The project consists of a series of tools and web applications.
 
 - [Meeting page/agendas](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+- [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
 
 ## [Explainer](./docs/explainer.md)
 
