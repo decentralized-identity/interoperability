@@ -4,6 +4,8 @@ A project to demonstrate continious technical demonstration of interoperability 
 
 The project consists of a series of tools and web applications.
 
+- [Meeting page/agendas](https://github.com/decentralized-identity/interoperability/blob/master/agenda.md)
+
 ## [Explainer](./docs/explainer.md)
 
 This group is primarily a "project management" group, working to educate across communities and minimize redundant or wasted work. We strive to be a welcoming place for people new to the space to get up to speed on what's happening elsewhere, as well as for insider and specialists to report out about cutting-edge development, particularly the most relevant work happening *outside* of DIF.
