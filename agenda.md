@@ -54,11 +54,15 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
 
-### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - Essif-Lab technical deep dive - Riek Joosten and Oskar van Deventer
+### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
 
-* more detailed tour of functional architecture.
-* Oskar: how we think about linking it up to ToIP (as an ecosystem, regarding governance, and terminology) - Is Dutch SSI ecosystem or eSSIF-Lab an “ecosystem”? Could eSSIF-Lab hand off their work as input documents to the Ecosystem Foundry?
-* Interop specifications discussion-- how to align with existing API standards?
+* more detailed tour of functional architecture for both projects
+* ESSIF
+    * Timeline of specifications for different aspects of the project
+    * Interop specifications discussion-- how to align with existing API standards?
+* ESSIF-LAB
+    * Oskar: how we think about linking it up to ToIP (as an ecosystem, regarding governance, and terminology) - Is Dutch SSI ecosystem or eSSIF-Lab an “ecosystem”? Could eSSIF-Lab hand off their work as input documents to the Ecosystem Foundry?
+    * Interop specifications discussion-- how to align with existing API standards?
 * Open Q&A
 
 
