@@ -56,7 +56,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 ### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
 
 * more detailed tour of functional architecture for both projects
-* Daniel Du Seuil - A high-level overview of the ESSIF project - [SLIDES PDF HERE](https://github.com/decentralized-identity/interoperability/raw/master/assets/guest-slides/20201209-Du-Seuil%2C-Daniel__ESSIF%2BDIF-Interop.pdf)
+* Daniel Du Seuil - A high-level overview of the ESSIF project 
     * Timeline of specifications for different aspects of the project
     * Interop specifications discussion-- how to align with existing API standards?
 * Oskar van Deventer - An interop-focused (and open-call-detailed!) status update from the ESSIF-LAB incubator - [SLIDES HERE](https://github.com/decentralized-identity/interoperability/raw/master/assets/guest-slides/20201209-van-Deventer%2C-Oskar__ESSIF-LAB%2BDIF-Interop.pdf)
