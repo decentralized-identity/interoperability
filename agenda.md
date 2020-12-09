@@ -47,7 +47,6 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * MSFT's DID-SIOP (DIDAuth-focused edition) - Tim Cappali? Pam? Daniel Buchner?
     
     
-    
 </details>
 
 ### Agenda - 23 Dec 2020 - US/EU time (0600 PT) - DAF Update?
@@ -57,13 +56,50 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 ### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
 
 * more detailed tour of functional architecture for both projects
-* ESSIF
+* Daniel Du Seuil - A high-level overview of the ESSIF project - [SLIDES PDF HERE](https://github.com/decentralized-identity/interoperability/raw/master/assets/guest-slides/20201209-Du-Seuil%2C-Daniel__ESSIF%2BDIF-Interop.pdf)
     * Timeline of specifications for different aspects of the project
     * Interop specifications discussion-- how to align with existing API standards?
-* ESSIF-LAB
+* Oskar van Deventer - An interop-focused (and open-call-detailed!) status update from the ESSIF-LAB incubator - [SLIDES HERE](https://github.com/decentralized-identity/interoperability/raw/master/assets/guest-slides/20201209-van-Deventer%2C-Oskar__ESSIF-LAB%2BDIF-Interop.pdf)
     * Oskar: how we think about linking it up to ToIP (as an ecosystem, regarding governance, and terminology) - Is Dutch SSI ecosystem or eSSIF-Lab an “ecosystem”? Could eSSIF-Lab hand off their work as input documents to the Ecosystem Foundry?
     * Interop specifications discussion-- how to align with existing API standards?
 * Open Q&A
+
+<details>
+<summary>Notes</summary>
+
+* Intros
+    * Adrian Gropper ([HIE of One](https://hieofone.com/)): Working on Privacy things. 
+    * Dr. Susanne Guth-Oriowski, Chief Innovation & Solution Officer of [Spherity](https://www.spherity.com). 
+
+* Daniel: ESSIF
+    * Slides
+    * *cough cough* millions of euros budgets for contracts for improvements on core services and infra
+    * question what kind of ledger - some will be public permissioned. Hyperledger Bezu and Fabric are in use now. We will see other use-cases. EU looking at precommerical procurement and new protocols avaliable. 
+    * Question what should the standards groups be doing to be helpful? What we currently do we don't have an official representation in those groups, we might do so going forward. They are active in different working groups (ISO mentioned)public sector we are very affraid to build someting non-standard. We support all these kinds of things we need to be interoperable. It is public sector and needs to serve everyone. A lot of things are being still being evolved, discussed, it is evolving very fast, what are the things that are stable. Next year will be an important year. Are they compatable with emerging systems. EBSI will be interacting transcontinental working with Canada and Australia - there the standards will be more involved. 
+     * Question within ESSIF differnet frameworks and use - interoperability provided by the data registries on top. See GATCA doing some good work. EBSI won't be imposing the way we do it on other sectors. 
+     * Markus suggest that we could add the ESIF resolver to the universal resolver .Agreed yes.
+
+* Presentation by Oskar 
+    * We are using the metaphor of form filling. 
+    * We have a bunch of open calls. Business Open calls. 
+    * HOw everything works together for interoperability.
+    * They are having various companies open sourcing wallet solution (including evernym) In the first business oriented open call  - GATACA they are working on a generic verifier solution. They can use multiple SSI technologies. Generic SSI functionality offered on a commercial Basis. Open in March closes in May. Active in Area of deploma's Main requirements use SSI components. Everything tightly connected together. Scalabe interoperable. Here are a bunch of examples of things we are looking for. Counter measures vs. SSI coersion. It will be very easy to ask for access to your credentials. Looking for technical, legal business solution. Also looking at integration of different types of SSI tech - INdy/Aries is differet then ESIF. Surprise us! things that will be useful for SSI ecosystem. Third and may part - DIF interoperability working group - the whole purpose - we have these innovators building components and work together. Want thriving business SSI ecosystem. ESSIF lab providing funding and support for the commercial SSI implementations. Should work together components being developed within ESSIF-Lab we have some interop project - shouldn't that type of work happening in a broader arena such as DIF interop. Multiple groups ask to join - ESSIF party is small - DIF innterop is bigger. Once we develop these interoperabilty profiles we get to standardization. This is the architecture picture we are using. You probably recognized - focus on higher layers. 
+    * Picture shows a universal agent - issuer holder and verifier functionality. We don't like about many wallet solutions they are holder oriented - client-server. When it should be semetrical - if two parties do interactions they want to do mutual verification - (parties going to a website needing to know it is really that company) 
+    * Qualified data. 
+    * Work in progress - is this picture something we should contribute to DIF/ToIP?  We have lots of sub-grantees. LInks show where to find
+    * [DIF member] Evernym is open sourcing their verify.me platform.
+    * DIF member] Validated=ID in EBSI/ESSIF will be driving interoperability with the eIDAS-Bridge.
+    * Slide: List of busines oriented interope they are all over the map. 
+        * How to manage so much...How make something complex like this with 50-60 subgranties - and make it work? 
+    * Here is the DIF slide. 
+        * We are doing a lot - there is an interoperability effort. 
+        * Ecosystem foundry is at ToIP. WE don't have a standing organization and continuity - we want that. 
+         * **We don't have a method for interoperability and home for code**. To find what of this work can be done in
+* Questions: would you consider having a home in one of the organizations in the ecosystem. 
+     
+* Question asked about JSON-LD ZKP BBS+ - Daniel its far ahead of where the governments are.  
+     
+</details>
 
 
 ### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
@@ -73,6 +109,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 <details>
 <summary>Notes</summary>
+
 * Michael Ruminer
     * Self-education motivation - testing the hypothesis that with the right overview, the VC universe can be grokkable
     * Release page on github repo (already in DIF repo!)
@@ -107,13 +144,12 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
         * Storage searching for credentials 
         * Support in wallets and other mobile apps
         * Can anoncreds and BBS+ be supported at same time? backwards compatibility and cross-verification?
-    * Q&A
+    * Q & A
         * Pam: Discovery in the wallet not currently in-scope for PE-- would you put it in scope if you could?
             * Stephen: I don't mind it being out of scope, because that gets into wallet/storage design 
             * Stephen: Early days of Indy, searching was important in OrgBook's 7million VCs-- 
     * DID-Only Indy
-        * Draft DID:Indy [spec](https://hackmd.io/@icZC4epNSnqBbYE0hJYseA/S1eUS2BQw) puts non-DID objects(schema, revocation registries, etc) into did docs and refers to them as URIs ; (BBS+ don't need the schema and credDef anyways); RevReg will stay on-ledger 
-    * Q&A
+        * Draft DID:Indy [spec](https://hackmd.io/@icZC4epNSnqBbYE0hJYseA/S1eUS2BQw) puts non-DID objects(schema, revocation registries, etc) into did docs and refers to them as URIs ; (BBS+ don't need the schema and credDef anyways); RevReg will stay on-ledger
         * Adrian: having trouble reconciling DIDs, BBS+, and confidential storage - it seems to me that adding stuff to the DID-core might be a bad idea? I like DIDs as control structures only :D; why not lean on some of the stuff being pushed in the confidential storage group ? Might the three (DID control structure, storage, and selective disclosure) be orthogonal by design?
             * Stephen: Using DID as indirection layer makes cross-ledger interactions much simpler and 
 
