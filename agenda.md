@@ -18,6 +18,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Further afield usecases (VC-free, DID-free, human-free, LEI, etc) - venn diagram of interop goals?
 * Notary models and adoption hacks?
 * VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
+    * Revocable anonymity? Court orders?        
     * Adrian's question: do too many VC mental models and specs *assume* VCs going straight from issuer to holder, never issuer to verifier on direct behalf of holder?
 * Periodic checkins on the multi-ledger (and possible multi-method!?) Indyverse
 * --- **BBS+ FIESTA 2020** --- [**proposed**]
@@ -49,13 +50,41 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
-### Agenda - 6 Jan 2020 - US/EU time (0600 PT) - DAF Update?
-
-### Agenda - 30 Dec 2020 - Happy Holidays everybody! 
-
-### Agenda - 23 Dec 2020 - Happy Holidays everybody! 
+### Agenda - 23 Dec 2020 - US/EU time (0600 PT) - DAF Update?
 
 ### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
+
+<details>
+<summary></summary>
+Intros
+- Eric Kuhn (MSFT Id team)
+- Tim Capalli (MSFT since March)
+
+Intro
+- Authenticator now contains: PW manager and cred wallet, OTP handler, etc
+- screenshare and PPT slides (not yet live demo)
+- swimlane
+- Q&A
+    * Nader: other did method roadmap?
+    * Eric Kuhn: ION and only passive support for others for now (internal univ resolv)
+    * Eric: Pres Exch asks for type by descriptor_map.id
+    * Pam: Name all the specs? DID SIOP, VC and DID-core, PresExch, .well-known (being tested today); verification algo and curve? Secp256k1 for now; Wallet only holds JWT (secp);but Authenticator also verifies LD (ED25519)
+    * Adrian: Wha't's SIOP adding here? Tim: If you were using a passport or authZ library, it usually has OIDC; this lets you drop SIOP in; Pam: If you're already supporting centralized stuff, this allows you to support VCs
+    * Adrian: Consent roadmapped for later? Would you offer an open API, so that those of us that live in the intricate-consent landscape, would be able to use a plugin for more complex consent?
+        - Tim: we were thinking more configuration API for setting defaults...
+        - Adrian: Azure is all about a massive Configuration JSON object; the longterm goal is for VCs to course along pathways that have ; Eric: Not using CM yet (custom contract for now); once we move to CM, the inputs to the card would be mapped to available info; Adrian: I'm more con
+        - Adrian: Should we build a catalog of customizations that can happen in each wallet? Linked secrets or pairwise a required feature of interop? 
+            * Tim: Pairwise by default -- should we ever allow op-in?
+            * Eric: Authenticator knows to call an API to get a new VC for each new RP
+        - Adrian: if we're not going to phone home and we're going to make pairwise the default, how do we break the glass in case of emergencies? Can a court order de-anonymize or trace back a pairwise?
+            * Kaliya: Old-school LD VCs, without ZKP, weren't as concerned with total anonymity...
+            * Nader: Hey Adrian, the answer to your question of how does blinded subject authentication work in the context of JSON-LD BBS+ is explained in this slide, starting on slide 12
+https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8eM8/edit?usp=sharing
+
+- Open to interop - reach out! working on documentation- reach out!
+    
+
+</details>
 
 ### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
 
