@@ -49,7 +49,11 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
-### Agenda - 23 Dec 2020 - US/EU time (0600 PT) - DAF Update?
+### Agenda - 6 Jan 2020 - US/EU time (0600 PT) - DAF Update?
+
+### Agenda - 30 Dec 2020 - Happy Holidays everybody! 
+
+### Agenda - 23 Dec 2020 - Happy Holidays everybody! 
 
 ### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
 
