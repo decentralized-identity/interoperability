@@ -33,7 +33,6 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
 * Educational presentations
     * Oliver - [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda) ? (VC-focused edition)
-    * Stephen Curran - Aries BBS+ Recruitment Party
     
     * x509 worldwide - Finema, Spherity, Discipl, ...?
     * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
@@ -50,13 +49,20 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
     
 </details>
 
-### Agenda - 6 Jan 2020 - US/EU time (0600 PT) - DAF Update?
+### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ID2020 + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
+
+### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - MR?
+- [Possibly sans la Kaliya]
+
+### Agenda - 13 Jan 2020 - US/APAC time (1400PT) - ID2020 + CCI?
+
+### Agenda - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Roadmapping session; DB?
 
 ### Agenda - 30 Dec 2020 - Happy Holidays everybody!
 
 ### Agenda - 23 Dec 2020 - Happy Holidays everybody!
 
-### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
+### [Recording](https://us02web.zoom.us/rec/share/UhIV-vk98lnyeVLaHuGq_o_f8NiuQ2uKA3GM1vMtcg6z8T04y9ugnS6vRzbZkuYe.gy0oWuxjwibGyfXM) - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
 
 <details>
 <summary>Notes</summary>
@@ -90,7 +96,7 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 
 </details>
 
-### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
+### [Recording](https://us02web.zoom.us/rec/share/YJSiutQrX4VvI-H9_JZmaXP5tyd7DtqOqoHkTIXIuofCNhb2IFekEZ2K4FHqNco.FvPxN0QFxhlp2mYG) - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
 
 * more detailed tour of functional architecture for both projects
 * Daniel Du Seuil - A high-level overview of the ESSIF project 
@@ -139,7 +145,7 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 </details>
 
 
-### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
+### [Recording](https://us02web.zoom.us/rec/share/d7YIh26pIJ2jhq2PqFpy0UeoYfJ3GWldVXj6IuXHEKS9gIkcrAlKyAl5fTohhyUb.0H-RADOMVxp94aM3) - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
 
 * Introduction to [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/) with researcher Michael Ruminer, talking about how to maintain it going forward
 * BBS+ in Aries overview with Stephen Curran
@@ -194,7 +200,7 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 
 
 
-### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
+### [Recording](https://us02web.zoom.us/rec/share/n3jWlu5E2vkS5llHMWPIf4PRRhmur5s1eDwJ8oxp0GgVUkMr0-LGTqtW3AtvzWwz.s4KMZtub051SiE4P) - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
 
 Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/))
 * SSI track and other tracks (like Conscious Cities)
@@ -226,7 +232,7 @@ ESSIF-LAB (30min):
 
 </details>
 
-### Agenda - 18 Nov 2020 - US/APAC time (1400 PT) 
+### [Recording](https://us02web.zoom.us/rec/share/-Xk7R0pgZBHzNjfOMen30xnRZssW6WQppNvQH9KDNwgou8qoRhR8vsKf0uiopc4.e0HwFp387JmwS7M_) - 18 Nov 2020 - US/APAC time (1400 PT) 
 
 #### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
 
@@ -242,7 +248,7 @@ Tobias - "BBS+ 201"
     1. How big is the "lift" (or level of effort) for Aries systems post-[RFC 47](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0047-json-ld-compatibility/README.md)?  How big for non-Aries systems already using LD-VCs today?  How big for JWT-native systems? 
     1. [If time allows] Could we talk more about "Just-in-time Issuance" and "Trusted Witness" solutions?
 
-### Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
+### [Recording](https://us02web.zoom.us/rec/share/gK2c_j1egVfEcOLCLENZoocsp7R5K5Ph5MaEQBXjLz_DEYSUkUQW1awd_2LqU784.wvUY74TK_KfAZqbb) - 11 Nov 2020 - US/APAC time (0600 PST)
 
 #### Side-bar: Human-Centric Approaches & Updates
 
@@ -262,7 +268,7 @@ Links from the discussion today
     - Justin Richter's GNAP presentation from the [highly technical] SDS [working group regular meeting](https://lists.identity.foundation/g/sds-wg/wiki/24092)
     - His GNAP presentation at yesterday's meeting of [W3C-CCG](https://github.com/w3c-ccg/meetings) (transcript/rec not yet live on github i believe)
 
-### Agenda - 4 Nov 2020 - US/APAC time (1400 PST) 
+### [Recording](https://us02web.zoom.us/rec/share/KjUmnvS2rrfZ_WsPSggzxZP3s-OP36zq3IdbkoMndK0a96Kid81ucsIt-iRSnvME.sNDt6isH9BOJMmnI) - 4 Nov 2020 - US/APAC time (1400 PST) 
 
 #### LD/BBS+ Education Pt. 1: Walkthroughs and Mental Models/Reports from the Field
 - Guest Presenter #1: Orie Steele- [The What and Why of the DIF general-purpose Document-Loader](https://youtu.be/-yUbMDft5O0)
@@ -310,7 +316,7 @@ Minutes
             * Kim: context: ACE blockchain challenge and wallets; DIF would be a good location for practical ongoing discussion of logistics for those kinds of venues
 * Future agenda topic - Power in the standards process - separation of concerns as a mantra for protecting against coupling of ontology and platform mechanics?
 
-### Agenda - 28 Oct 2020 - US/APAC time (600 PST) 
+### [Recording](https://us02web.zoom.us/rec/share/bCUbntNNU3sMC6yzhANZSIitaE5znl00jrgzhOO1G0EcjeedS6aMzRb7WVcZtQg7.J3C0GXqJTy2pUowi) - 28 Oct 2020 - US/APAC time (600 PST) 
 
 Agenda
 * Last call for nits on Transcommunity map before it goes to the graphic design pros
@@ -323,7 +329,7 @@ Minutes
 * Took notes at the bottom of this open hackmd [doc]([here](https://github.com/decentralized-identity/interoperability/blob/master/assets/iiw31guide.md))
 
 
-### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
+### [Recording](https://us02web.zoom.us/rec/share/MwDSAOFT5zdylbrFOZZ_1af9wGjuZ4kAouVj6qIweupOOSww_aQFiV7T6QpuB8s6.lumWmYFiy9O7q2Li) - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
 
 
 * Notes for IIW31
@@ -338,7 +344,7 @@ Minutes
 
 * Link tree (moved to repo [readme](https://github.com/decentralized-identity/interoperability/))
 
-### Agenda - 14 Oct 2020 - US/APAC time (600 PST) 
+### [Recording](https://us02web.zoom.us/rec/share/-Nl0lzhPZkhM6gd0DCvffS_J9DFXHWvyBG1ZdNWSZCN2KAhXgobWsLmOxupjxb5B.R9XLwt5dTpwO2U5i) - 14 Oct 2020 - US/APAC time (600 PST) 
 
 
 * Crowd-edit First draft of the wallet grid? (10min)
@@ -389,7 +395,7 @@ Attendees:
 
 </details>
 
-### Agenda - 7 Oct 2020 - US/APAC time (1400 PST) 
+### [Recording](https://us02web.zoom.us/rec/share/NHcELUXRMZHdF1c2b_GniKo-wW2e_NxiV1RkyhQowhjKp9v8MMpcodhbyok0im6X.RVZpVK6BiFgIirNu) - 7 Oct 2020 - US/APAC time (1400 PST) 
 
 1. Updates and Announcements
 
@@ -418,7 +424,7 @@ Attendees:
 
 </details>
      
-### Agenda - 30 Sep 2020 - US/EU time (0600 PST)
+### [Recording](https://us02web.zoom.us/rec/share/slysribRqId5nAnV1SIUUhrp3dy6ROjGT7J2M059sYjjrOxEadl8rF13vciL8DL7.mhRGHB4ah4Lw7cdT) - 30 Sep 2020 - US/EU time (0600 PST)
 
 1. Introductions and Hellos
 1. Updates and Announcements
@@ -438,7 +444,7 @@ Attendees:
 
 </details>
 
-### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
+### [Recording](https://us02web.zoom.us/rec/share/rd85JFPkSpGy7XyXT6fRb_GVJ8RN7EGwNKkmDAoKZiFfr67V9adGvHGuYb_26wlM.qz-Q15k5i1shYEtd) - 23 Sep 2020 - US/APAC time (1400 PST)
 
 1. Updates and Announcements
     
@@ -481,7 +487,7 @@ Attendees:
 
 </details>
        
-### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
+### [Recording](https://us02web.zoom.us/rec/share/5yz0MCbJczXzr33-6xeK5xRlXaDSef6zZfV2mfVIrA-SiSXiXU3Z5pD3cmhT_P3s.RLW8DtfYZYZ68Ono) - 16 Sep 2020 - US/EU time (0600 PST)
 
 1. Updates and Announcements
 2. Confirm Liaison list
@@ -559,7 +565,7 @@ Attendees:
 
 </details>
 
-### Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
+### [Recording](https://us02web.zoom.us/rec/share/I7wkWou9zNSDE6SjFIszQeWN5elHAmwU_hz3DLtlImEGIChyDOSST9XN-x9HNTKS.4WFt4LMRBOfQ-2QY) - 9 Sep 2020 - US/APAC time (1400 PST)
 
 0. Introductions and Hellos
 2. Updates and Announcements
@@ -627,7 +633,7 @@ Minutes:
 
 </details>
 
-### Minutes - 2 Sep 2020 - US/EU time (0600 PST)
+### [Recording](https://us02web.zoom.us/rec/share/eVXH7VDDRD_gCgNmG77_HNbeggD6-QXUq7AHsar976yW67NCMo8IsiIiJPf5H3zk.EYEuZyrL5GLwBvIE) - 2 Sep 2020 - US/EU time (0600 PST)
 
 0. Updates and Announcements
     * Indy Interop-a-thon rages on, and many video recordings are already live on the HL Aries Confluence [page](https://wiki.hyperledger.org/display/II/Agenda). Thanks to Linux Foundation for the storage and the infrastructure! Notes from each session are in the [qiqochat site](https://indy-interop.qiqochat.com/) for now, but will be moved to Aries Confluence soon.
@@ -666,7 +672,7 @@ Minutes:
 
 </details>
 
-### Minutes - 26 Aug 2020 - afternoon time (1400 PST)
+### [Recording](https://us02web.zoom.us/rec/share/1MhsM6OzrlNLY53GyG3ZV6MODKXHeaa81HAd8vcIzB3NP5fG7S_MWJmMEvSVNNtm) - 26 Aug 2020 - afternoon time (1400 PST)
 
 
 
@@ -740,7 +746,7 @@ Interesting links shared
 </details>
 
 
-### Minutes - 19 Aug 2020 - morning time (0600 PST)
+### [Recording](https://us02web.zoom.us/rec/share/4_11PYjJqEZJR43L8l3nR6obIdrpX6a81CkXrqYPz0cq-jO2b-CIyqbkDplqEmkD) - 19 Aug 2020 - morning time (0600 PST)
 
 
 Self-Introductions and Announcements (5min)  
