@@ -14,9 +14,18 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 <details>
 <summary>Topics List</summary>
 
-* Human-centric interop as roadmap and business strategy (+ UX?)
-* Further afield usecases (VC-free, DID-free, human-free, LEI, etc) - venn diagram of interop goals?
-* Notary models and adoption hacks?
+Meta-topics and Potential quarter-wide or year-long goals:
+3. Venn diagram of interop goals, and scopes/definitions of interop (contextual)
+    * Don't lose focus on the map model! [link](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
+    * Parallelize (and promote) interop work on totally different scopes
+    * Proposed Work Item: **Architectural guidelines**: "if your role in the ecosystem includes X, looks at ABC specs and make sure you speak D and F to maximize interoperability (and/or future-compatibility)"
+1. Human-centric interop as roadmap and business strategy (+ UX?)
+2. Further afield usecases (VC-free, DID-free, human-free, LEI, etc) 
+    * Non-human decentralized identity?
+6. Interop test suites and harness infrastructure (after March when SVIP/CCG interop sprint ends)
+4. Notary models and adoption hacks? (governance?)
+5. 
+
 * VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
     * Revocable anonymity? Court orders?        
     * Adrian's question: do too many VC mental models and specs *assume* VCs going straight from issuer to holder, never issuer to verifier on direct behalf of holder?
@@ -34,6 +43,8 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Educational presentations
     * Oliver - [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda) ? (VC-focused edition)
     
+    * VC Auth versus ZCap-LD (CCG), ACDC TF (& some day spec?) ToIP - 
+    * Justin Richer: GNAP 
     * x509 worldwide - Finema, Spherity, Discipl, ...?
     * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
     * KERI and Certificate Transparency - Dmitry? Sam Smith? Sam Huseby?
@@ -56,7 +67,22 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ### Agenda - 13 Jan 2020 - US/APAC time (1400PT) - ID2020 + CCI?
 
-### Agenda - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Roadmapping session; DB?
+### [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB) - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Roadmapping session; DB?
+
+Agenda/Minutes
+* Introductions
+    * Adrian Field - PSD2/open banking and SSI interop
+* Year in Review
+    * Report-out
+    * Goals & Roadmap
+* Topic Parking Lot Review (See above)
+    * Meta-topics/Multi-meeting Topics list added
+* Adrian: Human-Centric Protocols and Zero-Trust Architecture
+    * Role definitions borrowed from GNAP pre-spec documents
+    * [Slides](https://docs.google.com/presentation/d/1ksKal62ZiApX09Nejm4RSqHzHJbgwpu_l2Ho64_ePKU/edit#slide=id.p) & Context from the [CCG mailing list](https://lists.w3.org/Archives/Public/public-did-wg/2021Jan/0005.html)
+        * zero-trust terminology taken from [NIST august report](https://csrc.nist.gov/publications/detail/sp/800-207/final)
+    * Proposal to the group: 5 roles from GNAP thinking might be useful? Slippage between assumptions baked into terms used to define roles
+        * GNAP - breaking changes from OAuth2/OIDC, roles have very different assumptions
 
 ### Agenda - 30 Dec 2020 - Happy Holidays everybody!
 
