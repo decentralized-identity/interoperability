@@ -21,6 +21,7 @@ Our [agenda](agenda.md) is stored here in github-- please edit it in hackmd to p
 
 - Ongoing educational curation of DIF [youtube channel](https://studio.youtube.com/channel/UCicZIzvOXOyij0A6jlA7nxQ?c=UCicZIzvOXOyij0A6jlA7nxQ)
 - [VC Spec Map](https://github.com/decentralized-identity/vc-spec-map), created, researched and maintained by independent researcher Michael Ruminer
+- Ongoing [bibliography](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) of input documents and references
 
 ## Minor Deliverables
 
