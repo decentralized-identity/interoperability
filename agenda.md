@@ -19,12 +19,12 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Don't lose focus on the map model! [link](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
     * Parallelize (and promote) interop work on totally different scopes
     * Proposed Work Item: **Architectural guidelines**: "if your role in the ecosystem includes X, looks at ABC specs and make sure you speak D and F to maximize interoperability (and/or future-compatibility)"
+    * Incorporate/consider [ToIP TIPs](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) and [OIX interop study](https://twitter.com/pamelarosiedee/status/1339223733303570432)
 1. Human-centric interop as roadmap and business strategy (+ UX?)
 2. Further afield usecases (VC-free, DID-free, human-free, LEI, etc) 
     * Non-human decentralized identity?
 6. Interop test suites and harness infrastructure (after March when SVIP/CCG interop sprint ends)
 4. Notary models and adoption hacks? (governance?)
-5. 
 
 * VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
     * Revocable anonymity? Court orders?        
