@@ -62,12 +62,21 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ID2020 + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
 
-### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - MR?
+### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - MR? DB?
 - [Possibly sans la Kaliya]
 
-### Agenda - 13 Jan 2020 - US/APAC time (1400PT) - ID2020 + CCI?
+### Agenda - 19 Jan 2020 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
 
-### [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB) - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Roadmapping session; DB?
+### Agenda - 13 Jan 2020 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
+
+* Optional homework: skim, read, or best of all, leave comments on the draft of Kaliya's LFPH/CCI [public-facing lightpaper](https://docs.google.com/document/d/1sipXx9f_hBC8D0S1qZNMAhehblRW8pab-B4TX7CF0lw/edit) on the subject 
+* Warmup discussion: How do you describe the VC format decision to decision-makers, clients, outsiders, etc? (10min)
+* Walkthrough of paper (10min)
+* Crowd-edit and pile-on (30min)
+* Closing discussion: where does this paper go and what else can be done to make this clearer (or obsolete)
+    * Sidebar: Covid credentials
+
+### [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB) - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
 
 Agenda/Minutes
 * Introductions
