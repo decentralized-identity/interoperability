@@ -62,8 +62,8 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ID2020 + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
 
-### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - MR? DB?
-- [Possibly sans la Kaliya]
+### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
+- [Kaliya will likely have a conflict]
 
 ### Agenda - 19 Jan 2020 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
 
