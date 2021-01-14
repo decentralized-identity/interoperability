@@ -60,21 +60,47 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ID2020 + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
+### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett?)
+
+### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - Todd Gehrke (ID2020) + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
 
 ### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
 - [Kaliya will likely have a conflict]
 
 ### Agenda - 19 Jan 2020 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
 
-### Agenda - 13 Jan 2020 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
+Agenda
+* What our deal is (5min tops)
+    * Relationship to other groups
+* Review Projects done (10min)
+    * Invite people to speak up who were part of them
+* Proposed Work Items? (5min)
+* Past topics (5min)
+* Future topics (5min)
+
+### [Agenda](https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA) - 13 Jan 2020 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
 
 * Optional homework: skim, read, or best of all, leave comments on the draft of Kaliya's LFPH/CCI [public-facing lightpaper](https://docs.google.com/document/d/1sipXx9f_hBC8D0S1qZNMAhehblRW8pab-B4TX7CF0lw/edit) on the subject 
-* Warmup discussion: How do you describe the VC format decision to decision-makers, clients, outsiders, etc? (10min)
 * Walkthrough of paper (10min)
+    * Scene by Scene
+    * Scenes that need the most love: 8, 9, 10
+* Review
+    * Marty Reed: Partic in ed, we talk a lot about human-readable, 
+    * Keith: I've had lots of these conversations with decision-makers, but... how do we cut through the complexity to them?
+    * Keith: Can we phrase it as betting advice? Are you telling people to bet on one horse? The paper seems a little biased in favor of BBS+ IMHO...
+        * Kaliya: We can't pretend these differences don't exist
+    * Keith: I felt this paper glossed over the pairwise DID
+        * Sidebar on which systems use pairwise (including JWT, ZKP-CL, and LD systems!) and others don't (in all the same categories)-- it's a cross-cutting (transversal?) category
+    * Scene 9 BBS+ walkthru (Kyle dH)- issuer signs VC (which has a **signature** on it) and holder signs VP (which has a **proof** on it).
+    * Scene 10 - 
+    * Kyle: what's diff between ZKP and nonZKP - all nonZKPs have in common not wanting to reveal the DID or the signature-- ZKP lets you withhold both holderDID and holderDID-Signature in VPs
+* Warmup discussion: How do you describe the VC format decision to decision-makers, clients, outsiders, etc? (10min)
+
 * Crowd-edit and pile-on (30min)
+
 * Closing discussion: where does this paper go and what else can be done to make this clearer (or obsolete)
     * Sidebar: Covid credentials
+
 
 ### [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB) - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
 
