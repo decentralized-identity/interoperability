@@ -42,6 +42,10 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
 * Educational presentations
     * Oliver - [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda) ? (VC-focused edition)
+    * Disposable Identities (Adam Burns is on the hook)
+        * Revocable Anonymity 
+        * What the heck is a synthetic identity? (Michael Shea is up to date on fraud research)
+    * Interop liabilities and new attack surfaces
     
     * VC Auth versus ZCap-LD (CCG), ACDC TF (& some day spec?) ToIP - 
     * Justin Richer: GNAP 
@@ -65,7 +69,62 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - Todd Gehrke (ID2020) + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
 
 ### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
-- [Kaliya will likely have a conflict]
+Agenda
+- introductions and announcements
+    - [INATBA Roundtable](https://inatba.org/events-calendar/decentralised-identity-whats-at-stake/) happening tomorrow - come support DIF members Jolocom (Kai) and Transmute (Karyl) that are speaking on a panel with friends of the podcast Daniel du Seuil and Anil John!
+- Presentation of Veramo
+    - [Website](https://veramo.io) and [github repo](https://github.com/uport-project/veramo)
+
+<details>
+<summary>Minutes</summary>
+
+- Intro - uPort history and relationship between Consensys, uPort, and Veramo
+    - Veramo URL:  http://veramo.io
+    - backward compatibility with uPort, but more easily extensible and modular architecture
+    - moving to a more messaging- and event-based structure
+- Architecture tour - highlevel
+    - SDR - temporary presentation request while we wait for a wider standard to harden (will replace later with Pres Manifest or such)
+    - W3C Credential (JWT)
+
+![](https://i.imgur.com/J4hJI77.png)
+
+- Architecture tour - Plugins and modules
+    - Agent Apps: Veramo CLI & Veramo Agent App (HTTP)
+    - modular plugins that expose methods to each other via TypeScript API calls or via openAPI proper 
+
+![](https://i.imgur.com/gy4jTOz.png)
+- Roadmap
+    - LD Proofs coming soon
+    - Presentation Exchange / Cred Manifest
+    - Aries & DIDComm v2 (will replace native Veramo messaging)
+    - DID:Ion ?
+    - Modular enough that other people can write plugins for any ZKP presentations and verifications people want, be our guest!
+
+![](https://i.imgur.com/sOAPXHB.png)
+![](https://i.imgur.com/bliguWh.png)
+
+
+
+- Juan's questions
+    - Data store (SQL?) versus EDV? Key manager versus KeyCloak or WebKMS?
+    - REPLACE messaging with DIDComm? Backwards compat?
+    
+- Q and A
+    - Adrian: This is great, feels like it 
+    - Adrian: Is this an attempt to remake GNAP AS for SSI tools? Or is the future API fortresses? 
+        - Future agenda item?
+        - Oliver: I think the veramo plugin system with remote plugins would work with GNAP, depending how you divide labor between parties in your architecture; I can definitely imagine a plugin method using GNAP to convey privileges between remote plugins on diff exec environments; we see that as in scope;
+        - Oliver: I'd be really interested to hear you speak about what GNAP's role would be? It's important, sure, but it's also specific to the architecture you're imagining
+        - Sam Curren: This architecture can use its backend service an agent, but that agent isn't an AS, although it can work with one; client/server model is a weird fit to agent-to-agent architectures, so not incompatible; 
+        - Sam: Pluggable authZ schemes depend on what role it plays (as agent) 
+    - KMS versus other KMSs
+        - Key Manager is not to replace, just an interface (webKMS could replace it, if someone made an interface for it; EDVs could replace the data store if someone figures out the custom API)
+        - Rouven - could also be used as a testing framework with DID:Key - all you need is a few plugins
+    - Pam: This presentation was very complete and professional-- OS, right? How would you sell this to a customer? How do you sell this? I would like to amplify this.
+        - Rouven - enterprise plugins & legacy support plugins for hire :), not much 
+    - Sam: Pushing messaging problems into resource framework? 
+    
+</details>
 
 ### Agenda - 19 Jan 2020 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
 
