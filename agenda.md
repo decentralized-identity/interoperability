@@ -141,6 +141,15 @@ Agenda
 
 * Optional homework: skim, read, or best of all, leave comments on the draft of Kaliya's LFPH/CCI [public-facing lightpaper](https://docs.google.com/document/d/1sipXx9f_hBC8D0S1qZNMAhehblRW8pab-B4TX7CF0lw/edit) on the subject 
 * Walkthrough of paper (10min)
+* Review
+* Warmup discussion: How do you describe the VC format decision to decision-makers, clients, outsiders, etc? (10min)
+* Crowd-edit and pile-on (30min)
+* Closing discussion: where does this paper go and what else can be done to make this clearer (or obsolete)
+    * Sidebar: Covid credentials
+
+<details>
+<summary>Minutes</summary>
+* Walkthrough of paper (10min)
     * Scene by Scene
     * Scenes that need the most love: 8, 9, 10
 * Review
@@ -159,7 +168,7 @@ Agenda
 
 * Closing discussion: where does this paper go and what else can be done to make this clearer (or obsolete)
     * Sidebar: Covid credentials
-
+</details>
 
 ### [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB) - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
 
