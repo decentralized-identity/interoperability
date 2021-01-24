@@ -236,7 +236,9 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/YJSiutQrX4VvI-H9_JZmaXP5tyd7DtqOqoHkTIXIuofCNhb2IFekEZ2K4FHqNco.FvPxN0QFxhlp2mYG) - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
+### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
+
+[Recording](https://us02web.zoom.us/rec/share/YJSiutQrX4VvI-H9_JZmaXP5tyd7DtqOqoHkTIXIuofCNhb2IFekEZ2K4FHqNco.FvPxN0QFxhlp2mYG)
 
 * more detailed tour of functional architecture for both projects
 * Daniel Du Seuil - A high-level overview of the ESSIF project 
@@ -285,7 +287,9 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 </details>
 
 
-### [Recording](https://us02web.zoom.us/rec/share/d7YIh26pIJ2jhq2PqFpy0UeoYfJ3GWldVXj6IuXHEKS9gIkcrAlKyAl5fTohhyUb.0H-RADOMVxp94aM3) - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
+### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
+
+[Recording](https://us02web.zoom.us/rec/share/d7YIh26pIJ2jhq2PqFpy0UeoYfJ3GWldVXj6IuXHEKS9gIkcrAlKyAl5fTohhyUb.0H-RADOMVxp94aM3)
 
 * Introduction to [Spec Map](https://github.com/manicprogrammer/vc-spec-rel/) with researcher Michael Ruminer, talking about how to maintain it going forward
 * BBS+ in Aries overview with Stephen Curran
@@ -340,7 +344,9 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 
 
 
-### [Recording](https://us02web.zoom.us/rec/share/n3jWlu5E2vkS5llHMWPIf4PRRhmur5s1eDwJ8oxp0GgVUkMr0-LGTqtW3AtvzWwz.s4KMZtub051SiE4P) - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
+### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
+
+[Recording](https://us02web.zoom.us/rec/share/n3jWlu5E2vkS5llHMWPIf4PRRhmur5s1eDwJ8oxp0GgVUkMr0-LGTqtW3AtvzWwz.s4KMZtub051SiE4P)
 
 Report-out about Odyssey Momentum (30min) with Rieks Joosten ([TNO](https://www.tno.nl/en/focus-areas/information-communication-technology/roadmaps/data-sharing/ssi/))
 * SSI track and other tracks (like Conscious Cities)
@@ -372,7 +378,9 @@ ESSIF-LAB (30min):
 
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/-Xk7R0pgZBHzNjfOMen30xnRZssW6WQppNvQH9KDNwgou8qoRhR8vsKf0uiopc4.e0HwFp387JmwS7M_) - 18 Nov 2020 - US/APAC time (1400 PT) 
+### Agenda - 18 Nov 2020 - US/APAC time (1400 PT) 
+
+[Recording](https://us02web.zoom.us/rec/share/-Xk7R0pgZBHzNjfOMen30xnRZssW6WQppNvQH9KDNwgou8qoRhR8vsKf0uiopc4.e0HwFp387JmwS7M_)
 
 #### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
 
@@ -388,7 +396,9 @@ Tobias - "BBS+ 201"
     1. How big is the "lift" (or level of effort) for Aries systems post-[RFC 47](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0047-json-ld-compatibility/README.md)?  How big for non-Aries systems already using LD-VCs today?  How big for JWT-native systems? 
     1. [If time allows] Could we talk more about "Just-in-time Issuance" and "Trusted Witness" solutions?
 
-### [Recording](https://us02web.zoom.us/rec/share/gK2c_j1egVfEcOLCLENZoocsp7R5K5Ph5MaEQBXjLz_DEYSUkUQW1awd_2LqU784.wvUY74TK_KfAZqbb) - 11 Nov 2020 - US/APAC time (0600 PST)
+### Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
+
+[Recording](https://us02web.zoom.us/rec/share/gK2c_j1egVfEcOLCLENZoocsp7R5K5Ph5MaEQBXjLz_DEYSUkUQW1awd_2LqU784.wvUY74TK_KfAZqbb)
 
 #### Side-bar: Human-Centric Approaches & Updates
 
@@ -408,7 +418,9 @@ Links from the discussion today
     - Justin Richter's GNAP presentation from the [highly technical] SDS [working group regular meeting](https://lists.identity.foundation/g/sds-wg/wiki/24092)
     - His GNAP presentation at yesterday's meeting of [W3C-CCG](https://github.com/w3c-ccg/meetings) (transcript/rec not yet live on github i believe)
 
-### [Recording](https://us02web.zoom.us/rec/share/KjUmnvS2rrfZ_WsPSggzxZP3s-OP36zq3IdbkoMndK0a96Kid81ucsIt-iRSnvME.sNDt6isH9BOJMmnI) - 4 Nov 2020 - US/APAC time (1400 PST) 
+### Agenda - 4 Nov 2020 - US/APAC time (1400 PST) 
+
+[Recording](https://us02web.zoom.us/rec/share/KjUmnvS2rrfZ_WsPSggzxZP3s-OP36zq3IdbkoMndK0a96Kid81ucsIt-iRSnvME.sNDt6isH9BOJMmnI)
 
 #### LD/BBS+ Education Pt. 1: Walkthroughs and Mental Models/Reports from the Field
 - Guest Presenter #1: Orie Steele- [The What and Why of the DIF general-purpose Document-Loader](https://youtu.be/-yUbMDft5O0)
@@ -456,7 +468,9 @@ Minutes
             * Kim: context: ACE blockchain challenge and wallets; DIF would be a good location for practical ongoing discussion of logistics for those kinds of venues
 * Future agenda topic - Power in the standards process - separation of concerns as a mantra for protecting against coupling of ontology and platform mechanics?
 
-### [Recording](https://us02web.zoom.us/rec/share/bCUbntNNU3sMC6yzhANZSIitaE5znl00jrgzhOO1G0EcjeedS6aMzRb7WVcZtQg7.J3C0GXqJTy2pUowi) - 28 Oct 2020 - US/APAC time (600 PST) 
+### Agenda - 28 Oct 2020 - US/APAC time (600 PST) 
+
+[Recording](https://us02web.zoom.us/rec/share/bCUbntNNU3sMC6yzhANZSIitaE5znl00jrgzhOO1G0EcjeedS6aMzRb7WVcZtQg7.J3C0GXqJTy2pUowi)
 
 Agenda
 * Last call for nits on Transcommunity map before it goes to the graphic design pros
@@ -469,8 +483,9 @@ Minutes
 * Took notes at the bottom of this open hackmd [doc]([here](https://github.com/decentralized-identity/interoperability/blob/master/assets/iiw31guide.md))
 
 
-### [Recording](https://us02web.zoom.us/rec/share/MwDSAOFT5zdylbrFOZZ_1af9wGjuZ4kAouVj6qIweupOOSww_aQFiV7T6QpuB8s6.lumWmYFiy9O7q2Li) - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
+### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
 
+[Recording](https://us02web.zoom.us/rec/share/MwDSAOFT5zdylbrFOZZ_1af9wGjuZ4kAouVj6qIweupOOSww_aQFiV7T6QpuB8s6.lumWmYFiy9O7q2Li)
 
 * Notes for IIW31
     * Link to madlib/questionnaire #2 posted in ADVANCE and announced IN OPENING CIRCLE (drop hackmd link!)
@@ -484,8 +499,9 @@ Minutes
 
 * Link tree (moved to repo [readme](https://github.com/decentralized-identity/interoperability/))
 
-### [Recording](https://us02web.zoom.us/rec/share/-Nl0lzhPZkhM6gd0DCvffS_J9DFXHWvyBG1ZdNWSZCN2KAhXgobWsLmOxupjxb5B.R9XLwt5dTpwO2U5i) - 14 Oct 2020 - US/APAC time (600 PST) 
+### Agenda - 14 Oct 2020 - US/APAC time (600 PST) 
 
+[Recording](https://us02web.zoom.us/rec/share/-Nl0lzhPZkhM6gd0DCvffS_J9DFXHWvyBG1ZdNWSZCN2KAhXgobWsLmOxupjxb5B.R9XLwt5dTpwO2U5i)
 
 * Crowd-edit First draft of the wallet grid? (10min)
 * Interoperability **targets**: what would you like to be working towards? what would you work towards if enough other people are working towards as well? 
@@ -535,7 +551,9 @@ Attendees:
 
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/NHcELUXRMZHdF1c2b_GniKo-wW2e_NxiV1RkyhQowhjKp9v8MMpcodhbyok0im6X.RVZpVK6BiFgIirNu) - 7 Oct 2020 - US/APAC time (1400 PST) 
+### Agenda - 7 Oct 2020 - US/APAC time (1400 PST) 
+
+[Recording](https://us02web.zoom.us/rec/share/NHcELUXRMZHdF1c2b_GniKo-wW2e_NxiV1RkyhQowhjKp9v8MMpcodhbyok0im6X.RVZpVK6BiFgIirNu)
 
 1. Updates and Announcements
 
@@ -564,7 +582,9 @@ Attendees:
 
 </details>
      
-### [Recording](https://us02web.zoom.us/rec/share/slysribRqId5nAnV1SIUUhrp3dy6ROjGT7J2M059sYjjrOxEadl8rF13vciL8DL7.mhRGHB4ah4Lw7cdT) - 30 Sep 2020 - US/EU time (0600 PST)
+### Agenda - 30 Sep 2020 - US/EU time (0600 PST)
+
+[Recording](https://us02web.zoom.us/rec/share/slysribRqId5nAnV1SIUUhrp3dy6ROjGT7J2M059sYjjrOxEadl8rF13vciL8DL7.mhRGHB4ah4Lw7cdT)
 
 1. Introductions and Hellos
 1. Updates and Announcements
@@ -584,7 +604,9 @@ Attendees:
 
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/rd85JFPkSpGy7XyXT6fRb_GVJ8RN7EGwNKkmDAoKZiFfr67V9adGvHGuYb_26wlM.qz-Q15k5i1shYEtd) - 23 Sep 2020 - US/APAC time (1400 PST)
+### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
+
+[Recording](https://us02web.zoom.us/rec/share/rd85JFPkSpGy7XyXT6fRb_GVJ8RN7EGwNKkmDAoKZiFfr67V9adGvHGuYb_26wlM.qz-Q15k5i1shYEtd)
 
 1. Updates and Announcements
     
@@ -627,7 +649,9 @@ Attendees:
 
 </details>
        
-### [Recording](https://us02web.zoom.us/rec/share/5yz0MCbJczXzr33-6xeK5xRlXaDSef6zZfV2mfVIrA-SiSXiXU3Z5pD3cmhT_P3s.RLW8DtfYZYZ68Ono) - 16 Sep 2020 - US/EU time (0600 PST)
+### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
+
+[Recording](https://us02web.zoom.us/rec/share/5yz0MCbJczXzr33-6xeK5xRlXaDSef6zZfV2mfVIrA-SiSXiXU3Z5pD3cmhT_P3s.RLW8DtfYZYZ68Ono)
 
 1. Updates and Announcements
 2. Confirm Liaison list
@@ -705,7 +729,9 @@ Attendees:
 
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/I7wkWou9zNSDE6SjFIszQeWN5elHAmwU_hz3DLtlImEGIChyDOSST9XN-x9HNTKS.4WFt4LMRBOfQ-2QY) - 9 Sep 2020 - US/APAC time (1400 PST)
+### Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
+
+[Recording](https://us02web.zoom.us/rec/share/I7wkWou9zNSDE6SjFIszQeWN5elHAmwU_hz3DLtlImEGIChyDOSST9XN-x9HNTKS.4WFt4LMRBOfQ-2QY)
 
 0. Introductions and Hellos
 2. Updates and Announcements
@@ -773,7 +799,9 @@ Minutes:
 
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/eVXH7VDDRD_gCgNmG77_HNbeggD6-QXUq7AHsar976yW67NCMo8IsiIiJPf5H3zk.EYEuZyrL5GLwBvIE) - 2 Sep 2020 - US/EU time (0600 PST)
+### Agenda - 2 Sep 2020 - US/EU time (0600 PST)
+
+[Recording](https://us02web.zoom.us/rec/share/eVXH7VDDRD_gCgNmG77_HNbeggD6-QXUq7AHsar976yW67NCMo8IsiIiJPf5H3zk.EYEuZyrL5GLwBvIE)
 
 0. Updates and Announcements
     * Indy Interop-a-thon rages on, and many video recordings are already live on the HL Aries Confluence [page](https://wiki.hyperledger.org/display/II/Agenda). Thanks to Linux Foundation for the storage and the infrastructure! Notes from each session are in the [qiqochat site](https://indy-interop.qiqochat.com/) for now, but will be moved to Aries Confluence soon.
@@ -812,9 +840,9 @@ Minutes:
 
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/1MhsM6OzrlNLY53GyG3ZV6MODKXHeaa81HAd8vcIzB3NP5fG7S_MWJmMEvSVNNtm) - 26 Aug 2020 - afternoon time (1400 PST)
+### Agenda - 26 Aug 2020 - afternoon time (1400 PST)
 
-
+[Recording](https://us02web.zoom.us/rec/share/1MhsM6OzrlNLY53GyG3ZV6MODKXHeaa81HAd8vcIzB3NP5fG7S_MWJmMEvSVNNtm)
 
 * Announcements
     * Juan sends his regrets, he'll be on vacation!
@@ -886,8 +914,9 @@ Interesting links shared
 </details>
 
 
-### [Recording](https://us02web.zoom.us/rec/share/4_11PYjJqEZJR43L8l3nR6obIdrpX6a81CkXrqYPz0cq-jO2b-CIyqbkDplqEmkD) - 19 Aug 2020 - morning time (0600 PST)
+### Agenda - 19 Aug 2020 - morning time (0600 PST)
 
+[Recording](https://us02web.zoom.us/rec/share/4_11PYjJqEZJR43L8l3nR6obIdrpX6a81CkXrqYPz0cq-jO2b-CIyqbkDplqEmkD)
 
 Self-Introductions and Announcements (5min)  
 * Stephen Curran - BCGov is looking for help with headless mobile testing! Anyone with experience and tool recommendations/suggestions please reach out!
