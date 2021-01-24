@@ -69,6 +69,9 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - Todd Gehrke (ID2020) + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
 
 ### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
+
+[Recording](https://us02web.zoom.us/rec/share/a134lNnRootkzsl4EQEWozpIKFNBugdtwR5old__HJr1-AAllgOIrzRwdyLv9APP.hfc2l_l6zl_1EQPj)
+
 Agenda
 - introductions and announcements
     - [INATBA Roundtable](https://inatba.org/events-calendar/decentralised-identity-whats-at-stake/) happening tomorrow - come support DIF members Jolocom (Kai) and Transmute (Karyl) that are speaking on a panel with friends of the podcast Daniel du Seuil and Anil John!
@@ -128,6 +131,8 @@ Agenda
 
 ### Agenda - 19 Jan 2020 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
 
+[Recording](https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA)
+
 Agenda
 * What our deal is (5min tops)
     * Relationship to other groups
@@ -137,7 +142,9 @@ Agenda
 * Past topics (5min)
 * Future topics (5min)
 
-### [Agenda](https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA) - 13 Jan 2020 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
+### Agenda - 13 Jan 2020 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
+
+[Recording]((https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA))
 
 * Optional homework: skim, read, or best of all, leave comments on the draft of Kaliya's LFPH/CCI [public-facing lightpaper](https://docs.google.com/document/d/1sipXx9f_hBC8D0S1qZNMAhehblRW8pab-B4TX7CF0lw/edit) on the subject 
 * Walkthrough of paper (10min)
@@ -170,7 +177,9 @@ Agenda
     * Sidebar: Covid credentials
 </details>
 
-### [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB) - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
+### Agenda - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
+
+[Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB)
 
 Agenda/Minutes
 * Introductions
@@ -191,7 +200,9 @@ Agenda/Minutes
 
 ### Agenda - 23 Dec 2020 - Happy Holidays everybody!
 
-### [Recording](https://us02web.zoom.us/rec/share/UhIV-vk98lnyeVLaHuGq_o_f8NiuQ2uKA3GM1vMtcg6z8T04y9ugnS6vRzbZkuYe.gy0oWuxjwibGyfXM) - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
+### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
+
+[Recording](https://us02web.zoom.us/rec/share/UhIV-vk98lnyeVLaHuGq_o_f8NiuQ2uKA3GM1vMtcg6z8T04y9ugnS6vRzbZkuYe.gy0oWuxjwibGyfXM)
 
 <details>
 <summary>Notes</summary>
