@@ -64,9 +64,22 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett?)
+### Agenda - 9 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison?
 
-### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - Todd Gehrke (ID2020) + Josh Mandell & [HealthCards](https://github.com/smart-on-fhir/health-cards) ?
+### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and 
+
+### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
+
+Context:
+* [HealthCards](https://github.com/smart-on-fhir/health-cards) 
+* Mitre, Carin, and Common [press release](https://www.businesswire.com/news/home/20210114005294/en/Broad-Coalition-of-Health-and-Technology-Industry-Leaders-Announce-Vaccination-Credential-Initiative-to-Accelerate-Digital-Access-to-COVID-19-Vaccination-Records)
+
+Impromptu agenda
+- Adrian: separation of concerns where IETF does protocols and W3C does data models
+    - authorization and messaging as yin and yang?
+    - diversion through didcomm
+- FHIR brownfield entrenching EHR platforms/concerns?
+
 
 ### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
 
