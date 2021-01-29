@@ -57,16 +57,22 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Cloud Wars and Gaia-X - ...?
     
     * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
-    * The Best way to do JWTs - Gabe Cohen?
+    * The Best way to do JWTs - Gabe Cohen? This week's 
     
-    * MSFT's DID-SIOP (DIDAuth-focused edition) - Tim Cappali? Pam? Daniel Buchner?
-    
-    
+    - Framework Interop - Aries Frameworks <> non-Aries Frameworks    
 </details>
+
+### Agenda - 16 Feb 2020 - US/EU time (0600 PT) 
 
 ### Agenda - 9 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison?
 
-### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and 
+### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals
+
+Announcements
+* Wallet Security WG - come to biweekly later today!
+
+Context & Recommend Advance Readings:
+* Daniel Hardman's [Practical Interop blogpost](https://www.evernym.com/blog/getting-to-practical-interop-with-verifiable-credentials/)
 
 ### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
 
