@@ -62,9 +62,9 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - Framework Interop - Aries Frameworks <> non-Aries Frameworks    
 </details>
 
-### Agenda - 16 Feb 2020 - US/EU time (0600 PT) 
+### Agenda - 17 Feb 2020 - US/EU time (0600 PT) 
 
-### Agenda - 9 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison?
+### Agenda - 10 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison?
 
 Context & Recommended Advanced Readings:
 * W3C-CCG VC Extensions registry section on credential [status](https://w3c-ccg.github.io/vc-extension-registry/#status-methods)
@@ -73,7 +73,7 @@ Context & Recommended Advanced Readings:
 * Digital Bazaar's LD-based [revocation-list-2020 spec](https://w3c-ccg.github.io/vc-status-rl-2020/)
 * [API readme](https://github.com/hyperledger/ursa/blob/master/libursa/docs/anoncreds-design.md) for AnonCreds (from HL ursa repo)
 
-### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
+### Agenda - 3 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
 
 Announcements
 * Wallet Security WG - come to biweekly later today!
