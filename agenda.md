@@ -66,12 +66,19 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 9 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison?
 
-### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals
+Context & Recommended Advanced Readings:
+* W3C-CCG VC Extensions registry section on credential [status](https://w3c-ccg.github.io/vc-extension-registry/#status-methods)
+* [Slides](https://docs.google.com/presentation/d/10RBfGIyjyKdbmEDkKuM3O1pU5p-UpkiOHlUnZGi8cF4/edit#slide=id.p) and [transcript+audio recording](https://w3c-ccg.github.io/meetings/2020-04-27-vc-education/) of Mike Lodder's overview of past (CL) and future (BBS+?) accumulator schemes, April 2020
+* [Slides](https://docs.google.com/presentation/d/1pUGAp6rvyQvVKHxGN2M83oaQwppowwzLrFyMjRXm9sU/edit#slide=id.p) and [sparse notes](https://docs.google.com/document/d/1jynxk8tIQnvVHeZPH0ATG0v8gswyn3Q0HnBoI5am2QI/edit) from Indy Interopathon (Sept2020)
+* Digital Bazaar's LD-based [revocation-list-2020 spec](https://w3c-ccg.github.io/vc-status-rl-2020/)
+* [API readme](https://github.com/hyperledger/ursa/blob/master/libursa/docs/anoncreds-design.md) for AnonCreds (from HL ursa repo)
+
+### Agenda - 2 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
 
 Announcements
 * Wallet Security WG - come to biweekly later today!
 
-Context & Recommend Advance Readings:
+Context & Recommended Advance Readings:
 * Daniel Hardman's [Practical Interop blogpost](https://www.evernym.com/blog/getting-to-practical-interop-with-verifiable-credentials/)
 
 ### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
