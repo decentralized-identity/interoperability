@@ -13,7 +13,6 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 <details>
 <summary>Topics List</summary>
-
 Meta-topics and Potential quarter-wide or year-long goals:
 3. Venn diagram of interop goals, and scopes/definitions of interop (contextual)
     * Don't lose focus on the map model! [link](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
@@ -33,7 +32,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 * --- **BBS+ FIESTA 2020** --- [**proposed**]
     * December 2nd or 9th?
     * Aries and non-Aries people making a pact to work together
-    * C &and; C Work item?
+    * C and C Work item?
 * --- **TEST SUITEAPALOOZA 2020** --- [**F2F? align with SVIP and/or ESSIF?**]
     * Later in December?
     * Status update on SVIP's past and future suite maintenance
@@ -59,14 +58,15 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
     * The Best way to do JWTs - Gabe Cohen? This week's 
     
-    - Framework Interop - Aries Frameworks <> non-Aries Frameworks    
+    - Framework Interop versus Aries Frameworks versus non-Aries Frameworks    
+    
 </details>
 
 ### Agenda - 17 Feb 2020 - US/EU time (0600 PT) 
 
 ### Agenda - 10 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison?
 
-Context & Recommended Advanced Readings:
+Context and Recommended Advanced Readings:
 * W3C-CCG VC Extensions registry section on credential [status](https://w3c-ccg.github.io/vc-extension-registry/#status-methods)
 * [Slides](https://docs.google.com/presentation/d/10RBfGIyjyKdbmEDkKuM3O1pU5p-UpkiOHlUnZGi8cF4/edit#slide=id.p) and [transcript+audio recording](https://w3c-ccg.github.io/meetings/2020-04-27-vc-education/) of Mike Lodder's overview of past (CL) and future (BBS+?) accumulator schemes, April 2020
 * [Slides](https://docs.google.com/presentation/d/1pUGAp6rvyQvVKHxGN2M83oaQwppowwzLrFyMjRXm9sU/edit#slide=id.p) and [sparse notes](https://docs.google.com/document/d/1jynxk8tIQnvVHeZPH0ATG0v8gswyn3Q0HnBoI5am2QI/edit) from Indy Interopathon (Sept2020)
@@ -75,12 +75,66 @@ Context & Recommended Advanced Readings:
 
 ### Agenda - 3 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
 
+- [Recording](https://us02web.zoom.us/rec/share/o5RP36QWFf0hW80cVW3UFgnAf-0tHkpl8KY4T1NY2sgf5F4Aza16ZhUhU9v9WuD9.XkJmx0ko1dSqyV6o)
+
 Announcements
 * Wallet Security WG - come to biweekly later today!
 
 Context & Recommended Advance Readings:
 * Daniel Hardman's [Practical Interop blogpost](https://www.evernym.com/blog/getting-to-practical-interop-with-verifiable-credentials/)
+* DID-core issues
 
+<details>
+<summary>Minutes</summary>
+
+- DID-Core update from Daniel Burnett
+    - self-bio - illustrious standards career (never knew the WebRTC piece!)
+        - important update: Brent Zundel and Wayne Chang taking over VC maintenance group!
+        - Consensys and Enterprise Ethereum Alliance!
+    - 2 year charter period = standard for a recommendation-track spec
+        - all other outputs are non-normative and non-rec track (usecases + reqs, implementation guide, rubric that came out of RWOT)
+        - DID Resolutions spec is NOT a work item of the W3C DID-Core group - that's CCG!
+            - industrial participants in the group lobbied against scope creep- resolution put out
+            - not just resolution but ALL operations put out of scope of the DID spec itself (just the identifier, ma'am)
+            - DID-Resolution *interface* defined in did-core, but only that
+        - W3C not a fan of extensions - implementation reports (provided by implementers about the group's test suite), which are due **one month** after getting to "proposed recommendation" freeze 
+            - Feb 9 - any issue without a PR gets put on ice for now
+    - Problem Issues :D 
+        - Informational appendices (some might be W3C notes)
+        - DAG-CBOR editorial snafu and maturity issues (W3C Note might make more sense than an appendix?)
+        - Let's not forget the extensions registry! It explicitly permits new representations (incl additional/future CBOR variants)
+        - W3C - Objection process
+        - Implementation reports - Orie is taking lead on this one
+            - Open to non-members
+- EEA - making Ethereum safer and easier for businesses to use
+    - Public mainnet and consortium uses both in scope
+    - Enterprise Ethereum (competitors to Fabric and Corda, exc with a mainnet)
+        - {more devs than anybody, hehe}
+        - Specs for enterprise
+    - EthTrust working group - levels of security audits for smart contracts (auditing badges)
+        - actual audits outsourced to security auditing firms 
+    - New DeFi interest group - should be popular
+    - Eth2 interest group coming soon
+    - Portable ID check/eKYC for cryptocurrency onboarding - need to be more portable than conventional banks! 
+- MultiProof VCs - [Presi](https://docs.google.com/presentation/d/14SQpmG8O1FHXk2a4iauo9aOxM_9zq9e9TEboQNJpjU0/edit#slide=id.gc6f80d1ff_0_0)
+    - [LD Proofs](https://w3c-ccg.github.io/ld-proofs/) spec (independent spec) - includes possibility of multiple proofs!
+        - Proof Sets (serial) versus Proof Chains (cumulative-- includes previous signatures)
+        - Troy: Our Orb method does [this](https://trustbloc.github.io/did-method-orb/#example-9-orb-transaction)! 
+        - examples in the wild: Essif v1 VerifiableID (secp with did:ebsi-eth:xxx#key-1 + eidasSeal2019 with cert)
+            + Xavier: we're (Essif) are updating this now: AES is our assertionmethod: XADES, PADES, or now JAdES based on JWS (CR in ETSI)
+            + Markus: one thing we discussed back then in the v1 days was just signing the VC with the DID but put the Eidas Seal in the DID Doc; 
+    - verificationMethod type EidasCertificate2019 was just a proposal; JAdES vM **will** however be registered with W3C
+        - security-vocab and [LD-crypto registry](https://w3c-ccg.github.io/ld-cryptosuite-registry/)
+    - example #2 from USCIS PRC project
+        - non-signature proofs! proof of work, hash of credential being registered on a blockchain (forgotten trend-- adds little security and adds correlation :D )
+    - example #3
+    - example #4 - Veres One uses some amount of POW when you register a DID... that might be another example of non-sig assertion method 
+    - Troy in chat: The Orb setup is very much like certificate transparency … since we use VCs instead of X509s, we call it Verifiable Credential Transparency :). https://trustbloc.github.io/did-method-orb/#vct-v1
+
+        
+        
+
+</details>
 ### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
 
 Context:
@@ -108,7 +162,7 @@ Agenda
 <summary>Minutes</summary>
 
 - Intro - uPort history and relationship between Consensys, uPort, and Veramo
-    - Veramo URL:  http://veramo.io
+    - Veramo URL: http://veramo.io
     - backward compatibility with uPort, but more easily extensible and modular architecture
     - moving to a more messaging- and event-based structure
 - Architecture tour - highlevel
