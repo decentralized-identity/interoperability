@@ -62,9 +62,14 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-### Agenda - 17 Feb 2020 - US/EU time (0600 PT) 
+### Agenda - 24 Feb - US/EU time (1400PT) - VR/AR?
 
-### Agenda - 10 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison?
+### Agenda - 17 Feb 2020 - US/EU time (0600 PT) - Updates on Layer 1 recent events
+
+- Step-by-step guide to registering a DID Method (and designing one)
+- Updates from recently-registered methods: DID:Orb, DID:Tezos, DID:Doge...
+
+### Agenda - 10 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison
 
 Context and Recommended Advanced Readings:
 * W3C-CCG VC Extensions registry section on credential [status](https://w3c-ccg.github.io/vc-extension-registry/#status-methods)
