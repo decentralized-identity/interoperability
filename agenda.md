@@ -67,8 +67,11 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 17 Feb 2020 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 
 - Step-by-step guide to registering a DID Method (and designing one)
-- Updates from recently-registered DID methods: [DID:Orb](https://trustbloc.github.io/did-method-orb/#self-certifying-decentralized-identifiers), DID:Tezos, [DID:Doge](https://did-doge.spruceid.com/)
-    - Special guest: Troy Ronda (SecureKey) will be discussing some of the peculiarities of DID:Orb, including its use of the ActivityPub gossip protocol for propagation of records and its usage of self-certifying identifiers
+- Updates from recently-registered DID methods: 
+    - [DID:Orb](https://trustbloc.github.io/did-method-orb/#self-certifying-decentralized-identifiers)
+        - Special guest: Troy Ronda (SecureKey) will be discussing some of the peculiarities of DID:Orb, including its use of the ActivityPub gossip protocol for propagation of records and its usage of self-certifying identifiers
+    - [DID:Tezos](https://did-tezos-draft.spruceid.com/#background-on-tezos-addresses) & [DID:Doge](https://did-doge.spruceid.com/)
+        - Special guests: Wayne Chang and Simon Bihel (Spruce)
 
 ### Agenda - 10 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison
 
