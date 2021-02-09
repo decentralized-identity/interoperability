@@ -62,7 +62,9 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-### Agenda - 24 Feb - US/EU time (1400PT) - VR/AR?
+### Agenda - 3 Mar - US/EU time (0600PT) - VR/AR?
+
+### Agenda - 24 Feb - US/APAC time (1400PT) - VR/AR?
 
 ### Agenda - 17 Feb 2020 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 
