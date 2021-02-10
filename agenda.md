@@ -62,11 +62,11 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-### Agenda - 3 Mar - US/EU time (0600PT) - VR/AR?
+### Agenda - 3 Mar 2021 - US/EU time (0600PT) - VR/AR?
 
-### Agenda - 24 Feb - US/APAC time (1400PT) - VR/AR?
+### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - VR/AR?
 
-### Agenda - 17 Feb 2020 - US/EU time (0600 PT) - Updates on Layer 1 recent events
+### Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 
 - Step-by-step guide to registering a DID Method (and designing one)
 - Updates from recently-registered DID methods: 
@@ -75,7 +75,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - [DID:Tezos](https://did-tezos-draft.spruceid.com/#background-on-tezos-addresses) & [DID:Doge](https://did-doge.spruceid.com/)
         - Special guests: Wayne Chang and Simon Bihel (Spruce)
 
-### Agenda - 10 Feb 2020 - US/APAC time (1400PT) - Revocation method comparison
+### Agenda - 10 Feb 2021 - US/APAC time (1400PT) - Revocation method comparison
 
 Context and Recommended Advanced Readings:
 * W3C-CCG VC Extensions registry section on credential [status](https://w3c-ccg.github.io/vc-extension-registry/#status-methods)
@@ -84,7 +84,7 @@ Context and Recommended Advanced Readings:
 * Digital Bazaar's LD-based [revocation-list-2020 spec](https://w3c-ccg.github.io/vc-status-rl-2020/)
 * [API readme](https://github.com/hyperledger/ursa/blob/master/libursa/docs/anoncreds-design.md) for AnonCreds (from HL ursa repo)
 
-### Agenda - 3 Feb 2020 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
+### Agenda - 3 Feb 2021 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
 
 - [Recording](https://us02web.zoom.us/rec/share/o5RP36QWFf0hW80cVW3UFgnAf-0tHkpl8KY4T1NY2sgf5F4Aza16ZhUhU9v9WuD9.XkJmx0ko1dSqyV6o)
 
@@ -146,7 +146,7 @@ Context & Recommended Advance Readings:
         
 
 </details>
-### Agenda - 27 Jan 2020 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
+### Agenda - 27 Jan 2021 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
 
 Context:
 * [HealthCards](https://github.com/smart-on-fhir/health-cards) 
@@ -159,7 +159,7 @@ Impromptu agenda
 - FHIR brownfield entrenching EHR platforms/concerns?
 
 
-### Agenda - 20 Jan 2020 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
+### Agenda - 20 Jan 2021 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
 
 [Recording](https://us02web.zoom.us/rec/share/a134lNnRootkzsl4EQEWozpIKFNBugdtwR5old__HJr1-AAllgOIrzRwdyLv9APP.hfc2l_l6zl_1EQPj)
 
@@ -220,7 +220,7 @@ Agenda
     
 </details>
 
-### Agenda - 19 Jan 2020 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
+### Agenda - 19 Jan 2021 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
 
 [Recording](https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA)
 
@@ -233,7 +233,7 @@ Agenda
 * Past topics (5min)
 * Future topics (5min)
 
-### Agenda - 13 Jan 2020 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
+### Agenda - 13 Jan 2021 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
 
 [Recording]((https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA))
 
@@ -268,7 +268,7 @@ Agenda
     * Sidebar: Covid credentials
 </details>
 
-### Agenda - 6 Jan 2020 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
+### Agenda - 6 Jan 2021 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
 
 [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB)
 
