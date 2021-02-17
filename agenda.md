@@ -69,7 +69,8 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 
-- Step-by-step guide to registering a DID Method (and designing one)
+- Reading and links:
+    - Step-by-step guide to registering a DID Method presented on I&D WG [8 Feb](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md#meeting---08-feb-2021---1400-et-recording) - see item #6 and recording
 - Updates from recently-registered DID methods: 
     - [DID:Orb](https://trustbloc.github.io/did-method-orb/#self-certifying-decentralized-identifiers)
         - Special guest: Troy Ronda (SecureKey) will be discussing some of the peculiarities of DID:Orb, including its use of the ActivityPub gossip protocol for propagation of records and its usage of self-certifying identifiers
