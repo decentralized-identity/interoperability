@@ -63,9 +63,13 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
+### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities?
+
+### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - 
+
 ### Agenda - 3 Mar 2021 - US/EU time (0600PT) - VR/AR?
 
-### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - VR/AR?
+### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 
 ### Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 
@@ -79,6 +83,51 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 * Announcements
     - Wallet Security WG refining its [charter](https://docs.google.com/document/d/18H2hVjHZEBjbnzod8tLogJIEzySdecbk9d-QBJaqHP0/edit) and looking for a co-chair to begin work soon! Get in touch via DIF Slack
+
+<details>
+<summary>Minutes</summary>
+* Intros
+    - Andrea from Dyne.org - [DECODE project](https://decodeproject.eu/) moving towards W3C compliance soon
+    - Hakan - reintro - good to be back, ping me on Slack if you have any questions about the IDUnion Indy network now supported by the BWMi here in Germany!
+    
+![](https://i.imgur.com/4pXiZGg.png)
+![](https://i.imgur.com/oAPJogy.png)
+![](https://i.imgur.com/mxrIsKu.png)
+![](https://i.imgur.com/VbENsrT.png)
+![](https://i.imgur.com/sF4Av6M.png)
+![](https://i.imgur.com/vdNOfvj.png)
+![!!!](https://i.imgur.com/n4VKs8s.png)
+
+
+* Troy - ORB Walkthrough
+    - Intro to Sidetree in general
+        - loose ordering/no ordering needed
+        - each controller manages directly a portable, offchain hashchain for each identifier
+    - Orb specific
+        - "allow ledger usage as a monitorable log"
+        - open federation based on loyal/total replication, not subset or second-order data model
+        - minimize trust
+        - web-based discover
+        - "assigned timestamp + promised write" = "cert trans concepts" ("late publishing" in sidetree spec)
+        - "observer" & "anchors" = Sidetree concepts
+            - Anchor role encoded in a VC
+            - "VCT" = VC transparency (//cert trans)
+    - question-break
+        - Martin: What's a ledger-node need to do to be a witness?
+        - Adrian: Where are signing events in this? Can those also be logged (yes but at layer 2, not layer 1)
+    - more details
+    - github - reference implementation being built in Go on Fabric (variant of trustbloc)
+    - More questions
+        - Martin: how dynamic are the witnesses? can you change witnesses in the lifecycle of a did?
+            - Troy: DID Controller picks an "origin" and that includes one or more witnesses, which are updated in the lifecycle/sidechain of each controller; new version writes that explicitly into the docs; canonical CIDs have to be rotated at each origin-move or recovery event (basically, old identifier still works but metadata includes a "redirect" to tell you about the change of canonical)
+            - extra witnesses co-sign lots of things
+        - Martin: conflict resolution built into late publishing, right? witnesses changed during the window of publishing? 
+            - open federation risks witnesses disappearing; "non-canonical DIDs are treated as minimal graph point"
+            - synonymous identifiers point to the same "original did"; 
+        - Rouven: Will this be a work item in DIF some day? Troy: We want it into an appropriate working group, CCG or DIF
+            - overlay - anchor credential format and overlays = not specified
+        
+</details>
 
 ### Agenda - 10 Feb 2021 - US/APAC time (1400PT) - Revocation method comparison
 * [Recording](https://us02web.zoom.us/rec/share/1712JUpsSPmrvILDkSgVPErNyiqaSZ_vDPmGa9XFOXifkLMDXEguYM-uQLrLznyB.2b61Jg2ha_Q10ikZ) and amazing [Slides](https://docs.google.com/presentation/d/1xT8PZ4FYNAvH8AVdGmy_lqfDYqi0VNUMQuRrwU1gkIA/edit#slide=id.gbcc04079a5_0_1) - Thanks Martin!!!
