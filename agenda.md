@@ -70,6 +70,8 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 3 Mar 2021 - US/EU time (0600PT) - VR/AR?
 
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
+- Mike will be talking about his proposal for "Revocable BBS+", an early-stage specification that may some day be a registered W3C status mechanism!
+
 
 ### Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 - [Recording](https://us02web.zoom.us/rec/share/h-2dmVYB509JdXKNTdWDKYNtCfD5wS26sooUpmxsbhdDMgkUKpWm56lEGwzhc8oY.NScoc3Y6l28fVvnD) and [Slides](https://github.com/decentralized-identity/interoperability/raw/master/assets/slides--2021-02-17--t_ronda_(SecureKey)-did-orb-spec-tour.pdf)
