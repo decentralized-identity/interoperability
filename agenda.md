@@ -72,6 +72,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 
 ### Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
+- [Recording](https://us02web.zoom.us/rec/share/h-2dmVYB509JdXKNTdWDKYNtCfD5wS26sooUpmxsbhdDMgkUKpWm56lEGwzhc8oY.NScoc3Y6l28fVvnD) and [Slides](https://github.com/decentralized-identity/interoperability/raw/master/assets/slides--2021-02-17--t_ronda_(SecureKey)-did-orb-spec-tour.pdf)
 
 - Reading and links:
     - Step-by-step guide to registering a DID Method presented on I&D WG [8 Feb](https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md#meeting---08-feb-2021---1400-et-recording) - see item #6 and recording
