@@ -71,7 +71,85 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 - Mike will be talking about his proposal for "Revocable BBS+", an early-stage specification that may some day be a registered W3C status mechanism!
+<details>
+<summary>Minutes</summary>
 
+![](https://i.imgur.com/nlkLsGR.png)
+
+Non-Private Methods
+- lists
+- merkle trees (just more efficient lists)
+- service check (i.e. status server)
+
+Pseudonymous Methods
+- privaty info retrieval (PIR)
+    - download entire list, check for value
+- forward revocation list
+    - non-revocation proof, check every itemn for match - more computationally intense, but less leaky
+
+Anonymous Methods
+- Crypto circuits: SNARKS, STARKs, SNARGs, Bulletproofs
+- Accumulators:
+    - RSA
+    - Hyperelliptic
+    - Pair-based
+    - Range-based
+
+Indy Style
+- Tightly coupled to CL :(
+- tails file
+- size can't be helped
+
+Merkle trees w/circuit proofs
+- various options
+- only in production in one place: ZCash (they still have problems with it)
+- more and more circuits, complex details about trusted/semitrusted setup...
+    - "you need a PhD in math to even research the options"
+- easier to understand storage - can be 1bit for boolean
+- v complicated - huge 
+    - 10 seconds to download, 3 seconds to compute, 3 seconds to verify...
+    
+Hyperelliptic curves - only 2~3 years old
+- no trusted setup - i.e., no one has to hold a private key
+- security not yet hardened 
+- easier to verify
+- 2k accumulator
+- Eth Foundation was looking at this for huge merkle trees w/o trusted setup
+    -went in another direction since?
+    
+RSA
+- trusted or trustless setup (req. MPC)
+- accumulators have a fixed size, regardless of size of set
+    - add trustless, but delete needs a private key (unless it's computationally super expensive) - 60-70ms each
+
+Bilinear Maps Accumulators 
+- CKS
+- Nguyen
+- ATSM
+    - deltas could be applied with a XOR - easy peasy
+- Thakur
+- Vitto-Birukov * my fav
+    - tiny proofs (under 300bytes)
+    - have to publish deltas if you make any changes (local witness needs process all these)
+- pairing-based (not secp or ed25519; requires pairing curves)
+- BBS+ cred exchange + any of these --> "revocation for free"
+    - HOLDER has to fetch and apply deltas - 
+
+Questions
+- Martin: BBS+ revocation versus BBS+ in general 
+    - does bundling revocation AND ZKP confused the issue? does BBS+ measure up well as a revocation mechanism and as a ZKP mechanism separately?
+- Adrian: Single-use credential?
+    - Mike: Don't use any of this stuff! [Privacy-Pass](https://privacypass.github.io/) - Single-use ZK token :D 
+    
+Revocation is just difficult mathematically to scale
+- accumulators seems to win, every time, by 100X or more, against SNARKs, SNARGs, etc 
+    - SNARKS, SNARGs, etc are great for ZKP... just not really great for this problem
+- bilinear map scales the best
+    - leak less privacy than lists
+    
+
+
+</details>
 
 ### Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 - [Recording](https://us02web.zoom.us/rec/share/h-2dmVYB509JdXKNTdWDKYNtCfD5wS26sooUpmxsbhdDMgkUKpWm56lEGwzhc8oY.NScoc3Y6l28fVvnD) and [Slides](https://github.com/decentralized-identity/interoperability/raw/master/assets/slides--2021-02-17--t_ronda_(SecureKey)-did-orb-spec-tour.pdf)
