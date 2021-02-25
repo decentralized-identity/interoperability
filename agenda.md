@@ -63,14 +63,24 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
+### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out
+
 ### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities?
 
-### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - 
+### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - ??
 
-### Agenda - 3 Mar 2021 - US/EU time (0600PT) - VR/AR?
+### Agenda - 3 Mar 2021 - US/EU time (0600PT) - Trust Frameworks beyond SSI?
+- Recommended Reading:
+    - OIX Trust Framework [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability) (2020)
+    - NIST Trust Framework [report](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf) (2018)
+    - Aries [RFC](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0430-machine-readable-governance-frameworks/README.md) about Machine-Readable TFs
 
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
+- Intros and announcements
+    - Wallet Security WG kickoff Monday
+    - Mike is also working on a bearer-token/passwordless auth system as well?! coming soon to an interop near you...
 - Mike will be talking about his proposal for "Revocable BBS+", an early-stage specification that may some day be a registered W3C status mechanism!
+
 <details>
 <summary>Minutes</summary>
 
@@ -146,8 +156,6 @@ Revocation is just difficult mathematically to scale
     - SNARKS, SNARGs, etc are great for ZKP... just not really great for this problem
 - bilinear map scales the best
     - leak less privacy than lists
-    
-
 
 </details>
 
