@@ -60,12 +60,16 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * The Best way to do JWTs - Gabe Cohen? This week's 
     
     - Framework Interop versus Aries Frameworks versus non-Aries Frameworks    
+    - Update/screenshare tour of 
+    - 
     
 </details>
 
+### Agenda - 
+
 ### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out
 
-### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities?
+### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities - Dyne
 
 ### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - ??
 
