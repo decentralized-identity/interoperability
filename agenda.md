@@ -78,6 +78,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - OIX Trust Framework [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability) (2020)
     - NIST Trust Framework [report](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf) (2018)
     - Aries [RFC](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0430-machine-readable-governance-frameworks/README.md) about Machine-Readable TFs
+    - [GovUK TF](https://www.linkedin.com/posts/sankarshan_the-uk-digital-identity-and-attributes-trust-activity-6771800727254900736-_goL) (and links to folks at ToIP and Sovrin Foundation writing responses)
 
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 - Intros and announcements
