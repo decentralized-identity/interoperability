@@ -90,7 +90,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 3 Mar 2021 - US/EU time (0600PT) - Manu Sporny (Digital Bazaar) report-out on specifications incubated in W3C-CCG
 - Advanced Readings:
     - [W3C-CCG website](https://w3c-ccg.github.io/)
-    - Manu's [map](https://w3c-ccg.github.io/roadmap/diagram.html) and [timeline](https://lists.w3.org/Archives/Public/public-credentials/2021Feb/0130.html) of CCG spec
+    - Manu's [roadmap](https://lists.w3.org/Archives/Public/public-credentials/2021Feb/att-0130/VerifiableTrustStandards.png) of CCG spec
     - See also Manu's proposal for an independent group to standardize Linked Data Signatures beyond an SSI context, to drive adoption of LD Proofs as **LEGALLY BINDING** digital signatures at NIST, ETSI, etc.!
 
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
