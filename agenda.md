@@ -65,20 +65,32 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-### Agenda - 
-
-### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out
-
-### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities - Dyne
-
-### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - ??
-
-### Agenda - 3 Mar 2021 - US/EU time (0600PT) - Trust Frameworks beyond SSI?
-- Recommended Reading:
+### Agenda - 30 Mar 2021 - TTrust Framework Series - UK Draft 
+- Draft for Review: [UK Identity and Attributes Trust Framework](https://www.gov.uk/government/publications/the-uk-digital-identity-and-attributes-trust-framework/the-uk-digital-identity-and-attributes-trust-framework)
+- Other Recommended Reading:
     - OIX Trust Framework [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability) (2020)
     - NIST Trust Framework [report](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf) (2018)
     - Aries [RFC](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0430-machine-readable-governance-frameworks/README.md) about Machine-Readable TFs
     - [GovUK TF](https://www.linkedin.com/posts/sankarshan_the-uk-digital-identity-and-attributes-trust-activity-6771800727254900736-_goL) (and links to folks at ToIP and Sovrin Foundation writing responses)
+
+### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out
+
+### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities - Adam Burns and Jaromil Roio (from new DIF members Dyne.org)
+- Advanced readings:
+    - NGI [report](https://www.ngi.eu/news/2020/12/08/disposable-identities-and-digital-twins/) on Disposable Identities Salon/mini-conf
+
+### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - Justin Richter and Adrian Gropper on GNAP and Authorization for SSI
+
+- Advanced Readings:
+    - Newest [GNAP-core spec](https://www.ietf.org/archive/id/draft-ietf-gnap-core-protocol-04.html)
+- Justin will give a quick presentation on recent developments in GNAP world, and applicability to AuthZ requirements of SSI-based systems
+- Adrian will serve as respondent and, time allowing, give an update specifically on GNAP in the Confidential Storage working group, which is currently refining use-cases and re-scoping for v1
+
+### Agenda - 3 Mar 2021 - US/EU time (0600PT) - Manu Sporny (Digital Bazaar) report-out on specifications incubated in W3C-CCG
+- Advanced Readings:
+    - [W3C-CCG website](https://w3c-ccg.github.io/)
+    - Manu's [map](https://w3c-ccg.github.io/roadmap/diagram.html) and [timeline](https://lists.w3.org/Archives/Public/public-credentials/2021Feb/0130.html) of CCG spec
+    - See also Manu's proposal for an independent group to standardize Linked Data Signatures beyond an SSI context, to drive adoption of LD Proofs as **LEGALLY BINDING** digital signatures at NIST, ETSI, etc.!
 
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 - Intros and announcements
