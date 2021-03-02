@@ -78,6 +78,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities - Adam Burns and Jaromil Roio (from new DIF members Dyne.org)
 - Advanced readings:
     - NGI [report](https://www.ngi.eu/news/2020/12/08/disposable-identities-and-digital-twins/) on Disposable Identities Salon/mini-conf
+    - NGI [Disposable Identities portal](https://disposableidentities.eu/)
 
 ### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - Justin Richter and Adrian Gropper on GNAP and Authorization for SSI
 
