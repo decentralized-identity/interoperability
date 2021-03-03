@@ -91,7 +91,8 @@ Meta-topics and Potential quarter-wide or year-long goals:
 - Advanced Readings:
     - [W3C-CCG website](https://w3c-ccg.github.io/)
     - Manu's [roadmap](https://lists.w3.org/Archives/Public/public-credentials/2021Feb/att-0130/VerifiableTrustStandards.png) of CCG spec
-    - See also Manu's proposal for an independent group to standardize Linked Data Signatures beyond an SSI context, to drive adoption of LD Proofs as **LEGALLY BINDING** digital signatures at NIST, ETSI, etc.!
+        - Compare to Maxim from Selfkey's LD-focused [mindmap](https://app.mindmup.com/map/_free/2021/02/4409cb1072bd11eb8caf1b169bf82168) and Michael Ruminer's [more spec/dependency-structured kumu map](https://github.com/decentralized-identity/vc-spec-map) of the SSI spec space
+    - See also Manu's [proposal](https://lists.w3.org/Archives/Public/public-credentials/2021Feb/0134.html) for an independent group to standardize Linked Data Signatures beyond an SSI context, to drive adoption of LD Proofs as **LEGALLY BINDING** digital signatures at NIST, ETSI, etc.!
 
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 - Intros and announcements
