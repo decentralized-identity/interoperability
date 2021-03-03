@@ -94,6 +94,63 @@ Meta-topics and Potential quarter-wide or year-long goals:
         - Compare to Maxim from Selfkey's LD-focused [mindmap](https://app.mindmup.com/map/_free/2021/02/4409cb1072bd11eb8caf1b169bf82168) and Michael Ruminer's [more spec/dependency-structured kumu map](https://github.com/decentralized-identity/vc-spec-map) of the SSI spec space
     - See also Manu's [proposal](https://lists.w3.org/Archives/Public/public-credentials/2021Feb/0134.html) for an independent group to standardize Linked Data Signatures beyond an SSI context, to drive adoption of LD Proofs as **LEGALLY BINDING** digital signatures at NIST, ETSI, etc.!
 
+<details>
+<summary>Details:</summary>
+
+- Manu self-intro
+    - retail finance and govt
+- Roadmap of CCG specs
+    - Overlap of communities
+    - First question break
+        - Oliver- PresExch vis-a-vis VP Request spec? 
+            - Manu: Lots of VPReq work is driven by US and EU govt requests
+            - SVIP not identifying VPReq spec as an interop target
+                - demonstrable interop and working e2e systems are two directives to be balanced in the SVIP program
+                - lots of "fast tech" decisions made to favor these directives in short-term
+            - Manu: PresEx is more complex and full-featured, whereas VPReq is more MVP-like; i'd love for them to converge over time but I don't see a lot of 
+            - Oliver: interop profiles/spec subset approach?
+            - Charles Lehner (in chat): converge is possible if we [start now](https://github.com/w3c-ccg/vp-request-spec/issues/7)...
+                - Manu: VPReq spec comes out of CHAPI 
+            - Manu: Subset profile could be a good approach to get partial alignment along the way
+        - Kristina: Where's VC 1.1 work happening? where's the draft spec?
+            - Manu: VC WG Maintenance group is working [here](https://github.com/w3c/vc-data-model/) (on main branch) - "canary in the coal mine" of W3C maintenance processes - Wayne Chang (Spruce) and Brent Zundel (Evernym) chairs, Ivan Herman = contact
+            - v1.1 = no new features, just bug fixes, errata, and documentation upgrades
+            - v2 = Mattr chomping at the bit to add some display features :D
+            - Breaking changes planned? Manu: NEVER! Deprecate features at most    
+        - James: Tipping point for adoption and uptake? Manu: we're certainly closer to it than a decade ago, when W3C was bombarded with decentralization opposition
+            - Manu: Fundamentally, we have to prove (and specify/make testable) how it's a better mousetrap, and we're all working on that
+        - Rouven: Linked-Secret in scope for any of these specs?
+            - Manu: At least in US govt-based work, there's been little interest in it, but BBS+ (which relies on pairing-friendly curves) is picking up steam (IETF-CFRG is now [doing formal review](https://datatracker.ietf.org/doc/draft-irtf-cfrg-pairing-friendly-curves/) into the underlying math BN and BLS-- govts won't touch anything without that kind of crypto analysis, and luckily many of them defer to IETF-CFRG)
+                - Manu: I think the linked-secret math in its Sovrin/Indy form relied was a blocker for Indy adoption
+                - Rouven: But can't BBS+ issue to a linked-secret instead of a DID? I was asking more about issuance to non-persistent identifiers...
+                - Manu: Oh, fair, that's a separate question; there *is* interest in binding to non-permanent identifiers for the sake of ZKP and selective-disclosure; CFRG is interested and EU and US govt agencies as well
+    - Back to tour of chart
+        - green = general data formats
+        - blue = data model
+        - yellow = vocab
+        - magenta = protocols
+        - purple = crypto 
+        - orange (at the end) = app-level specifications (agent-layer?)
+    - Juan: How can DIF companies help? Urgencies caused by big-company resistance to "all this" (LD-centric plumbing?)
+        - RDF Dataset Normalization
+        - LDProofs
+        - Cryptosuites (partic for Edwards and JOSE interop)
+        - This is fairly specialized stuff, but providing review and implementations is huge, we needed it all years ago
+    - Adrian: More detail on protocols plz? Manu: Wire/transport Protocols are the protocols we mostly work on- CHAP, VC-HTTP-API, and VP Request Spec -- there hasn't really been convergence, we all want it but no real plan yet
+        - CHAPI can move VCs but also ZCaps, DIDComm, OIDC... you can run subprotocols over it
+            - Browsers don't just use HTTP-- there's all kind of service workers and cross-tab posts and push and put and... CHAPI lives in that sub-HTTP world
+            - Oliver: CHAPI + Native apps? Manu: But native apps mostly use DIDComm, so they don't *need* it so much. A few native apps have made that work, but it's not widespread enough to standardize - a company hasn't stepped forward to put weight behind that initiative
+            - Oliver: But is that *in scope*  of CHAPI work? What would the API look like for a native app, and could the CCG spec specify it? Manu: It could work the way websites invoke native apps (google map link in browser leads to scheme/protocol handler, or via mime-type... callback URL); CHAPI is a failure if we can't do that
+            - Adrian: Password managers, for example; Manu: But that gets into standardization and browser-plugin to avoid proprietary stuff; choice of wallets hard to protect from browser standard bias...
+            - Adrian: Consent and credential handlers: healthcare use cases tend to need consent and KMS concern separation; how does that work in this vision of CHAPI?
+                - 4-8 years of data gathering before browser-API standards can surface concerns and priorities; **for now**, it has to be wild wild west (and outside of browser control).
+        - VP Req is basically a Vocab, not a protocol...
+- Please for help/participation
+    - 8 chartered WGs - 6 of these need to end in a global standard for this to work :D
+        - we need specs, test suites, sample implementations... 
+    
+</details>
+
 ### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 - Intros and announcements
     - Wallet Security WG kickoff Monday
