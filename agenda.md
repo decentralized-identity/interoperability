@@ -85,9 +85,10 @@ Meta-topics and Potential quarter-wide or year-long goals:
 - Advanced Readings:
     - Newest [GNAP-core spec](https://www.ietf.org/archive/id/draft-ietf-gnap-core-protocol-04.html)
 - Justin will give a quick presentation on recent developments in GNAP world, and applicability to AuthZ requirements of SSI-based systems
-- Adrian will serve as respondent and, time allowing, give an update specifically on GNAP in the Confidential Storage working group, which is currently refining use-cases and re-scoping for v1
+- Adrian will serve as respondent and, time allowing, give an update specifically on GNAP and [AuthZ discussions](https://hackmd.io/qClYLUPkQ7uf0r3_4O7BUQ?view) in the Confidential Storage working group, which is currently refining use-cases and re-scoping for v1
 
 ### Agenda - 3 Mar 2021 - US/EU time (0600PT) - Manu Sporny (Digital Bazaar) report-out on specifications incubated in W3C-CCG
+- [Recording](https://us02web.zoom.us/rec/share/WOKrQyAymxpWRVKXkw3bEJQVDYApFikAdaBIPnlTT4GBEgEnXELGPZG1rRGO2fp4.QgPtTRgAc9g7BbEW?startTime=1614779841000)
 - Advanced Readings:
     - [W3C-CCG website](https://w3c-ccg.github.io/)
     - Manu's [roadmap](https://lists.w3.org/Archives/Public/public-credentials/2021Feb/att-0130/VerifiableTrustStandards.png) of CCG spec
