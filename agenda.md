@@ -82,6 +82,10 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - Justin Richter and Adrian Gropper on GNAP and Authorization for SSI
 
+- Announcements
+    - Tomorrow, DIF will host an open call about the [proposed Travel and Hospitality Special Interest Group](https://docs.google.com/document/d/1uYlz3oVBDz-HKEtyO5CsCM1g3uhPxryy/edit) (10am EST)
+    - Friday there will be a discussion about an interop bounty designed by this group and judged by the DIF Technical Steering Committee at the weekly [#DIF-governance meeting](https://us02web.zoom.us/j/89027827408?pwd=ZUNzT3dZaFNLS1FwbnplWEU1TFNVdz09) at 11am EST
+
 - Advanced Readings:
     - Newest [GNAP-core spec](https://www.ietf.org/archive/id/draft-ietf-gnap-core-protocol-04.html)
 - Justin will give a quick presentation on recent developments in GNAP world, and applicability to AuthZ requirements of SSI-based systems
