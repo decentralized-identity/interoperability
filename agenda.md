@@ -89,7 +89,42 @@ Meta-topics and Potential quarter-wide or year-long goals:
 - Advanced Readings:
     - Newest [GNAP-core spec](https://www.ietf.org/archive/id/draft-ietf-gnap-core-protocol-04.html)
 - Justin will give a quick presentation on recent developments in GNAP world, and applicability to AuthZ requirements of SSI-based systems
-- Adrian will serve as respondent and, time allowing, give an update specifically on GNAP and [AuthZ discussions](https://hackmd.io/qClYLUPkQ7uf0r3_4O7BUQ?view) in the Confidential Storage working group, which is currently refining use-cases and re-scoping for v1
+- Adrian will serve as respondent and structure a conversation with some [notes](https://hackmd.io/_x19VGvPQbOkbiU-4W-8rQ?both)
+    - time allowing, Adrian might also give an update specifically on GNAP and [AuthZ discussions](https://hackmd.io/qClYLUPkQ7uf0r3_4O7BUQ?view) in the Confidential Storage working group, which is currently refining use-cases and re-scoping for v1
+
+<details>
+<summary> Minutes & Diagrams: </summary>
+Presentation
+- Next steps for GNAP group at IETF
+
+![](https://i.imgur.com/EKEzFlu.png)
+
+- GNAP and SSI
+
+![](https://i.imgur.com/TLF9v73.png)
+
+- Naïve vision of everyone being their own AS:
+
+![](https://i.imgur.com/e9Nksjz.png)
+
+- But GNAP envisions AS more as a token factory:
+
+![](https://i.imgur.com/rYSQgw8.png)
+
+- Fancier version: User isn't only human that can intervene/chip in (RO = Resource Owner)
+
+![](https://i.imgur.com/S969FnG.png)
+
+- Q n A 
+    - Adrian: Isn't factory model leaking policy info to requestors?
+        - Justin: No, token has very little baked into it
+        - UMA versus [UMA2](https://justinsecurity.medium.com/uma-2-0-437c293c3283) - limited-trust environments prefigured today's zero-trust, user brings some data with them
+    - Audit
+        - ongoing request and nonrepudiability - "txn"
+- How to get involved - no CLA or joining process, just jump in!
+    - txauth@ietf.org https://datatracker.ietf.org/wg/gnap/about/
+
+</details>
 
 ### Agenda - 3 Mar 2021 - US/EU time (0600PT) - Manu Sporny (Digital Bazaar) report-out on specifications incubated in W3C-CCG
 - [Recording](https://us02web.zoom.us/rec/share/WOKrQyAymxpWRVKXkw3bEJQVDYApFikAdaBIPnlTT4GBEgEnXELGPZG1rRGO2fp4.QgPtTRgAc9g7BbEW?startTime=1614779841000)
