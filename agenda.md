@@ -351,7 +351,7 @@ Context and Recommended Advanced Readings:
 
 ### Agenda - 3 Feb 2021 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
 
-- [Recording](https://us02web.zoom.us/rec/share/o5RP36QWFf0hW80cVW3UFgnAf-0tHkpl8KY4T1NY2sgf5F4Aza16ZhUhU9v9WuD9.XkJmx0ko1dSqyV6o)
+- [Recording](https://us02web.zoom.us/rec/share/o5RP36QWFf0hW80cVW3UFgnAf-0tHkpl8KY4T1NY2sgf5F4Aza16ZhUhU9v9WuD9.XkJmx0ko1dSqyV6o) and Markus' [Presentation](https://github.com/decentralized-identity/interoperability/blob/master/assets/guest-slides/2021-02-030-Markus-Sabadello-Overview-of-Multi-proof%20VCs.pdf)
 
 Announcements
 * Wallet Security WG - come to biweekly later today!
