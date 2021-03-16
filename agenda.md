@@ -75,12 +75,24 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - Aries [RFC](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0430-machine-readable-governance-frameworks/README.md) about Machine-Readable TFs
     - [GovUK TF](https://www.linkedin.com/posts/sankarshan_the-uk-digital-identity-and-attributes-trust-activity-6771800727254900736-_goL) (and links to folks at ToIP and Sovrin Foundation writing responses)
 
-### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out
+### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out & Aries Interop Update
+- Stephen Curran and TBD from SVIP will be speaking about recent developments in the landscape of interop profiles and test harnesses
+- Advanced readings:
+    - [VC-HTTP-API](https://github.com/w3c-ccg/vc-http-api) specification used in recent SVIP plugathon (more detailed documentation forthcoming)
+    - Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
+    - [Guided tour](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit) of iGrant.io's Aries Testing Journey and their open-sourced Aries Interop Playground
+    - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Universal Verifier Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
+- Announcements 
 
 ### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities - Adam Burns and Jaromil Roio (from new DIF members Dyne.org)
 - Advanced readings:
     - NGI [report](https://www.ngi.eu/news/2020/12/08/disposable-identities-and-digital-twins/) on Disposable Identities Salon/mini-conf
     - NGI [Disposable Identities portal](https://disposableidentities.eu/)
+- Announcements
+    - Proposed [Hospitality and Travel Special Interest Group](https://docs.google.com/document/d/1uYlz3oVBDz-HKEtyO5CsCM1g3uhPxryy/edit) has a use-case discussion meeting [tomorrow](https://us02web.zoom.us/j/82316101179?pwd=b2R0OVErY2IwVFEzVkpiSjJKcmNJZz09) (10am EST) for people interested in exploring use-cases in those industries!
+    - Discussion of proposed [Bounty Program](https://docs.google.com/document/d/1MQllNfFvC3PiVi5jo_kT6OCq9w3_GoEGWjZb-0pwuys/edit#heading=h.x34yxq5gfpsi) during the second half of Bi-weekly at [11am EST today](https://us02web.zoom.us/j/81262437540?pwd=UW5ZZkxxTGZXc1RpbFVXTW5JNkdDUT09)
+
+
 
 ### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - Justin Richter and Adrian Gropper on GNAP and Authorization for SSI
 
