@@ -3,8 +3,7 @@
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
 
-[early Zoom link - 0600PT](https://us02web.zoom.us/j/87258415110?pwd=cFhwYkRsUjRsYnFZZFgyQVR6Zk0xZz09) | [late Zoom link - 1400PT](
-https://us02web.zoom.us/j/86569836709?pwd=eDRnK1FaeGRrMVMvNndmbHpNY3loZz09) | [DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Mailing List](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
+[early Zoom link - 0600PT](https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09) | [late https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09) | [DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Mailing List](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
 
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
 
@@ -84,7 +83,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Universal Verifier Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
 - Announcements 
 
-### Agenda - 17 Mar 2021 - US/EU time (0600PT) - Disposable Identities - Adam Burns and Jaromil Roio (from new DIF members Dyne.org)
+### Agenda - 17 Mar 2021 - US/EU time (0600PT) - DIF ["Mini-"] Grant Program
 - Advanced readings:
     - NGI [report](https://www.ngi.eu/news/2020/12/08/disposable-identities-and-digital-twins/) on Disposable Identities Salon/mini-conf
     - NGI [Disposable Identities portal](https://disposableidentities.eu/)
