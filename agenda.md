@@ -77,11 +77,12 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out & Aries Interop Update
 - Stephen Curran from Aries and Anil John from SVIP will be speaking about recent developments in the landscape of interop profiles and test harnesses
 - Advanced readings:
-
     - [Slides and demo/videos from SVIP event last week](https://docs.google.com/presentation/d/1MeeP7vDXb9CpSBfjTybYbo8qJfrrbrXCSJa0DklNe2k/edit?usp=sharing)
-    - [VC-HTTP-API](https://github.com/w3c-ccg/vc-http-api) specification used in recent SVIP plugathon (more detailed documentation forthcoming)
+        - [VC-HTTP-API](https://github.com/w3c-ccg/vc-http-api) specification used in recent SVIP plugathon (more detailed documentation forthcoming)
+        - [CHAPI test suite](https://github.com/w3c-ccg/chapi-interop-test-suite) recently updates as well
     - Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
-    - [Guided tour](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit) of iGrant.io's Aries Testing Journey and their open-sourced Aries Interop Playground
+    - [Guided tour](
+https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit)
     - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Universal Verifier Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
 - Announcements 
 
