@@ -86,6 +86,31 @@ https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journe
     - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Verifier Universal Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
 - Announcements 
 
+<details>
+<summary>Minutes:</summary>
+
+- Aries (Rapid-fire tour by Stephen!)
+    - Aries harness inspired by [INH interop lab](https://www.iol.unh.edu/)
+- Q and A
+    - Andreas: Kudos on including attack vectors in Mallory! What's she get up to?
+    - Andreas: All the AcaPy and harness all in Kubernetes; AcaPy now multi-tenant
+- Anil: SVIP 
+    - VC-HTTP-API should catch up to this presentation and user-friendliness!
+    - BBS+ update
+        + David: Predicate proofs? Stephen: not in the AIP2 community
+        + Sidenote: [Evernym](https://www.evernym.com/blog/bbs-verifiable-credentials/) blog post about predicates and BBS+
+    - DID:Web for issuers
+    - Foundational piece on JSON-LD
+- Q and A
+    - Anil: Scoping plugathon to narrower profile?
+        - Rouven: Cross-Industry plug-a-thon? Smaller than profiles, just one or two tiny things, like everyone can present a VC over DIDComm?
+        - Keith: Crypto opinions & NIST/FIST/Fed? Ed25519? what else?
+            - Anil: To blockchain or not to ledger is actually a red herring; public blockchains are kind of unlikely to get acceptible any time soon; FIPS-compliance is 
+            - Anil: NIST has a great whitepaper on pairing-friendly curves; I pinged two of its authors specifically about BLS and BBS+, and we had to ask them to look into it;
+
+
+</details>
+
 ### Agenda - 17 Mar 2021 - US/EU time (0600PT) - DIF ["Mini-"] Grant Program
 - Advanced readings:
     - NGI [report](https://www.ngi.eu/news/2020/12/08/disposable-identities-and-digital-twins/) on Disposable Identities Salon/mini-conf
