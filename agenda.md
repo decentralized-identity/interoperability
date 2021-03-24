@@ -83,7 +83,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
     - [Guided tour](
 https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit)
-    - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Universal Verifier Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
+    - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Verifier Universal Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
 - Announcements 
 
 ### Agenda - 17 Mar 2021 - US/EU time (0600PT) - DIF ["Mini-"] Grant Program
