@@ -60,13 +60,27 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
     - Framework Interop versus Aries Frameworks versus non-Aries Frameworks    
     - Update/screenshare tour of 
-    - 
+- Aries World Updates
+    - Animo - OS wallet ; iGrant - playground
+    - Dyne.org and Disposable Identities vis-à-vis DIDs
+    - Nick Mothershaw and the OIX interoperability framework/scorecard
     
 </details>
 
-### Agenda - 20-22 Apr IIW
 
-### Agenda - 30 Mar 2021 - TTrust Framework Series - UK Draft 
+## Agenda - 14 May - EU time - OS Aries wallets and interop - Animo and iGrant?
+
+## Agenda - 7 May - US time - IIW recap?
+
+### Agenda - 30 Apr EU Time - TBD
+
+### Agenda - 20-22 Apr IIW - cancelled
+
+### Agenda - 14 Apr - EU time - TBD
+
+### Agenda - 7 Apr - US time - VC-Status-List? 
+
+### Agenda - 31 Mar 2021 - TTrust Framework Series - UK Draft 
 - Draft for Review: [UK Identity and Attributes Trust Framework](https://www.gov.uk/government/publications/the-uk-digital-identity-and-attributes-trust-framework/the-uk-digital-identity-and-attributes-trust-framework)
 - Other Recommended Reading:
     - OIX Trust Framework [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability) (2020)
@@ -81,8 +95,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
         - [VC-HTTP-API](https://github.com/w3c-ccg/vc-http-api) specification used in recent SVIP plugathon (more detailed documentation forthcoming)
         - [CHAPI test suite](https://github.com/w3c-ccg/chapi-interop-test-suite) recently updates as well
     - Recently-launched public website for tracking cross-agent testing in the [Aries test harness](http://aries-interop.info/)
-    - [Guided tour](
-https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit)
+    - [Guided tour](https://www.youtube.com/watch?v=cWPiJrVKj-U) of iGrant.io's Aries Testing Journey and their open-sourced [Aries Interop Playground](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw?edit)
     - [Interop Testing Survey](https://forms.gle/KTwPkfcJujZEKuzk8) in support of DIF Member Gataca's [Verifier Universal Interface](https://gataca-io.github.io/verifier-apis/) (done through the interop program of ESSIF-LAB)
 - Announcements 
 
