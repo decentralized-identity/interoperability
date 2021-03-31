@@ -80,15 +80,34 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 7 Apr - US time - VC-Status-List? 
 
-### Agenda - 31 Mar 2021 - TTrust Framework Series - UK Draft 
-- Draft for Review: [UK Identity and Attributes Trust Framework](https://www.gov.uk/government/publications/the-uk-digital-identity-and-attributes-trust-framework/the-uk-digital-identity-and-attributes-trust-framework)
-- Other Recommended Reading:
+### Agenda - 31 Mar 2021 - Trust Framework Talk
+
+- [Recording](https://us02web.zoom.us/rec/share/6e1gM0TIz4zWDmrwqf-C4-aEuwqHAC4KNt_5ChnNmqH6CgguVA60Da_Ue-gubJp-.W3S-Xbqc1LFPnB4f)
+- Recommended Readings:
     - OIX Trust Framework [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability) (2020)
     - NIST Trust Framework [report](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf) (2018)
     - Aries [RFC](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0430-machine-readable-governance-frameworks/README.md) about Machine-Readable TFs
+- Postponed: Alastaire from UK DCMS discussing their Trust Framework
+    - "Alpha" Draft for Review: [UK Identity and Attributes Trust Framework](https://www.gov.uk/government/publications/the-uk-digital-identity-and-attributes-trust-framework/the-uk-digital-identity-and-attributes-trust-framework)
     - [GovUK TF](https://www.linkedin.com/posts/sankarshan_the-uk-digital-identity-and-attributes-trust-activity-6771800727254900736-_goL) (and links to folks at ToIP and Sovrin Foundation writing responses)
 
+<Details>
+<summary>Minutes:</summary>
+- Sankarshan: Update on UK Trust Framework 
+    - it's "ALPHA", still collecting input for BETA to be released before made policy
+- Sam Curren
+    - Intro to concept (tour of [RFC 430](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0430-machine-readable-governance-frameworks))
+    - First QandA
+        - Adrian: How's this relate to a platform [app store](https://developer.apple.com/app-store/app-privacy-details/
+), which is a machine-readable trust framework of sorts? App stores' opaque and arbitrary policies raise real problems for separation of concerns; does MRTF make possible a more transparent or openly-governed policies? I think so!
+            - Scope is for VCs, though, not software
+        - clear, simple example in [this PR](https://github.com/hyperledger/aries-rfcs/blob/f0794ed764d593103749554a8d9b53b27f338958/concepts/0535-email-access-governance-framework/README.md)
+        
+
+</Details>
+
 ### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out & Aries Interop Update
+- [Recording](https://us02web.zoom.us/rec/share/1Vfk73rH3vZ5mfC6Gj9YHqTWndKX-QdAztieOfWOr0sZ3KgQ4PwDrmM_uE8XIii9.Aj9-GC41NJ7dNuF2)
 - Stephen Curran from Aries and Anil John from SVIP will be speaking about recent developments in the landscape of interop profiles and test harnesses
 - Advanced readings:
     - [Slides and demo/videos from SVIP event last week](https://docs.google.com/presentation/d/1MeeP7vDXb9CpSBfjTybYbo8qJfrrbrXCSJa0DklNe2k/edit?usp=sharing)
