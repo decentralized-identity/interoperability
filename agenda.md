@@ -112,7 +112,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 </Details>
 
 ### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out & Aries Interop Update
-- [Recording](https://us02web.zoom.us/rec/share/1Vfk73rH3vZ5mfC6Gj9YHqTWndKX-QdAztieOfWOr0sZ3KgQ4PwDrmM_uE8XIii9.Aj9-GC41NJ7dNuF2)
+- [Recording](https://us02web.zoom.us/rec/share/1Vfk73rH3vZ5mfC6Gj9YHqTWndKX-QdAztieOfWOr0sZ3KgQ4PwDrmM_uE8XIii9.Aj9-GC41NJ7dNuF2) of the whole session; [Aries-only](https://youtu.be/dC0QgsGQjLY) and [SVIP-only](https://youtu.be/Q9vOoE7qiDs) recordings on youtube
 - Stephen Curran from Aries and Anil John from SVIP will be speaking about recent developments in the landscape of interop profiles and test harnesses
 - Advanced readings:
     - [Slides and demo/videos from SVIP event last week](https://docs.google.com/presentation/d/1MeeP7vDXb9CpSBfjTybYbo8qJfrrbrXCSJa0DklNe2k/edit?usp=sharing)
