@@ -72,13 +72,18 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ## Agenda - 7 May - US time - IIW recap?
 
-### Agenda - 30 Apr EU Time - TBD
+### Agenda - 28 Apr EU Time - How Trust Frameworks Compare and Develop (OIX)
+
+- Nick Mothershaw (UK) from the Open Identity Exchange will talk about the [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability)  to defining, enforcing, and comparing trust frameworks that OIX released last July
+- Pam Dingle (Microsoft US) will serve as respondent, drawing on her own experience mediating trust frameworks and working with OIX
 
 ### Agenda - 20-22 Apr IIW - cancelled
 
 ### Agenda - 14 Apr - EU time - TBD
 
-### Agenda - 7 Apr - US time - VC-Status-List? 
+### Agenda - 7 Apr - US time - VC-Status-List-2021
+
+-  Manu Sporny of Digital Bazaar (US) will be discussing the new [VC Status List](https://github.com/w3c-ccg/vc-status-list-2021) spec at CCG and how it could relate to [VC Refresh](https://www.w3.org/TR/vc-data-model/#refreshing) and other next-generation flows.
 
 ### Agenda - 31 Mar 2021 - Trust Framework Talk
 
