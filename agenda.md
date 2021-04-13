@@ -2,7 +2,6 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
-
 [early Zoom link - 0600PT](https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09) | [late Zoom link - 1400PT](https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09) | [DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Mailing List](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
 
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
@@ -72,22 +71,22 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ## Agenda - 7 May - US time - IIW recap?
 
-### Agenda - 28 Apr EU Time - How Trust Frameworks Compare and Develop (OIX)
+## Agenda - 28 Apr EU Time - How Trust Frameworks Compare and Develop (OIX)
 
 - Nick Mothershaw (UK) from the Open Identity Exchange will talk about the [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability)  to defining, enforcing, and comparing trust frameworks that OIX released last July
 - Pam Dingle (Microsoft US) will serve as respondent, drawing on her own experience mediating trust frameworks and working with OIX
 
-### Agenda - 20-22 Apr IIW - cancelled
+## Agenda - 20-22 Apr IIW - cancelled
 
-### Agenda - 14 Apr - EU time - FAQ crowd-editing sesh and IIW session ideas/matchmaking
+## Agenda - 14 Apr - EU time - FAQ crowd-editing sesh and IIW session ideas/matchmaking
 - For the first portion of the hour, we'll be walking through and giving the group a chance to hack away at a simple public-facing, entry-level [FAQ](https://docs.google.com/document/d/1umHFLN-BbNF4YtDY5PdQMtdGHWKEKzcpLS8C-T4T8pQ/edit#) for basic SSI topics
 - For the second, we'll gather thoughts about IIW panels and workshop scopes or invitees with the group. The best IIW sessions often have two or three conveners that don't work together or on the same tooling!
 
-### Agenda - 7 Apr - US time - VC-Status-List-2021
+## Agenda - 7 Apr - US time - VC-Status-List-2021
 
 -  Manu Sporny of Digital Bazaar (US) will be discussing the new [VC Status List](https://github.com/w3c-ccg/vc-status-list-2021) spec at CCG and how it could relate to [VC Refresh](https://www.w3.org/TR/vc-data-model/#refreshing) and other next-generation flows.
 
-### Agenda - 31 Mar 2021 - Trust Framework Talk
+## Agenda - 31 Mar 2021 - Trust Framework Talk
 
 - [Recording](https://us02web.zoom.us/rec/share/6e1gM0TIz4zWDmrwqf-C4-aEuwqHAC4KNt_5ChnNmqH6CgguVA60Da_Ue-gubJp-.W3S-Xbqc1LFPnB4f)
 - Recommended Readings:
@@ -100,6 +99,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 <Details>
 <summary>Minutes:</summary>
+
 - Sankarshan: Update on UK Trust Framework 
     - it's "ALPHA", still collecting input for BETA to be released before made policy
 - Sam Curren
@@ -113,7 +113,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 </Details>
 
-### Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out & Aries Interop Update
+## Agenda - 24 Mar 2021 - US/APAC time (1400PT) - SVIP Plugathon Report-out & Aries Interop Update
 - [Recording](https://us02web.zoom.us/rec/share/1Vfk73rH3vZ5mfC6Gj9YHqTWndKX-QdAztieOfWOr0sZ3KgQ4PwDrmM_uE8XIii9.Aj9-GC41NJ7dNuF2) of the whole session; [Aries-only](https://youtu.be/dC0QgsGQjLY) and [SVIP-only](https://youtu.be/Q9vOoE7qiDs) recordings on youtube
 - Stephen Curran from Aries and Anil John from SVIP will be speaking about recent developments in the landscape of interop profiles and test harnesses
 - Advanced readings:
@@ -150,7 +150,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 </details>
 
-### Agenda - 17 Mar 2021 - US/EU time (0600PT) - DIF ["Mini-"] Grant Program
+## Agenda - 17 Mar 2021 - US/EU time (0600PT) - DIF ["Mini-"] Grant Program
 - Advanced readings:
     - NGI [report](https://www.ngi.eu/news/2020/12/08/disposable-identities-and-digital-twins/) on Disposable Identities Salon/mini-conf
     - NGI [Disposable Identities portal](https://disposableidentities.eu/)
@@ -160,7 +160,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 
 
-### Agenda - 10 Mar 2021 - US/APAC time (1400PT) - Justin Richter and Adrian Gropper on GNAP and Authorization for SSI
+## Agenda - 10 Mar 2021 - US/APAC time (1400PT) - Justin Richter and Adrian Gropper on GNAP and Authorization for SSI
 
 - Announcements
     - Tomorrow, DIF will host an open call about the [proposed Travel and Hospitality Special Interest Group](https://docs.google.com/document/d/1uYlz3oVBDz-HKEtyO5CsCM1g3uhPxryy/edit) (10am EST)
@@ -206,7 +206,7 @@ Presentation
 
 </details>
 
-### Agenda - 3 Mar 2021 - US/EU time (0600PT) - Manu Sporny (Digital Bazaar) report-out on specifications incubated in W3C-CCG
+## Agenda - 3 Mar 2021 - US/EU time (0600PT) - Manu Sporny (Digital Bazaar) report-out on specifications incubated in W3C-CCG
 - [Recording](https://us02web.zoom.us/rec/share/WOKrQyAymxpWRVKXkw3bEJQVDYApFikAdaBIPnlTT4GBEgEnXELGPZG1rRGO2fp4.QgPtTRgAc9g7BbEW?startTime=1614779841000)
 - Advanced Readings:
     - [W3C-CCG website](https://w3c-ccg.github.io/)
@@ -271,7 +271,7 @@ Presentation
     
 </details>
 
-### Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
+## Agenda - 24 Feb 2021 - US/APAC time (1400PT) - Revocation Mechanisms Pt. 2 - Mike Lodder and Revocable BBS+
 - Intros and announcements
     - Wallet Security WG kickoff Monday
     - Mike is also working on a bearer-token/passwordless auth system as well?! coming soon to an interop near you...
@@ -355,7 +355,7 @@ Revocation is just difficult mathematically to scale
 
 </details>
 
-### Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
+## Agenda - 17 Feb 2021 - US/EU time (0600 PT) - Updates on Layer 1 recent events
 - [Recording](https://us02web.zoom.us/rec/share/h-2dmVYB509JdXKNTdWDKYNtCfD5wS26sooUpmxsbhdDMgkUKpWm56lEGwzhc8oY.NScoc3Y6l28fVvnD) and [Slides](https://github.com/decentralized-identity/interoperability/raw/master/assets/slides--2021-02-17--t_ronda_(SecureKey)-did-orb-spec-tour.pdf)
 
 - Reading and links:
@@ -414,7 +414,7 @@ Revocation is just difficult mathematically to scale
         
 </details>
 
-### Agenda - 10 Feb 2021 - US/APAC time (1400PT) - Revocation method comparison
+## Agenda - 10 Feb 2021 - US/APAC time (1400PT) - Revocation method comparison
 * [Recording](https://us02web.zoom.us/rec/share/1712JUpsSPmrvILDkSgVPErNyiqaSZ_vDPmGa9XFOXifkLMDXEguYM-uQLrLznyB.2b61Jg2ha_Q10ikZ) and amazing [Slides](https://docs.google.com/presentation/d/1xT8PZ4FYNAvH8AVdGmy_lqfDYqi0VNUMQuRrwU1gkIA/edit#slide=id.gbcc04079a5_0_1) - Thanks Martin!!!
 
 Context and Recommended Advanced Readings:
@@ -427,7 +427,7 @@ Context and Recommended Advanced Readings:
 * Announcements
     - Wallet Security WG refining its [charter](https://docs.google.com/document/d/18H2hVjHZEBjbnzod8tLogJIEzySdecbk9d-QBJaqHP0/edit) and looking for a co-chair to begin work soon! Get in touch via DIF Slack
 
-### Agenda - 3 Feb 2021 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
+## Agenda - 3 Feb 2021 - US/EU time (0600 PT) - Update on DID-Core and Enterprise Ethereum Alliance (D Burnett) and DID Interop Fundamentals (Markus Sabadello and guests)
 
 - [Recording](https://us02web.zoom.us/rec/share/o5RP36QWFf0hW80cVW3UFgnAf-0tHkpl8KY4T1NY2sgf5F4Aza16ZhUhU9v9WuD9.XkJmx0ko1dSqyV6o) and Markus' [Presentation](https://github.com/decentralized-identity/interoperability/blob/master/assets/guest-slides/2021-02-030-Markus-Sabadello-Overview-of-Multi-proof%20VCs.pdf)
 
@@ -489,7 +489,7 @@ Context & Recommended Advance Readings:
         
 
 </details>
-### Agenda - 27 Jan 2021 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
+## Agenda - 27 Jan 2021 - US/APAC time (1400PT) - ~~Todd Gehrke (ID2020) + Josh Mandell(Microsoft Healthcards Project) ~~
 
 Context:
 * [HealthCards](https://github.com/smart-on-fhir/health-cards) 
@@ -502,7 +502,7 @@ Impromptu agenda
 - FHIR brownfield entrenching EHR platforms/concerns?
 
 
-### Agenda - 20 Jan 2021 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
+## Agenda - 20 Jan 2021 - US/EU time (0600 PT) - Tour of the OS Veramo Suite from Consensys Mesh/DAF team
 
 [Recording](https://us02web.zoom.us/rec/share/a134lNnRootkzsl4EQEWozpIKFNBugdtwR5old__HJr1-AAllgOIrzRwdyLv9APP.hfc2l_l6zl_1EQPj)
 
@@ -563,7 +563,7 @@ Agenda
     
 </details>
 
-### Agenda - 19 Jan 2021 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
+## Agenda - 19 Jan 2021 - DIF Face-to-Face - (800-830PT) - Report out of Interop since last F2F
 
 [Recording](https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA)
 
@@ -576,7 +576,7 @@ Agenda
 * Past topics (5min)
 * Future topics (5min)
 
-### Agenda - 13 Jan 2021 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
+## Agenda - 13 Jan 2021 - US/APAC time (1400PT) - Communications Problem: Explaining the VC Format wars to decision-makers
 
 [Recording]((https://us02web.zoom.us/rec/share/zB6sajTZR1n1QX-_od7CDDHg-zgcT5fiSWJMnrm92IKIBxeEqVRQablnNDJ2NDvB.yR6-R3eQflN_dHGA))
 
@@ -611,7 +611,7 @@ Agenda
     * Sidebar: Covid credentials
 </details>
 
-### Agenda - 6 Jan 2021 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
+## Agenda - 6 Jan 2021 - US/EU time (0600 PT) - 2020 Year in Review & Periodic Roadmapping Re-up session
 
 [Recording](https://us02web.zoom.us/rec/share/FZyFAm8hfHBtj9CowYYoo1_0F4wf_ThaCJDbDXj12FBiX-0fExehTZLxneQfqIW0.lOBwTUjnbUUvmbuB)
 
@@ -630,11 +630,11 @@ Agenda/Minutes
     * Proposal to the group: 5 roles from GNAP thinking might be useful? Slippage between assumptions baked into terms used to define roles
         * GNAP - breaking changes from OAuth2/OIDC, roles have very different assumptions
 
-### Agenda - 30 Dec 2020 - Happy Holidays everybody!
+## Agenda - 30 Dec 2020 - Happy Holidays everybody!
 
-### Agenda - 23 Dec 2020 - Happy Holidays everybody!
+## Agenda - 23 Dec 2020 - Happy Holidays everybody!
 
-### Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
+## Agenda - 16 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: A VC-focused Tour of the Authenticator architecture with Tim Capalli (MSFT)
 
 [Recording](https://us02web.zoom.us/rec/share/UhIV-vk98lnyeVLaHuGq_o_f8NiuQ2uKA3GM1vMtcg6z8T04y9ugnS6vRzbZkuYe.gy0oWuxjwibGyfXM)
 
@@ -670,7 +670,7 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 
 </details>
 
-### Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
+## Agenda - 9 Dec 2020 - US/EU time (0600 PT) - inteurop series - ESSIF & ESSIF-Lab interop deep dive - Daniel Du Seuil, Oskar van Deventer et al.
 
 [Recording](https://us02web.zoom.us/rec/share/YJSiutQrX4VvI-H9_JZmaXP5tyd7DtqOqoHkTIXIuofCNhb2IFekEZ2K4FHqNco.FvPxN0QFxhlp2mYG)
 
@@ -721,7 +721,7 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 </details>
 
 
-### Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
+## Agenda - 2 Dec 2020 - US/APAC time (1400 PT) - VC deep dive series: Spec map project and BBS+-in-Aries
 
 [Recording](https://us02web.zoom.us/rec/share/d7YIh26pIJ2jhq2PqFpy0UeoYfJ3GWldVXj6IuXHEKS9gIkcrAlKyAl5fTohhyUb.0H-RADOMVxp94aM3)
 
@@ -778,7 +778,7 @@ https://docs.google.com/presentation/d/12uZUgNfcMu4-14VocC6DpXbv88Qef1ap-NWdbjh8
 
 
 
-### Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
+## Agenda - 25 Nov 2020 - US/EU time (0600 PT) - inteurop series - ESSIF-LAB and Odyssey Momentum
 
 [Recording](https://us02web.zoom.us/rec/share/n3jWlu5E2vkS5llHMWPIf4PRRhmur5s1eDwJ8oxp0GgVUkMr0-LGTqtW3AtvzWwz.s4KMZtub051SiE4P)
 
@@ -812,11 +812,11 @@ ESSIF-LAB (30min):
 
 </details>
 
-### Agenda - 18 Nov 2020 - US/APAC time (1400 PT) 
+## Agenda - 18 Nov 2020 - US/APAC time (1400 PT) 
 
 [Recording](https://us02web.zoom.us/rec/share/-Xk7R0pgZBHzNjfOMen30xnRZssW6WQppNvQH9KDNwgou8qoRhR8vsKf0uiopc4.e0HwFp387JmwS7M_)
 
-#### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
+### LD/BBS+ Education: Walkthroughs and Mental Models/Reports from the Field
 
 Tobias - "BBS+ 201"
 - Tobias will be overviewing and answering questions about his IIW [presentation](https://www.youtube.com/watch?v=AVnCVzW0rkI)
@@ -830,11 +830,11 @@ Tobias - "BBS+ 201"
     1. How big is the "lift" (or level of effort) for Aries systems post-[RFC 47](https://github.com/hyperledger/aries-rfcs/blob/master/concepts/0047-json-ld-compatibility/README.md)?  How big for non-Aries systems already using LD-VCs today?  How big for JWT-native systems? 
     1. [If time allows] Could we talk more about "Just-in-time Issuance" and "Trusted Witness" solutions?
 
-### Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
+## Agenda - 11 Nov 2020 - US/APAC time (0600 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/gK2c_j1egVfEcOLCLENZoocsp7R5K5Ph5MaEQBXjLz_DEYSUkUQW1awd_2LqU784.wvUY74TK_KfAZqbb)
 
-#### Side-bar: Human-Centric Approaches & Updates
+### Side-bar: Human-Centric Approaches & Updates
 
 Discussion
 - Presentation: Domains of Identity and human-centric design/UX as corrective for market-driven interop
@@ -852,11 +852,11 @@ Links from the discussion today
     - Justin Richter's GNAP presentation from the [highly technical] SDS [working group regular meeting](https://lists.identity.foundation/g/sds-wg/wiki/24092)
     - His GNAP presentation at yesterday's meeting of [W3C-CCG](https://github.com/w3c-ccg/meetings) (transcript/rec not yet live on github i believe)
 
-### Agenda - 4 Nov 2020 - US/APAC time (1400 PST) 
+## Agenda - 4 Nov 2020 - US/APAC time (1400 PST) 
 
 [Recording](https://us02web.zoom.us/rec/share/KjUmnvS2rrfZ_WsPSggzxZP3s-OP36zq3IdbkoMndK0a96Kid81ucsIt-iRSnvME.sNDt6isH9BOJMmnI)
 
-#### LD/BBS+ Education Pt. 1: Walkthroughs and Mental Models/Reports from the Field
+### LD/BBS+ Education Pt. 1: Walkthroughs and Mental Models/Reports from the Field
 - Guest Presenter #1: Orie Steele- [The What and Why of the DIF general-purpose Document-Loader](https://youtu.be/-yUbMDft5O0)
 - Guest Presenter #2: Kim H Duffy - [W3C-CCG Edu Creds Task Force & Tooling/Sandbox Intro](https://youtu.be/AEb02JGCArM) (Overview of CCG LD tooling)
 
@@ -902,7 +902,7 @@ Minutes
             * Kim: context: ACE blockchain challenge and wallets; DIF would be a good location for practical ongoing discussion of logistics for those kinds of venues
 * Future agenda topic - Power in the standards process - separation of concerns as a mantra for protecting against coupling of ontology and platform mechanics?
 
-### Agenda - 28 Oct 2020 - US/APAC time (600 PST) 
+## Agenda - 28 Oct 2020 - US/APAC time (600 PST) 
 
 [Recording](https://us02web.zoom.us/rec/share/bCUbntNNU3sMC6yzhANZSIitaE5znl00jrgzhOO1G0EcjeedS6aMzRb7WVcZtQg7.J3C0GXqJTy2pUowi)
 
@@ -917,7 +917,7 @@ Minutes
 * Took notes at the bottom of this open hackmd [doc]([here](https://github.com/decentralized-identity/interoperability/blob/master/assets/iiw31guide.md))
 
 
-### Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
+## Agenda - 21 Oct 2020 - US/APAC time (1400 PST) **MEETING CANCELED FOR IIW**
 
 [Recording](https://us02web.zoom.us/rec/share/MwDSAOFT5zdylbrFOZZ_1af9wGjuZ4kAouVj6qIweupOOSww_aQFiV7T6QpuB8s6.lumWmYFiy9O7q2Li)
 
@@ -933,7 +933,7 @@ Minutes
 
 * Link tree (moved to repo [readme](https://github.com/decentralized-identity/interoperability/))
 
-### Agenda - 14 Oct 2020 - US/APAC time (600 PST) 
+## Agenda - 14 Oct 2020 - US/APAC time (600 PST) 
 
 [Recording](https://us02web.zoom.us/rec/share/-Nl0lzhPZkhM6gd0DCvffS_J9DFXHWvyBG1ZdNWSZCN2KAhXgobWsLmOxupjxb5B.R9XLwt5dTpwO2U5i)
 
@@ -985,7 +985,7 @@ Attendees:
 
 </details>
 
-### Agenda - 7 Oct 2020 - US/APAC time (1400 PST) 
+## Agenda - 7 Oct 2020 - US/APAC time (1400 PST) 
 
 [Recording](https://us02web.zoom.us/rec/share/NHcELUXRMZHdF1c2b_GniKo-wW2e_NxiV1RkyhQowhjKp9v8MMpcodhbyok0im6X.RVZpVK6BiFgIirNu)
 
@@ -1016,7 +1016,7 @@ Attendees:
 
 </details>
      
-### Agenda - 30 Sep 2020 - US/EU time (0600 PST)
+## Agenda - 30 Sep 2020 - US/EU time (0600 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/slysribRqId5nAnV1SIUUhrp3dy6ROjGT7J2M059sYjjrOxEadl8rF13vciL8DL7.mhRGHB4ah4Lw7cdT)
 
@@ -1038,7 +1038,7 @@ Attendees:
 
 </details>
 
-### Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
+## Agenda - 23 Sep 2020 - US/APAC time (1400 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/rd85JFPkSpGy7XyXT6fRb_GVJ8RN7EGwNKkmDAoKZiFfr67V9adGvHGuYb_26wlM.qz-Q15k5i1shYEtd)
 
@@ -1083,7 +1083,7 @@ Attendees:
 
 </details>
        
-### Agenda - 16 Sep 2020 - US/EU time (0600 PST)
+## Agenda - 16 Sep 2020 - US/EU time (0600 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/5yz0MCbJczXzr33-6xeK5xRlXaDSef6zZfV2mfVIrA-SiSXiXU3Z5pD3cmhT_P3s.RLW8DtfYZYZ68Ono)
 
@@ -1163,7 +1163,7 @@ Attendees:
 
 </details>
 
-### Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
+## Agenda - 9 Sep 2020 - US/APAC time (1400 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/I7wkWou9zNSDE6SjFIszQeWN5elHAmwU_hz3DLtlImEGIChyDOSST9XN-x9HNTKS.4WFt4LMRBOfQ-2QY)
 
@@ -1233,7 +1233,7 @@ Minutes:
 
 </details>
 
-### Agenda - 2 Sep 2020 - US/EU time (0600 PST)
+## Agenda - 2 Sep 2020 - US/EU time (0600 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/eVXH7VDDRD_gCgNmG77_HNbeggD6-QXUq7AHsar976yW67NCMo8IsiIiJPf5H3zk.EYEuZyrL5GLwBvIE)
 
@@ -1274,7 +1274,7 @@ Minutes:
 
 </details>
 
-### Agenda - 26 Aug 2020 - afternoon time (1400 PST)
+## Agenda - 26 Aug 2020 - afternoon time (1400 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/1MhsM6OzrlNLY53GyG3ZV6MODKXHeaa81HAd8vcIzB3NP5fG7S_MWJmMEvSVNNtm)
 
@@ -1348,7 +1348,7 @@ Interesting links shared
 </details>
 
 
-### Agenda - 19 Aug 2020 - morning time (0600 PST)
+## Agenda - 19 Aug 2020 - morning time (0600 PST)
 
 [Recording](https://us02web.zoom.us/rec/share/4_11PYjJqEZJR43L8l3nR6obIdrpX6a81CkXrqYPz0cq-jO2b-CIyqbkDplqEmkD)
 
@@ -1356,8 +1356,8 @@ Self-Introductions and Announcements (5min)
 * Stephen Curran - BCGov is looking for help with headless mobile testing! Anyone with experience and tool recommendations/suggestions please reach out!
 
 
-#### Agenda.md / hackmd tour (10min)s
-#### Documentation.md tour (5min)
+### Agenda.md / hackmd tour (10min)s
+### Documentation.md tour (5min)
 
 <details> 
 <summary> Orie - tour of explainer.md and other work to date/ongoing inheritance (30min - got lively)
@@ -1382,9 +1382,9 @@ Self-Introductions and Announcements (5min)
 
 * Deferred to next week pending first stab at repo-cleanup for deprecated/unsupported documentation (and updating documentation.md accordingly)
 
-#### Ratify new time-slot for alternating weeks starting 26Aug. (Forgot to vote? you still [can](https://forms.gle/367khx8UvmZsjvyo9)!)
+### Ratify new time-slot for alternating weeks starting 26Aug. (Forgot to vote? you still [can](https://forms.gle/367khx8UvmZsjvyo9)!)
 
-#### Pre-Mapping (15min) - live screenshare from the [notion.so for the group](https://www.notion.so/dif/Interoperability-WG-a42995c37e2a4511a10aea96cdbccc38)
+### Pre-Mapping (15min) - live screenshare from the [notion.so for the group](https://www.notion.so/dif/Interoperability-WG-a42995c37e2a4511a10aea96cdbccc38)
 
 <details>
 <summary>Minutes:</summary>
