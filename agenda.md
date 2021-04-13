@@ -79,7 +79,9 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ### Agenda - 20-22 Apr IIW - cancelled
 
-### Agenda - 14 Apr - EU time - TBD
+### Agenda - 14 Apr - EU time - FAQ crowd-editing sesh and IIW session ideas/matchmaking
+- For the first portion of the hour, we'll be walking through and giving the group a chance to hack away at a simple public-facing, entry-level FAQ for basic SSI topics
+- For the second, we'll gather thoughts about IIW panels and workshop scopes or invitees with the group. The best IIW sessions often have two or three conveners that don't work together or on the same tooling!
 
 ### Agenda - 7 Apr - US time - VC-Status-List-2021
 
