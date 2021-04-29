@@ -69,7 +69,11 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ## Agenda - 14 May - EU time - OS Aries wallets and interop - Animo and iGrant?
 
-## Agenda - 7 May - US time - IIW recap?
+## Agenda - 7 May - US time - IIW recap & Killer Whale Jello-Salad Update
+- first half: all members are welcome to share and recommend their favorite sessions (let's gather the links in this document!). Some strong signals:
+    - KERI <> TrustFrame/ADL: two kinds of DID-like but non-DID identifiers and how they can work with DIDs
+    - Credential Exchange across stacks ASAP - the Jello-Salad issues
+    - Lots of Covid talk, and governance talk, and legal talk, including some detailed guardianship, delegation, audit, and regulated-finance use cases!
 
 ## Agenda - 28 Apr EU Time - How Trust Frameworks Compare and Develop (OIX)
 
@@ -81,6 +85,37 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ## Agenda - 14 Apr - EU time - FAQ crowd-editing sesh and IIW session ideas/matchmaking
 - For the first portion of the hour, we'll be walking through and giving the group a chance to hack away at a simple public-facing, entry-level [FAQ](https://docs.google.com/document/d/1umHFLN-BbNF4YtDY5PdQMtdGHWKEKzcpLS8C-T4T8pQ/edit#) for basic SSI topics
 - For the second, we'll gather thoughts about IIW panels and workshop scopes or invitees with the group. The best IIW sessions often have two or three conveners that don't work together or on the same tooling!
+
+<details><summary>Minutes</summary>
+
+- IIW session spitballing
+    - Juan + Sam: Rebase - 
+    - Adrian: GNAP AuthZ & SSI - Authorization-first versus Messaging-first (are we too data-model-centric/-forward?)
+    - Sam: Medical Data and Credentials - what can a subject hold and what cannot? Data access vs protocol with concrete use-case examples (question-driven)
+        - Adrian: Can we get Solid folks in there? Invite Dmitry Z?
+        - Sam: Major overlaps with GNAP, EDVs, Hubs, and Solid equally!
+        - Sam: Philosophical and legal limitations are not well known to many people working on these problems...
+            - Adrian: Alice to Alice
+            - Sam: US Law requires many things NOT to be self-held-- then we can map those to currently architectures and options
+    - Adrian: Trustee + HIE of One semi-demo? (a self-sovereign agent for health records)
+    - Neil Thompson (working iwth Paul at ToIP/HCF) - OCA session (also Health Data-friendly)
+    - Stephen - DID:Indy method and resolving full did doc support in Indy - extract all ledger data in more w3c ways
+    - Stephen - organizational wallets - legal registered entities
+        - Moritz K (Bosch) - Org Agent - Indy + web frontend for spitting out did:web VCs
+    - Kristina 
+        - OIDF/SIOP group --> using VCs with OIDC: 3 options; 
+            1. JWT claims to embed entire VC inside the ID Token;
+            2. Having a dictionary - Aggregated and Distributed Claims syntax;
+            3. a new artifact that includes only VP (aka VP token)
+        - BBS+ with JOSE (Ping)
+        - Credential Provider spec (Tobias and Adam L: issuance spec)
+        - wallet invocation (SIOP chooser) - how to invoke one wallet of many
+            - Adrian: Password managers and wallets?
+            - Kristina: CHAPI-inspired & share-page --> how to servers ask for a wallet and get one back it can work with
+            - WebAuthn has some hints
+        - SIOP use-cases - what do you want to use an Identity Provider you control for?
+        
+</details>
 
 ## Agenda - 7 Apr - US time - VC-Status-List-2021
 
