@@ -83,10 +83,10 @@ Meta-topics and Potential quarter-wide or year-long goals:
 - WACI-PEx [work item/draft spec](https://github.com/decentralized-identity/waci-presentation-exchange)
 
 
-## Agenda - 12 May - EU time - OS Aries wallets and interop - iGrant
+## Agenda - 12 May - EU time - Aries-ToIP Interop with guests Lal and Jan from iGrant.io 
 
 - iGrant will present on their Aries Interop Playground harness (for background, see [this recording](https://www.youtube.com/watch?v=cWPiJrVKj-U) of an earlier presentation and Q&A about the Playground at a ToIP call)
-- Topics will also include ToIP [Interop Profiles](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) like [Saturn V](https://trustoverip.org/blog/2020/10/19/trust-over-ip-foundation-introduces-a-new-tool-for-interoperable-digital-trust/) and their work with Consent and Legal Agreements (https://wiki.trustoverip.org/display/HOME/Notice+and+Consent+Task+Force)
+- Topics will also include ToIP [Interop Profiles](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) like [Saturn V](https://trustoverip.org/blog/2020/10/19/trust-over-ip-foundation-introduces-a-new-tool-for-interoperable-digital-trust/) and their work with Consent and Legal Agreements in the ToIP [Notice & Consent TF](https://wiki.trustoverip.org/display/HOME/Notice+and+Consent+Task+Force)
 
 ## Agenda - 5 May - US time - IIW recap & Killer Whale Jello-Salad Update
 - first half: all members are welcome to share and recommend their favorite sessions (let's gather the links in this document!). Some strong signals:
