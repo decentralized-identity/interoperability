@@ -66,14 +66,49 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
+## Agenda - 9 Jun - EU time - X.509 Ho-down Part 2?
 
-## Agenda - 14 May - EU time - OS Aries wallets and interop - Animo and iGrant?
 
-## Agenda - 7 May - US time - IIW recap & Killer Whale Jello-Salad Update
+
+## Agenda - 2 Jun - US time - X.509 Ho-down Part 1?
+
+
+
+## Agenda - 26 May - EU time - Status List 2021
+
+
+
+## Agenda - 19 May - US time - Jace and WACI (blog post); WACI-PEx
+- WACI [spec](https://github.com/decentralized-identity/wallet-and-credential-interactions)
+- WACI-PEx [work item/draft spec](https://github.com/decentralized-identity/waci-presentation-exchange)
+
+
+## Agenda - 12 May - EU time - OS Aries wallets and interop - iGrant
+
+- iGrant will present on their Aries Interop Playground harness (for background, see [this recording](https://www.youtube.com/watch?v=cWPiJrVKj-U) of an earlier presentation and Q&A about the Playground at a ToIP call)
+- Topics will also include ToIP [Interop Profiles](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) like [Saturn V](https://trustoverip.org/blog/2020/10/19/trust-over-ip-foundation-introduces-a-new-tool-for-interoperable-digital-trust/) and their work with Consent and Legal Agreements (https://wiki.trustoverip.org/display/HOME/Notice+and+Consent+Task+Force)
+
+## Agenda - 5 May - US time - IIW recap & Killer Whale Jello-Salad Update
 - first half: all members are welcome to share and recommend their favorite sessions (let's gather the links in this document!). Some strong signals:
     - KERI <> TrustFrame/ADL: two kinds of DID-like but non-DID identifiers and how they can work with DIDs
     - Credential Exchange across stacks ASAP - the Jello-Salad issues
     - Lots of Covid talk, and governance talk, and legal talk, including some detailed guardianship, delegation, audit, and regulated-finance use cases!
+- second half: 
+
+<details><summary>Minutes</summary>
+- IIW highlights?
+    - all notes [here](https://iiw.idcommons.net/IIW_32_Session_Notes)
+    - Adrian: 3 IIW panels:
+        - Recommend people check the minutes/recording of AuthZ session
+    - Polic Stuff
+- WACI
+    - Have the group codify technical components of WACI individually, so we can generated momentum now.
+    - PROPOSAL (from daniel B): marshal DIF, HL, ToIP, and/or CCG to jointly designate components of WACI as THE common ground for VC exchange
+
+- Interop Showing
+    - DW: no implementations? PE has 1, BBS+ has 1...
+        - PE is not minimal!
+</details>
 
 ## Agenda - 28 Apr EU Time - How Trust Frameworks Compare and Develop (OIX)
 
