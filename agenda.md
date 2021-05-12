@@ -81,9 +81,9 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - Hakan's presentation for an IDUnion meeting a month ago
 
 
-## Agenda - 19 May - US time - Jace and WACI (blog post); WACI-PEx
-- WACI [spec](https://github.com/decentralized-identity/wallet-and-credential-interactions)
-- WACI-PEx [work item/draft spec](https://github.com/decentralized-identity/waci-presentation-exchange)
+## Agenda - 19 May - US time - A quick tour of the WACI specification (recently donated to DIF) by Jace Hensley (Bloom) and a Q&A about the new WACI-PEx work item
+- Jace will give a tour of the WACI [spec](https://github.com/decentralized-identity/wallet-and-credential-interactions) - what it does, what it specifies, what you can do with it
+- Q&A about the v0.1 and v1 scopes for the WACI-PEx [work item/draft spec](https://github.com/decentralized-identity/waci-presentation-exchange), with world-class cat-herder Brent Zundel as respondent
 
 
 ## Agenda - 12 May - EU time - Aries-ToIP Interop with guests Lal and Jan from iGrant.io 
