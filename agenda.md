@@ -66,16 +66,19 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-## Agenda - 9 Jun - EU time - X.509 Ho-down Part 2?
+## Agenda - 9 Jun - EU time - X.509 Ho-down Part 1?
 
 
 
-## Agenda - 2 Jun - US time - X.509 Ho-down Part 1?
+## Agenda - 2 Jun - US time - Status List 2021
 
 
 
-## Agenda - 26 May - EU time - Status List 2021
-
+## Agenda - 26 May - EU time - BMWi Schaufenster, IDUnion, and new interop targets w/Hakan Yildiz
+- Recommended pre-readings:
+    - https://blog.identity.foundation/setting-interoperability-targets/ 
+    - Adrian Doerk's [presentation](https://us02web.zoom.us/rec/share/jFfXpkigd_mSxtXEiMUcZMOpmIuQjvrx7qXpYegXaJBbLNy10XK5ybJn-Ld_4bvD.5AtQQuZ5Qv0WMkX4) on IDUnion at Finance and Banking SIG
+    - Hakan's presentation for an IDUnion meeting a month ago
 
 
 ## Agenda - 19 May - US time - Jace and WACI (blog post); WACI-PEx
@@ -87,6 +90,14 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 - iGrant will present on their Aries Interop Playground harness (for background, see [this recording](https://www.youtube.com/watch?v=cWPiJrVKj-U) of an earlier presentation and Q&A about the Playground at a ToIP call)
 - Topics will also include ToIP [Interop Profiles](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) like [Saturn V](https://trustoverip.org/blog/2020/10/19/trust-over-ip-foundation-introduces-a-new-tool-for-interoperable-digital-trust/) and their work with Consent and Legal Agreements in the ToIP [Notice & Consent TF](https://wiki.trustoverip.org/display/HOME/Notice+and+Consent+Task+Force)
+    - more info here: https://trustoverip.github.io/TIP0028-saturn-v/
+    - Downloadable Data Wallet: https://igrant.io/datawallet.html
+    - Mobile agent doc: https://docs.igrant.io/ssi/ssi-ama
+
+
+
+Presentation
+- 
 
 ## Agenda - 5 May - US time - IIW recap & Killer Whale Jello-Salad Update
 - first half: all members are welcome to share and recommend their favorite sessions (let's gather the links in this document!). Some strong signals:
