@@ -32,6 +32,7 @@ Open to pull requests and issues if you spot factual errors or significant omiss
 |---|STRAWMEN/ONGOING|---|
 |Wallet Cred Format Matrix| A high-level survey of "wallets" and wallet-link things, showing their current and roadmapped credential-type support as a simple markdown matrix | ongoing / crowdsource (hackmd still open)| [hackmd](https://hackmd.io/t1cotiReTXCnkpDG8k2tVA) | oct 24 2020 |
 |---|VERSIONED|---|
+|Interop Targets (essay)| An overview of the multi-polar terrain of interoperability test suites and harnesses | 1/2 |[dif blog](https://blog.identity.foundation/setting-interoperability-targets/)|Q1 2021|
 |Map (pdf)| A drilled-down map of all the varieties of components used in a core set of decentralized identity applications known to the group|v0.0.9|[github pdf](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)| oct 24 2020|
 |Map (pdf)| A simplified graphic interpretation of the above, used for planning purposes in a German Schaufenster project and submitted by a member |v0.0.9|[github pdf](https://github.com/decentralized-identity/interoperability/blob/master/assets/interop-mapping-version-by-Hakan-Yildiz(TUB).pdf)| nov 2020|
 |Map (whimsical)|Same as above, except in editable and commentable (DIF-controlled) Whimsical diagram|v0.0.9|[whimsical](https://whimsical.com/CUhk3dT4RUZvGa4Lt7rNvD)|sept 2020|
