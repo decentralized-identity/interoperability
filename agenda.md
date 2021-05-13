@@ -87,7 +87,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 
 ## Agenda - 12 May - EU time - Aries-ToIP Interop with guests Lal and Jan from iGrant.io 
-
+- [Recording](https://us02web.zoom.us/rec/share/fR6JUrZAgf51UNIrf5-koOccclZU4Keq2n--hKGQSDxe1PHDoG0U0ScgyDhg9vFp.4ayn1zpiov16w2Qo)
 - iGrant will present on their Aries Interop Playground harness (for background, see [this recording](https://www.youtube.com/watch?v=cWPiJrVKj-U) of an earlier presentation and Q&A about the Playground at a ToIP call)
 - Topics will also include ToIP [Interop Profiles](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) like [Saturn V](https://trustoverip.org/blog/2020/10/19/trust-over-ip-foundation-introduces-a-new-tool-for-interoperable-digital-trust/) and their work with Consent and Legal Agreements in the ToIP [Notice & Consent TF](https://wiki.trustoverip.org/display/HOME/Notice+and+Consent+Task+Force)
     - more info here: https://trustoverip.github.io/TIP0028-saturn-v/
@@ -100,6 +100,8 @@ Presentation
 - 
 
 ## Agenda - 5 May - US time - IIW recap & Killer Whale Jello-Salad Update
+
+- [Recording](https://us02web.zoom.us/rec/share/bD_SmCQIJAA8qlNXGT6P1YuzJuLygXhDDCpo0rn53qQamPvWKO9e4GNywVX5_wkt.lktwtQyh_sDytuCV)
 - first half: all members are welcome to share and recommend their favorite sessions (let's gather the links in this document!). Some strong signals:
     - KERI <> TrustFrame/ADL: two kinds of DID-like but non-DID identifiers and how they can work with DIDs
     - Credential Exchange across stacks ASAP - the Jello-Salad issues
@@ -123,6 +125,7 @@ Presentation
 
 ## Agenda - 28 Apr EU Time - How Trust Frameworks Compare and Develop (OIX)
 
+- [Recording](https://us02web.zoom.us/rec/share/u-yNsIP0AWYXkFnw1IyEKyKkBTsurpRLM-Vh8Xo4mSJzOUCKXeyI1WScbiQKtoCM.G2KxoPFz_RI_kvzX)
 - Nick Mothershaw (UK) from the Open Identity Exchange will talk about the [guide](https://openidentityexchange.org/guide-trust-frameworks-interoperability)  to defining, enforcing, and comparing trust frameworks that OIX released last July
 - Pam Dingle (Microsoft US) will serve as respondent, drawing on her own experience mediating trust frameworks and working with OIX
 
