@@ -55,30 +55,30 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Cloud Wars and Gaia-X - ...?
     
     * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
-    * The Best way to do JWTs - Gabe Cohen? This week's 
-    
-    - Framework Interop versus Aries Frameworks versus non-Aries Frameworks    
-    - Update/screenshare tour of 
-- Aries World Updates
-    - Animo - OS wallet ; iGrant - playground
-    - Dyne.org and Disposable Identities vis-à-vis DIDs
-    - Nick Mothershaw and the OIX interoperability framework/scorecard
+    * Whomst 
+    * John Jordan - dominant design and metapatterns of adoption; civic technology; qR & paper credentials?
     
 </details>
+
+## Agenda - 16 June - US time - StatusList2021? 
+
+
 
 ## Agenda - 9 Jun - EU time - X.509 Ho-down Part 1?
 
 
 
-## Agenda - 2 Jun - US time - Status List 2021
-
-
-
-## Agenda - 26 May - EU time - BMWi Schaufenster, IDUnion, and new interop targets w/Hakan Yildiz
+## Agenda - 2 Jun - US time - BMWi Schaufenster, IDUnion, and new interop targets w/Hakan Yildiz
 - Recommended pre-readings:
     - https://blog.identity.foundation/setting-interoperability-targets/ 
     - Adrian Doerk's [presentation](https://us02web.zoom.us/rec/share/jFfXpkigd_mSxtXEiMUcZMOpmIuQjvrx7qXpYegXaJBbLNy10XK5ybJn-Ld_4bvD.5AtQQuZ5Qv0WMkX4) on IDUnion at Finance and Banking SIG
     - Hakan's presentation for an IDUnion meeting a month ago
+
+## Agenda - 26 May - EU time - Open Discussion
+ * Internal vs External interoperability (summary by Adrian)
+     * Internal - examples are vendor lock-in for example
+     * External - protocol decided by holder not issue (ie treat delegation as a human right)
+     * 
 
 
 ## Agenda - 19 May - US time - A quick tour of the WACI specification (recently donated to DIF) by Jace Hensley (Bloom) and a Q&A about the new WACI-PEx work item
