@@ -60,17 +60,18 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-## Agenda - 16 June - US time - StatusList2021? 
+## Agenda - 16 June - US time - StatusList2021? X.509 Part 2?
 
 
 
-## Agenda - 9 Jun - EU time - X.509 Ho-down Part 1?
-
+## Agenda - 9 Jun - EU time - X.509 Series Part 1, with David Chadwick (Verifiable Credentials Ltd., UK)
+- 
 
 
 ## Agenda - 2 Jun - US time - BMWi Schaufenster, IDUnion, and new interop targets w/Hakan Yildiz
 - Recommended pre-readings:
-    - https://blog.identity.foundation/setting-interoperability-targets/ 
+    - https://blog.identity.foundation/setting-interoperability-targets/
+    - Keith Kowal (Workday)'s [presentation](https://us02web.zoom.us/rec/share/wnkcrIpwjA_fqUdTjSdi-AxquhjEpkRl_aYr4KOgnRGuyD4FfBraMRwBTk5SliPc.4NoaZNFIxICZfk2b) from earlier today on semantics and data shape-- how to consume PAYLOADS, not just envelopes
     - Adrian Doerk's [presentation](https://us02web.zoom.us/rec/share/jFfXpkigd_mSxtXEiMUcZMOpmIuQjvrx7qXpYegXaJBbLNy10XK5ybJn-Ld_4bvD.5AtQQuZ5Qv0WMkX4) on IDUnion at Finance and Banking SIG
     - Hakan's presentation for an IDUnion meeting a month ago
 
