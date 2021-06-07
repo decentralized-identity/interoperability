@@ -60,8 +60,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-## Agenda - 16 June - US time - StatusList2021? X.509 Part 2?
-
+## Agenda - 16 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
 
 
 ## Agenda - 9 Jun - EU time - X.509 Series Part 1, with David Chadwick (Verifiable Credentials Ltd., UK)
