@@ -64,7 +64,13 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 
 ## Agenda - 9 Jun - EU time - X.509 Series Part 1, with David Chadwick (Verifiable Credentials Ltd., UK)
-- 
+
+- Recommended Reading:
+    - David's impressive bibliography, as overviewed by his [Google Scholar page](https://scholar.google.com/citations?hl=en&user=k1LL4dIAAAAJ&view_op=list_works&sortby=pubdate)
+    - VC Chapter of the Manning [Identity Book](https://livebook.manning.com/book/self-sovereign-identity/chapter-7/)
+    - Recent [CCG Thread](https://lists.w3.org/Archives/Public/public-credentials/2021Jun/0023.html) on VCs with non-DID identifiers: a recurring issue in this group!
+- Announcements
+    - Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
 
 
 ## Agenda - 2 Jun - US time - BMWi Schaufenster, IDUnion, and new interop targets w/Hakan Yildiz
