@@ -60,10 +60,15 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 </details>
 
-## Agenda - 16 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
+## Agenda - 30 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
+
+## Agenda - 23 June - US time - WACI-PEx update?
+
+## Agenda - 16 June - US time - Good Health Pass report/interop profile report-out with Lucy Yang and Drummond Reed
+- Recommended Reading:  Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
 
 
-## Agenda - 9 Jun - EU time - X.509 Series Part 1, with David Chadwick (Verifiable Credentials Ltd., UK)
+## Agenda - 9 Jun - EU time - Why do you need DIDs for SSI, with guest David Chadwick (Verifiable Credentials Ltd., UK)
 
 - Recommended Reading:
     - David's impressive bibliography, as overviewed by his [Google Scholar page](https://scholar.google.com/citations?hl=en&user=k1LL4dIAAAAJ&view_op=list_works&sortby=pubdate)
@@ -71,6 +76,24 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - Recent [CCG Thread](https://lists.w3.org/Archives/Public/public-credentials/2021Jun/0023.html) on VCs with non-DID identifiers: a recurring issue in this group!
 - Announcements
     - Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
+
+<details><summary>Minutes</summary>
+
+- x509 as issuer ; "DID" for holder to express a key (did:key like encoding from [IETF RFC](https://datatracker.ietf.org/doc/html/rfc7519))
+
+- Q and A
+    - Adrian: Biometrics on slide 8? all identitIES need be issued by centralized parties or at least tursted 3rd parties?
+        - David: Authenticating real-world person against account requires centralizing records, tho
+        - Adrian: but VCs could be held without registration and presented by biometric authN?
+    - Adrian: Biometrics can't be ignored- they disrupt some of the assumptions of this presi
+    - Adrian: Protocols for VCs should not presume DIDs
+        - VCHTTPAPI and Vp Request spec and similar protocols should not PRESUME DIDs
+        - Adrian: DIDComm and CHAPI presume DIDs
+        - David: I would prefer they presume public keys (even transient ones)
+    
+        
+
+</details>
 
 
 ## Agenda - 2 Jun - US time - BMWi Schaufenster, IDUnion, and new interop targets w/Hakan Yildiz
