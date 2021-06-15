@@ -62,7 +62,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ## Agenda - 30 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
 
-## Agenda - 23 June - US time - WACI-PEx update?
+## Agenda - 23 June - EU time - WACI-PEx update?
 
 ## Agenda - 16 June - US time - Good Health Pass report/interop profile report-out with Lucy Yang and Drummond Reed
 - Recommended Reading:  Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
@@ -70,6 +70,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ## Agenda - 9 Jun - EU time - Why do you need DIDs for SSI, with guest David Chadwick (Verifiable Credentials Ltd., UK)
 
+- [Recording](https://us02web.zoom.us/rec/share/ju1eYLo6ty4kHqAq0ViQuNouJBKHG_L88YB7LAg0i-a7zh_jN0GBZ86u6tapC1In.jo8Xe2ANkhiWP142) and [slides](https://github.com/decentralized-identity/interoperability/files/6653997/Chadwick_DIFpresn_9jun21.pdf)
 - Recommended Reading:
     - David's impressive bibliography, as overviewed by his [Google Scholar page](https://scholar.google.com/citations?hl=en&user=k1LL4dIAAAAJ&view_op=list_works&sortby=pubdate)
     - [VC Life Cycle](https://w3c-ccg.github.io/vc-lifecycle/) (W3C) and/or the VC Chapter of the Manning [Identity Book](https://livebook.manning.com/book/self-sovereign-identity/chapter-7/)
