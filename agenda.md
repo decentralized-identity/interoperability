@@ -2,7 +2,7 @@
 
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
-[early Zoom link - 0600PT](https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09) | [late Zoom link - 1400PT](https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09) | [DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Mailing List](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
+[early Zoom link - 0600PT](https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09) | [late Zoom link - 1400PT](https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09) | [DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Mailing List](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
 
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
 
@@ -64,7 +64,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ## Agenda - 23 June - EU time - WACI-PEx update?
 
-## Agenda - 16 June - US time - Good Health Pass report/interop profile report-out with Lucy Yang and Drummond Reed
+## Agenda - 16 June - US time - Good Health Pass Blueprint by Drummond Reed, Global Covid Certificate Network by Lucy Yang. 
 - Recommended Reading:  Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
 
 
