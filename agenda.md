@@ -42,7 +42,8 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Oliver - [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda) ? (VC-focused edition)
     * Disposable Identities (Adam Burns is on the hook)
         * Revocable Anonymity 
-        * What the heck is a synthetic identity? (Michael Shea is up to date on fraud research)
+        * What the heck is a synthetic identity? (Michael Shea is up to date on fraud research) - Ping Identity might want to speak to it? or Jan Lindquist's privacy and risk WG in ToIP
+
     * Interop liabilities and new attack surfaces
     
     * VC Auth versus ZCap-LD (CCG), ACDC TF (& some day spec?) ToIP - 
@@ -57,16 +58,68 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
     * Whomst 
     * John Jordan - dominant design and metapatterns of adoption; civic technology; qR & paper credentials?
-    
+    * Whomst can come give a tour of [OIDC4VP](https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html)?
+
 </details>
+
+## Agenda - 13 July - US time - Report from the OIDF working groups with David Waite (Ping Identity)
+
+
+
+## Agenda - 6 July - EU time - ??
+
+
 
 ## Agenda - 30 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
 
-## Agenda - 23 June - EU time - WACI-PEx update?
+
+
+## Agenda - 23 June - EU time - Updates on various work items: WACI-PEx, FAQ, etc
+Recommended Reading:
+- https://blog.identity.foundation/waci-donation-post-draft/
+- WACI-PEx 
+    - reorg [preview](https://github.com/decentralized-identity/waci-presentation-exchange/blob/8efd225b1f37f10761b9d8f2039cf9ce4cfdeccc/spec/spec.md)
+    - profile --> certification?
+- https://identity.foundation/faq/
+
+
+- Announcements
+    - IIW halfday mini-confs - July 22 UX day , Aug 4 Business of SSI, neither has websites yet but eventbrites going out today
+
+Agenda
+- WACI-PEx - 
+    - https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html 
+- FAQ
+    - This WG can and should extend these!
+- Identiverse - 
+    - Announcements - 
+        - Ping's Shocard product is [live](https://www.shocard.com/) - W3C compliant?
+        - Okta and Mattr partnered, Mattr VIII Platform integrated to [Okta marketplace](https://www.businesswire.com/news/home/20210617005938/en/MATTR-Now-Available-on-Auth0-Marketplace)
+        - ION AMA session (deep tech questions from the audience imply people are actually playing with it)
+    - Strong Signals
+        - Risk and Fraud analysis was a huge topic this time around - Synthetic identities, insurance, detection, mitigations
+    - Weak Signals
+    - Particular sessions to check out
+        - Solarwinds with Alex
+- New WGs
+    - Wallet Security WG - 
+        - Wallet assessment and assumptions - how to define which wallets are or are not secure enough for a given use case or type of information in a given jurisdiction
+        - out of scope: UX, protocol design, signature suites, etc
+        - Tuesday every week, already meeting, charter signable
+    - Applied Crypto - BBS+ 2.0 as first work item (possibly also SNARK stuff from MSR) first meeting wed 7Aug, charter already signable
 
 ## Agenda - 16 June - US time - Good Health Pass Blueprint by Drummond Reed, Global Covid Certificate Network by Lucy Yang. 
-- Recommended Reading:  Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
+Recommended Reading:  
+- Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
+- [GCCN annoucement](https://www.lfph.io/2021/06/08/gccn/) 
 
+Drummond presnted from this set of slides. 
+
+<details><summary>Minutes</summary>
+
+
+
+</details>
 
 ## Agenda - 9 Jun - EU time - Why do you need DIDs for SSI, with guest David Chadwick (Verifiable Credentials Ltd., UK)
 
