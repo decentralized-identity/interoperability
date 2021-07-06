@@ -62,13 +62,19 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 </details>
 
-## Agenda - 13 July - US time - Report from the OIDF working groups with David Waite (Ping Identity)
+## Agenda - 14 July - US time - Report from the OIDF working groups with David Waite (Ping Identity)
+- Respondents: Kristina Yasuda (DIF-OIDF Liaison)
+- Background reading:
+    - https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html
+    - https://bitbucket.org/openid/connect/wiki/SIOP%20Special%20Topic%20Call
 
 
-
-## Agenda - 6 July - EU time - ??
-
-
+## Agenda - 7 July - EU time - Informal Roundtable on SSI and "eIDAS 2.0"
+- Martin Boender from Sphereon, Samuel (?) from Gataca, and other guests TBD (hopefully at least one from the INATBA identity working group!)
+- Recommended readings:
+    - https://eur-lex.europa.eu/eli/reco/2021/946/oj
+    - https://mydata.org/2021/06/04/guest-post-the-secure-platform-concept-for-europe/
+    - https://ec.europa.eu/health/sites/default/files/ehealth/docs/trust-framework_interoperability_certificates_en.pdf (see section 5.2 on forthcoming W3C VC guidance)
 
 ## Agenda - 30 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
 
