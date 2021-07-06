@@ -70,7 +70,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 
 ## Agenda - 7 July - EU time - Informal Roundtable on SSI and "eIDAS 2.0"
-- Martin Boender from Sphereon, Samuel (?) from Gataca, and other guests TBD (hopefully at least one from the INATBA identity working group!)
+- Martin Boender from Sphereon, Xavier from ValidatedID, Samuel from Gataca, and other guests TBD (hopefully at least one from the INATBA identity working group!)
 - Recommended readings:
     - https://eur-lex.europa.eu/eli/reco/2021/946/oj
     - https://mydata.org/2021/06/04/guest-post-the-secure-platform-concept-for-europe/
