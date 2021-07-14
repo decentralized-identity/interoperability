@@ -62,11 +62,91 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 </details>
 
+## Agenda - 28 July - US time - WebID CG at W3C?
+
+## Agenda - 21 July - EU time - ?
+
 ## Agenda - 14 July - US time - Report from the OIDF working groups with David Waite (Ping Identity)
 - Respondents: Kristina Yasuda (DIF-OIDF Liaison)
 - Background reading:
     - https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html
+    - https://openid.bitbucket.io/connect/openid-connect-self-issued-v2-1_0.html
     - https://bitbucket.org/openid/connect/wiki/SIOP%20Special%20Topic%20Call
+    - https://openid.net/specs/openid-connect-core-1_0.html#AggregatedDistributedClaims
+    - https://blog.identity.foundation/dif-and-oidf/
+    - https://blog.identity.foundation/where-to-begin-with-oidc-and-siop/ 
+- Announcements: 
+    - https://forms.gle/UkH8zRWbuVdzvpLV8
+
+<details>
+<summary>Minutes:</summary>
+
+- David:
+- Back in the day internet identity = home on the intern. OAuth1 based on that. Self-hosting with TLS was expensive, compared to on HTTP, before it was clear that HTTP was no longer significant. Encrypted query parameters. Original OAuth model, for delegated API access. Original model: ask user for their password. Didn't want users to fall for that, so created system for limited delegation.
+- OAuth1 became IETF RFC. Work began on OAuth2 to meet needs of larger entities, have better interoperability, less custom crypto. It became difficult for OAuth 1 to have interop without testing against various websites, which might not have upgraded. TLS required on Internet: security model changed: where possible, security model became "just use HTTPS".
+- OAuth2 work fueled by large deployments. Google, Microsoft, Apple. Some of the original technologies for putting users in control were lost. Sign in with blog where do I type in my URL? Tech: dynamic type registration: website wants to interact with others without pre-existing relationship. Give URL to sign in field, figure it out on the fly. Set up relationship on the backend. With dynamic relationship, no trust - never seen before. Saying name: no reason to believe it. Aggregated and distributed claims - credentials from others sources - could be shared, rather than your personal blog's vouching for it, have some company do email verification. While could still host own infra, idea emerged of self-issued OpenID provider. Not self hosted but a native application or SPA to provide identity. Not internet-accessible, but still can participate in theis kind of ecosystem, authenticating the user and providing claims from pre-well-known/trusted authorities.
+- Work with DIF on extending SIOP (self-issued opened provider)
+- Pam: Last 10-12 years of professional career
+- Adrian: Keybase linking identities introduced trust missing  in dynamic registration model.
+- David: Different kind of trust, can anchor with more sources of identity.
+-   Original OpenIDI didn't stop blog spam, because spammers could host their own OpenID providers. Could block them, but no reputation. Keybase no way to verify email addresses because no social network, no way to collaborate and share information. Twitter/LinkedIn could hypothetically verified my employment history, Keybase didn't get there. Didn't standardize their cryptography beyond PGP until Zoom bought them.
+-  Could see resurgence of it using Verifiable Credentials, putting proof of DID on social networks
+- Adrian: Difference between reputation and trust?
+- David: Good question, could lead to weeks of discussion on trust. Keybase: didn't expose a semantic model. I could personally decide if it's the person I want to talk to, as my personal trust, but doesn't give a foundation for semantic evaluation. That I use the same email address on different platforms might be enough to say it's a verifiable email address to a person, but never was enough to establish trust on a system. Always a human component to decide whether to accept data that may be acceptable via Keybase.
+- ... Here to talk about collaborations between DIF and OpenID Foundation, around OpenID Connect and specifically around SIOP. The way OpenID providers usually work is to have a set of negotiable rotated keys. Asserting individual customers... With SIOP, you do self-generated and pairwise keys - ephemeral, not rooted to anything. Like AuthN - doesn't prove relation with other things on internet, becomes Privacy-preserving: unlinkable. Can prove it's me: authentication.
+- Key rotation? Without losing access to systems? DIDs? Extend SIOP use cases to not just use self-generated keys but also use DIDs - referencable keys - to do key rotation.
+- Proposal on OpenID connect on verifiable presentations. Responses have own format for ... returning claims, id token. Could return VPs? From native wallet, progressive web app, or traditional hosted infrastructure - what if they could all use this format. Using presentation exchange. Majority of active work happening here.
+- Adrian: UMA... Bring something specific to your account to store separate as your identity...
+- David: Idea of user record in hosted application in single table demolished by authentication over the years. If have social providers, have many... identifiers, potentially access refresh tokens. e.g. Doodle login in with Google pre-check things. Have to store that information. FIDO, WebAuthN: authenticators registered with account: have to be stored so can use them later.
+-  A relying party probably needs more, self-management of local identity on the relying party. For authentication... For recovery: one of reasons I think that "Sign in with Google" is so attractive is that I expect their Google account to outlast my account - so I don't have to do recovery. Ideally Google has an account recovery process. But puts you beholden on some other infrastructure as source of truth for users to get access. OpenID: without stable authentication, providers / blog infrastructures - move away from and lose access/relationship, no recovery. So it is more complicated but not more than WebAuthN or supporting multiple social networks.
+-  Interest in using VP as recovery scheme. How? e.g. using American driver license, issued by state, and can present it. Even if no attributes, if it has a pseudonymous identifiers, it enables me to log in. If they have documents, those become verifiable.
+-  If shared at registration time, becomes source of registration for recovery. If attributes shared at registration or any time after, issuer serves as verifiable source for those attributes for more manual recovery.
+- Kristina: if lose account and want to recover, lost trust relationship, restarting process, go through process costing companies a lot. If can use VP, that can help reestablish the trust relationship, can save calling, asking for secret questions, Mom's name, etc. Attempts to use different identifiers before, but in the end the providers were putting email in every transaction: became a correlating identifier. Now not needed, don't need email for recovery, can have separate identifier making it harder to correlate.
+- David: suggesting talk about this more on Interop channel on Slack.
+- Adrian: we now have Apple sign in with Apple, that includes a pseudonymous identifier for recovery instead of email.
+- David: yes, but there are caveats. Account recovery as general topic may be separate topic. Great topic
+-  OpenID Connect for Verifiable Presentations: DID work is now a SIOP spec. Previous term: portable identifiers. For existing hosted provider, is there a way to include/assert DID ownership in challenge with other parties? Can combine so DID Auth is not a SIOP-specific feature but a general OpenID Connect feature.
+-  OpenID Connect Aggregated and Distributed Claims: upstream credentials without defined retrieval mechanism. Potential overlap with Credential Manifest. Expand to also get Verifiable Credentials, to get into your SIOP-based wallet, to present them with various protocols. Decoupling: use OpenID Connect to talk with one party, use WACI-PeX with a verifier. Flexibility. SIOP v2: foothold for integrating all these efforts into a new version of SIOP. Focus on using that protocol on device. Verifier is native app or... Holder is native app or SPA. Possible to do cross-device exchanges... security?
+-  Jeremy miller - extension with JOSE spec. OpenID traditionally uses JWTs over TLS. Can have an extension on JWS that supports selective disclosure, and zero-knowledge approaches like predicate approaches, like BBS+. Incubate in DIF Crypto Working Group, and eventually move to IETF.
+- Question: difference between empty VP and a DID? A DID is a referenceable URL that can lead to metadata. Some use cases want to have verification methods such that you can prove ownership of a DID. Right up the wheel well of original OpenID Connect.... have own ... services. VP: someone else could assert that I have a particular DID, but that presentation proves I own that DID, not someone else saying I do. Need to have nonces and ideally audiences, to know you are correctly doing a crypto challenge - otherwise, they are replayable.
+- Kim, Kristina: overview of family of protocols
+- Kristina: SIOP v2 a foundation: specific model: identity provider not big provider at Google or Microsoft, they are on our phone, browser, or PWA potentially. What does it mean for key management... How to use keys to issue... self-issued identity.
+-  As provider that issues an id token, that's a place to look.
+-  Initially in scope: how to transport VP. Larger demand on transferring VP using any model, not just SIOP. What if Google wants to send a VP on behalf of me, based on access token.
+-  Two methods: either embed VP entirely in the id token, artifact that proves auth event. Or send back VP from user endpoint. Usually claims like address can be send from user endpoint, or directly. SIOP: devices cannot have endpoint/backchannel, so have to embed in token. Using term presentation: presentation happens when user proves possession of a VC, that's a VP. How does VC get into user's device in the first place?
+-  Credential provider from Mattr. Defines new credential endpoint, from where you can return a new VC from the wallet, with proper bindings in place. It becomes important... wallet can prove in trustable ways... not replayable. Issuance phase: three big pieces. Another piece: conversation starting in Applied Crypto working group. Touched upon Selective Disclosure, Unlinkability, ... using JWTs.
+-  Keith: what does selective disclosure in JWT VCs look like
+-  David: Multiple approaches. simplest: decompose attributes, individually sign as part of a package.
+-  Then maybe sign the whloe message. If you don't disclose the attribute, you still disclose the signature. Since can't recover (not like a hash), can verify attributes not disclosed, and verify did not pull out attribute from other message.
+-  Or do like a Merkle Tree, document tree of individual attributes, just disclose the pieces you want: need to do some kind of salting, to make sure some field... like gender - there's only so many values it could be. If you have hash of value could rainbow tree and figure it out.
+-  More options if doing pairing-friendly curve or zero-knowledge proof.
+- Kristina: using empty VP because no standard?
+- Kim: in funny world of SSI standards... interested in aligning with OpenID. Kind of a pattern:  a Verifiable Presentation with no credentials in it, just signing over something with a challenge and nonce. Center consortium: using this for use case where subject=holder, they already have some relationship with some entity, they can authenticate in the usual means, but the issuer wants proof that they can sign a  message with the keys corresponding to that DID. Pattern loosely called DIDAuth. Haven't looked at SIOP... self-issued, and DIDAuth happening in DIF... intersection. It wasn't clear, if we were wanting to use Credential Manifest spec, that wants a bunch of VCs and VPs, but things like proof of control/possession of DID is such a common pattern that it may be handled at another layer. Curious to hear how others are approaching. Which protocol we are doing it at.
+- Kristina: Interesting, aligns with discussions... Using SIOP for Authentication (like empty VP, proving... sending back an id token) vs using SIOP flow for VC/VP/attributes. In-device and cross-device SIOP. If relying party website is on same device as your OP (OpenID Provider): more secure to open session and do redirect, and share. Can do both authentication and attribute sharing. But also situations where RP is on another device, e.g. you are browsing at a terminal. Usually would show QR codes... opens up a phishing opportunity. Usually okay to do one-off exchange of VC/VP, but maybe not a good idea to open session and share this auth session. VP as VC vs. empty VP... trying to distinguish security properties.
+- Adrian: curious about verifiable presentation of attributes. If the verifiable credentials were issued to different DIDS, because they were pairwise-pseudonymous relationships, would it be possible to avoid the verifiable credential, or to use verifiable presentations by simply proving a relationship between the pairwise pseudonymous DIDs, and presenting the verifiable credentials themselves. Or is there something going on beyond that presentation sense that we are talking about. Am I describing a verifiable presentation or not? To the extent the verifiable presentation includes a challenge as the difference described earlier, then there is a difference between wallet generating hierarchical deterministic DIDs when authenticates with ... providers. Seems like two strategies for authentication (not talking about empty VP). Can someone speak to this confusion of mine?
+- Kristina: Identifier assigned to me by issuer should be in VP.
+- Adrian; If relationship with Issuer is always a same-domain DID, how I identity by default, then the role of the VP is to prove linkage between the VCs issued to the DID... or to control of the linked secret if using the sovereign model.
+- Kristina: If don't care about identifier correlation. ... Sign using same DID... becomes more complicated if you want to use a pairwise id. In VC model, up to wallet to rotate... to use different IDs for different parties. Would go into the VC(?)
+- David: In Ping identity, different: if issuing long-term credentials, e.g. 20 year University Degree credential, if issued to a particular DID, then any time I share that, it is basically correlatable. With the JSON-LD model, there isn't a way to selectively disclose the subject... it will change the canonicalization. Reason we've looked at JWPs: option to selectively disclose subject. More transient relationship, e.g. present proof of drinking age, party presenting it to cannot tell am same person, and pseudonymous identifiers - concepts everyone is familiar with. SO not interested in DIDs as subject of VPs. You may have a subject that's a DID, but we also want to support leading with those other two use cases. Tech like linked secrets... when present credential, not using DID but using linked secret: not a rotatable key. Long-winded way of saying we have more interest in distributed log equivalence pseudoym ... Trusted non-shadowable pseudonym with party. Cannot have multiple accounts - they know it's still me - but not universally linkable like an email address. Like the APple approach, can do pairwise DIDs, but then have relationship with issuer... Coordinating relationships, each time new relationsihp have to tget new DID.
+- Adrian: Very clear. Is there a reference to read more?
+- David: From the JWP perspective, we're trying to write a blog post. Don't have anything to point to. Probably need to actually write something and publish it, about basically decentralized identity without requiring decentralizedeintifier. Not that I don't think they are valuable, but in the case of a VP I'd like it to be more like a breaking-the-glass thing. like if lost access to linked secret, can use DID, losing privacy, but have that option. Or if use case really needs to use DIDs: service integration, or a public identity, not worried about ultra-private, representing as a company, building a public reputation, I may choose to share that DID. But any place I use that credential and didn't share it, they wouldn't know it's the same party. Can't point
+- Adrian: Let's bring back RWoT
+- David: Let's reboot RWot,
+- IdentityWoman: Let's not. It had severe issues with D&I and Code of Conduct violations
+    - Adrian but a great source of papers
+    - IdentityWoman: but if all the women and POC feel crappy, neet to work it so they feel included
+    - Adrian: I just want David's paper. But you're right, I don't disagree.
+- David: am in #wg-Interop Group. Reach out to me, and to Kristina as liasion/diplomat to OpenID Foundation
+</details>
+
+- Links from chat:
+    - https://hackmd.io/@quartzjer/JSON_Web_Proof
+        - and I have to mention SNARK as a crypto package to be used with something like JWP https://github.com/decentralized-identity/snark-credentials/blob/master/whitepaper.pdf
+    - empty-VP as DIDAuth: and I have to mention SNARK as a crypto package to be used with something like JWP https://github.com/decentralized-identity/snark-credentials/blob/master/whitepaper.
+    - https://docs.tor.us/key-infrastructure/overview
+    - https://github.com/spruceid/tzprofiles/blob/main/worker/src/lib.rs#L206 <- semantic validation-friendly format
+    - https://twitter.com/quasimondo/status/1403710289137352714?s=21
+    - https://keybase.io
 
 
 ## Agenda - 7 July - EU time - Informal Roundtable on SSI and "eIDAS 2.0"
@@ -75,7 +155,52 @@ Meta-topics and Potential quarter-wide or year-long goals:
     - https://eur-lex.europa.eu/eli/reco/2021/946/oj
     - https://mydata.org/2021/06/04/guest-post-the-secure-platform-concept-for-europe/
     - https://ec.europa.eu/health/sites/default/files/ehealth/docs/trust-framework_interoperability_certificates_en.pdf (see section 5.2 on forthcoming W3C VC guidance)
-
+    - Xavi: EU Wallet
+        - remote control of a HSM that does qual sigs?
+    - Xavi: other changes afoot: openness to possible acceptance for EBSI and blockchain signatures? EBSI as "trust service"/root of trust
+    - Xavi: These two things look like a trust framework from one POV
+    - Adrian: Is the EU going to qualify/certify the wallet, or can subject self-compile and still be recognized?
+        - Xavi: I think Brussels is assuming nation-states will ~"certify" wallets, or at least allow-list/approve/oversee them.  There will be toolkits or pre-approved libraries, I think, at least in some countries
+        - Adrian: How does this relate to FIDO and passwordless? Apple will likely jump to the head of the line and get their wallet certified even if they don't honor the relevant standards... are there standards required for interop or JUST security testing?
+            - Xavi: I think FIDO would one authN mechanism allowed/approved, but the private key still needs to live somewhere, and that's what theyre going to regulate; Apple might well be capable of delivering a wallet (and could readily be a QSP) but I'm not sure they're really advantaged? disclaimer: I have no particular insight, they're just my opinions
+    - Jan: If eIDAS 2 isn't going in an SSI direction, we should definitely show them the light-- they read whitepapers, we should write one! The connection might not be clear enough; EBSI only for govt purposes, not private sector; priv sector usecases NEED an explicit approval-in-advance to get funding; 
+    - Ralf (Blockchains/Slockit): German BMWi Schaufenster program is giving an interop target/
+- Pam: Point of order: what is the topic, exactly? Are we unanimous on the problem statement about how certificate-based eIDAS is opening up to new architectures? Is this about roots of trust or trust frameworks?
+    - Pam: My reading of the documents makes it hard to see what the real problems are
+    - Xavi: Remit of eIAS 1.0 was Defining eIDs in a way that allows crossborder interop (incl mandatory fields, format of address, etc); that didn't work well for various reasons:
+        1. Only 14/27 actually produced a notified eID scheme (i.e. only 14 countries actually have a digital id recognized outside their borders), 
+        2. Protocol-level interactions were never really defined; a wallet controlling one of those eIDs doesn't have requirements or capabilities owed them by other systems
+        3. Adoption stalled bigtime in many of those 14 countries- <5% of population in most of the 14 actually have and use these eIDs/eSigs
+        4. crossborder recognition was public-sector only in original scope; private sector never NEEDED to have private-sector buy-in or support, and only now starting to move in that direction; VCs might be the target there
+    - Xavi: EBSI might still be public-sector only, BUT if it supports the creation of wallets and VC constraints that then get reused widely by private sector... that might solve problem #4
+- Markus: Self-intro; EBSI diploma use-case, issuing educreds to EBSI eID holders; to answer Juan's original framing, the EU digital id & VC-holding wallets and EBSI should be seen as two distinct movements, even if EBSI is making a wallet that seems to be steering towards compatibility/eligibility for what EUID calls a wallet
+    - Markus: Memberstates still can chose to adopt, or fork, or betray whatever EBSI does... could be interop nightmare, or EBSI could create a common toolkit even if countries fork.  One lesson that came out of the eidas 1.0 "review period" feedback-- chaos of independent implementations across EU is what they want to avoid this time around, they seem to be 
+    - EBSI: European Blockchain Services Infrastructure
+        - It is "a blockchain" (ECP) in the literal sense (each nation state gets 1 or more nodes of a permissioned ledger for public sector usage); it's using EC tech support to prove a few use-cases
+        - Technical requirements for wallets: Sept21-Sept22, which will culminate in a toolkit of reference implementations AND specifications
+- Kai: Self-intro; stakeholder dialogue and EBSI proposal 2 years ago, altho project scope and focus keeps evolving
+    - initial impetus - use blockchain to redo the parts of eidas1 that never got adoption/traction 
+    - pilots at nation-state level are currently launching-- the public sectors of these member-states (EU + 8 others: Norway, etc) are bringing agencies and/or private sector actors in to start piloting on this infra
+    - Markus: Edu use-case in Austria is piloting with DanubeTech, 2 universities are trialing issuance of edcreds to EBSI eIDs; other pilots being added (10 or so: txns, edcred crossborder interop with Spain and Germany;)
+- Pam: Naïve interop question - interop at blockchain level? not at VC level? or have I got it wrong?
+    - Markus: I think DID layer is easy because did:ebsi; semantics/LD/ontology layer is what the universities are focusing on; 
+    - Pam: Can people use libraries?
+    - Markus: Universal Resolver and Universal Registrar support did:ebsi already, not top-secret
+- Adrian: Certified National Wallet & DID method? Data models for DID and VC are separable, so what's the relationship?
+    - Xavi: My *impression* is that the two systems are distinct - I can see DID usage and VC usage as being a venn diagram, some will use one and not the other in different use-cases. 
+    - Adrian: DIDs as solution to key rotation problem? Stable IDs with rotatable keys? (Sam C: AND SERVICE DISCOVERY tyvm)
+    - Pam: also [non-]repudiation, non? Privacy preservation (national IDs used anywhere without tracking) yet legally-binding signatures? What trust framework backs the legal side of things?
+        - Xavi: ledger as QTS is being proposed as a trust framework that could be specified for legal signatures and notarizing
+- Oliver: eIDAS2 language around wallets
+    - Kai: eIDAS2 and EU ID are still independent, but "eidas 2 toolbox" (started sept2021, released sept 2022) should specify the overlap of that Venn Diagram and INATBA is trying to inform both projects
+- Closing thoughts: what should people read to get involved? What's the library or toolbox to play with now?
+    - Xavi: I am not sure what's public yet, implementers' tools are released
+    - Juan: Alen's presi https://github.com/decentralized-identity/identifiers-discovery/blob/main/agenda.md#agenda-1
+    - Xavi: Keep one eye on the regulation and one on the EBSI prototypes (and national prototypes like Germany's) and hope you don't end up wall-eyed!
+    - Juan: Next week's CCG! André Kudra (IDUnion, eSatus) 
+    - Kai: here is the [EBSI documentation homepage](https://ec.europa.eu/cefdigital/wiki/display/EBSIDOC/EBSI+Documentation+Home
+) that gets updated regularly
+    
 ## Agenda - 30 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
 
 
