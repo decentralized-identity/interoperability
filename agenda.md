@@ -62,11 +62,23 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 </details>
 
-## Agenda - 28 July - US time - WebID CG at W3C?
+## Agenda - 28 July - US time - Report from the W3C Federated ID Community Group 
+Advanced Readings:
+- https://www.stm-assoc.org/events/web-browsers-privacy-and-your-publishing-platform-webinar/
+- https://www.w3.org/community/fed-id/
+- https://www.w3.org/wiki/WebID / https://github.com/WICG/WebID
 
-## Agenda - 21 July - EU time - ?
+
+## Agenda - 21 July - EU time - Updates on NFC support - Passport NFC demo from iGrant.io and DIDComm NFC update
+- George from iGrant.io will demo a new OS NFC library made for their data wallet
+- Timo from Animo Solutions will discuss the DIDComm-Bluetooth spec and implementer's experience prototyping asynchronous messaging over such a transport
+
+Advanced readings:
+- iGrant [demo](https://www.youtube.com/watch?v=YrS5RNHhBqI) & [explanation](https://igrant.io/data4forms.html)
+- DIDComm bluetooth [side-spec](https://github.com/decentralized-identity/didcomm-bluetooth/blob/main/spec.md)
 
 ## Agenda - 14 July - US time - Report from the OIDF working groups with David Waite (Ping Identity)
+- [Recording](https://us02web.zoom.us/rec/share/i_Rlhsqh7aJNMhBf00u0k0W4KoFHNPdn0ZRcKEr3emiCu-crDWYxFvtQL0vKf-jt.qo8Z4mOeRJJUPiU3)
 - Respondents: Kristina Yasuda (DIF-OIDF Liaison)
 - Background reading:
     - https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html
@@ -150,6 +162,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 
 ## Agenda - 7 July - EU time - Informal Roundtable on SSI and "eIDAS 2.0"
+- [Recording](https://us02web.zoom.us/rec/share/TBjbZDyJ6Lv1A37lxOVxixfdEvd7I6WXOJ7gC5gnEw5M5yKbrR0WPl5HeC5q1lg.R_52ORI31L37FFKN)
 - Martin Boender from Sphereon, Xavier from ValidatedID, Samuel from Gataca, and other guests TBD (hopefully at least one from the INATBA identity working group!)
 - Recommended readings:
     - https://eur-lex.europa.eu/eli/reco/2021/946/oj
@@ -202,10 +215,11 @@ Meta-topics and Potential quarter-wide or year-long goals:
 ) that gets updated regularly
     
 ## Agenda - 30 June - US time - John Jordan - the ToIP vision and governance for decentralized identity
-
+- [Recording](https://us02web.zoom.us/rec/share/UGb5Qo9-e_ivPOYKYr6BCObBGXR3cgKuu3eZ19K4nZGO114vvZujOUCkCroKI1ub.SRksJ2jZSLFHJb9q)
 
 
 ## Agenda - 23 June - EU time - Updates on various work items: WACI-PEx, FAQ, etc
+- [Recording](https://us02web.zoom.us/rec/share/pJlYNLqo_9I-k7Rxq3EMBCR6KCHd2bKHroyNg9OPF_LUdSSsqnZYiIZMGsrqbkVP.JwXVQ8d5hNrKSY4L)
 Recommended Reading:
 - https://blog.identity.foundation/waci-donation-post-draft/
 - WACI-PEx 
@@ -240,6 +254,7 @@ Agenda
     - Applied Crypto - BBS+ 2.0 as first work item (possibly also SNARK stuff from MSR) first meeting wed 7Aug, charter already signable
 
 ## Agenda - 16 June - US time - Good Health Pass Blueprint by Drummond Reed, Global Covid Certificate Network by Lucy Yang. 
+- [Recording](https://us02web.zoom.us/rec/share/zbruG9PywYoeAlpYaUYmyxSkOtlzN1e7KNRWlyu41gtGnHxe0Swg3f5bUA4rcC3J.ZCxx9BVGY8PhoH0i)
 Recommended Reading:  
 - Good Health Pass [Report and Interop Profile](https://wiki.trustoverip.org/display/HOME/GHP+Blueprint+Public+Review+Process) out now-- draft requested before 17 Jun!!
 - [GCCN annoucement](https://www.lfph.io/2021/06/08/gccn/) 
@@ -253,7 +268,6 @@ Drummond presnted from this set of slides.
 </details>
 
 ## Agenda - 9 Jun - EU time - Why do you need DIDs for SSI, with guest David Chadwick (Verifiable Credentials Ltd., UK)
-
 - [Recording](https://us02web.zoom.us/rec/share/ju1eYLo6ty4kHqAq0ViQuNouJBKHG_L88YB7LAg0i-a7zh_jN0GBZ86u6tapC1In.jo8Xe2ANkhiWP142) and [slides](https://github.com/decentralized-identity/interoperability/files/6653997/Chadwick_DIFpresn_9jun21.pdf)
 - Recommended Reading:
     - David's impressive bibliography, as overviewed by his [Google Scholar page](https://scholar.google.com/citations?hl=en&user=k1LL4dIAAAAJ&view_op=list_works&sortby=pubdate)
