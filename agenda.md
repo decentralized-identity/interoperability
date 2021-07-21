@@ -70,6 +70,7 @@ Advanced Readings:
 
 
 ## Agenda - 21 July - EU time - Updates on NFC support - Passport NFC demo from iGrant.io and DIDComm NFC update
+- Lal's [Slides](https://github.com/decentralized-identity/interoperability/files/6855401/iGrant.io_DW_V13.1_DIF_Demo.pdf)
 - George from iGrant.io will demo a new OS NFC library made for their data wallet
 - Timo from Animo Solutions will discuss the DIDComm-Bluetooth spec and implementer's experience prototyping asynchronous messaging over such a transport
 
