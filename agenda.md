@@ -76,8 +76,10 @@ How do we make it easier to contribute to and easier to have some editorial powe
 
 ### Other topics    
 Meeting times discussion. Are everyone happy with current meeting times? The A-meeting will not work for the european co-chair. Run a poll of who knows they will attend to find the geo areas we need to cover. https://timezoneninja.com/
-![](https://i.imgur.com/rhQcNaH.png)
-![](https://i.imgur.com/NVxGMBs.png)
+![](https://i.imgur.com/A2npOkr.png)
+![](https://i.imgur.com/XpkTSBt.png)
+
+
 
 ## Agenda - 28 July - US time - Report from the W3C Federated ID Community Group 
 
