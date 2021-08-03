@@ -74,6 +74,11 @@ How do we make the information structure better and make all the info available 
 ### Information collection
 How do we make it easier to contribute to and easier to have some editorial power turned on. Or is this needed?
 
+### Other topics    
+Meeting times discussion. Are everyone happy with current meeting times? The A-meeting will not work for the european co-chair. Run a poll of who knows they will attend to find the geo areas we need to cover. https://timezoneninja.com/
+![](https://i.imgur.com/rhQcNaH.png)
+![](https://i.imgur.com/NVxGMBs.png)
+
 ## Agenda - 28 July - US time - Report from the W3C Federated ID Community Group 
 
 Heather's [slides](https://github.com/decentralized-identity/interoperability/raw/master/assets/guest-slides/DIF-20210728.pdf) | [recording](https://us02web.zoom.us/rec/share/E4ad4fmZGgWNdwdxBAFs-7jTNVhbNClyR7TMZjvhD5dkBi2l9fq9QOXIDCWxczso.hjbzLuH-EKnkb8ac)
@@ -86,11 +91,6 @@ Heather's [slides](https://github.com/decentralized-identity/interoperability/ra
    - [Github](https://github.com/w3c/fedidcg)
 - [Public Suffix List](https://publicsuffix.org)
 - [Browser-Dependent Identity Use Cases](https://github.com/IDBrowserUseCases/docs)
-
-### Other topics    
-Meeting times discussion. Are everyone happy with current meeting times? The A-meeting will not work for the european co-chair. Run a poll of who knows they will attend to find the geo areas we need to cover. https://timezoneninja.com/
-![](https://i.imgur.com/rhQcNaH.png)
-![](https://i.imgur.com/NVxGMBs.png)
 
 
 
