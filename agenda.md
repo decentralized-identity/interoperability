@@ -11,6 +11,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 ### "Parking lot" for future/recurring agenda items
 
 <details>
+
 <summary>Topics List</summary>
 Meta-topics and Potential quarter-wide or year-long goals:
 3. Venn diagram of interop goals, and scopes/definitions of interop (contextual)
@@ -47,26 +48,50 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Interop liabilities and new attack surfaces
     
     * VC Auth versus ZCap-LD (CCG), ACDC TF (& some day spec?) ToIP - 
-    * Justin Richer: GNAP 
     * x509 worldwide - Finema, Spherity, Discipl, ...?
     * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
-    * KERI and Certificate Transparency - Dmitry? Sam Smith? Sam Huseby?
+    * KERI and Certificate Transparency - Dmitry? Dave Huseby?
     
     * EDV Use Cases v2 - Manu?
     * Cloud Wars and Gaia-X - ...?
     
     * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
-    * Whomst 
-    * John Jordan - dominant design and metapatterns of adoption; civic technology; qR & paper credentials?
-    * Whomst can come give a tour of [OIDC4VP](https://openid.net/specs/openid-connect-4-verifiable-presentations-1_0.html)?
+
+    * Ongoing interop efforts
+        - `JWS test suite` - https://blog.identity.foundation/dif-grant-1-jws-test-suite/
+        - `vc-jwt-interop` - https://github.com/w3c-ccg/community/issues/198
+        - `VC-HTTP-API` - 
+        - Aries-interop.info -
+    
+    
 
 </details>
+## Agenda - 11 Aug - US time
+
+## Agenda - 4 Aug - EU time
+### Information accessability
+How do we make the information structure better and make all the info available easily. Such the https://identity.foundation/faq/ and the meeting notes
+### Information collection
+How do we make it easier to contribute to and easier to have some editorial power turned on. Or is this needed?
 
 ## Agenda - 28 July - US time - Report from the W3C Federated ID Community Group 
-Advanced Readings:
-- https://www.stm-assoc.org/events/web-browsers-privacy-and-your-publishing-platform-webinar/
-- https://www.w3.org/community/fed-id/
-- https://www.w3.org/wiki/WebID / https://github.com/WICG/WebID
+
+Heather's [slides](https://github.com/decentralized-identity/interoperability/raw/master/assets/guest-slides/DIF-20210728.pdf) | [recording](https://us02web.zoom.us/rec/share/E4ad4fmZGgWNdwdxBAFs-7jTNVhbNClyR7TMZjvhD5dkBi2l9fq9QOXIDCWxczso.hjbzLuH-EKnkb8ac)
+- Web browsers, privacy, and your publishing platform webinar  ([info/view/download](https://www.stm-assoc.org/events/web-browsers-privacy-and-your-publishing-platform-webinar/))
+- [WebID Proposal](https://github.com/WICG/WebID) (not to be confused with [WebID](https://www.w3.org/wiki/WebID))
+- Federation and Browsers Workshop Minutes from May 25-26: [Day 1](https://docs.google.com/document/d/16wj6UnlaePCE0sdVfkVSwoBMHuFphLuv2sptxdQgayE/edit),
+[Day 2](https://docs.google.com/document/d/1nZt-bU-9FeoaavSuB6KPC7d3vyKuOhnA5QAd8kTN0z0/edit#)
+- [Federated Identity Community Group](https://www.w3.org/community/fed-id/)
+   - [First meeting August 2nd](https://github.com/w3c/fedidcg/blob/main/meetings/2021/2021-08-02-agenda.md) 
+   - [Github](https://github.com/w3c/fedidcg)
+- [Public Suffix List](https://publicsuffix.org)
+- [Browser-Dependent Identity Use Cases](https://github.com/IDBrowserUseCases/docs)
+
+### Other topics    
+Meeting times discussion. Are everyone happy with current meeting times? The A-meeting will not work for the european co-chair. Run a poll of who knows they will attend to find the geo areas we need to cover. https://timezoneninja.com/
+![](https://i.imgur.com/rhQcNaH.png)
+![](https://i.imgur.com/NVxGMBs.png)
+
 
 
 ## Agenda - 21 July - EU time - Updates on NFC support - Passport NFC demo from iGrant.io and DIDComm NFC update
@@ -77,6 +102,49 @@ Advanced Readings:
 Advanced readings:
 - iGrant [demo](https://www.youtube.com/watch?v=YrS5RNHhBqI) & [explanation](https://igrant.io/data4forms.html)
 - DIDComm bluetooth [side-spec](https://github.com/decentralized-identity/didcomm-bluetooth/blob/main/spec.md)
+
+- Introductions
+    - iGrant x4!
+    - Michael Shea - [Vienna Meetup](https://www.meetup.com/Vienna-Digital-Identity-Meetup/events/) & [Sovrin Foundation IOT group](https://sovrin.org/library-iot/)
+    - Vladimiar Kuparinen - [MyData Finland](https://mydata.org/hubs/mydataorg_finland/), paper books and eBooks and IOT
+
+iGrant Presentation
+- intro - NGI Trust ESSIF-LAB, Mydata Operators and [Community](https://mydata.org/2020/11/06/mydata-view-on-the-leaked-eu-data-governance-act-nov-5-2020/)
+- B2B offering - Data Intermediary 
+    - Data Intermediary (as defined in new EU DGA)
+    - Auditability (and every txn covered by at least one data agreement signed in advance by responsible parties)
+- Demo
+    - QR code --> base64 encoding of small JSON blob, not VC (as is the norm in europe)
+<details>
+<summary>Q and A session</summary>
+
+    - Timo: how's data get from passport to app?
+        - are you "proxy issuers"
+        - we're working on a similar project, but we're having trouble verifying the passport data server-side
+        - Lal: Yes to both!
+        - George: We fetch the public key and copy it into the VC;
+    - Timo: But you check the signature on the data, if verified, put the data into a VC and ... who issues it?
+        - George: Self-issued by holder; public key/x509 included in the data, consumers have to verify that way 
+    - George: open issue: selective disclosure complicated by needing full credential/data to 
+    - Value - add - binding envelope to data sharing agreements
+    - Pam: Full Audit? Allowlist? Fraud detection?
+        - Fraud detection is the goal here
+        - Correlation risk in full-disclosure?
+        - Jan: Code of conduct/disclosure rules baked into the data sharing agreement?
+            - Lal: Jan involved in ISO and Kantara standards on these issues
+            - Jan: pre-existing Data Protection Impact Assessment has a responsible party's signature; see bullet #2 on the DDX repo for more info on these data agreements (based on Kantara /ISO 27560 consent agreements)
+    - Timo: OS?
+        - https://github.com/decentralised-dataexchange
+        - https://github.com/L3-igrant
+    - Neil: Scanning dependent on [OS-embedded?] NFC?
+    - Android and iOS have a lot but we had to do a little extra work to work with that; NFC not really standardized, big discrepancies across passport issues (doesn't work with Australia yet, for ex.)
+    - Timo: NFC and DIDComm - DIDComm want to support bluetooth and NFC, but still finalizing their requirements before spec'ing out
+        - Bluetooth spec is stable and v1, but as yet unimplemented; NFC spec is not even started yet or implemented (including the issues you mentioned and )
+        - Sam Curren: There's been some "wondering" about the capabilities offered - we're currently conceiving it as a one-way and read-only transports (//QR); two-way NFC (as in finance applications) feels more daunting and pending research
+        - Sam: incoming Bluetooth and NFC DIDComm people should head to [DIF DIDComm for v2 work](https://github.com/decentralized-identity/didcomm-messaging/issues/222) and Aries for v1/implementable-today work
+            - Sam: Data Agreement Decorator would be of interest to the Aries community!
+            - Sam: Standardized mechanism for passing x509 signatures as you describe-- that's not an Indy-specific problem, that needs to be 
+</details>
 
 ## Agenda - 14 July - US time - Report from the OIDF working groups with David Waite (Ping Identity)
 - [Recording](https://us02web.zoom.us/rec/share/i_Rlhsqh7aJNMhBf00u0k0W4KoFHNPdn0ZRcKEr3emiCu-crDWYxFvtQL0vKf-jt.qo8Z4mOeRJJUPiU3)
