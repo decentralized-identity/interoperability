@@ -67,17 +67,42 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 </details>
 ## Agenda - 11 Aug - US time
+WACI v1 Introduction with the scope of focusing on the interop testing. If we can run that work in the interop group.
 
 ## Agenda - 4 Aug - EU time
 ### Information accessability
 How do we make the information structure better and make all the info available easily. Such the https://identity.foundation/faq/ and the meeting notes
 ### Information collection
 How do we make it easier to contribute to and easier to have some editorial power turned on. Or is this needed?
+### Summary
+Github might have issues, but it is becoming more easier to use.
+3 issues
+Accessability, it is accessible in github
+Collection, a place it lives and has some gateway management
+Collaboration, Inline commenting is helpful, like put in a google doc with version control.
+
+### Potential steps forward
+David, Chris, Balazs, Juan and Snorre meet for a meeting to discuss and painpoints related to the summary. Chris takes responsibility to setup meeting.
+
+## Topics coming up during meeting
+### Business models and self sovreignty problems
+See chat and recording for discussions.
+We need win win win solutions
+Before last IIW there has been alot of research on interop problem.   
+We need to be able to move the credentials around!
+
+#### Steps for further discussion
+Join special topics session of IIW later today. https://iiw.idcommons.net/Business_of_SSI_Proposed_Topics
+
 
 ### Other topics    
 Meeting times discussion. Are everyone happy with current meeting times? The A-meeting will not work for the european co-chair. Run a poll of who knows they will attend to find the geo areas we need to cover. https://timezoneninja.com/
 ![](https://i.imgur.com/A2npOkr.png)
 ![](https://i.imgur.com/XpkTSBt.png)
+
+## Resolution
+We will ask the asian working group to hear if there are any needs expressed to join the interop call. Based on that we will adjust times thereafter.
+Balaz will initiate that message and communicaiton
 
 
 
