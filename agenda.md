@@ -66,8 +66,20 @@ Meta-topics and Potential quarter-wide or year-long goals:
     
 
 </details>
+## Agenda - 8 Sep - US time
+## Agenda - 1 Sep - EU time
+## Agenda - 25 Aug - US time
+## Agenda - 18 Aug - EU time
+
 ## Agenda - 11 Aug - US time
-WACI v1 Introduction with the scope of focusing on the interop testing. If we can run that work in the interop group.
+### WACI v1
+WACI v1 Introduction and where it is
+### WACI interop
+We narrow the scope to focusing on the interop part of WACI. 
+
+We talk about testing  
+We talk about WACI, with an interop focus to make sure that we are getting where we want.     
+We talk about what steps is needed and highlight the efforts needed to get there.
 
 ## Agenda - 4 Aug - EU time
 ### Information accessability and collection
