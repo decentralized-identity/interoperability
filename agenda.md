@@ -71,8 +71,10 @@ Meta-topics and Potential quarter-wide or year-long goals:
 
 ## Agenda - 25 Aug - US time
 ### Summervacation back 1st of Sep
+We want to spend some time as a new group, to regroup and get into orbit instead of full trusters into unknown space
 ## Agenda - 18 Aug - EU time
 ### Summervacation back 1st of Sep
+We want to spend some time as a new group, to regroup and get into orbit instead of full trusters into unknown space
 
 ## Agenda - 11 Aug - US time
 ### Summary
