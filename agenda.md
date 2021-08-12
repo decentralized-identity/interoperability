@@ -68,10 +68,17 @@ Meta-topics and Potential quarter-wide or year-long goals:
 </details>
 ## Agenda - 8 Sep - US time
 ## Agenda - 1 Sep - EU time
+
 ## Agenda - 25 Aug - US time
+### Summervacation back 1st of Sep
 ## Agenda - 18 Aug - EU time
+### Summervacation back 1st of Sep
 
 ## Agenda - 11 Aug - US time
+### Summary
+Go the the CCG recording on Tuesday 10th of August.    
+Aries testing can be lobbied into be adjusted.
+
 ### WACI v1
 WACI v1 Introduction and where it is
 ### WACI interop
