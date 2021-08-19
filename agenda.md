@@ -13,9 +13,20 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 <details>
 
 <summary>Topics List</summary>
+
+### Fresh list of topics
+* Snorre - Library polooza. Invite https://github.com/uport-project/veramo about the [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda), https://www.spruceid.com, https://wiki.hyperledger.org/display./aries To talk about what they think about interoperability.
+* Kaliya - Authentic Data & KERI and Certificate Transparency - Dave Huseby
+* Kaliya - WACI what WACI how?
+
+### Anything above here is new, or moved above to focus on
+
+
 Meta-topics and Potential quarter-wide or year-long goals:
-3. Venn diagram of interop goals, and scopes/definitions of interop (contextual)
-    * Don't lose focus on the map model! [link](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
+Venn diagram of interop goals, and scopes/definitions of interop (contextual)    
+     
+
+* Don't lose focus on the map model! [link](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
     * Parallelize (and promote) interop work on totally different scopes
     * Proposed Work Item: **Architectural guidelines**: "if your role in the ecosystem includes X, looks at ABC specs and make sure you speak D and F to maximize interoperability (and/or future-compatibility)"
     * Incorporate/consider [ToIP TIPs](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) and [OIX interop study](https://twitter.com/pamelarosiedee/status/1339223733303570432)
@@ -29,10 +40,7 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Revocable anonymity? Court orders?        
     * Adrian's question: do too many VC mental models and specs *assume* VCs going straight from issuer to holder, never issuer to verifier on direct behalf of holder?
 * Periodic checkins on the multi-ledger (and possible multi-method!?) Indyverse
-* --- **BBS+ FIESTA 2020** --- [**proposed**]
-    * December 2nd or 9th?
-    * Aries and non-Aries people making a pact to work together
-    * C and C Work item?
+
 * --- **TEST SUITEAPALOOZA 2020** --- [**F2F? align with SVIP and/or ESSIF?**]
     * Later in December?
     * Status update on SVIP's past and future suite maintenance
@@ -40,7 +48,6 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
     * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
 * Educational presentations
-    * Oliver - [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda) ? (VC-focused edition)
     * Disposable Identities (Adam Burns is on the hook)
         * Revocable Anonymity 
         * What the heck is a synthetic identity? (Michael Shea is up to date on fraud research) - Ping Identity might want to speak to it? or Jan Lindquist's privacy and risk WG in ToIP
@@ -50,10 +57,9 @@ Meta-topics and Potential quarter-wide or year-long goals:
     * VC Auth versus ZCap-LD (CCG), ACDC TF (& some day spec?) ToIP - 
     * x509 worldwide - Finema, Spherity, Discipl, ...?
     * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
-    * KERI and Certificate Transparency - Dmitry? Dave Huseby?
     
     * EDV Use Cases v2 - Manu?
-    * Cloud Wars and Gaia-X - ...?
+    * Cloud Wars and [Gaia-X](https://www.gaia-x.eu/) - ...?
     
     * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
 
