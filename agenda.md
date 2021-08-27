@@ -1,5 +1,6 @@
 # Interoperability WG Rolling Agenda & Minutes 
 
+
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
 [early Zoom link - 0600PT](https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09) | [late Zoom link - 1400PT](https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09) | [DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Mailing List](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
@@ -19,7 +20,7 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 * Kaliya - Authentic Data & KERI and Certificate Transparency - Dave Huseby
 * Kaliya - WACI what WACI how?
 
-### Anything above here is new, or moved above to focus on
+### Anything above here is new, or moved above to focus on.
 
 
 Meta-topics and Potential quarter-wide or year-long goals:
@@ -72,14 +73,22 @@ Venn diagram of interop goals, and scopes/definitions of interop (contextual)
     
 
 </details>
-## Agenda - 8 Sep - US time
-## Agenda - 1 Sep - EU time
+## Agenda - 29 Sep - EU time
+## Agenda - 22 Sep - EU time
+## Agenda - 15 Sep - EU time
 
+
+## Agenda - 8 Sep - US time
+Library interop polooza with Aries, Mattr, Spruce and Veramo
+
+## Agenda - 1 Sep - EU time
+### Summervacation back 8th of Sep
+We want to spend some time as a new group, to regroup and get into orbit instead of full trusters into unknown space
 ## Agenda - 25 Aug - US time
-### Summervacation back 1st of Sep
+### Summervacation back 8th of Sep
 We want to spend some time as a new group, to regroup and get into orbit instead of full trusters into unknown space
 ## Agenda - 18 Aug - EU time
-### Summervacation back 1st of Sep
+### Summervacation back 8th of Sep
 We want to spend some time as a new group, to regroup and get into orbit instead of full trusters into unknown space
 
 ## Agenda - 11 Aug - US time
