@@ -80,6 +80,41 @@ Venn diagram of interop goals, and scopes/definitions of interop (contextual)
 
 ## Agenda - 8 Sep - US time
 Library interop polooza with Aries, Mattr, Spruce and Veramo
+### Agenda
+7 min from Aries - aries protocols and test suite   
+7 min from Veramo - work done towards did com and potentially credential exchange   
+7 min from Spruce - unsure what would be different from veramo?   
+7 min from Matter - Talk about how they tackle introp in SVIP and participation of VC http api?   
+
+Start the meeting with first sharing, from each library on their position and thoughts of interop they have worked on. And be able to share where is the biggest need for interop in their perspective. To map things out.
+
+Then move onwards to one layer to talk in detail how these 4 libraries and platforms can interop. Asking the questions below these layers. If we find more layers we add them and find more questions per layer we add them.
+
+### Layers needing interoperability:
+Model from Oliver:   
+* VP/VCs -> Data Model, Crypto (Which curves? Do we need to touch upon this now),  DID methods
+* VP request protocols (aka present-proof etc) + Data Model (e.g. Presentation Exchange)
+* VC issuance protocols (aka issue-creds etc.) + Data Model (e.g. Presentation Exchange)
+* VC revocation
+
+### Questions to ask ourselves during layer discussion
+
+* What functionality have each library(company) implemented and tested and used?
+* What part of this layer interop is DIDCom solving?
+* What part of this layer interop is WACI PEX solving?
+* What part of this layer interop is PE exchange solving
+* What part of this layer interop is VC http api solving?
+* What part of this layer interop is the Aries protocols solving, Aries Protocols in general, the set of protocols in AIP 1.0 and AIP 2.0 in particular?
+* What part of this layer are the mentioned tools stepping on each others feet?
+* What part of this layer are we not seeing or mentioning where interoperability is needed?
+* Are we remembering that the same interop has to happen on a browser as well as a mobile phone? What layers need to be set in motion to have that ready?
+
+### Goal
+Make sure that we are having the right efforts in place and we believe these efforts will move things forward in the right direction. Highlight where there might be missing efforts.
+
+#### Appendix
+Working doc: https://docs.google.com/document/d/1wWl442DQK0dHhtL8HHsbdtbpMxRL-_mjCPpb3RDQo3M/edit#
+
 
 ## Agenda - 1 Sep - EU time
 ### Summervacation back 8th of Sep
