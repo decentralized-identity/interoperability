@@ -17,8 +17,11 @@ _This document is live-edited DURING each call, and stable/authoritative copies 
 
 ### Fresh list of topics
 * Snorre - Library polooza. Invite https://github.com/uport-project/veramo about the [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda), https://www.spruceid.com, https://wiki.hyperledger.org/display./aries To talk about what they think about interoperability.
-* Kaliya - Authentic Data & KERI and Certificate Transparency - Dave Huseby
 * Kaliya - WACI what WACI how?
+* David - Balaz suggested about DID objection, https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0000.html, Inviting Brent and Markus, It has been discussed during SC meeting, But as it's literally affects the entire community I think an interop meeting could be good
+* IIW Discussion on what we want to do there and potentially cancelling the meeting that week, or merge into agenda at IIW.
+* IIW interop AMA session, what can we do to make things better for the community
+* DID Com realease on IIW, do we want to play off of that?
 
 ### Anything above here is new, or moved above to focus on.
 
@@ -73,13 +76,24 @@ Venn diagram of interop goals, and scopes/definitions of interop (contextual)
     
 
 </details>
+## Agenda - 13 Okt - US time
+IIW WEEK look at notes for potential sessions
+## Agenda - 5 Okt - US time
 ## Agenda - 29 Sep - EU time
-## Agenda - 22 Sep - EU time
+Authentic Data & KERI and Certificate Transparency - Dave Huseby organized by Kaliya
+
+## Agenda - 22 Sep - US time
+Library interop polooza follow up - being worked on here https://docs.google.com/document/d/1wWl442DQK0dHhtL8HHsbdtbpMxRL-_mjCPpb3RDQo3M/edit#
+
 ## Agenda - 15 Sep - EU time
 
+Mozilla objection we talk about what that is, what are potential ways forward and what the DID WG thinks about this
+Brent Zundel comes and shares
 
 ## Agenda - 8 Sep - US time
+
 Library interop polooza with Aries, Mattr, Spruce and Veramo
+
 ### Agenda
 7 min from Aries - aries protocols and test suite   
 7 min from Veramo - work done towards did com and potentially credential exchange   
