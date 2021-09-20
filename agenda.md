@@ -76,19 +76,48 @@ Venn diagram of interop goals, and scopes/definitions of interop (contextual)
     
 
 </details>
+## Agenda - 3 Nov - EU time
+## Agenda - 27 Okt - US time
+## Agenda - 20 Okt - EU time
 ## Agenda - 13 Okt - US time
 IIW WEEK look at notes for potential sessions
 ## Agenda - 5 Okt - US time
+Potentialy library polooza followup
+Potentiall IIW dicsussions, anything we need to discuss prepp for IIW
+
 ## Agenda - 29 Sep - EU time
 Authentic Data & KERI and Certificate Transparency - Dave Huseby organized by Kaliya
 
 ## Agenda - 22 Sep - US time
-Library interop polooza follow up - being worked on here https://docs.google.com/document/d/1wWl442DQK0dHhtL8HHsbdtbpMxRL-_mjCPpb3RDQo3M/edit#
+Library interop polooza follow up - Agenda worked on here. Will be posted when last comments are resolved: https://docs.google.com/document/d/1wWl442DQK0dHhtL8HHsbdtbpMxRL-_mjCPpb3RDQo3M/edit#
 
 ## Agenda - 15 Sep - EU time
 
 Mozilla objection we talk about what that is, what are potential ways forward and what the DID WG thinks about this
-Brent Zundel comes and shares
+Brent Zundel comes and shares.
+
+The objection can be seen here: https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0000.html
+
+Why public objection: Mozilla pressed the wrong button.
+Formal objections happen, and response should come from WG group chairs.
+Not requiring specific DID method: out of scope in charter from start. Compare to HTML img tag - no specific image format required
+Having DID document shows interoperability
+Divergence: comparison with 300+ URI schemes, 78 URN schemes
+But underlying common data format
+About centralization: Cannot define misuse of the technology. But have rubric to facilitate subjective evaluations.
+About multiple data formats (JSON, JSON-LD): potentially valid complaint, but inappropriate timing. We could have just picked one - the group had hours and hours of conversation about how to and whether or not to do it. Objectors could have raised this 8 months ago and we could have officially addressed it. Cannot do anything about it now except note the concern and apologize.
+Proof-of-work (PoW) blockchains vs. ethical web principals (EWP). EWP is great but not recommendation / normative guidance - don't reflect consensus of W3C and not part of the process - are a set of what one group thought were good ideas. They are indeed good ideas, but there is no requirement that we adhere to them. Encouraging low energy consumption, attacking existence of DID methods requiring on PoW blockchains. Assume PoW is a horrendous waste of energy: begins with statement as though it is fact, but a lot of people don't agree with it.  Wanting the DID WG to make a formal position about all PoW blockchains and enforce that no PoW blockchains be allowed to support the back-end of a DID method... We can define the technology but not how people use it. That is assuming PoW is as bad as claimed. Complaint asks us to stick to a document that is not official. DID Spec does not require verifiable data registries, blockchains, distributed ledgers, Bitcoin, Proof of Work - not statements about these things. It's possible we could say you shouldn't do that - but the WG doesn't feel it would be appropriate to try to normatively define what a DID method is and isn't allowed to do - especially in light of the ongoing debate about PoW - if it is the only way to pay for the level of decentralization that some security stories call for. We would like to put something in out implementation guidance saying you should be aware of these concerns - but we may not be able to come to consensus on it. May be a red herring... some of the objectors in the past have publicly supported blockchains that use PoW.
+The public statement by Mozilla names other groups. Microsoft did not formally object to the specification - they joined the WG and were relatively active in it. You can't assume what the other formal objections were based on the contents of this one. But they do echo those points. There were three formal objections, all of which made the same sort of set of points. Mozilla's was the only one that they pushed the wrong button on.
+What to do: what DIF and ToIP have done: statement of support for decentralized identifiers. If people say "it's dead now", point out that it's not - has objections, ongoing debate. In our opinion, the objections don't have a leg to stand on. Combating the FUD. We'll just have to live in anxiety for a while.
+Snoore: Are there any anxiety-removing elements that one can do?
+Brent: not really. Process doc is explicit about there being no time limit on the director's deliberation. Call for Review for when we went to Proposed Recommendation ended. At that point, 3 formal objections had come in. Now we have this undefined period of time - takes s long as it needs to take - for the director to hear both sides, gather evidence, and learn about things. That process, unfortunately, takes a long time. We at the DID WG would really prefer if the director had gotten on the phone with us immmediately - and said, these objections are baseless and here are the reasons - we really would have liked that, and it would have been done. I hope in next few weeks, chairs of the WG will get to meet with the director. Then we'll find a time when we can all meet with the director, and hopefully get a decision. THis is probably going to take at least another month, and it's going to be uncomfortable. We can reflect on the fact that process-wise, we have done everything we were supposed to - and we can back that up with documents. Not much else we can do.
+Snoore: Hours of talk on this point...?
+Brent: The JSON-LD one. Our actually only official face-to-face (F2F) meeting was in Amsterdam. It was January 2020. The bulk of conversation was around how to deal with these two very similar but subtly different representations of a DID document. The conversations that we had while in Amsterdam were what gave birth to the "abstract data model" that we introduced in to the specification - which for a time gave birth to the idea of serializing into CBOR. Unfortunately, the CBOR serialization wasn't able to mature well enough to end up inside the spec - but it was there for months. Not a conversation we have had, but a conversation that if the objectors felt was really important to have, they could have jumped in and had it with us.
+Snoore: Other questions?
+Kaliya: You are responding with a lot of process points, which I agree with , but is there also responses about the technical - not just about the process - that are actually trying to rebut the technical things they are saying?
+Brent: We do have some. With the requirement that we normatively define a number of DID methods, apart from being completely out of scope, the question is then, which 3, 2 - which set of DID methods would be most appropriate for the WWW to say, "these are the official ones". That conversation has kindof been going on in the background for a while. e.g. some people think we may be able to get agreement to define did:key, did:web. But then there is the irony that if you have did:web, you are probably relying on DNS - not really very decentralized. Beyond that, nearly every other DID methods relies on some particular distributed ledger or blockchain - and they all have different security characteristics, different requirements on how we resolve them. For the commmunity to come together and say "this is the one" that we all agree on well enough to define normatively - on a technical level, what they are requiring it may be impossible for a QG to come to consensus - not only the DID method specifications themselves, but on which ones to start with in the first place. The other rebuttal there is, are you actually going to participate this time around? How dare you suggest there is more work to be done and you go off and do it? That's not how process works, how specifications are written. That's "go find a rock" - "no that rock is too grey" - "no that rock is too small". If there are members that have opinions on what ought to go in a spec or not - or ought to be worked on by a group or not - then the appropriate course of action is for that member company to join the working group and participate. For them to complain we haven't done the work, and also not participate in the work in the future, really means that, because they haven't claimed that we are doing is harmful in any real way, they really can't back up the statements.
+Like at DIF, if people want to create a work item, if someone outside the WG says, "hey C&C WG, you should really work on X, Y, Z" - C&C WG would say, "good to know, would you like to join us, submit a work item and get someone to work with you? ...
+[At document max size. Continued at https://notes.ietf.org/dif-interop-2021-09-15]
 
 ## Agenda - 8 Sep - US time
 
