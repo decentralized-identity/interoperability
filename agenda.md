@@ -103,15 +103,15 @@ Library polooza followup meeting
 
 The second-part followup to the “Library interop-polooza” discussion two weeks prior, which had participation from Aries, MATTR, Spruce and Veramo.
 
-follow up - Agenda worked on here. Will be posted when last comments are resolved: https://docs.google.com/document/d/1wWl442DQK0dHhtL8HHsbdtbpMxRL-_mjCPpb3RDQo3M/edit#
+Agenda working doc is here for history keepings: https://docs.google.com/document/d/1wWl442DQK0dHhtL8HHsbdtbpMxRL-_mjCPpb3RDQo3M/edit#
 
 * Introductions
 * Stack diagram, any missing layers relevant to interoperability? https://docs.google.com/spreadsheets/d/12_03m8QU1J0VaskBEnA97aUXz38kSTskvM7DwfSAPFg/edit#gid=0
-* Structured credential data model https://github.com/w3c/vc-data-model/pull/788#issuecomment-896734277
 * How invested are people in getting interoperability?
 * What is the high level roadmap for interoperability?
 * Where do we start testing on this?
 * Can we carve out a small piece that everyone feel they have in place to start aligning interop?
+* Structured credential data model https://github.com/w3c/vc-data-model/pull/788#issuecomment-896734277
 
 ![](https://i.imgur.com/XQpIBCr.png)
 
