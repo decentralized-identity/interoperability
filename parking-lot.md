@@ -1,3 +1,17 @@
+# Discussion Items for next Chairs meeting
+* We have source for demos and proofs of concepts, the most recent substantive change being Feb 2020 across all of them. 
+  We are continuously getting security warnings from GitHub because of issues with these projects. 
+  We should externalize code projects in our repo (and likely archive). DW is reaching out to authors to determine if they prefer another option (such as pointing to a maintained authoritative version, or investigate creating a work item for it underneath the Interop WG)
+* Go over core documentation in our repo to remove things which are not a focus/not true anymore
+* Replace main "notion" page for Interop WG with content either on the DIF page or Github main page
+* Create a skeleton agenda for meetings, e.g.
+  * Call to order
+  * Current meeting topic and agenda
+  * Announcement of future interoperability meetings and recap of previous week
+  * (Call for) announcements of other interoperability-related topics
+  * Main meeting agenda
+* DW: Status on PoC of github infrastructure revisions
+
 # "Parking lot" for future/recurring agenda items
 
 ## Fresh topics
