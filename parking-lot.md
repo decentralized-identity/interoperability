@@ -2,6 +2,7 @@
 * We have source for demos and proofs of concepts, the most recent substantive change being Feb 2020 across all of them. 
   We are continuously getting security warnings from GitHub because of issues with these projects. 
   We should externalize code projects in our repo (and likely archive). DW is reaching out to authors to determine if they prefer another option (such as pointing to a maintained authoritative version, or investigate creating a work item for it underneath the Interop WG)
+  * (done) Talked with Orie, agreed they should just be deleted. The projects actually predate the formation of the WG, so they likely have ambiguous IPR.
 * Go over core documentation in our repo to remove things which are not a focus/not true anymore
 * Replace main "notion" page for Interop WG with content either on the DIF page or Github main page
 * Create a skeleton agenda for meetings, e.g.
