@@ -1,6 +1,6 @@
 # Interoperability Project
 
-A project to demonstrate continious technical demonstration of interoperability between DID Methods, Wallets, Agents, Encrypted Data Vaults, and Verifiable Credentials.
+A project to demonstrate continuous technical demonstration of interoperability between DID Methods, Wallets, Agents, Encrypted Data Vaults, and Verifiable Credentials.
 
 The project consists of a series of tools and web applications.
 
