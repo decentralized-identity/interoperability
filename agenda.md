@@ -1,101 +1,41 @@
 # Interoperability WG Rolling Agenda & Minutes 
 
-
 [![hackmd-github-sync-badge](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw/badge)](https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw)
 
-[early Zoom link - 0600PT](https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09) | [late Zoom link - 1400PT](https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09) | [DIF Website ](https://identity.foundation/interoperability/) | [**Repo & Issues**](https://github.com/decentralized-identity/interoperability/issues) | [Mailing List](https://dif.groups.io/g/interop-wg) | [Reference Shelf](https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76) | [Meeting recordings](https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098)
+[DIF Website][dif] | 
+[*GitHub repo & Issues*][repo] | 
+[Mailing List][maillist] | 
+[Reference Shelf][reference] | 
+[Potential future topics][parking-lot]
 
-_For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group experiencing a lot of churn._
+## Attending
+The Interoperability Working Group meets weekly via Zoom, alternating times to better accomodate live participation from different time zones:
 
-_This document is live-edited DURING each call, and stable/authoritative copies live on our github repo under /agenda.md . Please note that we might not notice a pullrequest in time, but you are free to propose agenda items for future meetings via hackmd ._
+[Join 0600PT Call *(EU-friendly)*][eu-zoom] | 
+[Join 1400PT Call *(US-friendly)*][us-zoom] |
+[Meeting recordings][recordings]
+ 
+_For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group with constant new members._
 
-### "Parking lot" for future/recurring agenda items
-
-<details>
-
-<summary>Topics List</summary>
-
-### Fresh list of topics
-* Snorre - Library polooza. Invite https://github.com/uport-project/veramo about the [DAF update](https://medium.com/uport/trusted-p2p-messaging-with-dids-didcomm-and-vcs-398f4c3f3cda), https://www.spruceid.com, https://wiki.hyperledger.org/display./aries To talk about what they think about interoperability.
-* Kaliya - WACI what WACI how?
-* David - Balaz suggested about DID objection, https://lists.w3.org/Archives/Public/public-new-work/2021Sep/0000.html, Inviting Brent and Markus, It has been discussed during SC meeting, But as it's literally affects the entire community I think an interop meeting could be good
-* IIW Discussion on what we want to do there and potentially cancelling the meeting that week, or merge into agenda at IIW.
-* IIW interop AMA session, what can we do to make things better for the community
-* DID Com realease on IIW, do we want to play off of that?
-
-### Anything above here is new, or moved above to focus on.
-
-
-Meta-topics and Potential quarter-wide or year-long goals:
-Venn diagram of interop goals, and scopes/definitions of interop (contextual)    
-     
-
-* Don't lose focus on the map model! [link](https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/crosscommunity-architecture-survey-oct-2020.pdf)
-    * Parallelize (and promote) interop work on totally different scopes
-    * Proposed Work Item: **Architectural guidelines**: "if your role in the ecosystem includes X, looks at ABC specs and make sure you speak D and F to maximize interoperability (and/or future-compatibility)"
-    * Incorporate/consider [ToIP TIPs](https://github.com/trustoverip/technology-stack-wg/blob/master/TIP_LIFECYCLE_MANAGEMENT.md) and [OIX interop study](https://twitter.com/pamelarosiedee/status/1339223733303570432)
-1. Human-centric interop as roadmap and business strategy (+ UX?)
-2. Further afield usecases (VC-free, DID-free, human-free, LEI, etc) 
-    * Non-human decentralized identity?
-6. Interop test suites and harness infrastructure (after March when SVIP/CCG interop sprint ends)
-4. Notary models and adoption hacks? (governance?)
-
-* VCs versus VPs - is habituating individuals to exchanging strong credentials a dark pattern per se? how to keep VPs ephermal and useless to traffic analysis?
-    * Revocable anonymity? Court orders?        
-    * Adrian's question: do too many VC mental models and specs *assume* VCs going straight from issuer to holder, never issuer to verifier on direct behalf of holder?
-* Periodic checkins on the multi-ledger (and possible multi-method!?) Indyverse
-
-* --- **TEST SUITEAPALOOZA 2020** --- [**F2F? align with SVIP and/or ESSIF?**]
-    * Later in December?
-    * Status update on SVIP's past and future suite maintenance
-    * Aries and/or BCGov test suites
-    * Can someone from Danube or IBM show the smoke tests run against driver updates to the universal resolver?
-    * Any volunteers have internal compliance/smoke tests they want to show? (A quick video recording would also be great if timezones are brutal!)
-* Educational presentations
-    * Disposable Identities (Adam Burns is on the hook)
-        * Revocable Anonymity 
-        * What the heck is a synthetic identity? (Michael Shea is up to date on fraud research) - Ping Identity might want to speak to it? or Jan Lindquist's privacy and risk WG in ToIP
-
-    * Interop liabilities and new attack surfaces
-    
-    * VC Auth versus ZCap-LD (CCG), ACDC TF (& some day spec?) ToIP - 
-    * x509 worldwide - Finema, Spherity, Discipl, ...?
-    * eIDAS roundtable - Nacho Alamillo, Gataca, Peter Wagner, Erik van Zuuren...?
-    
-    * EDV Use Cases v2 - Manu?
-    * Cloud Wars and [Gaia-X](https://www.gaia-x.eu/) - ...?
-    
-    * What's the BlueSky of LinkedIn? EuroPass, Affinidi, LER...
-
-    * Ongoing interop efforts
-        - `JWS test suite` - https://blog.identity.foundation/dif-grant-1-jws-test-suite/
-        - `vc-jwt-interop` - https://github.com/w3c-ccg/community/issues/198
-        - `VC-HTTP-API` - 
-        - Aries-interop.info -
-    
-    
-
-</details>
+_This document is live-edited DURING each call for minutes, while a stable copy lives on our [GitHub repo][repo]. Feel free to propose agenda items either via issues or by messaging on DIF Slack.
 
 # Upcoming meetings
 
-<details>
-<summary>Upcoming agendas</summary>
-## Agenda - 3 Nov - EU time
-## Agenda - 27 Oct - US time
-## Agenda - 20 Oct - EU time
-## Agenda - 13 Oct - US time
-IIW WEEK look at notes for potential sessions
+<!--
+### Agenda - 3 Nov - US time
+### Agenda - 27 Oct - EU time
+ -->
+## Agenda - 20 Oct - US time
+Internet Identity Workshop Recap
 
-</details>
+## Agenda - 13 Oct - EU time
+No call due to [Internet Identity Workshop][iiw]. Look at notes for potential sessions.
 
 # Next meeting
-## Agenda - 29 Sep - EU time
-Authentic Data & KERI and Certificate Transparency - Dave Huseby organized by Kaliya
 ## Agenda - 6 Oct - US time
 ### Items
-Library polooza followup meeting   
-5 min for IIW dicsussions, anything we need to discuss prepp for IIW
+* Library polooza followup meeting 
+* 5 min for IIW dicsussions, anything we need to discuss prepp for IIW
 
 ### More info
 
@@ -121,8 +61,10 @@ We should present the work going on and get more people to engange in this futur
 
 How do we make sure this work differentiates from the whimsical diagram, or atleast stays up to date? https://whimsical.com/decentralized-mapping-exercise-clustered-LJJ1rizUQcYcL7MUwqWbTn
 
-
 # Previous meetings
+
+## Agenda - 29 Sep - EU time
+Authentic Data & KERI and Certificate Transparency - Dave Huseby organized by Kaliya
 
 ## Agenda - 22 Sep - US time
 
@@ -273,3 +215,16 @@ Working doc: https://docs.google.com/document/d/1wWl442DQK0dHhtL8HHsbdtbpMxRL-_m
 Older agendas and minutes moved to separate files: 
 * [agenda2021.md](https://github.com/decentralized-identity/interoperability/agenda2021.md)
 * [agenda2020.md](https://github.com/decentralized-identity/interoperability/agenda2020.md)
+
+<!-- footnote links for prettier linking -->
+[edit-minutes]: https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw
+[eu-zoom]: https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09
+[us-zoom]: https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09
+[dif]: https://identity.foundation/interoperability/
+[repo]: https://github.com/decentralized-identity/interoperability
+[maillist]: https://dif.groups.io/g/interop-wg
+[reference]: https://www.notion.so/dif/be6763341a014d248f655aea187d7890?v=c9ac48a07f3d411c9a1bea32b55f7e76
+[recordings]: https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098
+[parking-lot]:
+https://github.com/decentralized-identity/interoperability/blob/master/parking-lot.md
+[iiw]: https://internetidentityworkshop.com
