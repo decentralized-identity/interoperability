@@ -4,15 +4,15 @@
 
 [DIF Website][dif] | 
 [*GitHub repo & Issues*][repo] | 
-[Mailing List][maillist] | 
-[Reference Shelf][reference] | 
+[Mailing list][maillist] | 
+[Reference shelf][reference] | 
 [Potential future topics][parking-lot]
 
 ## Attending
 The Interoperability Working Group meets weekly via Zoom, alternating times to better accomodate live participation from different time zones:
 
-[Join 0600PT Call *(EU-friendly)*][eu-zoom] | 
-[Join 1400PT Call *(US-friendly)*][us-zoom] |
+[Join 0600PT call *(EU-friendly)*][eu-zoom] | 
+[Join 1400PT call *(US-friendly)*][us-zoom] |
 [Meeting recordings][recordings]
  
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group with constant new members._
@@ -22,16 +22,25 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 # Upcoming meetings
 
 <!--
+### Agenda - 17 Nov - US time
+### Agenda - 10 Nov - EU time
 ### Agenda - 3 Nov - US time
-### Agenda - 27 Oct - EU time
+Do we want to do library polooza? Let ask in the slack channel if they still want to spend time on it.
  -->
+### Agenda - 27 Oct - EU time
+Companies in EU are working alot of interop, this became a subject at IIW. We want to have them visit an introduce what they work.
+
+Balaz will help in inviting
+
+# Next meeting
 ## Agenda - 20 Oct - US time
-Internet Identity Workshop Recap
+Internet Identity Workshop Recap, with the focus on interoperability. Did anyone hear anything really cool about interoperability during IIW? Anything worth taking notice of?  
+@DW (Ping Identity) - do you have a summary of what interests came up for the interop group?
+Talk abit about the future of library polooza if time allows.    
+
 
 ## Agenda - 13 Oct - EU time
 No call due to [Internet Identity Workshop][iiw]. Look at notes for potential sessions.
-
-# Next meeting
 ## Agenda - 6 Oct - US time
 ### Items
 * Library polooza followup meeting 
