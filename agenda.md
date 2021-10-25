@@ -22,6 +22,10 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 # Upcoming meetings
 
 <!--
+### Agenda - 15 Dec - US time
+### Agenda - 8 Dec - EU time
+### Agenda - 1 Dec - US time
+### Agenda - 24 Nov - EU time
 ### Agenda - 17 Nov - US time
 
  -->
@@ -36,10 +40,12 @@ Rechartering, take inspiration from this: https://www.notion.so/dif/HOSPITALITY-
 Rename the group to something like. Interoperability Cross Community Group.(WG name is confusing for many companies as this group is not IPR protected)
 Where do we need to rename things?
 
-### Agenda - 27 Oct - EU time
-No agenda
 
 # Next meeting
+
+### Agenda - 27 Oct - EU time
+No agenda, cancelled
+
 ## Agenda - 20 Oct - US time
 Internet Identity Workshop Recap, with the focus on interoperability. Did anyone hear anything really cool about interoperability during IIW? Anything worth taking notice of?  
 @DW (Ping Identity) - do you have a summary of what interests came up for the interop group?
