@@ -24,19 +24,71 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 <!--
 ### Agenda - 17 Nov - US time
 ### Agenda - 10 Nov - EU time
+Companies in EU are working alot of interop, this became a subject at IIW. We want to have them visit an introduce what they work.
+
+Balaz will help in inviting
 ### Agenda - 3 Nov - US time
 Do we want to do library polooza? Let ask in the slack channel if they still want to spend time on it.
  -->
 ### Agenda - 27 Oct - EU time
-Companies in EU are working alot of interop, this became a subject at IIW. We want to have them visit an introduce what they work.
-
-Balaz will help in inviting
+No agenda
 
 # Next meeting
 ## Agenda - 20 Oct - US time
 Internet Identity Workshop Recap, with the focus on interoperability. Did anyone hear anything really cool about interoperability during IIW? Anything worth taking notice of?  
 @DW (Ping Identity) - do you have a summary of what interests came up for the interop group?
 Talk abit about the future of library polooza if time allows.    
+
+IIW Highlights
+Adrian: Two orthoganal axises - KERI - innovation and thought about security and privacy from an academic perspective but completely ignoring everything that has gone on for 6 years. 
+DIDComm and relatives - that keep plowing ahead in a series of protocol decisions that are self referential. This is where at - now we just have to get to agree. 
+Some people think we are already "done" KERI camp working from first principciples and do right. 
+Noted they are not talking to each other. 
+Darrell - premature interoperability premature standardization - we are not "there yet" which is why we see KERI
+DIDComm trying to align - governments taking Hyperledger Aries/Indy going to market. 
+Interoperabiliy is not a term that is well defined. 
+Overall good news - everyone agress we are heading in the right directions - How key rotation happens. Answer that happens in time. DIDComm world moves ahead - executable working code - those executing running along in the same direction. Describes why it is really messy. ([Lets find a link -to Darrell's session](https://continuumloop.s3.amazonaws.com/PrematureInterop-ContinuumLoop-Strategy-Standards-and-Interop.pdf))
+
+Who is implementing KERI? - who is impelmenting - KERI is implementing - GLEIF 
+- 
+Sam: Seemed less rushed an panicy Fewer sessions that were more engaged in. Mike Ebert - opener question what proud of what afraid of. Where things are? Thinking a lot about IIW kinda used to be about  Federated Identity - now about SSI the federated ID people less interested in the conversation.  KERI - DIDComm not talking to each other - the appropriate form is to talk to each other in DIDs. Not opposed to KERI. Related - No one has throughly plugged them together. 
+
+Vitorio talk on end of day 2.
+DIDComm - OpenIDConnect tension exists and draws out important things. 
+What is it important that it draws out - do they realize the vision of DIDComm - bigger then passing credentials. Helps to draw out the assuptions people are starting with. 
+A lot of things about identity - are things about people = credentials. Holders some times involved not always involved. Things about me - DIDComm is communicating "with me" not about me. Distiction about the two.
+Do I use DIDComm or do I use SIOP - not accurate to pit them against each other. They are in some areas - there is a lot of get along-ness and likely path to get along - can go from OIDC-SIOP -> to DIDComm connection.
+Todd: The last two IIWs I have attended fewer of technical sesisons - role not working with software developers- more to choose from on the non-technical philosphoical discussions. Try to listen closely to what people are saying one of the big challenges is adoption - and getting outside this community- good to see new people - they are very enthusiastic - how does it help everything move forward. A lot of technical barriers - Sam & Sam - understand the competing agendas of the various protocols - at the end of the day looking at the consumer side- who is going to be using it. Post listening to recordings. What do we need to we get the word out. 
+
+ID2020 - felt that it was less technical then in the past. Looked at calendar and daily agendas. working with NGOs - very interesting - open to broader crowd. 
+
+Adrian: Another impression - that the reality around SSI are actually to start to come to light. After a long period (2 years) of Kymbaya. Given by focus on DHS and closely related projects and interop from there. What I am seeing at this IIW and like 4-5 really key issues coming to light. 
+1) LD vs JWT -> seemed to have a collaborative solution. Driven by MSFT VCI.
+
+[Data Rights Protocol org](https://datarightsprotocol.org/) working with Sandy Pentland - building on JWTs 2nd genration identity. [YouTube ](https://docs.google.com/document/d/1xrBPmK3Oc98t8FzJCBMRE57Yl2JygJZds1pmydoHfCk/edit)
+
+
+They imagine - 7-8 different startups class of businesse act as service providers to consumer businesse that collect data - how are these service providers gonig to manage GDPR/CCPA data rights? approach from the commercial perspective - said from the beginning - they said there would be a 4th party involved where individual is proxied by an agent relative to a service provider (daza greenwood) working with credit unions and cooperative model and this includes it.
+
+5 specific end points - Make this commercial offering - they can go to us as the service providers to verify identity of people and manage their data rights. 
+
+Class of service providers selling B2B to and then - but they are there to offload the job of mandated to GDPR/CCPR around data rights that affect these businesses.  In HealthCare we had this same thing service providers. MSFT build whole msft health strategy on it working properly. 
+
+2) Issue of Fedreation - OIDC google app/mozilla/apple formal objection to DIDs - peace is not made with federation
+
+3) Trying to square verifiable data registries of various sorts - roll of private blockchains and role of hyperledger
+
+4) custocial wallets/agents - Diwhala/Kiva - work with custocial wallets - seeing fragmentation. So much of what has been happening - every action is an authenitcation action like a FIDO-secure element - delegation to an agent - custodial wallets. "SSI we" has been living in tihs lala land of our own making having to face the market reality. 
+
+Keith: hear about things about VCs being in production - I don't see it. Was on a call with an analyist. Am I missing something. People in production? 
+Is there a big use-case that I'm missing. 
+
+Adrian: VCs are clearly inevitable - what is not inevitable - is the subject identifeir and the schema's for VCs. That is why there is a duality between mDL and W3C standard track stuff. Education folks driving themselves nuts - running ragged - VC SSI model.  What is driving them crazy - what they have done with Open Badges and tryign to include SSI standards into their market - where they service providers are institutions (and people) purity  difficult to adopt Hyperldeger and DHS model. MSFT is fighting the good fight - they are in the identity hub/secure secure data storage - we have a band of catholicism that is not open to the relaities on the ground from the other perspective - IMSGlobal CLR - OpenBadges willingness to move towards VC model - we didn't want to be in a world where we are implementing all of the above. they will happen. 
+How schema and subject identiifers. The most interesting move away from schema's towards types. I didn't see a lot of negativity. 
+Who are the verifiers - them is us. They educational institutions accept credentials from other educational institutions. 
+
+Guardianship - Signing relesases and getting inforamtoin directly from the institutions. They want the credentials directly from the instutions. They don't have the same prolem of "calling home" anything that complicates revocation.  
+
 
 
 ## Agenda - 13 Oct - EU time
