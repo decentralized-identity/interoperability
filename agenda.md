@@ -23,13 +23,19 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 <!--
 ### Agenda - 17 Nov - US time
+
+ -->
 ### Agenda - 10 Nov - EU time
 Companies in EU are working alot of interop, this became a subject at IIW. We want to have them visit an introduce what they work.
 
 Balaz will help in inviting
+
 ### Agenda - 3 Nov - US time
-Do we want to do library polooza? Let ask in the slack channel if they still want to spend time on it.
- -->
+Rechartering, take inspiration from this: https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3. Since we are not IP protected and our current one is just a draft: https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
+
+Rename the group to something like. Interoperability Cross Community Group.(WG name is confusing for many companies as this group is not IPR protected)
+Where do we need to rename things?
+
 ### Agenda - 27 Oct - EU time
 No agenda
 
