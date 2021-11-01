@@ -47,6 +47,7 @@ Where do we need to rename things?
 
 ### Questions
 How does it all fit into the other groups? The SIGs(Health and travel) and discussion groups(Africa and Asia)?
+IS this the place to build and discuss test infratructures for interop?
 
 
 # Next meeting
