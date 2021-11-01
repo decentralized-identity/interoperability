@@ -25,20 +25,28 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 ### Agenda - 15 Dec - US time
 ### Agenda - 8 Dec - EU time
 ### Agenda - 1 Dec - US time
-### Agenda - 24 Nov - EU time
-### Agenda - 17 Nov - US time
 
  -->
+### Agenda - 24 Nov - EU time
+EU meeting recap and action points from the outcom of that meeting 
+
+### Agenda - 17 Nov - US time
+Showcase current rechartering state and get some discussions and thumbs up.
+
 ### Agenda - 10 Nov - EU time
 Companies in EU are working alot of interop, this became a subject at IIW. We want to have them visit an introduce what they work.
 
 Balaz will help in inviting
 
 ### Agenda - 3 Nov - US time
-Rechartering, take inspiration from this: https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3. Since we are not IP protected and our current one is just a draft: https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
+Rechartering, take inspiration from this: https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3. Pr [this older PDF](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eb432fe8-da02-469e-aeb6-9affd920d646/DIF_HandT_SIG_overview.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T141153Z&X-Amz-Expires=86400&X-Amz-Signature=75a7b9625d76d72b206d73249a79ea80f3afd06e6cf95928d37cc06dea783e1d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22DIF%2520HandT%2520SIG%2520overview.pdf%22). Since interop group is not IP protected and our current charter is just a draft: https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
 
-Rename the group to something like. Interoperability Cross Community Group.(WG name is confusing for many companies as this group is not IPR protected)
+Balaz proposed to rename the group to something else. (WG name is confusing for many companies as this group is not IPR protected) Lets hear from Balaz on what is thoughts are to get a better understanding.
+Suggestions are: Interoperability (X)Cross Community Group.(WG name is confusing for many companies as this group is not IPR protected)
 Where do we need to rename things?
+
+### Questions
+How does it all fit into the other groups? The SIGs(Health and travel) and discussion groups(Africa and Asia)?
 
 
 # Next meeting
