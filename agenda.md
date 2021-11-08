@@ -34,9 +34,10 @@ EU meeting recap and action points from the outcom of that meeting
 Showcase current rechartering state and get some discussions and thumbs up.
 
 ### Agenda - 10 Nov - EU time
-Companies in EU are working alot of interop, this became a subject at IIW. We want to have them visit an introduce what they work.
-
-Balaz will help in inviting
+This week we are getting a visit from the German community and hear how they have gone about interop. This conversation started during IIW and has been pulled through to have a introduction in DIF interop, and see what we learn and take from their approach. This meeting is on Wednesday, 10th of November, Europe time 3PM.
+Have a look how that looks for your timezone here: https://www.timeanddate.com/worldclock/converter.html?iso=20211104T140000&p1=137&p2=179&p3=187&p4=44&p5=28&p6=22
+Or just add the DIF whole DIF calender to your  calender: https://bit.ly/dif-calendar
+Look forward to seeing you there, I believe it is going to be a great introduction!
 
 ### Agenda - 3 Nov - US time
 Rechartering, take inspiration from this: https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3. Pr [this older PDF](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eb432fe8-da02-469e-aeb6-9affd920d646/DIF_HandT_SIG_overview.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T141153Z&X-Amz-Expires=86400&X-Amz-Signature=75a7b9625d76d72b206d73249a79ea80f3afd06e6cf95928d37cc06dea783e1d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22DIF%2520HandT%2520SIG%2520overview.pdf%22). Since interop group is not IP protected and our current charter is just a draft: https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
