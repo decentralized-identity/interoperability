@@ -21,23 +21,53 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 # Upcoming meetings
 
+
 <!--
+### In the future
+CHAPI interop discussion
+### January 5th 2022
+### CHRISTMAS BREAK - 22 and 29th of December?
 ### Agenda - 15 Dec - US time
+WACIPex interop discussion
 ### Agenda - 8 Dec - EU time
 ### Agenda - 1 Dec - US time
+DIDCom interop discussion.
 
  -->
+
+
 ### Agenda - 24 Nov - EU time
-EU meeting recap and action points from the outcom of that meeting 
+Showcase current action points and direction to go and get some discussions and thumbs up.
 
 ### Agenda - 17 Nov - US time
-Showcase current rechartering state and get some discussions and thumbs up.
+EU meeting recap and action points from the outcom of that meeting 
 
 ### Agenda - 10 Nov - EU time
 This week we are getting a visit from the German community and hear how they have gone about interop. This conversation started during IIW and has been pulled through to have a introduction in DIF interop, and see what we learn and take from their approach. This meeting is on Wednesday, 10th of November, Europe time 3PM.
 Have a look how that looks for your timezone here: https://www.timeanddate.com/worldclock/converter.html?iso=20211104T140000&p1=137&p2=179&p3=187&p4=44&p5=28&p6=22
 Or just add the DIF whole DIF calender to your  calender: https://bit.ly/dif-calendar
 Look forward to seeing you there, I believe it is going to be a great introduction!
+
+Presentation from Hakan, Andreas and Eugene
+
+### Questions
+More questsions was asked in the recording, have a look at that: https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098&range=C82   
+
+**Tests? How have you guys gone about it?**   
+Not yet, but it is one of our next priorties. Taking inspiration from the Aries test harness and how that should and could work.
+
+    
+**What is the core connector for interoperability?**    
+One profile that works acrosss the consortias would help to begin with. Instead of multiple profiles that did not work together.
+
+**How does this work with EU initatives? Meaning all countries should deliver a wallet that is interoperable**   
+Not afraid not exctied, very netural on what will happen. Look forward to see what is going to be in the toolbox.
+
+**The interoperability matrix they are working on**   
+https://docs.google.com/spreadsheets/d/1R0Y4ec1KVYErkcEgC3Qww7VR4CsCY2Lv2Bt-gfryEdw/edit#gid=1316375328
+
+
+# Older meetings
 
 ### Agenda - 3 Nov - US time
 Rechartering, take inspiration from this: https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3. Pr [this older PDF](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eb432fe8-da02-469e-aeb6-9affd920d646/DIF_HandT_SIG_overview.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T141153Z&X-Amz-Expires=86400&X-Amz-Signature=75a7b9625d76d72b206d73249a79ea80f3afd06e6cf95928d37cc06dea783e1d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22DIF%2520HandT%2520SIG%2520overview.pdf%22). Since interop group is not IP protected and our current charter is just a draft: https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
@@ -49,9 +79,6 @@ Where do we need to rename things?
 ### Questions
 How does it all fit into the other groups? The SIGs(Health and travel) and discussion groups(Africa and Asia)?   
 IS this the place to build and discuss test infratructures for interop?
-
-
-# Next meeting
 
 ### Agenda - 27 Oct - EU time
 No agenda, cancelled
