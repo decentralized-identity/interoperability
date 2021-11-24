@@ -42,6 +42,8 @@ WACIPex interop discussion
 ### Agenda - 1 Dec - US time
 
 ### Agenda - 24 Nov - EU time
+Recording: https://us02web.zoom.us/rec/share/T56nah0ObZFk7J5eck4bu9A_qzJDvmGW7Ze9bgjsG_A8OJ2rnyedjkJqQAfXOUlB.yo0_Kyo0lUQ3e2Z4
+
 * We want to be able to be nimble but still showcase that this group provides value. The success criterias are great!
 * Review "charter" and make it lean to reflect a more agile form. In the sense that we cannot predefine what we are doing now. Because the ecosystem is everchanging and new players come in. 
 * Showcase current action points and direction to go and get some discussions and thumbs up.
