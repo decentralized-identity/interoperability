@@ -46,6 +46,14 @@ WACIPex interop discussion
 * Review "charter" and make it lean to reflect a more agile form. In the sense that we cannot predefine what we are doing now. Because the ecosystem is everchanging and new players come in. 
 * Showcase current action points and direction to go and get some discussions and thumbs up.
 
+##### Summary
+Do we want to define an interop profile for the community? How do we attack this task?
+We want need a clearer map 
+
+We have drafted a shorter cleaner version: https://docs.google.com/document/d/11EKZZ0sSqOrXmdtDEtts4OrIVtQRSLB8mA3VxFLFgEw/edit inspiration from the older one https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
+
+We will announce and get feedback from the mailing list and slack!
+
 ### Agenda - 17 Nov - US time
 EU meeting recap and action points from the outcom of that meeting 
 
