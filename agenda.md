@@ -31,13 +31,20 @@ CHAPI interop discussion
 WACIPex interop discussion
 ### Agenda - 8 Dec - EU time
 ### Agenda - 1 Dec - US time
-DIDCom interop discussion.
+
 
  -->
 
+### Agenda - 15 Dec - US time
+
+### Agenda - 8 Dec - EU time
+
+### Agenda - 1 Dec - US time
 
 ### Agenda - 24 Nov - EU time
-Showcase current action points and direction to go and get some discussions and thumbs up.
+* We want to be able to be nimble but still showcase that this group provides value. The success criterias are great!
+* Review "charter" and make it lean to reflect a more agile form. In the sense that we cannot predefine what we are doing now. Because the ecosystem is everchanging and new players come in. 
+* Showcase current action points and direction to go and get some discussions and thumbs up.
 
 ### Agenda - 17 Nov - US time
 EU meeting recap and action points from the outcom of that meeting 
