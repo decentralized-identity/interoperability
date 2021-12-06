@@ -27,19 +27,20 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 CHAPI interop discussion
 ### January 5th 2022
 ### CHRISTMAS BREAK - 22 and 29th of December?
-### Agenda - 15 Dec - US time
-WACIPex interop discussion
-### Agenda - 8 Dec - EU time
-### Agenda - 1 Dec - US time
 
 
  -->
 
 ### Agenda - 15 Dec - US time
+Transmute and Karyl comes and talks about what are the interop views they are selling to investors to 
+We are inviting Transmute with Karyl to talk about their last funding round to discuss how investors are triggering on their case and what level of interop is sold to the investors.
+They will join and sharing that journey with us in the scope of how interop is valuable, it would be great!
 
 ### Agenda - 8 Dec - EU time
+Dmitri Zagidulin will come and start discussion a common QR-code initiation. See where that shall go and how it can work
 
 ### Agenda - 1 Dec - US time
+Cancelled
 
 ### Agenda - 24 Nov - EU time
 Recording: https://us02web.zoom.us/rec/share/T56nah0ObZFk7J5eck4bu9A_qzJDvmGW7Ze9bgjsG_A8OJ2rnyedjkJqQAfXOUlB.yo0_Kyo0lUQ3e2Z4
