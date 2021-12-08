@@ -40,7 +40,25 @@ We are inviting Transmute with Karyl to talk about their last funding round to d
 They will join and sharing that journey with us in the scope of how interop is valuable, it would be great!
 
 ### Agenda - 8 Dec - EU time
+Slides: https://docs.google.com/presentation/d/1ki2VMtW1yZnWlomyeoYCIfrkLhb2Qb7Kb5sNQOiLYnY/edit#slide=id.p
+
 Dmitri Zagidulin will come and start discussion a common QR-code initiation. See where that shall go and how it can work
+
+QR code limitations are starting to drop of. Thanks to certain events we recently had and technology improvements.
+
+Size limitation is still there
+
+4 ways to share a credential VP, depending on if it is offline or online. Is it an either or, or can we switch between them.
+
+Microsoft introduces some new potential ways of looking at sharing, and will be shared after meeting. WebShareAPI, Microsoft Cable project - https://docs.google.com/presentation/d/1ki2VMtW1yZnWlomyeoYCIfrkLhb2Qb7Kb5sNQOiLYnY/edit#slide=id.gf8d555be24_0_23
+
+#### Deeplinking
+Universal App linkes or custom protocol schema. We have two deeplinkg actors, iOS & Android.
+
+But there are multiple fallacies here, that comes down to the user on boarding. And how to make sure that we are protecting the user at the start, versus keeping it sleek.
+
+#### Option to consider
+
 
 ### Agenda - 1 Dec - US time
 Cancelled
