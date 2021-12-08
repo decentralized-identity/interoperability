@@ -24,12 +24,15 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 <!--
 ### In the future
-CHAPI interop discussion
-### January 5th 2022
-### CHRISTMAS BREAK - 22 and 29th of December?
+See our inbox for choosing
+https://hackmd.io/gxPcay1TRE2dE7QRCLnAdA
+### January 12th 2022
 
 
  -->
+### CHRISTMAS BREAK - 5th of January 2022
+### CHRISTMAS BREAK - 29th of December
+### CHRISTMAS BREAK - 22th of December
 
 ### Agenda - 15 Dec - US time
 Transmute and Karyl comes and talks about what are the interop views they are selling to investors to 
