@@ -30,6 +30,22 @@ https://hackmd.io/gxPcay1TRE2dE7QRCLnAdA
 
 
  -->
+### 2nd of Feburary 2022 - EU Time
+QR Code part 2, see agenda 8th of december for context
+### 26th of January 2022 - US
+
+### 19th of January 2022 - EU Time
+We will have a new year kickstart discussion. Revolving recent interop movements happening the last couple of months.
+
+* JSON-LD, 
+* ZKP with BBS+
+* WACIPex
+* MDL work
+* Verifiable drivers license schema
+
+More info will follow, we will launch more details Monday 17th of Jan.
+
+### NEW YEAR BREAK - 12th of January 2022
 ### CHRISTMAS BREAK - 5th of January 2022
 ### CHRISTMAS BREAK - 29th of December
 ### CHRISTMAS BREAK - 22th of December
