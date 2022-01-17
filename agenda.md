@@ -33,17 +33,31 @@ https://hackmd.io/gxPcay1TRE2dE7QRCLnAdA
 ### 2nd of Feburary 2022 - EU Time
 QR Code part 2, see agenda 8th of december for context
 ### 26th of January 2022 - US
+Part two of the earlier agenda
 
 ### 19th of January 2022 - EU Time
 We will have a new year kickstart discussion. Revolving recent interop movements happening the last couple of months.
 
-* JSON-LD, 
-* ZKP with BBS+
-* WACIPex
-* MDL work
-* Verifiable drivers license schema
+Preparing us for real interop for IIW 34 - April 26th-28th
 
-More info will follow, we will launch more details Monday 17th of Jan.
+Our perspective on potential interop targets:
+We believe that it could be possible to have interop testing around JSON-LD ZKP with BBS+.  
+We are also interested in interop around exchange protocols and seee WACI-PEX as haveing a lot of potential as the exchange protocol as it was designed to bridge between the Aries world and SVIP world.   
+***Lets discuss both these proposisions.***
+    
+
+We believe test suites should be built, how?    
+
+What is needed to get to JSON-LD ZKP with BBS+ interop? Where are they bottle necks? What are the key groups that are or will be working on key parts. 
+
+What is needed to get to WACI-PEX interop?Where are they bottle necks? What are the key groups that are or will be working on key parts.
+
+### Scope
+* WACIPex
+* JSON-LD 
+* ZKP with BBS+
+
+
 
 ### NEW YEAR BREAK - 12th of January 2022
 ### CHRISTMAS BREAK - 5th of January 2022
