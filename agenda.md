@@ -57,6 +57,20 @@ What is needed to get to WACI-PEX interop?Where are they bottle necks? What are 
 * JSON-LD 
 * ZKP with BBS+
 
+#### Summary
+Profile of interoperability, it has been used alot of before to land something acknowledgeble.
+Profile are useful to drive interoperability to a flexible spec that can drive things forward.
+WACIPex is a profile
+
+What other profiles to others have?
+German community says it is a bit complex question. Issues with BBS+ signatures as of today.
+
+AIP Interoperability Testing: https://aries-interop.info/
+AIP profile v1.0: https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0302-aries-interop-profile#aries-interop-profile-version-10
+AIP profile v1.0: https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0302-aries-interop-profile#aries-interop-profile-version-20
+
+See recording and chat for further intro
+
 
 
 ### NEW YEAR BREAK - 12th of January 2022
