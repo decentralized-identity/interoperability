@@ -27,13 +27,21 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 See our inbox for choosing
 https://hackmd.io/gxPcay1TRE2dE7QRCLnAdA
 ### January 12th 2022
-
-
+### 23rd of Feburary 2022 - US Time
+Follow up meet from CCG crypto report
+### 16th of Feburary 2022 - EU Time
  -->
+ 
+### 9th of Feburary 2022 - US Time
+Bob Blakely is coming to share with us an reflection of the SAML interop work. So we can learn from history
+
+
+# Current Meeting
 ### 2nd of Feburary 2022 - EU Time
 QR Code part 2, see agenda 8th of december for context
-### 26th of January 2022 - US
-Part two of the earlier agenda
+
+# Older meetings
+### 26th of January 2022 - US Time
 
 ### 19th of January 2022 - EU Time
 We will have a new year kickstart discussion. Revolving recent interop movements happening the last couple of months.
@@ -149,8 +157,6 @@ Not afraid not exctied, very netural on what will happen. Look forward to see wh
 **The interoperability matrix they are working on**   
 https://docs.google.com/spreadsheets/d/1R0Y4ec1KVYErkcEgC3Qww7VR4CsCY2Lv2Bt-gfryEdw/edit#gid=1316375328
 
-
-# Older meetings
 
 ### Agenda - 3 Nov - US time
 Rechartering, take inspiration from this: https://www.notion.so/dif/HOSPITALITY-TRAVEL-SIG-242105321e1747f8bce776bf634a55b3. Pr [this older PDF](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/eb432fe8-da02-469e-aeb6-9affd920d646/DIF_HandT_SIG_overview.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211101T141153Z&X-Amz-Expires=86400&X-Amz-Signature=75a7b9625d76d72b206d73249a79ea80f3afd06e6cf95928d37cc06dea783e1d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22DIF%2520HandT%2520SIG%2520overview.pdf%22). Since interop group is not IP protected and our current charter is just a draft: https://docs.google.com/document/d/1a01GQVtZB7tDVcm9avS8zuYPHQzEEDtTOEh4Bqu-8Bs/edit
