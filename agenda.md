@@ -21,7 +21,6 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 # Upcoming meetings
 
-
 <!--
 ### In the future
 See our inbox for choosing
