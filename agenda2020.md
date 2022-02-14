@@ -597,16 +597,16 @@ Minutes:
         * Brent would like Hedera's [method listed too](https://www.hedera.com/blog/hedera-hashgraph-joins-world-wide-web-consortium-w3c-new-did-method-published-by-w3c-credentials-community-group#:~:text=The%20Hedera%20DID%20Method%20leverages,to%20the%20Decentralized%20Identity%20model).
         * Orie suggested that the The algorithm bucket is lacking… better to link to
             * https://www.iana.org/assignments/jose/jose.xhtml#web-signature-encryption-algorithms
-            * https://w3c-ccg.github.io/ld-cryptosuite-registry/ 
+            * https://w3c-ccg.github.io/ld-cryptosuite-registry/
         * DIDComm = SOAP 2.0: I like soap, its a message format, that is transport agnostic, and supports routing, and other sub specs :) … sorta like did comm… but sadly soap is xml  focused…. didcomm is currently JSON + DID focused… did comm does a not of stuff, but its mostly about a message format that works with dids.
         * that's a pretty good summary.
-        * Im sorry I know being compared to soap is triggering… but FWIW, I loved Visual Basic and SOAP and WSDL… some of the first coding I ever did. 
+        * Im sorry I know being compared to soap is triggering… but FWIW, I loved Visual Basic and SOAP and WSDL… some of the first coding I ever did.
         * AuthN is very different from AuthZ.  But then again, I'm not sure what the goal of this inventory is.  Do we need to differentiate them?  What's the end game here?
         * Tom: D So if you look at this from the perspective of a resource server serving up health data about a patient, you can use did auth to prove the identity of an entity seeking patient data.  You use SIOP to communicate the fact that there’s a valid credential that AUTHORIZES that entity to access  the particular patient data, as example. 
-        * Orie: Authorizations mostly go in the http header… mostly… 
+        * Orie: Authorizations mostly go in the http header… mostly…
         * Brett: After you are authenticated (AuthN), then you get authorized to access certain resources (AuthZ)
-        *  Sam: not necessarily with OCAP ZCAP. you can have AuthZ with those, but no authentication. 
-        *  Orie: Yep, capabilities sole existence is to avoid authN… https://en.wikipedia.org/wiki/Confused_deputy_problem 
+        *  Sam: not necessarily with OCAP ZCAP. you can have AuthZ with those, but no authentication.
+        *  Orie: Yep, capabilities sole existence is to avoid authN… https://en.wikipedia.org/wiki/Confused_deputy_problem
         * Taylor: Curated Edu pilots list - https://lerhub.org/s/curators/specs-0/ZT3McEDpgKayCXyqc-0
 
 </details>
@@ -718,10 +718,10 @@ Interesting links shared
 - https://datatracker.ietf.org/doc/charter-ietf-gnap/
 - https://youbroketheinternet.org/map 
 - https://www.imsglobal.org/activity/comprehensive-learner-record
-- https://openbadges.org/ 
-- https://www.uschamberfoundation.org/t3-innovation-network/ilr-pilot-program 
+- https://openbadges.org/
+- https://www.uschamberfoundation.org/t3-innovation-network/ilr-pilot-program
 - https://standards.ieee.org/project/1484_2.html
--https://wiki.trezor.io/Cryptocurrency_standards#BIP39_-_Mnemonic_code_for_generating_deterministic_keys 
+-https://wiki.trezor.io/Cryptocurrency_standards#BIP39_-_Mnemonic_code_for_generating_deterministic_keys
 
 </details>
 
