@@ -34,6 +34,7 @@ Follow up meet from CCG crypto report
 
 # Current Meeting
 ### 16th of Feburary 2022 - EU Time
+CANCELLED
 
 # Older meetings
  
