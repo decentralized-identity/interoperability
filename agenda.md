@@ -24,20 +24,24 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 <!--
 ### In the future
-See our inbox for choosing
-https://hackmd.io/gxPcay1TRE2dE7QRCLnAdA
-### January 12th 2022
-### 23rd of Feburary 2022 - US Time
-Follow up meet from CCG crypto report
+### 16th of March 2022 - EU Time
+### 9th of March 2022 - US Time
+### 2nd of March 2022 - EU Time
+Inperson proofing series.
+
+DIF Community first, Manu. Kaliya will be in youch
+Liquid Avatar people
+Then MDL representation, working in PING. David will be in touch
  -->
 
 
 # Current Meeting
-### 16th of Feburary 2022 - EU Time
-CANCELLED
+### 23rd of Feburary 2022 - US Time
+CANCELLED, join the DIF F2F Meeting  -https://www.eventbrite.com/e/difcon-f2f-virtual-3-tickets-162786327287
 
 # Older meetings
- 
+### 16th of Feburary 2022 - EU Time
+CANCELLED
 ### 9th of Feburary 2022 - US Time
 Bob Blakely is coming to share with us an reflection of the SAML interop work. So we can learn from history
 ### 2nd of February 2022 - EU Time
