@@ -37,8 +37,9 @@ Then MDL representation, working in PING. David will be in touch
 ### 16th of March 2022 - EU Time
 Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
 
-Socialize the new meeting format for DID Com WG happening on Discord. Invite: https://discord.gg/eNN4Wns6Jb
+Socialize the new meeting format for DID Com Usergroup happening on Discord. Invite: https://discord.gg/eNN4Wns6Jb
 Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
+Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 ### 9th of March 2022 - US Time
 CANCELLED
 
