@@ -25,15 +25,17 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 <!--
 ### In the future
 ### 30th of March 2022 - EU Time
-### 23rd of March 2022 - US Time
-
 DIF Community first, Manu. Kaliya will be in youch
 Liquid Avatar people
 Then MDL representation, working in PING. David will be in touch
+
  -->
 
 
 # Future Meetings
+### 23rd of March 2022 - US Time
+Trust Alliance New Zealand - https://trustalliance.co.nz/
+Who are they, how do they support the ecosystem in a good way and what are their view on interoperability
 ### 16th of March 2022 - EU Time
 Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
 
