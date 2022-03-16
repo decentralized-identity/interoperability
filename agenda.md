@@ -24,24 +24,29 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 <!--
 ### In the future
-### 30th of March 2022 - EU Time
-DIF Community first, Manu. Kaliya will be in youch
-Liquid Avatar people
-Then MDL representation, working in PING. David will be in touch
+
+### 13th of April 2022 - EU Time
+### 6th of April 2022 - US Time
+
 
  -->
 
 
 # Future Meetings
+### 30th of March 2022 - EU Time
+Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
+
+We need to socialize the new meeting format for DID Com Usergroup happening on Discord. Invite: https://discord.gg/eNN4Wns6Jb
+Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
+Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
+
+
 ### 23rd of March 2022 - US Time
 Trust Alliance New Zealand - https://trustalliance.co.nz/
 Who are they, how do they support the ecosystem in a good way and what are their view on interoperability
 ### 16th of March 2022 - EU Time
-Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
+Timezone issues created a bunch of confusion, so we rescheduled
 
-Socialize the new meeting format for DID Com Usergroup happening on Discord. Invite: https://discord.gg/eNN4Wns6Jb
-Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
-Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 ### 9th of March 2022 - US Time
 CANCELLED
 
