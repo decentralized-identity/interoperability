@@ -31,8 +31,6 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
  -->
 
-
-# Future Meetings
 ### 30th of March 2022 - EU Time
 Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
 
@@ -44,13 +42,15 @@ Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 ### 23rd of March 2022 - US Time
 Trust Alliance New Zealand - https://trustalliance.co.nz/
 Who are they, how do they support the ecosystem in a good way and what are their view on interoperability
+
+
+# Older meetings
 ### 16th of March 2022 - EU Time
 Timezone issues created a bunch of confusion, so we rescheduled
 
 ### 9th of March 2022 - US Time
 CANCELLED
 
-# Older meetings
 ### 23rd of Feburary 2022 - US Time
 CANCELLED, join the DIF F2F Meeting  -https://www.eventbrite.com/e/difcon-f2f-virtual-3-tickets-162786327287
 ### 16th of Feburary 2022 - EU Time
