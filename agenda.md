@@ -24,27 +24,33 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 <!--
 ### In the future
-
-### 13th of April 2022 - EU Time
-### 6th of April 2022 - US Time
-
-
- -->
-
-### 30th of March 2022 - EU Time
 Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
 
 We need to socialize the new meeting format for DID Com Usergroup happening on Discord. Invite: https://discord.gg/eNN4Wns6Jb
 Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
 Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 
+### 27th of April 2022 - EU Time
+Cancelled due to IIW focus
+### 20th of April 2022 - US Time
+
+
+ -->
+ 
+### 13th of April 2022 - EU Time
+CCG Roadmap discussion part 2
+
+# Older meetings
+### 6th of April 2022 - US Time
+CCG Roadmap discussion - https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098&range=B99
+### 30th of March 2022 - EU Time
+Missunderstanding of responsibilities and time frames, this meeting was cancelled
+
 
 ### 23rd of March 2022 - US Time
 Trust Alliance New Zealand - https://trustalliance.co.nz/
 Who are they, how do they support the ecosystem in a good way and what are their view on interoperability
 
-
-# Older meetings
 ### 16th of March 2022 - EU Time
 Timezone issues created a bunch of confusion, so we rescheduled
 
