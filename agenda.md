@@ -30,13 +30,19 @@ We need to socialize the new meeting format for DID Com Usergroup happening on D
 Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
 Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 
-### 27th of April 2022 - EU Time
-Cancelled due to IIW focus
-### 20th of April 2022 - US Time
-
+### 25th of May 2022 - EU Time
+### 18th of May 2022 - US Time
+### 11th of May 2022 - EU Time
+### 4th of May 2022 - US Time
 
  -->
  
+### 27th of April 2022 - EU Time
+Cancelled due to IIW focus
+
+### 20th of April 2022 - US Time
+TBD
+
 ### 13th of April 2022 - EU Time
 CCG Roadmap discussion part 2
 
