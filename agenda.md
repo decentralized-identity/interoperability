@@ -40,8 +40,10 @@ Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 ### 27th of April 2022 - EU Time
 Cancelled due to IIW focus
 
-### 20th of April 2022 - US Time
-TBD
+### 20th of April 2022 - EU Time (NOTICE EU TIME)
+Validated ID comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
+
+https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
 
 ### 13th of April 2022 - EU Time
 CCG Roadmap discussion part 2
