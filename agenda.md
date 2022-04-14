@@ -45,10 +45,10 @@ Validated ID comes and presents to us what it means to be EBSI conformant. We di
 
 https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
 
+# Older meetings
 ### 13th of April 2022 - EU Time
 CCG Roadmap discussion part 2
 
-# Older meetings
 ### 6th of April 2022 - US Time
 CCG Roadmap discussion - https://docs.google.com/spreadsheets/d/1wgccmMvIImx30qVE9GhRKWWv3vmL2ZyUauuKx3IfRmA/edit#gid=2146749098&range=B99
 ### 30th of March 2022 - EU Time
