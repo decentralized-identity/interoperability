@@ -11,8 +11,8 @@
 ## Attending
 The Interoperability Working Group meets weekly via Zoom, alternating times to better accomodate live participation from different time zones:
 
-[Join 0600PT/1500CET/2000ICT call *(EU-friendly)*][eu-zoom] | 
-[Join 1400PT/2300CET/0400ICT call *(US-friendly)*][us-zoom] |
+[Join 0800PDT/1700CET/2200ICT call *(EU-friendly)*][eu-zoom] | 
+[Join 1400PDT/2300CET/0400ICT call *(US-friendly)*][us-zoom] |
 [Meeting recordings][recordings]
  
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group with constant new members._
@@ -456,8 +456,8 @@ Older agendas and minutes moved to separate files:
 
 <!-- footnote links for prettier linking -->
 [edit-minutes]: https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw
-[eu-zoom]: https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09
-[us-zoom]: https://us02web.zoom.us/j/82475629186?pwd=a1RjenhHcEo0a0FKamdTdzVNaDNzUT09
+[eu-zoom]: https://us02web.zoom.us/j/88984209816?pwd=ek9oRXRwSFlQOXhiQzNCTUE3TG91Zz09
+[us-zoom]: https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09
 [dif]: https://identity.foundation/interoperability/
 [repo]: https://github.com/decentralized-identity/interoperability
 [maillist]: https://dif.groups.io/g/interop-wg
