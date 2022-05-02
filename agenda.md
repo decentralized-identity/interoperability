@@ -11,8 +11,8 @@
 ## Attending
 The Interoperability Working Group meets weekly via Zoom, alternating times to better accomodate live participation from different time zones:
 
-[Join 0600PT call *(EU-friendly)*][eu-zoom] | 
-[Join 1400PT call *(US-friendly)*][us-zoom] |
+[Join 0600PT/1500CET/2000ICT call *(EU-friendly)*][eu-zoom] | 
+[Join 1400PT/2300CET/0400ICT call *(US-friendly)*][us-zoom] |
 [Meeting recordings][recordings]
  
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group with constant new members._
@@ -26,11 +26,14 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 ### In the future
 Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
 
+Validated ID comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
+
+https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
+
+
 ### 25th of May 2022 - EU Time
 ### 18th of May 2022 - US Time
 ### 11th of May 2022 - EU Time
-
-
 
  -->
  
@@ -41,15 +44,15 @@ We need to socialize the new meeting format for DID Com Usergroup happening on D
 Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
 Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 
+# Older meetings
+
 ### 27th of April 2022 - EU Time
 Cancelled due to IIW focus
 
 ### 20th of April 2022 - EU Time (NOTICE EU TIME)
-Validated ID comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
+Cancelled due to issues with time changes
 
-https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
 
-# Older meetings
 ### 13th of April 2022 - EU Time
 CCG Roadmap discussion part 2
 
