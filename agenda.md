@@ -26,17 +26,21 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 ### In the future
 Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
 
+### 25th of May 2022 - EU Time
+### 18th of May 2022 - US Time
+### 11th of May 2022 - EU Time
+
+
+
+ -->
+ 
+### 4th of May 2022 - US Time
+IIW recap on interoperability, roundtable style to review what everyone joined in on
+
 We need to socialize the new meeting format for DID Com Usergroup happening on Discord. Invite: https://discord.gg/eNN4Wns6Jb
 Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
 Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
 
-### 25th of May 2022 - EU Time
-### 18th of May 2022 - US Time
-### 11th of May 2022 - EU Time
-### 4th of May 2022 - US Time
-
- -->
- 
 ### 27th of April 2022 - EU Time
 Cancelled due to IIW focus
 
