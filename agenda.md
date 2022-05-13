@@ -35,21 +35,20 @@ See future planned meetings for stuff that is put in the calender
 ### 11th of May 2022 - US Time
 
  -->
- 
+
+### 1st of June 2022 - EU Time
+Validated ID comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
+https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
+
+
+# Older meetings
+
 ### 4th of May 2022 - EU Time
 IIW recap on interoperability, roundtable style to review what everyone joined in on
 
 We need to socialize the new meeting format for DID Com Usergroup happening on Discord. Invite: https://discord.gg/eNN4Wns6Jb
 Format: https://hackmd.io/@dhh1128/Sk5_Gb2J9
 Mailing list: https://lists.identity.foundation/g/didcomm-usergroup
-
-# Future planned meetings
-
-### 1st of June 2022 - EU Time
-Validated ID comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
-https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
-
-# Older meetings
 
 ### 27th of April 2022 - EU Time
 Cancelled due to IIW focus
