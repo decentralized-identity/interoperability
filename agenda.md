@@ -10,9 +10,10 @@
 
 ## Attending
 The Interoperability Working Group meets weekly via Zoom, alternating times to better accomodate live participation from different time zones:
-
+ 
 [Join 0800PDT/1700CET/2200ICT call *(EU-friendly)*][eu-zoom] | 
-[Join 1400PDT/2300CET/0400ICT call *(US-friendly)*][us-zoom] |
+[Visualization of timezones](https://www.timeanddate.com/worldclock/converter.html?iso=20210802T150000&p1=37&p2=224&p3=179&p4=220&p5=56&p6=44&p7=28&p8=240&p9=22)     
+[Join 1400PDT/2300CET/0400ICT call *(US-friendly)*][us-zoom] | [Visualization of timezones](https://www.timeanddate.com/worldclock/converter.html?iso=20210802T150000&p1=37&p2=224&p3=179&p4=220&p5=56&p6=44&p7=28&p8=240&p9=22)     
 [Meeting recordings][recordings]
  
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group with constant new members._
