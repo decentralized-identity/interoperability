@@ -34,7 +34,7 @@ See future planned meetings for stuff that is put in the calender
  -->
 
 ### 1st of June 2022 - EU Time
-Validated ID comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
+[Validated ID](https://www.validatedid.com/) comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
 https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
 
 ### 8th of June 2022 - US Time
