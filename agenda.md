@@ -34,15 +34,16 @@ See future planned meetings for stuff that is put in the calender
 
  -->
 
+
+
+# Older meetings
+### 8th of June 2022 - US Time
+Andrew Hughes comes and talks about MDL and the work he is doing for that standard. He was very active during IIW April 2022 and had some great sessions on MDL then. Lets hope we can discuss much of the outcome of those sessions
+
 ### 1st of June 2022 - EU Time
 [Validated ID](https://www.validatedid.com/) comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
 https://ec.europa.eu/digital-building-blocks/wikis/display/EBSI/Become+conformant#
 
-### 8th of June 2022 - US Time
-Andrew Hughes comes and talks about MDL and the work he is doing for that standard. He was very active during IIW April 2022 and had some great sessions on MDL then. Lets hope we can discuss much of the outcome of those sessions
-
-
-# Older meetings
 ### 25th of May 2022 - US Time
 Cancelled
 ### 18th of May 2022 - EU Time
