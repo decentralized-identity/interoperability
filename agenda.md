@@ -30,11 +30,11 @@ Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-un
 
 See future planned meetings for stuff that is put in the calender
 ### 15th of June 2022 - EU Time
-### 25th of May 2022 - US Time
 
  -->
 
-
+### 15th of June 2022 - EU Time
+Andrew Hughes comes for a round two, EU friendly time and talks about MDL and the work he is doing for that standard. He was very active during IIW April 2022 and had some great sessions on MDL then. Lets hope we can discuss much of the outcome of those sessions
 
 # Older meetings
 ### 8th of June 2022 - US Time
