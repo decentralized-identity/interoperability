@@ -36,9 +36,19 @@ See future planned meetings for stuff that is put in the calender
 ### 15th of June 2022 - EU Time
 Andrew Hughes comes for a round two, EU friendly time and talks about MDL and the work he is doing for that standard. He was very active during IIW April 2022 and had some great sessions on MDL then. Lets hope we can discuss much of the outcome of those sessions
 
+https://lists.identity.foundation/g/interop-wg/message/148
+
+Notes doc: https://docs.google.com/document/d/1vWZrxDVYeXMjZEevgcll5KUA-R-sCJ_NusTY3WXSEIk/edit
+
+#### Notes
+
+
+
 # Older meetings
 ### 8th of June 2022 - US Time
 Andrew Hughes comes and talks about MDL and the work he is doing for that standard. He was very active during IIW April 2022 and had some great sessions on MDL then. Lets hope we can discuss much of the outcome of those sessions
+
+Note docs: https://docs.google.com/document/d/1vWZrxDVYeXMjZEevgcll5KUA-R-sCJ_NusTY3WXSEIk/edit
 
 ### 1st of June 2022 - EU Time
 [Validated ID](https://www.validatedid.com/) comes and presents to us what it means to be EBSI conformant. We discuss how this is aiding interoperability
