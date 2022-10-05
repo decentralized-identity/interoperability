@@ -18,15 +18,9 @@ The Interoperability Working Group meets weekly via Zoom, alternating times to b
  
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group with constant new members._
 
-_This document is live-edited DURING each call for minutes, while a stable copy lives on our [GitHub repo][repo]. Feel free to propose agenda items either via issues or by messaging on DIF Slack.
+_This document is live-edited DURING each call for minutes, while a stable copy lives on our [GitHub repo][repo]. Feel free to propose agenda items either via issues or by messaging on DIF Slack._
 
 # Upcoming meetings
-
-### 5th of October 2022 - EU Time
-
-- Announcements
-    - Interop Survey: https://forms.gle/4YqrjFcB5Fnbcrgz8
-- Decoupling AnonCreds from Hyperledger Indy and creating extensible resources on-ledger with DID URLs by Alex Tweeddale
 
 ### 12th of October 2022 - US Time
 
@@ -67,11 +61,32 @@ See future planned meetings for stuff that is put in the calender
 
  -->
 
-
-
-
 # Older meetings
 
+### 5th of October 2022 - EU Time
+
+- Announcements
+    - Interop Survey: https://forms.gle/4YqrjFcB5Fnbcrgz8
+- Decoupling AnonCreds from Hyperledger Indy and creating extensible resources on-ledger with DID URLs by Ankur Banerjee
+    - Wanted to support primatives of both AnonCreds and other credential format.
+    - Found that this was relevant not only for AnonCreds primatives but other resources as well.
+        - Centralized services (like schema.org) are a single point of failure.
+        - "Linkrot" breaks links on the web all the time.
+        - Decentralized resources are tamper-evident and censorship resistant.
+    - Types of resources that benefit from being on-ledger
+        - Schemas
+        - Overlay Capture Architecture
+        - Revocation Registries (whether W3C revocation lists or AnonCreds)
+        - Logos and other brand elements
+    - How do we solve the problem?
+        - DID Spec allows for paths
+        - DID URLs to resources stored on ledger
+        - Resources signed by DID
+    - Demo of Animo + Cheqd using AnonCreds resources: https://www.youtube.com/watch?v=QILE98VMwZw
+    - CLI Demo: https://www.youtube.com/watch?v=PkAJe2ayaJU
+    - Blog post: https://cheqd.io/blog/anoncreds-indy-pendence-1
+    - DID URLs discussion on TOIP wiki: https://wiki.trustoverip.org/display/HOME/DID+URLs+for+Digital+Resources+Specification
+    - More info on Cheqd: https://learn.cheqd.io/overview/cheqd-101
 
 ### 15th of June 2022 - EU Time
 Andrew Hughes comes for a round two, EU friendly time and talks about MDL and the work he is doing for that standard. He was very active during IIW April 2022 and had some great sessions on MDL then. Lets hope we can discuss much of the outcome of those sessions
