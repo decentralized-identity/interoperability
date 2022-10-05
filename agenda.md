@@ -22,7 +22,41 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 # Upcoming meetings
 
+### 5th of October 2022 - EU Time
 
+- Announcements
+    - Interop Survey: https://forms.gle/4YqrjFcB5Fnbcrgz8
+- Decoupling AnonCreds from Hyperledger Indy and creating extensible resources on-ledger with DID URLs by Alex Tweeddale
+
+### 12th of October 2022 - US Time
+
+1) Meet the New Chairs! Brent S. & Daniel Bluhm
+2) Review Survey on Interop so far
+3) Get Community Input on what the Interop group should do this "year" (the one that aligns with the school year)
+
+### 19th of October 2022 - EU Time
+
+1) Meet the New Chairs! Brent S. & Daniel Bluhm
+2) Review Survey on Interop so far
+3) Get Community Input on what the Interop group should do this "year" (the one that aligns with the school year)
+
+### 26th of October 2022 - EU Time
+
+TBD
+
+### 2nd of November 2022 - US Time
+
+TBD
+
+### 9th of November 2022 - EU Time
+
+
+### NO Meeting (IIW Week) Nov 16th 2022
+### NO Meeting (Thanksgiving) Nov 23rd 2022
+
+### 30th of November 2022 - US Time
+
+TBD
 <!--
 ### In the future
 Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
@@ -37,6 +71,8 @@ See future planned meetings for stuff that is put in the calender
 
 
 # Older meetings
+
+
 ### 15th of June 2022 - EU Time
 Andrew Hughes comes for a round two, EU friendly time and talks about MDL and the work he is doing for that standard. He was very active during IIW April 2022 and had some great sessions on MDL then. Lets hope we can discuss much of the outcome of those sessions
 
