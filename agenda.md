@@ -8,60 +8,41 @@
 [Reference shelf][reference] | 
 [Potential future topics][parking-lot]
 
-## Attending
-The Interoperability Working Group meets weekly via Zoom, alternating times to better accomodate live participation from different time zones:
+## Join the call!
+The Interoperability Working Group meets every 2 weeks via Zoom, alternating times to better accomodate live participation from different time zones:
  
-[Join 0800PDT/1700CET/2200ICT call *(EU-friendly)*][eu-zoom] | 
-[Visualization of timezones](https://www.timeanddate.com/worldclock/converter.html?iso=20210802T150000&p1=37&p2=224&p3=179&p4=220&p5=56&p6=44&p7=28&p8=240&p9=22)     
-[Join 1400PDT/2300CET/0400ICT call *(US-friendly)*][us-zoom] | [Visualization of timezones](https://www.timeanddate.com/worldclock/converter.html?iso=20210802T150000&p1=37&p2=224&p3=179&p4=220&p5=56&p6=44&p7=28&p8=240&p9=22)     
+[Join 0800PDT/1700CET/2200ICT call][eu-zoom] | 
+[Visualization of timezones](https://www.timeanddate.com/worldclock/converter.html?iso=20210802T150000&p1=37&p2=224&p3=179&p4=220&p5=56&p6=44&p7=28&p8=240&p9=22)
+
 [Meeting recordings][recordings]
  
 _For this call, you are encouraged to turn your video on. This is a good way to build rapport given we are a large, disparate group with constant new members._
 
 _This document is live-edited DURING each call for minutes, while a stable copy lives on our [GitHub repo][repo]. Feel free to propose agenda items either via issues or by messaging on DIF Slack._
 
-# Upcoming meetings
+## October 19, 2022
 
-### 12th of October 2022 - US Time
+### Announcements
 
-1) Meet the New Chairs! Brent S. & Daniel Bluhm
-2) Review Survey on Interop so far
-3) Get Community Input on what the Interop group should do this "year" (the one that aligns with the school year)
+- 
 
-### 19th of October 2022 - EU Time
+### Introductions
 
-1) Meet the New Chairs! Brent S. & Daniel Bluhm
-2) Review Survey on Interop so far
-3) Get Community Input on what the Interop group should do this "year" (the one that aligns with the school year)
+### Agenda
 
-### 26th of October 2022 - EU Time
+- Hello from the New Chairs! Brent Shambaugh & Daniel Bluhm
+- Review Survey on Interop so far
+- Get Community Input on what the Interop group should do this "year" (the one that aligns with the school year)
 
-TBD
+## Upcoming meetings
 
-### 2nd of November 2022 - US Time
+- October 26, 2022
+- November 2, 2022
+- November 16, 2022 - NO MEETING (IIW)
+- November 23, 2022 - NO MEETING (Thanksgiving)
+- November 30, 2022
 
-TBD
-
-### 9th of November 2022 - EU Time
-
-
-### NO Meeting (IIW Week) Nov 16th 2022
-### NO Meeting (Thanksgiving) Nov 23rd 2022
-
-### 30th of November 2022 - US Time
-
-TBD
-<!--
-### In the future
-Irene Martinez and VUI Gataca, protocol stack - https://essif-lab.eu/verifier-universal-interface-by-gataca-espana-s-l/.
-
-
-See future planned meetings for stuff that is put in the calender
-### 15th of June 2022 - EU Time
-
- -->
-
-# Older meetings
+## Past Meetings
 
 ### 5th of October 2022 - EU Time
 
@@ -530,7 +511,6 @@ Older agendas and minutes moved to separate files:
 <!-- footnote links for prettier linking -->
 [edit-minutes]: https://hackmd.io/K5BWQ_rvSTKJ-BxeWINYfw
 [eu-zoom]: https://us02web.zoom.us/j/88984209816?pwd=ek9oRXRwSFlQOXhiQzNCTUE3TG91Zz09
-[us-zoom]: https://us02web.zoom.us/j/86023611186?pwd=WmVqWk9HOWRyK3l4TjhXaGgxa1VjUT09
 [dif]: https://identity.foundation/interoperability/
 [repo]: https://github.com/decentralized-identity/interoperability
 [maillist]: https://dif.groups.io/g/interop-wg
