@@ -9,7 +9,7 @@
 [Potential future topics][parking-lot]
 
 ## Join the call!
-The Interoperability Working Group meets every 2 weeks via Zoom, alternating times to better accomodate live participation from different time zones:
+The Interoperability Working Group meets every 2 weeks via Zoom:
  
 [Join 0800PDT/1700CET/2200ICT call][eu-zoom] | 
 [Visualization of timezones](https://www.timeanddate.com/worldclock/converter.html?iso=20210802T150000&p1=37&p2=224&p3=179&p4=220&p5=56&p6=44&p7=28&p8=240&p9=22)
@@ -24,7 +24,8 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 ### Announcements
 
-- 
+- We now meet every other week
+- [Human Colossus Foundation releases OCA v1.0 specification](https://humancolossus.foundation/blog/oca-v1-launch)
 
 ### Introductions
 
@@ -32,14 +33,33 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
 
 - Hello from the New Chairs! Brent Shambaugh & Daniel Bluhm
 - Review Survey on Interop so far
+    - [Slide Deck](https://docs.google.com/presentation/d/1lRxa49ZJjrSiWx-4ldLAwWvin5wukenEIXjK5Rj9l24/edit?usp=sharing)
 - Get Community Input on what the Interop group should do this "year" (the one that aligns with the school year)
+
+Survey Feedback:
+
+- Insights into who participated would be interesting. (We've since added a field for leaving an email).
+
+Rough minutes from the Discussion and other Suggestions:
+
+- Find the pockets of interop
+    - Which companies interop with what other companies; build bridges between the pockets
+- Interop testing
+    - Don't boil the ocean. Start with small targets. Let the question "what are we trying to accomplish with interop?" guide the targets.
+    - Interested in a public assessment framework.
+    - Bonnie Yau of IDLab mentioned they're working on a framework, starting from (or modelled after) the Aries Agent Test Harness.
+- Approaches to Localization
+    - BC Gov gave a demo of a localized wallet app with credential localization using OCA. (Link to demo pending)
+    - Other approaches?
+- What does "interoperable" mean to different communities?
+    - Often gets thrown around in marketing jargon but what are some real metrics for defining whether something is "interoperable?"
+- Wallet UX
+    - There might be some other working groups focused on UX already. There might be some overlap with interop.
 
 ## Upcoming meetings
 
-- October 26, 2022
 - November 2, 2022
 - November 16, 2022 - NO MEETING (IIW)
-- November 23, 2022 - NO MEETING (Thanksgiving)
 - November 30, 2022
 
 ## Past Meetings
