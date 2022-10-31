@@ -20,16 +20,43 @@ _For this call, you are encouraged to turn your video on. This is a good way to 
 
 _This document is live-edited DURING each call for minutes, while a stable copy lives on our [GitHub repo][repo]. Feel free to propose agenda items either via issues or by messaging on DIF Slack._
 
-## October 19, 2022
+## November 2, 2022
 
 ### Announcements
 
 - We now meet every other week
-- [Human Colossus Foundation releases OCA v1.0 specification](https://humancolossus.foundation/blog/oca-v1-launch)
+- No meeting in two weeks (Nov. 16) due to IIW
 
 ### Introductions
 
 ### Agenda
+
+- Peter Langenkamp presenting about a cluster of interoperabilty centered on TNO EASSI.
+    - https://eassi.ssi-lab.nl/
+    - https://eassi.ssi-lab.nl/docs/about
+
+
+
+## Upcoming meetings
+
+- November 16, 2022 - NO MEETING (IIW)
+- November 30, 2022 - OCA with Paul Knowles (Human Colossus Foundation)
+    - https://bit.ly/3FhT38G
+
+---
+
+## Past Meetings
+
+### October 19, 2022
+
+#### Announcements
+
+- We now meet every other week
+- [Human Colossus Foundation releases OCA v1.0 specification](https://humancolossus.foundation/blog/oca-v1-launch)
+
+#### Introductions
+
+#### Agenda
 
 - Hello from the New Chairs! Brent Shambaugh & Daniel Bluhm
 - Review Survey on Interop so far
@@ -56,13 +83,6 @@ Rough minutes from the Discussion and other Suggestions:
 - Wallet UX
     - There might be some other working groups focused on UX already. There might be some overlap with interop.
 
-## Upcoming meetings
-
-- November 2, 2022
-- November 16, 2022 - NO MEETING (IIW)
-- November 30, 2022
-
-## Past Meetings
 
 ### 5th of October 2022 - EU Time
 
