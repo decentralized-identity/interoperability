@@ -39,8 +39,42 @@ Transcript:
 
 [Introductions]
 
+Kaliya Identity Woman: Hello, sorry to be slightly late. Welcome Peter.
+
+Peter Lagenkamp: Thanks
+
+Kaliya Identity Woman: To have you here and we've got a good group so far. Hi Rueben.
+
+Reuben Bailon: Hey Kaliya, how are you?
+
+Kaliya Identity Woman: Good to see you.
+
+Reuben Bailon: Good to see you too.
+
+Kaliya Identity Woman: Um,so,we're recording already? Great.Um, and Brent is here.
+
+Brent Shambaugh: [inaudible]
+
+Kaliya Identity Woman: Daniel is off because it is his wife's birthday. Um, so um, we haven't met for awhile or at least, I haven't been on a call for awhile. I think we had a call to go over the results of the [hand guesture] the survey we did
+and actually this call and Peter's presentation are a result of the survey because we asked about clusters of interoperability, uh, and we found one, we didn'tm I didn't really know about and we asked the the one of the folks that was [inaudible]...part for leading
+that cluster at TNO to come and present. That's out main, um, activity today. But I also just because we are trying, um, working on being inclusive good communities, um, wanted to open the floor up if there was somebody who is new the call who wanted to introduce 
+themselves and just say hi to other folks, do that first before Peter presented.
+
+Frank Hinek: Yeah, I'll say hi. Uhm, Frank Hinek and uh, I've just recently joined the team at TBD to work on the product and platform strategy. working closely with Daneil Buchner who I think some of you guys know
+
+Kaliya Identity Woman: Great.
+
+Frank Hinek: And, uh, looking forward to the content today.
+
+Kaliya Identity Woman: Yep. 
+
+Jorge Flores: I'll jump in. Good morning everyone. I'm Jorge Flores, cofounder of Entidad. We're a benefits coorportation working in the non-profit space, uh, specifically working on a farmworker ecosystem use case. I presented a couple of days ago, at the uh,
+open wallet foundation architecture task force and look forward to,uh, being a little more involved in this community.
+
+Kaliya Identity Woman: Great, thanks so much Jorge. Anyone else? Um, everyone else I know, so, okay Peter love to have you share about what you guys have been doing about your interoperability
+
 Peter Lagenkamp:
-First of all, thank you for the invite. I am Peter Lagenkamp, I work at TNO. For those unfamiliar, TNO is the Netherlands organization for applied scientific reasearch. It's an organization of about three thousand employees active in all kinds of 
+Okay well. First of all, thank you for the invite. I am Peter Lagenkamp, I work at TNO. For those unfamiliar, TNO is the Netherlands organization for applied scientific reasearch. It's an organization of about three thousand employees active in all kinds of 
 different fields. But, we've got a unit ICT, and within that department that also concerns themselves with self-soverign identity, and that is a topic that I work on. The other topic being secure multi-party computation.
 One of the things that we have worked on at TNO, is something that we like to call an SSI Wallet Gateway. I will explain what it is over the course of this short presentation. I met Kaliya at IIW, I may have seen some of you there as well.
 For those who were there, I also had a session at IIW about this topic [1]. So let's see if I can't share my screen. Okay, You should be able to see my screen now.
