@@ -35,7 +35,274 @@ _This document is live-edited DURING each call for minutes, while a stable copy 
     - https://eassi.ssi-lab.nl/
     - https://eassi.ssi-lab.nl/docs/about
 
+Transcript:
 
+[Introductions]
+
+Kaliya Identity Woman: Hello, sorry to be slightly late. Welcome Peter.
+
+Peter Lagenkamp: Thanks
+
+Kaliya Identity Woman: To have you here and we've got a good group so far. Hi Rueben.
+
+Reuben Bailon: Hey Kaliya, how are you?
+
+Kaliya Identity Woman: Good to see you.
+
+Reuben Bailon: Good to see you too.
+
+Kaliya Identity Woman: Um,so,we're recording already? Great.Um, and Brent is here.
+
+Brent Shambaugh: [inaudible]
+
+Kaliya Identity Woman: Daniel is off because it is his wife's birthday. Um, so um, we haven't met for awhile or at least, I haven't been on a call for awhile. I think we had a call to go over the results of the [hand guesture] the survey we did
+and actually this call and Peter's presentation are a result of the survey because we asked about clusters of interoperability, uh, and we found one, we didn'tm I didn't really know about and we asked the the one of the folks that was [inaudible]...part for leading
+that cluster at TNO to come and present. That's out main, um, activity today. But I also just because we are trying, um, working on being inclusive good communities, um, wanted to open the floor up if there was somebody who is new the call who wanted to introduce 
+themselves and just say hi to other folks, do that first before Peter presented.
+
+Frank Hinek: Yeah, I'll say hi. Uhm, Frank Hinek and uh, I've just recently joined the team at TBD to work on the product and platform strategy. working closely with Daneil Buchner who I think some of you guys know
+
+Kaliya Identity Woman: Great.
+
+Frank Hinek: And, uh, looking forward to the content today.
+
+Kaliya Identity Woman: Yep. 
+
+Jorge Flores: I'll jump in. Good morning everyone. I'm Jorge Flores, cofounder of Entidad. We're a benefits coorportation working in the non-profit space, uh, specifically working on a farmworker ecosystem use case. I presented a couple of days ago, at the uh,
+open wallet foundation architecture task force and look forward to,uh, being a little more involved in this community.
+
+Kaliya Identity Woman: Great, thanks so much Jorge. Anyone else? Um, everyone else I know, so, okay Peter love to have you share about what you guys have been doing about your interoperability
+
+Peter Lagenkamp:
+Okay well. First of all, thank you for the invite. I am Peter Lagenkamp, I work at TNO. For those unfamiliar, TNO is the Netherlands organization for applied scientific reasearch. It's an organization of about three thousand employees active in all kinds of 
+different fields. But, we've got a unit ICT, and within that department that also concerns themselves with self-soverign identity, and that is a topic that I work on. The other topic being secure multi-party computation.
+One of the things that we have worked on at TNO, is something that we like to call an SSI Wallet Gateway. I will explain what it is over the course of this short presentation. I met Kaliya at IIW, I may have seen some of you there as well.
+For those who were there, I also had a session at IIW about this topic [1]. So let's see if I can't share my screen. Okay, You should be able to see my screen now.
+
+Kaliya Identity Woman: Yep.
+Limari Navarrete (DIF): Yep.
+
+Peter Lagenkamp:
+TNO EASSI - An SSI Wallet Gateway. SSI as a service. What is this all about? I can skip over a couple of the first slides probably because you are all working in this field. SSI is a different way of sharing data compared to the normal way of sharing data, where the
+person is in the central position, so organizations don't communicate about that person, but via that person. Information is exchanged via the person's wallet, on their phone for example. And as you all know SSI is still a work in progress, a lot of standardization
+efforts going on with the DIF, W3C, and other efforts. Focus on different layers of the stack, from wallets on the bottom all the way to issuing and verifying at the top. With Indentifiers, credential types, credential formats, proofs, APIs & Communication Protocols
+in between. So, if we focus on the bottom of this stack, the wallets, we can see that there are quite a few different types of siloes available to us. So if you go to the app store and search for IRMA, there is also Jolocom, uPort, Evernym, and many many more.
+And as you all probably know, if you go to a conference related to SSI, you're very likely to encounter a new wallet that you've never heard of before. This can lead to problems. So, in this picture on the left it's Albert Heijn, a supermarket in the netherlands.
+
+Suppose the want to hire a new employee. They need some information about the employee from the municipality, that the person lives in. And in this case, the municipality of Groningen. Groningen has issued some information to the IRMA wallet of that person, and 
+Albert Heijn can request that information from the IRMA wallet of the future employee, to check the information. Wonderful, very easy, but now suppose there is another employee, and that employee lives in the municipality of the Hague, and Hague has decided to use
+Hyperledger Indy based wallet. Now Albert Heijn would also have to support that type of wallet ... and there are many different protocols of course. So how will this work in the future? Will we have all of these parallel options available, or will we get one
+single standard to rule them all? So will we get the equivalent of VHS, or will we have all sorts of similar solutions like document formats? Well, we saw this as a potential problem, cause there is no such standard yet, and we decided to take some inspiration
+for the payment service provider model. So if you have a web shop, and you want your customers to be able to pay, you don't care if they use Paypal, if they use a credit card, a ban transfer, as long as the money gets your way of course. You also don't want to
+deal with the hastle of having to implementing a credit card payment yourself and figuring out how to communicate with the PayPal API, and all of the different methods available there.
+
+Instead you can go to one of the payment service providers, will take care of all that work for you. So you can simply redirect your customer to a payment portal, and the customer can select the payment method of their choice. So what we want to do is build equivalent,
+but for SSI. 
+
+So in this picture we have the supermarket on the left, the municipality on the right, the customers, the holders on the bottom, and they have different wallets available to them. And then there is the gateway, which we dubbed EASSI.
+
+So our solution, SSI Gateway, with the aim of making it easier for verifiers and issuers to support a wide variety of wallets, and also taking care of any potential breaking updates that may occur. So if one wallet is updated, then not every issuer of verifier
+will have to go through the trouble of figuring out how to make this work. It is just the SSI service provider that will have to figure out how to make this work. And everything else should stay the same for the issuer and the verifier. The holder should have the 
+benefit of being able to use their perferred wallet, as long as the wallet meets certain criteria from the issuer and the verifier then the holder should otherwise be free to make their own choice based on maybe the user interface or some other quality of life
+differences between wallets. And, well here at the bottom you can see an image of a demo that we built for the flex industry. It's , what's the English term..companies that send employees to other companies to help out.
+
+Kaliya Identity Woman: A temporary worker.
+
+Peter Lagenkamp:
+Thank you. Yes. And if they want to register a new employee there, they migh need to check the identity of the person first. They can click the check indentity button, and they will be redirected to a portal where they can select the wallet that they perfer to use.
+And once they select their preferred option, they will from that point onward have to deal with the standard flow for that specific wallet.
+
+To make this work we have this schematic. The top there is the business layer, so that is the web shop equivalent. They have different credential types, credential schemas between them, that they might want to issue or verify. At the bottom there is the different
+wallets that exist. In the orange block that is the SSI Wallet Gateway where we try to offer an easy to use as possible API to the business. And there is some generic stuff happening of course, and there's connectors to those different protocols that exist.
+Our service is completely agnostic to the ways that the different wallets might work. Everything specific about those wallets is implemented in the connector layer. And as long as it is possible for someone to handle the, write the code for issuing or verifying from and to
+and to that wallet themselves they should in principle should also be able to build a connector for this service.
+
+Of course we cannot just connect to, build connections for specific wallets. You could also envision connectors for presentation exchange and similar solutions.
+
+I think an e-mail was sent to all of you in preparation of this meeting with a link included on this slide [2], but I also will be sharing these slides after the meeting. This is our main page (https://eassi.ssi-lab.nl) explaining what out main idea is all about.
+It has links to documentation of the service, a demo instance of the service, and all of the code is available open source on GitHub (https://github.com/tno-ssi-lab) where we've used docker and docker compose to make it as easy as possible to run your own instance
+of this service should you want to do so.
+
+Once you have this service up and running, or if you decide to use the demo service hosted by us, there is four different steps One is registration, two is definition of specific credential definitions, and then there is the credential mapping, So the wallet specific
+credential defintion could be a password credential for Trinsic specifically, a password credential specifically for Jolocom. Then the credential mapping is basically telling the service if we're talking about a password credential we need either a password
+credential for Trinsic or this password credential for Jolocom. Once this mapping is done, then you can start issueing and verifying credentials through this service.
+
+And finally there is two links here. One to the demo service (https://service.ssi-lab.nl/utils) and one to the bare bones demonstator for issueing and verifying of a name credential (https://namecredential.demos.ssi-lab.nl/) Currently my name, but I am planning an
+update so anyone can issue their own name.
+
+Kaliya Identity Woman: That's great. Uh. Cool. So a couple questions. I'll open it up to anyone who wants to ask questions please raise your hand. So this set of tools you built. Is it, um, it's open source?
+
+Peter Lagenkamp: Yes it is.
+
+Kaliya Identity Woman: That's excellent. And then it is really designed so that a grocery store or a potential employer. They can leverage SSI but they don't have to get into a wallet war, if the wallet that the people that they are interacting with is in the
+code base. Like if the connector is in the code base.
+
+Peter Lagenkamp: Exactly, that's the basic idea. We want to ensure that having to pick a wallet won't be an issue, a um, something preventing someone from getting into the game of using SSI. So we, when talking to different companies that had heard about SSI we
+often got questions, which wallet should we use.
+
+Kaliya Identity Woman: Right
+
+Peter Lagenkamp: Should we be using, and that shouldn't be the main concern for many of those companies. Certainly not yet, and maybe not ever. We really want them to get started using SSI. Whether they are using Trinsic. Whether they are using Estaus. Well,
+there are many different possibilties. We don't want that to be prohibiting.
+
+Kaliya Identity Woman: So how much uptake have you seen. Is this being provided as a com ... like it's one thing to have open source code. It's another thing to run it in production. Are there folks commercializing this running in production?
+
+Peter Lagenkamp: No. No. No. No, we're not at stage of production yet. That also has something to do with the nature of TNO. So I breifly, uh, mentioned that we are involved in lots of different fields but I forgot to mention that TNO is a very specific position
+here, and that's TNO was founded by Dutch law about 90 years ago..basically to bridge the gap between academia and business. So once something becomes too applied for academia but still too theoretical for business that's where TNO was supposed to step in..
+to help innovation.
+
+Kaliya Identity Woman: Yeah.
+
+Peter Lagenkamp: And that means that TNO does not usually go beyond the proof of concept in building something. Then we hope that some other company will continue this work, or sometimes we do these projects directly for a company. In the case of TNO EASSI,
+we've gone a bit beyond what we normally do and we are currently also looking into finding other, yeah, parties interested in developing this further.
+
+Kaliya Identity Woman: Cool, so it is sort of in that phase now. You've done your job. You're hoping..
+
+Peter Lagenkamp: Yeah, that's mostly it but since we're still in the game of SSI we with some regularity use our own service for different projects where we just want to issue or verify using a wallet and having this service has saved out buts on a couple of occasions.
+because, with SSI still being relatively new it can be that a specific wallet you're relying on doesn't work at the exact time you're giving a demonstration and then we are able to simply switch to using a different wallet.
+
+Kaliya Identity Woman: Got it. All right. Okay. Are there other, other questions for Peter?
+
+Jorge Flores: Hi Peter. You can just clarify, I'm (inaudable) Is the choice here that is being offered from the perspective of the issuer and the verifier organization and not necessarily, the uh, the end user?
+
+Peter Lagenkamp: Yes. Exactly. Yeah, so, some people who have heard me talk about this are reminded of a different effort that seems a bit similar and that is polyfill CHAPI, I don't know if you've heard about that.
+
+Kaliya Identity Woman: Yeah.
+
+Peter Lagenkamp: Polyfill allows a user, once they want to issue a verifiable credential to select the wallet that they want to use. But the caveat is the issuer and the verifier still have to do all of the implementations in order to support the different
+wallets that the user might select. And, we're basically on the other end, so um, maybe a cooperation between what we've build and what polyfill CHAPI is working on would be interesting.
+
+Kaliya Identity Woman: You know, I think. Have you spoken to Manu?
+
+Peter Lagenkamp: Yes I have. I have a meeting with the people from CHAPI a couple of weeks ago.
+
+Kaliya Identity Woman: Okay, great. Yay, that's what I love to hear. Keith.
+
+Keith Kowal: Thanks for the presentation Peter. I think what strikes me is you're kind of acting. You're literally acting as a middle man service between wallets and issuers and verifiers, and that would seem to...I mean I'm just trying to go through my mind
+how that would work with a lot of different trust architectures, right? Because I am not trusting that I am talking to the issuer or verifier. I'm trusting that I am talking to you as the middle man. Because, you're the one doing, you know, checking of revocation
+status, checking signatures, I'm guessing by default because there are such huge differences and other prot... other standards that you probably have to do all of that heavy lifting. So how can I trust that maybe you have fake verifier pretending to be somebody.
+You know, so much of the trust architecture is that I as the holder am directly communicating with the verifier, and how do you see that working when you have a middle man service like yourself?
+
+Peter Lagenkamp: Uh, well as I, as I mentioned.We do have the service running and you can try to use it for yourself, but it is also possible for anyone. Any issuer or verifier to run their own instance of the service. So you don't have this problem of the middle man.
+That's made possible by all of the code being open source. Um, it would also, what we also want to look into further into whether it is possible to have a service run by a middle man but in such a way that middle man does not have any access to the data being 
+exchanged.
+
+Keith Kowal: Okay.
+
+Kaliya Identity Woman: And then Daniel. 
+
+Daniel Bachenheimer: True, this is really cool. Yeah, so I was thinking some more, but then when you said it was all open source. Okay, so the idea is then to, you know for, um, for a solution provider to use your open source code as kind of middle ware so that
+um, it's not necessarily interoperable but it's middle ware so that then you could deal with a uPort or a Jolocom, uh, wallet. So I get that, but um the, and I'm thinking of okay, what about, um, Zero Knowledge Proofs, and all of these, um, bits that we want to use SSI
+for, selective disclosure, and how is that um, portrayed to the individual, and I think the answer is, that is that you would pick one wallet over the other based on it's capabilities. Right?
+
+Peter Lagenkamp: Right, but usually it would be the um, the verifier in this case, making that choice right? And so, in these credential mappings that I mentioned, um, the issuer and the verifier are free to include, uh, the wallets that they want to include.
+So if we only want to offer, um, um, certain wallets as an option to the user we can, and ideally the choice is simply based on the actual features supported by that wallet and not just, uh, us liking particular people working at a specific wallet organization of course.
+But if you go to one of the demos that we have here [flexSSI prototype slide] The top link allows us to register using out passport, and we have a check identity button, and now we see all five options that we currently support. Jolocom, IRMA, Esatus, Datakeeper,
+and Trinsic. But, if we go back and we have a different workflow. Here we wanted to show the use of selective disclosure, and wanted to share some skills. Let's see here. For this demo the verifier had opted to only, uh, accept credentials from Estatus and Trinsic, cause
+those were the only two wallets at the time that supported the features required.
+
+Daniel Bachenheimer: Interesting, Okay. Then we here with the European Digital Identity Wallet, um, uh, it wants, um, to support, let's say traditional SSI but also mDL. Have you looked at, um, doing anything, uh, with the ISO mDL?
+
+Peter Lagenkamp: Un, no I haven't. Let me take a note. Have a look later now. I haven't at the moment. Well I did mention our project is agnostic to the ways that wallets,uh, work. In principle, A wallet does not have to be based on SSI. Uh, in principle you could 
+[inaudible] use the service to exchange json formatted data, just plain JSON formatted payloads. So, not not to, I don't know much about the mDL specifically, but I imagine it would be possible to support that as well.
+
+Daniel Bachenheimer: Right. Interesting. Okay. And then the other things that the European Digital Identity Wallet specifies, at least in its draft. Because it's like, Um, high level of assurance [inaudable] high to authenticate to the wallet itself. So before I could even exchange.
+I know that you are a middle tier layer so it's probably outside of you, the scope of this project but you know when they, the Europeans contemplated wallet it's more than what an Aries wallet is. You know they're talking about some user interface. Some um, uh, means to 
+authenticate to the wallet things like that. But that's out of scope for your current thinking I would presume, right?
+
+Peter Lagenkamp: Um, I think it is, but um, but not entirely. Sure.
+
+Daniel Bachenheimer: Okay, Sam is saying that that's not necessarily out of scope for an Aries Wallet, but [inaudible] 
+
+Sam Curren: No, it's definately part of it. The, um, the, something that is not really approached in scope at all is like payment coordination stuff that is being contemplated by the Open Wallet Foundation. So, that really hasn't been in scope at all. But as far
+as presenting credentials, connecting, authenticating, that's all, that's all within scope.
+
+Daniel Bachenheimer: Okay cool yeah. Maybe we'll talk, have a chance to talk about that more at IIW. Especially the different levels of assurance associated with authentication. Cause that's going to be key, yeah to various business use cases.
+
+Sam Curren: Totally, and I suspect that the presence of the open wallet foundation and the community will have lots of conversations at IIW about wallets generally speaking. So, it's going to be {inaudabile}.
+
+Daniel Bachenheimer: Yeah, Good. Good.
+
+Kaliya Identity Woman: Geat, um. Keith, but is this a new question?
+
+Keith Kowal:  Yes.
+
+Kaliya Identity Woman: Great. [laughing] Sometimes people don't put their hands down. Go ahead.
+
+Keith Kowal: This is more of an open question for the group. I guess.I mean, I think it is really interesting your approach. Because when I think about, I do want an ecosystem where there's lots of wallets, but I kind of think of it as in the web3 context. There's
+Ethereum, and I can download a plethora of wallets to manage my Ethereum account, right. And they all kind of work on a similar standard. I guess my view has always been that at country levels, and at regional levels, yes, we do hope to see a plethora of wallets,
+but those wallets are going to support pretty unified SSI standard, whatever that is. Like, maybe that's AnonCreds, Maybe that's JSON-LD with BBS+. Doesn't matter. I think this vision is saying, er, I know we are in early days., but I think wht you are suggesting is
+cause it is not just a plethora of wallets because each wallet supports a unique tech stack underneath it. Sometimes interoperable. Sometimes extremely custom, um, or botique. So, um, I. If we take a country like the Netherlands Peter, like what's your vision of how
+SSI will develop in the Netherlands? Do you think there will be a plethora of wallets, each supported their own standards. This issuer in the Netherlands is issuing out in this format. this issuer in the Netherlands is issuing in this format, or do you think over time
+in the Netherlands they'll be like a unified standard, but yet a plethora of wallets?
+
+Peter Lagenkamp: Well it's hard to say for certain of course, but um, the Netherlands isn't typically, uh, in a position to force other countries to adhere to standards the we would prefer. Uh, We're very much dependent on trade with other countries for example. Um and
+even if it is the case within the Netherlands that we would chose to use a specific wallet for interactions with, um, with businesses and government within the Netherlands. As soon as we would want to interact with a country outside the Netherlands, be it a country
+close by like Germany or a country further away like the U.S. or China we also want to be able to interact with those wallets of course.
+
+Keith Kowal: Yes, I agree. I think that's where this type of service would be very useful is when you go... I mean again we're in a future world, who knows. But Like when you get into troughs outside of regional standards when you want to interact. Then I this will,
+I mean this kind of stuff would be definately needed.
+
+Peter Lagenkamp:And also, uh, with the European rules, that they're currently working on. Every country will be mandated have, tsupport at least one wallet, uh, but there is no guarantee that all those European wallets will be based on the same technolgy stack.
+On the other hand, bank, uh, will have to accept wallets from any of those European countries.
+
+Kaliya Identity Woman: Got it. Interesting. So, um, do you have any companies that are, well maybe you can't tell us this, or maybe you don't even know cause it's open source code. Like are their companies trying to productize this?
+
+Peter Lagenkamp: Um, uh, we have spoken to companies that might be interested, uh, none that I am aware of that have gone so far to actually act upon this further than, uh, inquiry and looking it. Uh, we have worked together with a couple of companies, that have, uh,
+used the service for proof of concept, proof of value within their company.
+
+Kaliya Identity Woman: Cool. That's great. Okay cool. Um, is there, in terms of, I'm just curious, in terms of developing this code did TNO do it or did you define, um, what you wanted and hire someone to do it? It's just kind of a curiousity about how these things
+get done cause Open Wallet is trying to figure out how it gets stuff done, and so..
+
+Peter Lagenkamp: No, I think this was done in house, um, some of the connectors, um, were built in context with the company behind that wallet. Uh, so for Jolocom, for Jolocom for example, we uh, were in touch with Jolocom on a fairly regular basis. Also was a bit
+of pressure on getting that finished because of a hackathon we were involved in. Um, but uh, others, others were, uh, yeah, built solely based on the documentation provided by that [inaudible].
+
+Kaliya Identity Woman: Right. Um. And then. It sounds. I mean it's interesting. It seems a little bit like you are a compliment to the universal resolver. Like you were universal get it in the wallet and get it out of the wallet tool. Right.
+
+Peter Lagenkamp: Mm hmm.
+
+Kaliya Identity Woman: Do you see the potential for this experience [inaudible] to define like a common VC-API out of it. Like are there a lot of similarities between how all of the different projects do it and there is an opportunity for alignment or is it they do
+things quite differently?
+
+Peter Lagenkamp: Yeah, so, uh, of course, uh, there's many similarities, uh, between these wallets. Because, they all want achieve a very similar, uh, goal, and, uh, they are all aware of the verifiable credential standard, So there's many, many similarities. Uh, we did come 
+we did come across a couple of, um, I would call it striking differences as well in how some of the details were implemented, But uh, overall I would say there is many more similarities than differences I would say.
+
+Kaliya Identity Woman: Okay great. Um. Are you or someone from your team. Oh, Keith has a question, go ahead.
+
+Keith Kowal: Yeah, On the technical differences like how did you deal with ...I am always very curious ... so if you have a wallet let's say that has no concept of pairwise DIDs  and then you want to communicate with an issuer or verifier that is AnonCreds and it needs a pair
+wise DID...like to me those kind of differences always stood out as kind of being a technical challenge, because the wallet itself doesn't know what a pair-wise DID is, can't persist it, and yet you need that for the [inaudible] issuer or verifier [inaudible]. So It seems like you would 
+almost have to persist the pair-wise DID in your service. I am just using this as an example of where, that's where things can get complicated where you have wallets that don't understand the fundamental thing that is needed by the issuer or verifier, but I wondered
+if you ran into that.
+
+Peter Lagenkamp: Uh. Well, not, not really. But um. Yeah, In principle we can at least support the functionality offered by a different wallet if we want to extend that functionality beyond what that wallet by itself offers, we might run into those issues and in
+worst case scenario we can simply say certain use cases you can't use this specific wallet ...because the technology isn't up to par.
+
+Kaliya Identity Woman: Interesting.
+
+Peter Lagenkamp: And I think, ah okay. 
+
+Kaliya Identity Woman: Yeah, Um. Any other questions for Peter? Um, I'm looking on the chat. Okay. Great, Are you going to be at IIW Peter? 
+
+Peter Lagenkamp: No, unfortunately not. Not for a second time this year.
+
+Kaliya Identity Woman: Okay, great well. Is someone coming from TNO?
+
+Peter Lagenkamp: No, I'm afraid not. We've um pretty much used all of our uh confrence ...
+
+Kaliya Identity Woman: [laughing..inaudible]
+
+Peter Lagenkamp: for this year
+
+Kaliya Identity Woman: Well in happy news. I don't know, I'm coming..I'm going to be in Brussels for the N..NGI, um, sort of presentation set of things so maybe I will see you there. And thanks everybody for joining us today and we have our next call
+on November 30th with Paul Knowles presenting about the Overlay Capture Architecture. And we are, um, looking for our...you know you can always ping us if you have ideas or suggestions um so, let us know. Thanks everybody.
+
+Peter Lagenkamp: [inaudible] Thanks for your attention everyone.
+
+Kaliya Identity Woman: Alright.
+
+Limari Navarrete (DIF): Thank you. bye.
+
+Peter Lagenkamp: Bye.
 
 ## Upcoming meetings
 
